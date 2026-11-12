@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2,3 Viết - Hướng dẫn</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <div class="select-none" oncopy="return false" oncut="return false" oncontextmenu="return false" onselectstart="return false">
+<div class="max-w-5xl mx-auto">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/instructions" class="hover:text-blue-600">Hướng dẫn</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Part 2,3 Viết</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Part 2,3 Viết</h1>
+                            <p class="mt-0.5 text-gray-500">Cập nhật lúc 02:52 - 14/10/2026</p>
+                    </div>
+    </div>
+    </div>
+<div>
+    
+            <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden prose max-w-none [&amp;&gt;div]:p-6 sm:[&amp;&gt;div]:p-8">
+        <div class="p-5"><p><strong>WRITING - Part 2,3&nbsp;</strong></p><p><strong>Phát triển câu trả lời theo các từ để hỏi What - where - why - when - how…</strong></p><p>Eg: The last time I played sports was last Sunday morning. I played&nbsp;<strong>football</strong> with&nbsp;<strong>my friends</strong> at&nbsp;<strong>a stadium</strong> near my house. I felt&nbsp;<strong>happy and relaxed</strong> after the game.</p><p><strong>Thêm lời khen, chào xã giao để kéo dài câu trả lời</strong></p><p>I’m glad to talk to you.</p><p>Hi. It's nice to talk to you.&nbsp;</p><p>Hi. It's a pleasure to talk to you.&nbsp;</p><p>This is an interesting question.&nbsp;</p><p>Thank you for your warm welcome.</p><p><strong>Dùng cấu trúc để kéo cho đủ từ</strong></p><p><strong>It helps…sb + V</strong></p><p><strong>It allows/ enables/ gives me a chance….to + V</strong></p><p>It helps me relax, reduce stress, improve my health, improve my knowledge, make new friends, learn new things, lose weight, stay fit, recharge my energy, boost my mood, connect with other people, refresh my mind…. after a long/busy day</p><p><strong>Ideas viết part 2,3&nbsp;</strong></p><ul><li><strong>Cảm xúc :</strong></li></ul><p>It helps me reduce/relieve stress and anxiety, relax/unwind after a tiring day/ or a busy/hectic schedule.</p><p>Recharge my energy after a tired working day sitting in front of the computer screen.</p><p>E.g:&nbsp;<strong>When do you listen to music?&nbsp;</strong></p><p>- I listen to music before going to bed because it helps me relax after a day of hard work.</p><p><strong>Kiến thức&nbsp;</strong></p><p>It allows me to improve/broaden/expand my knowledge and learn new things/&nbsp; improve my soft skills.</p><p>Discover new places/ other cultures/customs/open my mind.&nbsp;&nbsp;</p><p>Eg&nbsp;<strong>Why do you like traveling</strong></p><p>I am a big fan of traveling because it helps me improve my knowledge and discover new places.</p><ul><li><strong>Kinh tế</strong></li></ul><p>It gives me a chance to earn money/ save money/ get a high-paying job&nbsp;</p><ul><li><strong>Gia đình, bạn bè</strong></li></ul><p>Make new friends/ connect with other people/ build new relationships/ strengthen bonds between family members&nbsp;</p><ul><li><strong>Sức khỏe</strong></li></ul><p>Improve my health/ keep fit/ balance between muscle and fat/ stay healthy/ maintain a healthy lifestyle/keep my body in good shape/avoid all sorts of serious illnesses/boost my muscles, add strength, and improve blood flow rate./ get in better shape and lose some weight</p><ul><li><strong>Văn hóa</strong></li></ul><p>Protect cultural identity/ customs and values/ express identity/ preserve traditions/bring people together/reflect societal values and emotions/ enrich our lives/ connect people across different cultures.</p><p>&nbsp;</p></div>
+    </div>
+    </div>
+
+<script>
+    document.addEventListener('keydown', function(e) {
+        // Chặn F12, Ctrl+C, Ctrl+X, Ctrl+U, Ctrl+S, Ctrl+P
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S' || e.key === 'p' || e.key === 'P')) {
+            e.preventDefault();
+        }
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+</script>
+</div>
+</div>
+    </main>
+
+    
+    
+
+</body></html>

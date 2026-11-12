@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2,3 chống liệt - Hướng dẫn</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <div class="select-none" oncopy="return false" oncut="return false" oncontextmenu="return false" onselectstart="return false">
+<div class="max-w-5xl mx-auto">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/instructions" class="hover:text-blue-600">Hướng dẫn</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Part 2,3 chống liệt</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Part 2,3 chống liệt</h1>
+                            <p class="mt-0.5 text-gray-500">Cập nhật lúc 02:41 - 02/04/2026</p>
+                    </div>
+    </div>
+    </div>
+<div>
+    
+            <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden prose max-w-none [&amp;&gt;div]:p-6 sm:[&amp;&gt;div]:p-8">
+        <div class="p-5"><p><strong>Part 2.</strong><br><strong>Nature club</strong></p><p>Please tell me about your free time and hobbies?</p><p>Thank you for your question. In my free time, I like listening to music, watching movies, and playing sports with my friends.</p><p>&nbsp;</p><p><strong>Art club</strong></p><p>Tell me a painting or a photo that you like.</p><p>Thank you for your question. I like a photo of a beach because it is beautiful and relaxing. It makes me feel happy.</p><p>&nbsp;</p><p><strong>Book club 1, Language club</strong></p><p>Please tell me about your free time and hobbies.</p><p>Thank you for your question. In my free time, I like reading books and listening to music. It helps me relax after work</p><p>&nbsp;</p><p><strong>Business club ,Community club</strong></p><p>Where do you usually go shopping?</p><p>Thank you for your question.&nbsp;I usually go shopping at the supermarket near my house. I go with my family on weekends, and it helps me feel happy.</p><p>&nbsp;</p><p><strong>Car club</strong></p><p>Do you usually travel by car?</p><p>Thank you for your question. I usually travel by car every day and sometimes go out with my friends. It makes me happy.</p><p>&nbsp;</p><p><strong>College club</strong></p><p>&nbsp;Please tell us when you can attend courses and what you want to study.</p><p>Thank you for your question. I can attend courses in the evening and weekends. I want to study English because it helps me improve myself.</p><p>&nbsp;</p><p><strong>Computer club</strong></p><p>When and where do you use a computer?</p><p>&nbsp;Thank you for your question.&nbsp;I usually use a computer at home in the evening to study and do my homework. It helps me feel more relaxed and makes studying easier and more enjoyable.</p><p>&nbsp;</p><p><strong>Debate club</strong></p><p>What do you usually talk about with your friends?&nbsp;</p><p>Thank you for your question.&nbsp;I usually talk to my friends about school, hobbies, and daily life. It helps me relax.</p><p>&nbsp;</p><p><strong>English club</strong></p><p>What do you usually use the internet for?</p><p>Thank you for your question. I usually use the internet to study, watch videos, listen to music, and chat with my friends.</p><p>&nbsp;</p><p><strong>Fashion club</strong></p><p>When was the last time you went shopping for clothes?</p><p>Thank you for your question. I went shopping for clothes last weekend with my friends. It was fun and relaxing.</p><p>&nbsp;</p><p><strong>Film club</strong></p><p>Please write some of your favorite films and why you like watching them.</p><p>Thank you for your question. My favorite films are action and comedy movies because they are exciting, funny. It helps me relax after work.</p><p>&nbsp;</p><p><strong>Fitness club</strong></p><p>Please talk about the last time you had to run somewhere.</p><p>Thank you for your question. The last time I ran was yesterday when I was late for work. I felt tired but relieved.</p><p>&nbsp;</p><p><strong>Food club</strong></p><p>What did you eat for breakfast?&nbsp;</p><p>Thank you for your question. I ate noodles and drank milk for breakfast this morning. It was good for my health.</p><p>&nbsp;</p><p><strong>Garden club</strong></p><p>Why did you join our club?</p><p>Thank you for your question. I joined your garden club because I love plants and want to learn more about gardening. It makes me relaxed.</p><p>&nbsp;</p><p><strong>Health club</strong></p><p>Please tell me what classes you want to take and what times and days suit you.</p><p>Thank you for your question. I want to take gym and yoga classes. I am free in the evening and on weekends. It helps me feel healthy.</p><p>&nbsp;</p><p><strong>Beautiful home club</strong></p><p>Describe where you live?</p><p>Thank you for your question. I live in a small house near the park. It is quiet and cozy. It helps me relax.</p><p>&nbsp;</p><p><strong>Museum club</strong></p><p>Tell me the last time you went to a museum?</p><p>Thank you for your question. The last time I went to a museum was last month. It made me feel happy.</p><p>&nbsp;</p><p><strong>Music club</strong></p><p>Please tell us about the last time you listened to music.</p><p>Thank you for your question. The last time I listened to music was yesterday evening. I listened to my favorite songs. It made me feel relaxed.</p><p>&nbsp;</p><p><strong>Outdoor club</strong></p><p>Why did you join the outdoor club?</p><p>Thank you for your question. I joined the outdoor club because I love nature and outdoor activities. It helps me stay healthy and feel relaxed.</p><p>&nbsp;</p><p><strong>Photography club</strong></p><p>What is your favorite time and place to take pictures?&nbsp;</p><p>Thank you for your question. My favorite time to take pictures is in the morning, and I like taking photos in the park. It makes me feel happy.”</p><p>&nbsp;</p><p><strong>Reading club</strong></p><p>When was the last time you read a book, and how was the book?</p><p>Thank you for your question. The last time I read a book was last weekend. It was very interesting and enjoyable. I learned a lot from it.</p><p>&nbsp;</p><p><strong>Science club</strong></p><p>Do you like Science? Why?&nbsp;</p><p>Thank you for your question. Yes, I like Science because it helps me understand the world. It is very interesting and makes me curious.</p><p>&nbsp;</p><p><strong>Social club</strong></p><p>What do you like to do with friends, and where do you go?</p><p>Thank you for your question. I like going to the park and watching movies with my friends. We have fun and relax together.</p><p>&nbsp;</p><p><strong>Sport club</strong></p><p>Why did you decide to join the sport club?</p><p>Thank you for your question. I joined the sport club to make new friends and it helps me stay healthy and feel good.</p><p>&nbsp;</p><p><strong>Technology club</strong></p><p>What do you usually use your laptop for?</p><p>Thank you for your question. I usually use my laptop for studying, watching videos, and browsing the internet. It helps me learn and relax.</p><p>&nbsp;</p><p><strong>Travel club</strong></p><p>Where do you usually travel on holiday?&nbsp;</p><p>Thank you for your question. I usually travel to the beach with my family on holiday. It helps me relax and feel happy.</p><p>&nbsp;</p><p><strong>TV club</strong></p><p>Do you usually watch TV?</p><p>Thank you for your question. Yes, I usually watch TV in the evening with my family. It helps me relax after work.</p><p>&nbsp;</p><p><strong>Walking club</strong></p><p>When and where do you like to walk?&nbsp;</p><p>Thank you for your question. I like to walk in the park in the morning. It helps me relax and enjoy the fresh air.</p><p>&nbsp;</p></div>
+    </div>
+    </div>
+
+<script>
+    document.addEventListener('keydown', function(e) {
+        // Chặn F12, Ctrl+C, Ctrl+X, Ctrl+U, Ctrl+S, Ctrl+P
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S' || e.key === 'p' || e.key === 'P')) {
+            e.preventDefault();
+        }
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+</script>
+</div>
+</div>
+    </main>
+
+    
+    
+
+</body></html>

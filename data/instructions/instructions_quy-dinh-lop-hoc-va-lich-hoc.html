@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quy định lớp học và lịch học - Hướng dẫn</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <div class="select-none" oncopy="return false" oncut="return false" oncontextmenu="return false" onselectstart="return false">
+<div class="max-w-5xl mx-auto">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/instructions" class="hover:text-blue-600">Hướng dẫn</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Quy định lớp học và lịch học</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Quy định lớp học và lịch học</h1>
+                            <p class="mt-0.5 text-gray-500">Cập nhật lúc 01:50 - 04/11/2026</p>
+                    </div>
+    </div>
+    </div>
+<div>
+    
+            <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden prose max-w-none [&amp;&gt;div]:p-6 sm:[&amp;&gt;div]:p-8">
+        <div class="p-5"><p><strong>Lớp học online qua zoom, không record</strong></p><p>&nbsp;</p><p><strong>Lịch học: 19h30 -22h</strong></p><p>&nbsp;</p><p>Thứ 7: &nbsp;Hướng dẫn cách học bộ tài liệu từ đầu cho HS mới. &nbsp;(chỉ cần học 1 lần vào tuần đầu tiên)</p><p>Thứ 2,4 : Speaking&nbsp;</p><p>Thứ 3 : Writing</p><p>Thứ 5: &nbsp;Key đọc + giải đề viết.&nbsp;</p><p>Thứ 6 : Speaking (chỉ học vào tuần cuối cùng trước thi)</p><p>&nbsp;</p><p><strong>Nội dung học&nbsp;</strong></p><p>&nbsp;</p><p>Các buổi 2, 3, 4, 5 có nội dung học lặp lại mỗi tuần, nhưng đổi các bộ đề khác nhau; nếu em nghỉ, có thể học bù cùng tuần kế tiếp.</p><p>Học tối thiểu 1 lần/1 buổi là đầy đủ lý thuyết và hiểu cách học; học nhiều tuần sẽ được luyện nhiều bộ đề hơn.</p><p>Đăng kí học lúc nào nên học luôn lúc đó để tiết kiệm thời gian.</p><p>Bộ key sẽ gửi vào email trong 24h kể từ khi đăng ký học. Em check email để nhận key. Đây chỉ là file dịch + giải thích thêm cho web, nội dung tương tự web. Ưu tiên học web là chính.</p><p>Khi học zoom em để họ tên đầy đủ + 3 số cuối điện thoại để được duyệt vào lớp.</p><p>&nbsp;</p><p><strong>Chọn Lịch thi</strong></p><p>&nbsp;</p><p>Sau khi học tối thiểu một tuần tùy vào khả năng tiếp thu, nền tảng kiến thức, thời hạn nộp bằng….các em quyết định lịch thi phù hợp. Cần đăng kí thi trước ngày mong muốn tối thiểu 2 tuần, đóng lệ phí thi trong 24h kể từ khi đăng kí. Nếu lịch chính thức khác so với lịch dự kiến, các em báo lại GV để được gia hạn tài liệu.</p><p>&nbsp;</p><p>Trước ngày thi của em 10 ngày, chú ý tách sang nhóm riêng để được sửa bài nói viết.&nbsp;</p><p>&nbsp;</p><p><strong>Chính sách học lại</strong></p><p>Tài liệu sẽ mở đến ngày em thi xong, nếu chưa dki thi thì sẽ được học đến ngày thi dự kiến (tối đa 7 tuần), sau đó sẽ out tài liệu, hỗ trợ ôn tiếp sau lịch dự kiến, ôn lại do chưa đạt, đổi lịch…trong vòng 6 tháng tính từ khi em đăng kí học (chỉ dạy lại khi có ảnh ck lệ phí thi. )</p><p>&nbsp;</p><p><strong>Lưu ý để không bị khóa web&nbsp;</strong></p><p>&nbsp;</p><p>Để đảm bảo công bằng và bảo mật tài liệu, hệ thống áp dụng cơ chế quản lý thiết bị nghiêm ngặt. Các em vui lòng đọc kỹ để tránh bị khóa tài khoản đáng tiếc.</p><h2><strong>1. Nguyên tắc "Một thiết bị - Một thời điểm"</strong></h2><ul><li>Tại một thời điểm, các em chỉ được phép đăng nhập làm bài trên <strong>DUY NHẤT 1 trình duyệt</strong> (Ví dụ: Chỉ mở trên Chrome máy tính, hoặc chỉ mở trên trình duyệt điện thoại).</li><li>Hệ thống cho phép các em <strong>đổi mạng thoải mái</strong> (ví dụ đang dùng Wifi nhà chuyển sang dùng 4G) trên cùng một trình duyệt mà <strong>KHÔNG</strong> bị tính vi phạm.</li></ul><h2><strong>2. Khi nào bị tính Vi phạm (Violation)?</strong></h2><p>Vi phạm sẽ bị tính (+1) khi xảy ra hành động <strong>"Đăng nhập đè"</strong>:</p><ul><li>Các em đang mở web ở máy tính (Thiết bị A) mà lại mở tiếp ở điện thoại (Thiết bị B).</li><li>Lúc này, Thiết bị A sẽ bị thoát ra ngay lập tức, và hệ thống ghi nhận <strong>1 lần vi phạm</strong>.</li></ul><h2><strong>3. Cơ chế Khóa tài khoản</strong></h2><ul><li><strong>Cảnh báo</strong>: Mỗi lần vi phạm, hệ thống sẽ hiện thông báo màu vàng trên màn hình (Ví dụ: "Vi phạm lần 1/3").</li><li><strong>KHÓA TỰ ĐỘNG</strong>: Khi đạt đến <strong>lần vi phạm thứ 3</strong>, tài khoản sẽ bị <strong>KHÓA NGAY LẬP TỨC</strong>. Các em sẽ không thể làm bài và phải liên hệ Admin để được hỗ trợ</li></ul><h2><strong>4. Mẹo để tuyệt đối không bị block</strong></h2><ul><li><strong>BẮT BUỘC Đăng xuất (Logout)</strong>: Khi muốn chuyển từ máy tính sang điện thoại (hoặc ngược lại), hãy bấm nút <strong>"Đăng xuất"</strong> ở máy cũ trước. Khi đã đăng xuất chủ động, các em sang máy mới sẽ <strong>KHÔNG</strong> bị tính vi phạm.</li><li><strong>Dùng cố định trình duyệt</strong>: Nên dùng 1 trình duyệt duy nhất (khuyên dùng Google Chrome) để học tập ổn định nhất.</li></ul><p>IMPORTANT</p><p><strong>Lưu ý</strong>: Việc chia sẻ tài khoản cho người khác dùng chung sẽ dẫn đến việc "đăng nhập đè" liên tục và tài khoản sẽ bị khóa chỉ sau vài phút.</p><p>&nbsp;</p><p>Chúc các em sớm đạt kết quả như ý &lt;3</p></div>
+    </div>
+    </div>
+
+<script>
+    document.addEventListener('keydown', function(e) {
+        // Chặn F12, Ctrl+C, Ctrl+X, Ctrl+U, Ctrl+S, Ctrl+P
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S' || e.key === 'p' || e.key === 'P')) {
+            e.preventDefault();
+        }
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+</script>
+</div>
+</div>
+    </main>
+
+    
+    
+
+</body></html>

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 31,
+    "skill": "reading",
+    "part": 1,
+    "type": "fill_in_blanks_mc",
+    "title": "Choose the word that fits in the gap 01",
+    "stem": "Choose the word that fits in the gap 01",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 1,
+    "metadata": {
+      "paragraphs": [
+        "In the [BLANK] , I cycle to work.",
+        "My [BLANK] cycle to work with me.",
+        "Therefore, I [BLANK] my car at my house.",
+        "I feel  [BLANK] after cycling to work.",
+        "Then, I drink water and eat healthy [BLANK]"
+      ],
+      "choices": [
+        [
+          "market",
+          "morning",
+          "sun"
+        ],
+        [
+          "friends",
+          "house",
+          "car"
+        ],
+        [
+          "stay",
+          "burn",
+          "leave"
+        ],
+        [
+          "big",
+          "good",
+          "beautiful"
+        ],
+        [
+          "sugar",
+          "beer",
+          "food"
+        ]
+      ],
+      "correct_answers": [
+        "1",
+        "0",
+        "2",
+        "1",
+        "2"
+      ],
+      "explanation": "<p>Dear Jane,</p><p>1. In the (sun/<strong>morning</strong>/ market), I cycle to work.</p><p>Vào<strong> buổi sáng</strong> , tớ đạp xe đi làm</p><p>&nbsp;</p><p>2. My (<strong>friends</strong>/house/car) cycle to work with me.</p><p><strong>Bạn tớ</strong> đạp xe đi làm cùng tớ</p><p>&nbsp;</p><p>3. Therefore, I (stay/burn/<strong>leave</strong> ) my car at my house.</p><p>Do vậy, tớ<i> </i><strong>để</strong> ô tô ở nhà</p><p>&nbsp;</p><p>4. I feel (big/<strong>good</strong>/beautiful) after cycling to work.</p><p>Tớ cảm thấy <strong>khỏe</strong> sau khi đạp xe đi làm</p><p>&nbsp;</p><p>5. Then, I drink water and eat healthy (sugar/ beer/<strong>food</strong>)&nbsp;</p><p>Sau đó, tớ uống nước và ăn <strong>thức ăn</strong><i> </i>tốt cho sức khỏe</p><p>&nbsp;</p>"
+    },
+    "originalIndex": 0,
+    "_revealed": true
+  },
+  {
+    "id": 32,
+    "skill": "reading",
+    "part": 1,
+    "type": "fill_in_blanks_mc",
+    "title": "Choose the word that fits in the gap. (02)",
+    "stem": "Choose the word that fits in the gap 01",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 2,
+    "metadata": {
+      "paragraphs": [
+        "When you are at the train [BLANK] go to the main gate.",
+        "The bus [BLANK] are near.",
+        "My house is on Parkon Street. It's [BLANK], , so you can not miss it.",
+        "After you come, we will have [BLANK].",
+        "In the evening, we can watch some [BLANK] together."
+      ],
+      "choices": [
+        [
+          "school",
+          "station",
+          "river"
+        ],
+        [
+          "towns",
+          "stops",
+          "places"
+        ],
+        [
+          "tired",
+          "color",
+          "green"
+        ],
+        [
+          "dinner",
+          "food",
+          "eat"
+        ],
+        [
+          "animals",
+          "bread",
+          "films"
+        ]
+      ],
+      "correct_answers": [
+        "1",
+        "1",
+        "2",
+        "0",
+        "2"
+      ],
+      "explanation": "<p>Dear Tom,</p><p>1.When you are at the train (school/<strong>station</strong>/river), go to the main gate.</p><p>Khi bạn đến <strong>nhà ga</strong><i><strong> </strong></i>xe lửa, đi đến chỗ cổng chính</p><p>&nbsp;</p><p>2. The bus (<strong>stops</strong>/towns/places) are near&nbsp;</p><p><strong>Điểm dừng</strong> xe bus ở gần đó</p><p>&nbsp;</p><p>3. My house is on Parkon Street. It's (tired/color/<strong>green</strong>), so you can not miss it.</p><p>Nhà của mình ở trên phố Parkon. Nó có <strong>màu xanh</strong>, vì vậy bạn<br>dễ nhận ra nó</p><p>&nbsp;</p><p>4.After you come, we will have (<strong>dinner</strong>/food/eat)</p><p>Sau khi bạn đến, chúng ta sẽ ăn <strong>bữa tối</strong></p><p>&nbsp;</p><p>5.<strong> </strong>In the evening, we can watch some (animals/<strong>films</strong>/ bread) together.<br>Vào buổi tối chúng ta sẽ xem<strong> phim</strong> cùng nhau<br>&nbsp;</p><p>Talk to you soon!<br>Anna.<br><br>&nbsp;</p><p>&nbsp;</p><p><br>&nbsp;</p>"
+    },
+    "originalIndex": 1,
+    "_revealed": true
+  },
+  {
+    "id": 33,
+    "skill": "reading",
+    "part": 1,
+    "type": "fill_in_blanks_mc",
+    "title": "Choose the word that fits in the gap 03",
+    "stem": "Choose the word that fits in the gap 01",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 3,
+    "metadata": {
+      "paragraphs": [
+        "We are [BLANK] in a small house in the village.",
+        "There are a lot of trees in the [BLANK] .",
+        "We go fishing with our [BLANK].",
+        "Today, we are going to [BLANK] the town by bus.",
+        "There are some [BLANK]  buildings there"
+      ],
+      "choices": [
+        [
+          "running",
+          "staying",
+          "seeing"
+        ],
+        [
+          "garden",
+          "room",
+          "kitchen"
+        ],
+        [
+          "forest",
+          "park",
+          "children"
+        ],
+        [
+          "river",
+          "visit",
+          "house"
+        ],
+        [
+          "old",
+          "slow",
+          "fast"
+        ]
+      ],
+      "correct_answers": [
+        "1",
+        "0",
+        "2",
+        "1",
+        "0"
+      ],
+      "explanation": "<p>Hi Alex,</p><p>Our family is going on a vacation.</p><p>1.We are [<strong>staying</strong>] in a small house in the village.</p><p>Chúng tôi <strong>ở</strong> trong một ngôi nhà nhỏ trong làng.</p><p>&nbsp;</p><p>2.There are a lot of trees in the (<strong>garden</strong>).</p><p>Có rất nhiều cây ở trong <strong>vườn</strong></p><p>&nbsp;</p><p>3.We go fishing with our (<strong>children</strong>)</p><p>Chúng tôi đi câu cá cùng <strong>các con</strong></p><p>&nbsp;</p><p>4.Today, we are going to (<strong>visit</strong>) the town by bus</p><p>Hôm nay, chúng mình sẽ <strong>đi thăm</strong> thị trấn bằng xe bus</p><p>&nbsp;</p><p>5. There are some (<strong>old</strong>) buidings there</p><p>Có một số tòa nhà <strong>cổ </strong>ở đó</p><p>Love,</p><p>Anna</p><p>&nbsp;</p>"
+    },
+    "originalIndex": 2,
+    "_revealed": true
+  },
+  {
+    "id": 34,
+    "skill": "reading",
+    "part": 1,
+    "type": "fill_in_blanks_mc",
+    "title": "Choose the word that fits in the gap. (04)",
+    "stem": "Choose the word that fits in the gap 01",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 4,
+    "metadata": {
+      "paragraphs": [
+        "I [BLANK] the area where I live now.",
+        "My house has a kitchen but it is very [BLANK]",
+        "I work at a [BLANK] and I sell clothes.",
+        "Everyday I talk to many [BLANK]",
+        "I am on my holiday and I'm excited that I can [BLANK] you soon."
+      ],
+      "choices": [
+        [
+          "love",
+          "run",
+          "should"
+        ],
+        [
+          "tall",
+          "small",
+          "short"
+        ],
+        [
+          "car",
+          "window",
+          "shop"
+        ],
+        [
+          "people",
+          "animals",
+          "trees"
+        ],
+        [
+          "show",
+          "play",
+          "visit"
+        ]
+      ],
+      "correct_answers": [
+        "0",
+        "1",
+        "2",
+        "0",
+        "2"
+      ],
+      "explanation": "<p>Hi James,&nbsp;</p><p>1.I (<strong>love</strong>/run/should) the area where I live now.&nbsp;</p><p>Tớ rất <strong>yêu</strong> nơi tớ sống</p><p>&nbsp;</p><p>2.My house has a kitchen but it is very (<strong>small</strong>/tall/short)</p><p>Nhà tớ có một căn bếp nhưng nó rất <strong>nhỏ</strong></p><p>&nbsp;</p><p>3. I work at a (car/<strong>shop</strong>/window) and I sell clothes.</p><p>Tớ làm việc ở một <strong>cửa hàng</strong>. Tớ bán quần áo.</p><p>&nbsp;</p><p>4. Everyday I talk to many (animals/trees/<strong>people</strong>)</p><p>Hàng ngày, tớ nói chuyện với nhiều <strong>người</strong></p><p>&nbsp;</p><p>5. I am on my holiday and I'm excited that I can (show/<strong>visit</strong>/play) you soon.</p><p>Tớ đang trong kì nghỉ và tớ rất háo hức được sớm <strong>đến thăm</strong> bạn</p><p>Write soon,</p><p>Lisa</p>"
+    },
+    "originalIndex": 3,
+    "_revealed": true
+  }
+]

@@ -1,0 +1,228 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading - Milaedu</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/dashboard" class="hover:text-blue-600">Luyện tập</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Reading</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                    <span class="w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 bg-sky-50 text-sky-600">
+    <svg class="w-5 h-5 w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+</span>
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Reading</h1>
+                            <p class="mt-0.5 text-gray-500">Kỹ năng đọc hiểu · chọn Part để luyện hoặc thi thử cả kỹ năng</p>
+                    </div>
+    </div>
+            <div class="flex flex-wrap gap-2"><span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-sm bg-white border-gray-200 text-gray-600"><span class="font-semibold text-gray-900">0</span> bài đã làm</span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-sm bg-white border-gray-200 text-gray-600">Thi thử gần nhất <span class="font-semibold text-gray-900">—</span></span></div>
+    </div>
+
+<a href="https://milaedu.com/mock-test/reading" class="group flex flex-col sm:flex-row sm:items-center gap-4 mb-8 p-5 rounded-2xl bg-white border-2 border-blue-200 hover:border-blue-400 hover:shadow-md transition-all">
+    <span class="w-11 h-11 rounded-xl flex items-center justify-center shrink-0 bg-blue-50 text-blue-600">
+    <svg class="w-5 h-5 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+</span>
+    <span class="flex-1">
+        <span class="flex items-center gap-2 flex-wrap">
+            <span class="text-lg font-bold text-gray-900">Thi thử Reading</span>
+                    </span>
+        <span class="block text-sm text-gray-500 mt-0.5">Làm trọn bộ các Part có tính giờ và chấm điểm như thi thật</span>
+    </span>
+    <span class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-blue-600 group-hover:bg-blue-700 text-white font-semibold text-sm transition-colors">Bắt đầu thi thử →</span>
+</a>
+
+    <div class="flex items-baseline justify-between gap-3 mb-3">
+    <h2 class="text-base font-semibold text-gray-900">Luyện theo Part</h2>
+    <span class="text-xs text-gray-400">4 Part</span></div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4">
+                                            
+                <a href="https://milaedu.com/skills/reading/part/1/sets" class="group relative flex flex-col bg-white rounded-2xl border border-gray-200 p-5 transition-all hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5">
+        <span class="absolute top-5 right-5 text-gray-300 group-hover:text-blue-500 transition-colors" aria-hidden="true">→</span>
+        <span class="self-start inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-600">
+                        Part 1
+                    </span>
+                    <span class="block mt-3 text-base font-semibold text-gray-900">Reading Part 1: Matching</span>
+                    <span class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-xs text-gray-500">
+                        <span>1 đề</span>
+                        <span>10 phút</span>                                            </span>
+                    <div class="mt-auto pt-4">
+            <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-gray-400">Chưa làm</span>
+                    </div>
+        <div class="h-1.5 rounded-full bg-gray-100 overflow-hidden">
+        <div class="h-full rounded-full bg-blue-500" style="width: 0%"></div>
+    </div>
+</div>
+    </a>
+                                            
+                <a href="https://milaedu.com/skills/reading/part/2/sets" class="group relative flex flex-col bg-white rounded-2xl border border-gray-200 p-5 transition-all hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5">
+        <span class="absolute top-5 right-5 text-gray-300 group-hover:text-blue-500 transition-colors" aria-hidden="true">→</span>
+        <span class="self-start inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-600">
+                        Part 2-3
+                    </span>
+                    <span class="block mt-3 text-base font-semibold text-gray-900">Reading Part 2 - 3: Multiple Choice</span>
+                    <span class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-xs text-gray-500">
+                        <span>1 đề</span>
+                        <span>15 phút</span>                                            </span>
+                    <div class="mt-auto pt-4">
+            <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-gray-400">Chưa làm</span>
+                    </div>
+        <div class="h-1.5 rounded-full bg-gray-100 overflow-hidden">
+        <div class="h-full rounded-full bg-blue-500" style="width: 0%"></div>
+    </div>
+</div>
+    </a>
+                                            
+                <a href="https://milaedu.com/skills/reading/part/3/sets" class="group relative flex flex-col bg-white rounded-2xl border border-gray-200 p-5 transition-all hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5">
+        <span class="absolute top-5 right-5 text-gray-300 group-hover:text-blue-500 transition-colors" aria-hidden="true">→</span>
+        <span class="self-start inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-600">
+                        Part 4
+                    </span>
+                    <span class="block mt-3 text-base font-semibold text-gray-900">Reading Part 4: Reading Comprehension</span>
+                    <span class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-xs text-gray-500">
+                        <span>1 đề</span>
+                        <span>20 phút</span>                                            </span>
+                    <div class="mt-auto pt-4">
+            <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-gray-400">Chưa làm</span>
+                    </div>
+        <div class="h-1.5 rounded-full bg-gray-100 overflow-hidden">
+        <div class="h-full rounded-full bg-blue-500" style="width: 0%"></div>
+    </div>
+</div>
+    </a>
+                                            
+                <a href="https://milaedu.com/skills/reading/part/4/sets" class="group relative flex flex-col bg-white rounded-2xl border border-gray-200 p-5 transition-all hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5">
+        <span class="absolute top-5 right-5 text-gray-300 group-hover:text-blue-500 transition-colors" aria-hidden="true">→</span>
+        <span class="self-start inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-600">
+                        Part 5
+                    </span>
+                    <span class="block mt-3 text-base font-semibold text-gray-900">Reading Part 5: Long Passage</span>
+                    <span class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-xs text-gray-500">
+                        <span>1 đề</span>
+                        <span>25 phút</span>                                            </span>
+                    <div class="mt-auto pt-4">
+            <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-gray-400">Chưa làm</span>
+                    </div>
+        <div class="h-1.5 rounded-full bg-gray-100 overflow-hidden">
+        <div class="h-full rounded-full bg-blue-500" style="width: 0%"></div>
+    </div>
+</div>
+    </a>
+                    </div>
+        </main>
+
+    
+    
+
+</body></html>

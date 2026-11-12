@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form viết email - Hướng dẫn</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <div class="select-none" oncopy="return false" oncut="return false" oncontextmenu="return false" onselectstart="return false">
+<div class="max-w-5xl mx-auto">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/instructions" class="hover:text-blue-600">Hướng dẫn</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Form viết email</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Form viết email</h1>
+                            <p class="mt-0.5 text-gray-500">Cập nhật lúc 05:35 - 27/08/2026</p>
+                    </div>
+    </div>
+    </div>
+<div>
+    
+            <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden prose max-w-none [&amp;&gt;div]:p-6 sm:[&amp;&gt;div]:p-8">
+        <div class="p-5"><p>Writing : 50 Minutes</p><p>Part 1: 5 điểm</p><p>Part 2 : 7 điểm</p><p>Part 3 : 13 – 15 điểm</p><p>Part 4 : 20 – 25 điểm</p><p>Part 2,3 :&nbsp;</p><p>&nbsp;</p><p><strong>Part 4 : Email cho bạn : 50 – 75 từ</strong></p><p>Mỗi phần chọn 1 trong các câu để dựng thành 1 khung bài cho mình nhé.</p><p><strong>1.</strong>&nbsp; &nbsp;&nbsp;<strong>Chào hỏi</strong></p><p>Hi Tim/Hi there Tim/Morning Tim/ Hello again Tim</p><p><strong>2.</strong>&nbsp; &nbsp;&nbsp;<strong>Hỏi thăm</strong></p><p>How have you been ?/How’s everything going? How are you these days?/How are you doing?</p><p>Long time no see/ We haven’t talked to each other for a while…</p><p>I hope you’re doing well./ I hope all is well with you/ I hope everything is going well for you…</p><p><strong>3.</strong>&nbsp; &nbsp;&nbsp;<strong>Dẫn dắt vào lý do viết thư</strong></p><ul><li>- &nbsp; &nbsp;I just got an email from the ….. Club. They said that…..</li></ul><p>- &nbsp; &nbsp;I have some exciting/interesting/bad… news for you. My ….club is seeking suggestions for…..</p><p>- &nbsp; &nbsp;I am writing to tell you some good/bad/interesting....news/. My ….club ….</p><p>- &nbsp; &nbsp;I have heard that my club…..</p><p>- &nbsp; &nbsp;I just received an email from my..........club manager. In the email, he said that my ….club…..</p><p><strong>4.</strong>&nbsp; &nbsp;&nbsp;<strong>Cảm xúc</strong></p><p>I feel so happy/sad/disappointed/excited to hear that.</p><p><strong>5.</strong>&nbsp; &nbsp;&nbsp;<strong>Giải pháp.</strong></p><p>I think the club should……../I believe we should…/I feel that we should…/I suggest that we…/We should consider…</p><p><strong>(Phần này phải tự nghĩ ra giải pháp cho yêu cầu của đề bài)</strong></p><p><strong>6.</strong>&nbsp; &nbsp;&nbsp;<strong>Hỏi ý kiến bạn</strong></p><p>Do you agree with my suggestions/ideas/opinions/decisions…?</p><p>What’s your opinion about this? Could you give me advice or some ideas? What should I do?....</p><p><strong>7.</strong>&nbsp; &nbsp;&nbsp;<strong>Kết thư</strong></p><p>Please write to me soon and let me know what you think.</p><p>Please write back to me as quickly as possible</p><p>Bye for now</p><p>Speak soon</p><p>Kí tên</p><p><strong>Formal Letter to manager :</strong> Thư cho quản lý : 120 – 250 từ</p><p><strong>1.</strong> <strong>Chào hỏi</strong></p><p>Dear Sir/Madam/Mr..../Mrs./Manager/ .....Club President/Manager</p><p><strong>2.</strong>&nbsp; &nbsp;&nbsp;<strong>Giới thiệu</strong></p><p>I hope you're having a great day/ I hope this email finds you well/I hope this email reaches you in good health and high spirits.</p><p>My name is...I have been a book/music/food....club member since 2020/last summer/for two years/more than two years.</p><p><strong>3.</strong>&nbsp; &nbsp;&nbsp;<strong>Lý do viết thư</strong></p><p>- &nbsp; &nbsp;I’m writing in response to the email you sent.&nbsp;</p><p>- &nbsp; &nbsp;I'm writing to respond to your email mentioning that…..</p><p>- &nbsp; &nbsp;I’m so upset/ disappointed/ excited to hear that...</p><p>- &nbsp; &nbsp;I am writing to express my feelings about the notice you sent me&nbsp;&nbsp;stating that….</p><p>- &nbsp; &nbsp;As a dedicated member of the club for two years, I am writing to share my thoughts and suggestions regarding the recent notice of the club. According to the news,...</p><p>- &nbsp; &nbsp;As a dedicated member of the club for three months, I am writing to express my feelings and suggestions about the recent notice we received. The issue of….</p><p>-&nbsp;I saw your email about/asking for/stating/saying that….+ trích đề</p><p>I understand that…+trích đề</p><p><strong>4.</strong>&nbsp; &nbsp;&nbsp;<strong>Trích lại nội dung chính của đề</strong></p><p>- &nbsp; &nbsp;According to the news/notice/email.....</p><p>- &nbsp; &nbsp;In the email, you said that.....</p><p>- &nbsp; &nbsp; &nbsp; In the email you asked me to...... =&gt; chuyển nội dung đề bài xuống một cách hợp lý, đổi ngôi phù hợp</p><p><strong>5.</strong> &nbsp;&nbsp;<strong>Giải pháp, đề xuất, lựa chọn, ý kiến....tùy đề yêu cầu</strong></p><p>I think/In my opinion, we should….</p><p>I suggest we&nbsp; + V infinitive</p><p>&nbsp;I recommend we V infinitive</p><p>Do you think the club can try rescheduling the trip/the meeting.....</p><p>It would be great if.....</p><p><strong>6.</strong>&nbsp; &nbsp;&nbsp;<strong>Câu chốt cho đủ từ nếu bài còn ngắn</strong></p><p>- &nbsp; &nbsp;I have spoken to other club members, and they share my thoughts</p><p>- &nbsp; &nbsp;I have talked to other club members and found that they share my opinions.</p><p>All of us have been waiting for this for a long time (nếu là sự kiện vui vẻ của CLB)</p><p><strong>7.</strong>&nbsp; &nbsp;&nbsp;<strong>Kết thư</strong></p><p>Please let me know what you think/if this is possible</p><p>I hope my suggestions/ideas...are helpful.</p><p>Thank you for your attention</p><p>I am looking forward to hearing from you.</p><p>I appreciate your attention to this matter.</p><p>Please feel free to reach out if you need more information</p><p>Yours faithfully,</p><p>Regards,/ Warm regards/All the best/Respectfully/Kind regards</p><p>Kí tên</p><p>&nbsp;</p><p>Dựng mẫu 1 form</p><p>1. Email cho bạn</p><p>Hello Van Anh,</p><p>How are you these days? I hope you and your family are well. I have some news for you. My….club + Đề bài. I was sad/happy/upset/delighted/disappointed….when I heard about this news. I think + giải pháp …..</p><p>Please write back to me as soon as possible.</p><p>Love,</p><p>Kí tên</p><p>&nbsp;</p><p>2. Email cho quản lý</p><p>Dear…tên câu lạc bộ…..Club Manager,</p><p>I hope this email finds you well. I am…+tên…. I have been a club member + khoảng thời gian. According to the announcement, the club + trích lại nội dung chính của đề. I felt…+tính từ chỉ cảm xúc….when I heard this news. In my opinion, we should + giải pháp because + Giải thích. Besides, we need to + giải pháp 2 (nếu có thể)</p><p>I hope my suggestions are useful.</p><p>I look forward to hearing from you.</p><p>Sincerely,</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+    </div>
+    </div>
+
+<script>
+    document.addEventListener('keydown', function(e) {
+        // Chặn F12, Ctrl+C, Ctrl+X, Ctrl+U, Ctrl+S, Ctrl+P
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S' || e.key === 'p' || e.key === 'P')) {
+            e.preventDefault();
+        }
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+</script>
+</div>
+</div>
+    </main>
+
+    
+    
+
+</body></html>

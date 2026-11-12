@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viết nâng cao Band B2 - C - Hướng dẫn</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <div class="select-none" oncopy="return false" oncut="return false" oncontextmenu="return false" onselectstart="return false">
+<div class="max-w-5xl mx-auto">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/instructions" class="hover:text-blue-600">Hướng dẫn</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Viết nâng cao Band B2 - C</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Viết nâng cao Band B2 - C</h1>
+                            <p class="mt-0.5 text-gray-500">Cập nhật lúc 17:31 - 15/08/2026</p>
+                    </div>
+    </div>
+    </div>
+<div>
+    
+            <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden prose max-w-none [&amp;&gt;div]:p-6 sm:[&amp;&gt;div]:p-8">
+        <div class="p-5"><p><strong>PART 2 TEMPLATE</strong></p><p><strong>Youtube : Writing&nbsp;</strong></p><p><a href="https://www.youtube.com/watch?v=xaeITLyr-ss&amp;list=PLscag0E_vC-DHE9B8GPE-al_FmTbvpVcm&amp;index=2"><strong>https://www.youtube.com/watch?v=xaeITLyr-ss&amp;list=PLscag0E_vC-DHE9B8GPE-al_FmTbvpVcm&amp;index=2</strong></a></p><p>&nbsp;</p><p><strong>Writing&nbsp;</strong></p><p><strong>PART 2 TEMPLATE</strong></p><p>&nbsp;</p><ul><li><strong>I’m really into</strong> + noun/V-ing, so I decided to join this club to connect with people who share the same interests as me.</li><li><strong>I’m passionate about/I’m keen on</strong>&nbsp; + topic, because it helps me + benefit.&nbsp;<strong>Moreover</strong>, I can + extension idea.</li></ul><p>Example:</p><ul><li><strong>Sports:</strong> I’m really into playing badminton, so I decided to join this club to connect with people who share the same interests as me.</li><li><strong>Books: I’m passionate about</strong> reading books because it helps me expand my knowledge and improve my concentration skills.</li><li><strong>Garden:</strong>&nbsp;<strong>I’m keen on</strong> gardening, so I want to meet people who enjoy planting trees and sharing gardening experiences.</li><li>&nbsp;</li></ul><p><strong>PART 3 TEMPLATE</strong></p><p><strong>TEMPLATE 1: Opinion</strong></p><ul><li>In my opinion, + opinion.</li><li>Moreover, + reason.</li><li>As a result, + positive/negative effect.</li></ul><p>Example: In my opinion, technology has made communication much easier. Moreover, people can connect with others around the world instantly. As a result, building relationships has become more convenient than before.</p><p><strong>TEMPLATE 2: Experience</strong></p><ul><li>I usually/often + activity.</li><li>Additionally/Sometimes, + second activity.</li><li>Overall, + benefit/feeling.</li></ul><p>Example: I usually read books before going to sleep. Additionally, I sometimes visit libraries at weekends to find new novels. Overall, reading helps me relax and expand my knowledge.</p><p><strong>TEMPLATE 3: Advice</strong></p><ul><li>I think + suggestion.</li><li>It will help somebody + benefit.</li><li>Moreover, + second benefit.</li></ul><p>Example: I think taking a course would be a great idea. It will help you improve your skills more effectively. Moreover, you can receive guidance from experienced teachers.</p><p><strong>PART 4</strong></p><p><strong>- INFORMAL EMAIL TEMPLATE</strong></p><p>Hi Tony,</p><p>I’ve just read the club’s latest email, and I feel really excited/disappointed about the situation. Personally, I think that + opinion/suggestion. It would be a great opportunity/problem for members. What do you think about it?</p><p>Best,</p><p>Mary</p><p>-<strong> FORMAL EMAIL TEMPLATE</strong></p><p>Dear Sir/Madam,</p><p>I am writing in response to your email regarding + topic. I was very excited/disappointed to hear this news because + reason.</p><p>In my opinion, + main opinion/problem. Moreover, + explanation/example. I believe that this issue may affect members in several ways.</p><p>To resolve this issue, I would recommend that the club should + suggestion. This would help members + benefit. In addition, + second benefit/result.</p><p>I strongly believe that these changes would improve the overall experience for members and make the club more appealing.</p><p>I look forward to hearing your response.</p><p>Yours sincerely,</p><p>Mary</p><p><strong>TEMPLATE: Suggesting a Place</strong></p><ul><li>In terms of location, I would suggest + place because + reason.</li><li>It is + adjective + and + adjective.</li><li>Moreover, + additional benefit.</li></ul><p>Example: In terms of location, I would suggest organizing the event at a coffee shop in the city centre because it is convenient and easily accessible. Moreover, the atmosphere is comfortable and suitable for members of different ages.</p><p>Convenient: easily accessible, located in the city centre, convenient for members</p><p>Comfortable: relaxing atmosphere, comfortable environment</p><p>Suitable: suitable for all age groups, ideal venue</p><p>Transportation: easy to travel to, close to public transport</p><p><strong>TEMPLATE: Suggesting a Guest Speaker/Celebrity</strong></p><ul><li>I would recommend inviting + person/job title because + reason.</li><li>Not only is he/she + quality, but he/she also + second quality.</li><li>I believe that his/her appearance would + result.</li></ul><p>Example: I would recommend inviting a well-known entrepreneur because not only is he highly experienced, but he is also an inspiring public speaker. I believe that his appearance would attract more participants and motivate young people.</p><p>Influencer: has a strong influence on young people</p><p>Chef: has extensive cooking experience</p><p>Artist: is well known for creativity</p><p>Businessperson: has practical business knowledge</p><p>Athlete: inspires people to live healthily</p><p><strong>TEMPLATE: Giving Advice/Suggestions</strong></p><ul><li>To address this issue, I would recommend that + subject + should + verb.</li><li>This would help + somebody + benefit.</li><li>Moreover, + second benefit.</li></ul><p>Example: To address this issue, I would recommend that the club should organize more outdoor activities. This would help members relax and connect with one another more easily. Moreover, it could attract more young participants.</p><ul><li>In my opinion, the best solution would be to + verb.</li><li>By doing this, + positive result.</li></ul><p>Example: In my opinion, the best solution would be to create official accounts for all members. By doing this, the club could reduce negative comments and improve communication between members.</p><ul><li>I think it would be a good idea to + verb because + reason.</li></ul><p>Example: I think it would be a good idea to separate contestants into different age groups because it would make the competition fairer.</p><p>&nbsp;</p><p><strong>Model Answer : FOOD CLUB</strong></p><p><strong>Part 1:</strong></p><ul><li><strong>How are you?</strong> I’m fine thanks.</li><li><strong>Where are you from?</strong> I was born in Ho Chi Minh City.</li><li><strong>What’s your favorite season?&nbsp;</strong>I really like autumn.</li><li><strong>What’s your favorite animal?&nbsp;</strong>I adore dolphins.</li><li><strong>How many people are in your family?</strong> There are four of us.</li></ul><p><strong>Part 2:&nbsp;&nbsp;</strong></p><p><strong>Please tell us why you are interested in food. Use 20-30 words.</strong></p><p>My grandmother used to do the cooking, and I loved helping her in the kitchen. I also enjoy traveling, and I’m really into trying food from different countries.</p><p>&nbsp;</p><p><strong>Part 3:</strong> You are in the “Food Club” chat room. Answer the questions from other members. Use 30-40 words</p><ul><li><strong>Hi, and welcome to the club! What types of food do you like cooking?&nbsp;</strong></li><li>I really enjoy trying to follow my grandmother’s recipes. She’s Nigerian and makes amazing dishes using yams and plantain. Recently I’ve also been experimenting with herbs and species and different kinds of sauces.</li><li>&nbsp;</li><li><strong>What’s the best restaurant you’ve been to? What was it like?</strong>&nbsp;</li><li>&nbsp;</li><li>I’d have to say The Black Swan, a curry house in Bradford. The decoration makes you feel as if you’re really in India, and they specialize in South Indian dishes. The Goan fish dish is to die for!</li><li>&nbsp;</li><li><strong>What's the worst restaurant you’ve ever been to? What was it like?</strong>&nbsp;</li><li>It was The Friendly Fish in Blackpool. The service was absolutely appalling. I had to wait 25 minutes for my meal. Then when it finally arrived, the chips were cold and greasy and the fish was frozen in the middle.</li></ul><p><strong>Part 4:</strong></p><p>Dear Member</p><p>We are writing to inform you that the TV chef Jay Goffery won’t be able to attend the club’s annual meeting due to an administrative error. Unfortunately he has been double-booked on the 19th May. We suggest changing the date of the meeting to the following week, so that he can join us as planned. Please let me know whether this arrangement would be satisfactory to you.</p><p>Regards</p><p>Tyrone O’Neal</p><p>&nbsp;</p><p><i>Write an email to your friend. Write about your feelings and what you think the “Food Club” should do about the situation. Write 40-50 words.</i></p><p>&nbsp;</p><p>Hi Dave,</p><p>I’ve just read the email from Tyrone and I’m a bit annoyed. I’m not keen on putting off the meeting, as I won’t be around on the 26th. I think they should stick to the date, or look for a different chef. What do you reckon?</p><p>Cheers,</p><p>John</p><p>&nbsp;</p><p><i>Write an email to the president of the club. Write about your feelings and what you think “Food Club” should do about the situation. Write 120-150 words.</i></p><p>&nbsp;</p><p>Dear Mr. O’Neal,</p><p>I am writing to express my real disappointment at hearing the news that Jay Goffery will not be able to attend our annual meeting on the 19th. I am afraid I do not find your proposed solution acceptable, and I will explain why. If the meeting is postponed to the following week I will not be able to attend, as I will already have left for my holiday.</p><p>Therefore I would like to put forward an alternative suggestion. In my opinion, you should write to Jay to ask him to cancel his other engagement and honor our original arrangement. If I remember correctly, he confirmed this date with us nearly a year ago. If he refuses, perhaps we should consider approaching another celebrity chef.</p><p>I look forward to hearing your reply.</p><p>Yours sincerely,</p><p>John Harrop</p><p>&nbsp;</p><p>COLLOCATIONS/VOCABULARY</p><p><strong>1. Arts &amp; Media (art, cinema, movie, film, photography, museum, writing, television)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations / Cụm từ</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>express creativity</td><td>This activity allows members to express their creativity.</td></tr><tr><td>2</td><td>visual arts</td><td>I am interested in visual arts such as painting and photography.</td></tr><tr><td>3</td><td>Develop artistic skills</td><td>It helps develop artistic skills.</td></tr><tr><td>4</td><td>tell a story</td><td>Films can tell meaningful stories.</td></tr><tr><td>5</td><td>thought-provoking</td><td>It is a thought-provoking film.</td></tr><tr><td>6</td><td>improve imagination</td><td>This activity improves imagination.</td></tr><tr><td>7</td><td>gain inspiration</td><td>I can gain inspiration from others.</td></tr><tr><td>8</td><td>cultural experience</td><td>Visiting museums offers a valuable cultural experience.</td></tr></tbody></table></figure><p>&nbsp;</p><p>It is a great opportunity to express creativity and develop artistic skills.</p><p>It also allows participants to gain inspiration and improve their imagination.</p><p>&nbsp;</p><p><strong>2. Lifestyle &amp; Social Life (social, community, walking, outdoor, travel, college)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>build relationships</td><td>This helps build relationships.</td></tr><tr><td>2</td><td>social interaction</td><td>It encourages social interaction.</td></tr><tr><td>3</td><td>connect with others</td><td>People can connect with others.</td></tr><tr><td>4</td><td>sense of community</td><td>It creates a sense of community.</td></tr><tr><td>5</td><td>take part in activities</td><td>Members can take part in activities.</td></tr><tr><td>6</td><td>improve quality of life</td><td>It improves quality of life.</td></tr><tr><td>7</td><td>meet new people</td><td>It is a chance to meet new people.</td></tr></tbody></table></figure><p>&nbsp;</p><p>It is a great way to connect with others and build relationships.</p><p>It also creates a sense of community and improves social interaction.</p><p><strong>3. Health &amp; Fitness (healthy, fitness, sports, walking)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>improve physical health</td><td>It improves physical health.</td></tr><tr><td>2</td><td>mental well-being</td><td>It supports mental well-being.</td></tr><tr><td>3</td><td>stay fit</td><td>People can stay fit.</td></tr><tr><td>4</td><td>reduce stress</td><td>It helps reduce stress.</td></tr><tr><td>5</td><td>healthy lifestyle</td><td>It promotes a healthy lifestyle.</td></tr><tr><td>6</td><td>increase energy levels</td><td>It increases energy levels.</td></tr></tbody></table></figure><p>&nbsp;</p><p>This activity helps people stay fit and improve their physical health.</p><p>It also supports mental well-being and reduces stress.</p><p>&nbsp;</p><p><strong>4. Food &amp; Home Living (food, cooking, home living, beautiful homes)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>cooking skills</td><td>It improves cooking skills.</td></tr><tr><td>2</td><td>home environment</td><td>It creates a comfortable home environment.</td></tr><tr><td>3</td><td>daily life</td><td>It is useful in daily life.</td></tr><tr><td>4</td><td>share recipes</td><td>Members can share recipes.</td></tr><tr><td>5</td><td>practical skills</td><td>It provides practical skills.</td></tr></tbody></table></figure><p>&nbsp;</p><p>It is a useful activity that improves practical skills in daily life.</p><p>Members can share ideas and create a better home environment.</p><p>&nbsp;</p><p><strong>5. Technology &amp; Business (technology, computer, business, car)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>keep up with trends</td><td>It helps people keep up with trends.</td></tr><tr><td>2</td><td>digital skills</td><td>It develops digital skills.</td></tr><tr><td>3</td><td>modern technology</td><td>Modern technology plays an important role.</td></tr><tr><td>4</td><td>improve efficiency</td><td>It improves efficiency.</td></tr><tr><td>5</td><td>practical knowledge</td><td>It provides practical knowledge.</td></tr></tbody></table></figure><p>&nbsp;</p><p>It helps members keep up with modern technology and develop digital skills.</p><p>These skills are essential for future careers.</p><p>&nbsp;</p><p><strong>6. Education &amp; Language (language, English, debate, reading, book, science)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>communication skills</td><td>It improves communication skills.</td></tr><tr><td>2</td><td>critical thinking</td><td>It develops critical thinking.</td></tr><tr><td>3</td><td>express ideas clearly</td><td>It helps express ideas clearly.</td></tr><tr><td>4</td><td>gain knowledge</td><td>It helps gain knowledge.</td></tr><tr><td>5</td><td>broaden understanding</td><td>It broadens understanding.</td></tr></tbody></table></figure><p>&nbsp;</p><p>This activity helps improve communication skills and express ideas clearly.</p><p>It also develops critical thinking and broadens understanding.</p><p>&nbsp;</p><p><strong>7. Nature &amp; Environment (nature, garden)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>natural environment</td><td>It protects the natural environment.</td></tr><tr><td>2</td><td>green spaces</td><td>People enjoy green spaces.</td></tr><tr><td>3</td><td>fresh air</td><td>It provides fresh air.</td></tr><tr><td>4</td><td>environmentally friendly</td><td>It is environmentally friendly.</td></tr><tr><td>5</td><td>raise awareness</td><td>It raises environmental awareness.</td></tr></tbody></table></figure><p>&nbsp;</p><p>It encourages people to enjoy green spaces and fresh air.</p><p>It also raises awareness of environmental issues.</p><p>&nbsp;</p><p><strong>8. Entertainment &amp; Leisure</strong></p><p><strong>(music, fashion, television, travel)</strong></p><figure class="table"><table><tbody><tr><td><strong>No.</strong></td><td><strong>Collocations</strong></td><td><strong>Ví dụ</strong></td></tr><tr><td>1</td><td>relax and unwind</td><td>It helps people relax and unwind.</td></tr><tr><td>2</td><td>entertainment activity</td><td>It is a popular entertainment activity.</td></tr><tr><td>3</td><td>enjoy free time</td><td>People enjoy it in their free time.</td></tr><tr><td>4</td><td>creative expression</td><td>It allows creative expression.</td></tr></tbody></table></figure><p>&nbsp;</p><p>It is a great way to relax and enjoy free time.</p><p>It also allows people to express themselves creatively.</p><p>&nbsp;</p></div>
+    </div>
+    </div>
+
+<script>
+    document.addEventListener('keydown', function(e) {
+        // Chặn F12, Ctrl+C, Ctrl+X, Ctrl+U, Ctrl+S, Ctrl+P
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S' || e.key === 'p' || e.key === 'P')) {
+            e.preventDefault();
+        }
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+</script>
+</div>
+</div>
+    </main>
+
+    
+    
+
+</body></html>

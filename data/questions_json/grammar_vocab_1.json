@@ -1,0 +1,1188 @@
+[
+  {
+    "id": 608,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "My best friend, _______ is from Australia, is coming to visit me next week.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 1,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "who"
+        },
+        {
+          "id": "B",
+          "text": "which"
+        },
+        {
+          "id": "C",
+          "text": "that"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Đây là <strong>mệnh đề quan hệ</strong> nói về <strong>người </strong>→ <strong>who</strong></p><p>which → dùng cho <strong>vật</strong><br>that → không dùng sau dấu phẩy trong mệnh đề không xác định</p><p><strong>My best friend, who is from Australia, is coming to visit me next week.</strong></p><p>Bạn của tôi người đến từ Úc sẽ đến thăm tôi vào tuần tới</p>"
+    },
+    "originalIndex": 0,
+    "_revealed": true
+  },
+  {
+    "id": 609,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "We'll go to the beach _______ it rains tomorrow.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 2,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "but"
+        },
+        {
+          "id": "B",
+          "text": "if"
+        },
+        {
+          "id": "C",
+          "text": "unless"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Unless = if…not (nếu không)</p><p>&nbsp;</p><p><strong>We'll go to the beach unless it rains tomorrow.</strong><br><i>Chúng tôi sẽ đi biển trừ khi ngày mai trời mưa.</i></p>"
+    },
+    "originalIndex": 1,
+    "_revealed": true
+  },
+  {
+    "id": 610,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "When I was a teenager, I _______ have purple hair",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 3,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "used to"
+        },
+        {
+          "id": "B",
+          "text": "would"
+        },
+        {
+          "id": "C",
+          "text": "was used to"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<h3><strong>used to + V&nbsp;</strong></h3><p>Dùng để nói về thói quen hoặc trạng thái trong quá khứ nhưng bây giờ không còn nữa.</p><p><strong>&nbsp;When I was a teenager, I used to have purple hair.</strong><br><i>Khi tôi còn là thiếu niên, tôi từng có mái tóc màu tím.</i></p>"
+    },
+    "originalIndex": 2,
+    "_revealed": true
+  },
+  {
+    "id": 611,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "Person A: I ate too many sweets. Person B: You _______ have done that! Now, you'll have a stomach ache.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 4,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "couldn't"
+        },
+        {
+          "id": "B",
+          "text": "shouldn't"
+        },
+        {
+          "id": "C",
+          "text": "wouldn't"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<h3><strong>shouldn't have + V3</strong></h3><p>Dùng để phê bình hoặc hối tiếc về một hành động sai trong quá khứ.</p><p><strong>You shouldn't have done that! Now, you'll have a stomach ache.</strong><br><i>Bạn lẽ ra không nên làm thế! Bây giờ bạn sẽ bị đau bụng.</i></p>"
+    },
+    "originalIndex": 3,
+    "_revealed": true
+  },
+  {
+    "id": 612,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "My older sister always gives me _______ advice when I need help.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 5,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "-"
+        },
+        {
+          "id": "B",
+          "text": "an"
+        },
+        {
+          "id": "C",
+          "text": "the"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Advice</strong> là danh từ không đếm được nên không dùng: a / an,<strong> </strong>số nhiều</p><p><strong>the</strong> chỉ dùng khi nói một lời khuyên cụ thể đã được nhắc trước đó</p><p>&nbsp;</p><p><strong>My older sister always gives me advice when I need help.</strong><br><i>Chị gái tôi luôn cho tôi lời khuyên khi tôi cần giúp đỡ.</i></p>"
+    },
+    "originalIndex": 4,
+    "_revealed": true
+  },
+  {
+    "id": 613,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "We spend a lot of time together, _______ We have only known each other for a year.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 6,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "however"
+        },
+        {
+          "id": "B",
+          "text": "although"
+        },
+        {
+          "id": "C",
+          "text": "Whereas"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<h3><strong>although = mặc dù</strong></h3><p>Dùng để nối hai mệnh đề có ý tương phản.</p><p>&nbsp;</p><p><strong>We spend a lot of time together, although we have only known each other for a year.</strong><br><i>Chúng tôi dành rất nhiều thời gian cho nhau, mặc dù chúng tôi chỉ mới quen nhau một năm.</i></p>"
+    },
+    "originalIndex": 5,
+    "_revealed": true
+  },
+  {
+    "id": 614,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "He _______ the message before he found out the truth.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 7,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "sent"
+        },
+        {
+          "id": "B",
+          "text": "had sent"
+        },
+        {
+          "id": "C",
+          "text": "was sending"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>Hành động xảy ra trước → dùng quá khứ hoàn thành</p><h3>Công thức: <strong>S + had + V3</strong></h3><p>&nbsp;</p><p><strong>He had sent the message before he found out the truth.</strong><br><i>Anh ấy đã gửi tin nhắn trước khi anh ấy phát hiện ra sự thật.</i></p>"
+    },
+    "originalIndex": 6,
+    "_revealed": true
+  },
+  {
+    "id": 615,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "Look at the dark clouds! It _________ rain tomorrow.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 8,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "will"
+        },
+        {
+          "id": "B",
+          "text": "will be"
+        },
+        {
+          "id": "C",
+          "text": "is going to"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<h3><strong>be going to + V</strong></h3><p>Đưa ra dự báo khi có dấu hiệu rõ ràng ở hiện tại.</p><p><strong>dark clouds (mây đen)</strong> = dấu hiệu trời sắp mưa.</p><p>&nbsp;</p><p><strong>Look at the dark clouds! It is going to rain tomorrow.</strong><br><i>Nhìn những đám mây đen kìa! Ngày mai trời sắp mưa.</i></p>"
+    },
+    "originalIndex": 7,
+    "_revealed": true
+  },
+  {
+    "id": 616,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "I am so thirsty! I don't have _______ water in my bottle.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 9,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "any"
+        },
+        {
+          "id": "B",
+          "text": "some"
+        },
+        {
+          "id": "C",
+          "text": "the"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<h3><strong>any </strong>Dùng trong câu phủ định và câu hỏi.</h3><p><strong>I am so thirsty! I don't have any water in my bottle.</strong><br><i>Tôi rất khát! Tôi không có nước nào trong chai.</i></p>"
+    },
+    "originalIndex": 8,
+    "_revealed": true
+  },
+  {
+    "id": 617,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "The stranger _______ me that he liked my jacket.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 10,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "said"
+        },
+        {
+          "id": "B",
+          "text": "told"
+        },
+        {
+          "id": "C",
+          "text": "asked"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>tell + object (người) + that clause</p><p><strong>say</strong> thường không đi trực tiếp với người nhận.</p><p><strong>ask</strong> dùng khi hỏi câu hỏi hoặc yêu cầu.</p><p>&nbsp;</p><p><strong>The stranger told me that he liked my jacket.</strong><br><i>Người lạ nói với tôi rằng anh ấy thích chiếc áo khoác của tôi.</i></p>"
+    },
+    "originalIndex": 9,
+    "_revealed": true
+  },
+  {
+    "id": 618,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "We had _______ a good time at the concert.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 11,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "so"
+        },
+        {
+          "id": "B",
+          "text": "such"
+        },
+        {
+          "id": "C",
+          "text": "very"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>such + a/an + adj + noun</strong></p><p>→ dùng để <strong>nhấn mạnh mức độ</strong>.</p><p>&nbsp;</p><p><strong>We had such a good time at the concert.</strong><br><i>Chúng tôi đã có khoảng thời gian rất tuyệt tại buổi hòa nhạc.</i></p>"
+    },
+    "originalIndex": 10,
+    "_revealed": true
+  },
+  {
+    "id": 619,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "My brother is _______ older than his girlfriend",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 12,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "more"
+        },
+        {
+          "id": "B",
+          "text": "such"
+        },
+        {
+          "id": "C",
+          "text": "much"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Much dùng để <strong>nhấn mạnh mức độ so sánh hơn</strong>.</p><p>&nbsp;</p><p><strong>My brother is much older than his girlfriend.</strong><br><i>Anh trai tôi lớn tuổi hơn bạn gái của anh ấy nhiều.</i></p>"
+    },
+    "originalIndex": 11,
+    "_revealed": true
+  },
+  {
+    "id": 620,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "We are eating out tonight, ______ we?",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 13,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "don't"
+        },
+        {
+          "id": "B",
+          "text": "doesn't"
+        },
+        {
+          "id": "C",
+          "text": "aren't"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Dạng <strong>câu hỏi đuôi</strong>.</p><h3>Quy tắc:</h3><p><strong>Câu khẳng định → câu hỏi đuôi phủ định</strong><br><strong>Câu phủ định → câu hỏi đuôi khẳng định</strong></p><p>&nbsp;</p><p><strong>We are eating out tonight, aren't we?</strong><br><i>Tối nay chúng ta đi ăn ngoài, đúng không?</i></p>"
+    },
+    "originalIndex": 12,
+    "_revealed": true
+  },
+  {
+    "id": 621,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "The sun was _______ boiling this afternoon.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 14,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "absolutely"
+        },
+        {
+          "id": "B",
+          "text": "very"
+        },
+        {
+          "id": "C",
+          "text": "really"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Boiling</strong> mang nghĩa <strong>rất nóng / cực kỳ nóng</strong>.</p><p>Các tính từ <strong>mức độ tuyệt đối như boiling </strong>thường đi với: <strong>absolutely</strong></p><p><strong>The sun was absolutely boiling this afternoon.</strong><br><i>Chiều nay trời nóng khủng khiếp.</i></p>"
+    },
+    "originalIndex": 13,
+    "_revealed": true
+  },
+  {
+    "id": 622,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "While my dad was making dinner, my mom _______ TV",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 15,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "watch"
+        },
+        {
+          "id": "B",
+          "text": "has watched"
+        },
+        {
+          "id": "C",
+          "text": "was watching"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p><strong>while</strong> thường dùng ở thì quá khứ tiếp diễn nói về<strong> </strong>hai hành động đang xảy ra cùng lúc trong quá khứ.</p><h3>Công thức:<strong> S+ was / were + V-ing</strong></h3><p>&nbsp;</p><p><strong>While my dad was making dinner, my mom was watching TV.</strong></p><p><i>Trong khi bố tôi đang nấu ăn, mẹ tôi đang xem TV.</i></p>"
+    },
+    "originalIndex": 14,
+    "_revealed": true
+  },
+  {
+    "id": 623,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "We _______ buy our tickets before they sell out",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 16,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "should"
+        },
+        {
+          "id": "B",
+          "text": "can"
+        },
+        {
+          "id": "C",
+          "text": "could"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<h3><strong>should </strong>Dùng để <strong>đưa ra lời khuyên hoặc gợi ý</strong>.</h3><p>&nbsp;</p><p><strong>We should buy our tickets before they sell out.</strong><br><i>Chúng ta nên mua vé trước khi chúng bán hết.</i></p>"
+    },
+    "originalIndex": 15,
+    "_revealed": true
+  },
+  {
+    "id": 624,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "If I were taller, I _______ be better at basketball.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 17,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "had"
+        },
+        {
+          "id": "B",
+          "text": "would"
+        },
+        {
+          "id": "C",
+          "text": "can"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Câu điều kiện loại 2 </strong>nói về tình huống không có thật ở hiện tại.</p><h3>Cấu trúc: <strong>If + past simple, would + V</strong></h3><p>&nbsp;</p><p><strong>If I were taller, I would be better at basketball.</strong><br><i>Nếu tôi cao hơn, tôi sẽ chơi bóng rổ tốt hơn.</i></p>"
+    },
+    "originalIndex": 16,
+    "_revealed": true
+  },
+  {
+    "id": 625,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "Jessica asked _______ you would like to eat for dinner",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 18,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "wheather"
+        },
+        {
+          "id": "B",
+          "text": "if"
+        },
+        {
+          "id": "C",
+          "text": "what"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Đây là <strong>câu hỏi gián tiếp</strong>.</p><h3>Cấu trúc <strong>ask + what / where / when / why / how + clause</strong></h3><p>&nbsp;</p><p><strong>Jessica asked what you would like to eat for dinner.</strong><br><i>Jessica hỏi bạn muốn ăn gì cho bữa tối.</i></p>"
+    },
+    "originalIndex": 17,
+    "_revealed": true
+  },
+  {
+    "id": 626,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "I can't stand _______ in long queues.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 19,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "wait"
+        },
+        {
+          "id": "B",
+          "text": "to wait"
+        },
+        {
+          "id": "C",
+          "text": "waiting"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<h3><strong>can't stand + V-ing</strong></h3><p>Dùng để nói <strong>rất ghét hoặc không chịu nổi việc gì</strong>.</p><p>&nbsp;</p><p><strong>I can't stand waiting in long queues.</strong><br><i>Tôi không thể chịu được việc phải chờ trong những hàng dài.</i></p>"
+    },
+    "originalIndex": 18,
+    "_revealed": true
+  },
+  {
+    "id": 627,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "You promised _______ me with my homework.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 20,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "to help"
+        },
+        {
+          "id": "B",
+          "text": "help"
+        },
+        {
+          "id": "C",
+          "text": "helping"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>promise + to + verb</p><p>&nbsp;</p><p><strong>You promised to help me with my homework.</strong><br><i>Bạn đã hứa sẽ giúp tôi làm bài tập.</i></p>"
+    },
+    "originalIndex": 19,
+    "_revealed": true
+  },
+  {
+    "id": 628,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "You _______ be Sonia's sister. You look just like her!",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 21,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "must"
+        },
+        {
+          "id": "B",
+          "text": "can"
+        },
+        {
+          "id": "C",
+          "text": "may"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<h3><strong>must</strong> (suy đoán chắc chắn) dùng khi người nói <strong>gần như chắc chắn về điều gì dựa trên bằng chứng</strong>.</h3><p>&nbsp;</p><p><strong>You must be Sonia's sister. You look just like her!</strong><br><i>Bạn chắc hẳn là chị/em gái của Sonia. Bạn trông giống cô ấy y hệt!</i></p>"
+    },
+    "originalIndex": 20,
+    "_revealed": true
+  },
+  {
+    "id": 629,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "The event _______ broadcasted today in over 50 countries!",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 22,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "is"
+        },
+        {
+          "id": "B",
+          "text": "is being"
+        },
+        {
+          "id": "C",
+          "text": "has been"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>Câu bị động ở thì hiện tại tiếp diễn&nbsp;</p><h3>Cấu trúc: S + <strong>am / is / are + being + V3</strong></h3><p>&nbsp;</p><p><strong>The event is being broadcasted today in over 50 countries!</strong><br><i>Sự kiện này đang được phát sóng hôm nay ở hơn 50 quốc gia!</i></p>"
+    },
+    "originalIndex": 21,
+    "_revealed": true
+  },
+  {
+    "id": 630,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "My cousin takes _______ my aunt. They are quite similar",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 23,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "after"
+        },
+        {
+          "id": "B",
+          "text": "up"
+        },
+        {
+          "id": "C",
+          "text": "off"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<h3><strong>take after someone </strong>= giống ai đó (về ngoại hình hoặc tính cách)</h3><p>&nbsp;</p><p><strong>My cousin takes after my aunt. They are quite similar.</strong><br><i>Anh họ tôi giống dì tôi. Họ khá giống nhau.</i></p>"
+    },
+    "originalIndex": 22,
+    "_revealed": true
+  },
+  {
+    "id": 631,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "I have _______ spent my allowance this month.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 24,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "never"
+        },
+        {
+          "id": "B",
+          "text": "just"
+        },
+        {
+          "id": "C",
+          "text": "already"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<h3><strong>already </strong>Dùng trong thì Hiện tại hoàn thành để nói rằng <strong>việc gì đã xảy ra sớm hơn dự kiến</strong>.</h3><p><strong>Cấu trúc: S + have / has + already + V3</strong></p><p>&nbsp;</p><p><strong>I have already spent my allowance this month.</strong><br><i>Tôi đã tiêu hết tiền tiêu vặt tháng này rồi.</i></p>"
+    },
+    "originalIndex": 23,
+    "_revealed": true
+  },
+  {
+    "id": 632,
+    "skill": "grammar",
+    "part": 1,
+    "type": "mcq3",
+    "title": null,
+    "stem": "I can always depend _______ my mother.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 1,
+    "order": 25,
+    "metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "forr"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<h3><strong>depend on + someone/something:&nbsp;</strong> dựa vào / tin cậy vào ai/ cái gì</h3><p>&nbsp;</p><p><strong>I can always depend on my mother.</strong><br><i>Tôi luôn có thể dựa vào mẹ tôi.</i></p>"
+    },
+    "originalIndex": 24,
+    "_revealed": true
+  },
+  {
+    "id": 633,
+    "skill": "grammar",
+    "part": 2,
+    "type": "synonym_match",
+    "title": null,
+    "stem": "Select a word from each drop-down list on the right that has the same or a very similar meaning to each word on the left.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 5,
+    "order": 26,
+    "metadata": {
+      "vocab_type": "synonym_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "argue",
+          "id": "1"
+        },
+        {
+          "prompt": "swap",
+          "id": "2"
+        },
+        {
+          "prompt": "collapse",
+          "id": "3"
+        },
+        {
+          "prompt": "own",
+          "id": "4"
+        },
+        {
+          "prompt": "occur",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "fall",
+        "disagree",
+        "possess",
+        "approach",
+        "finish",
+        "remind",
+        "get",
+        "sharre",
+        "construct",
+        "exchange",
+        "happen"
+      ],
+      "correct_answers": {
+        "1": "disagree",
+        "2": "exchange",
+        "3": "fall",
+        "4": "possess",
+        "5": "happen"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "="
+    },
+    "originalIndex": 25,
+    "_revealed": true
+  },
+  {
+    "id": 634,
+    "skill": "grammar",
+    "part": 2,
+    "type": "definition_match",
+    "title": null,
+    "stem": "Complete each definition using a word from the drop-down list.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 5,
+    "order": 27,
+    "metadata": {
+      "vocab_type": "definition_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "To get better at something is to",
+          "id": "1"
+        },
+        {
+          "prompt": "To choose something is to",
+          "id": "2"
+        },
+        {
+          "prompt": "To get money from work is to",
+          "id": "3"
+        },
+        {
+          "prompt": "To help someone is to",
+          "id": "4"
+        },
+        {
+          "prompt": "To give someone a job is to",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "employ",
+        "assist",
+        "depend",
+        "donate",
+        "fire",
+        "receive",
+        "hesitate",
+        "proceed",
+        "improve",
+        "decide",
+        "earn"
+      ],
+      "correct_answers": {
+        "1": "improve",
+        "2": "decide",
+        "3": "earn",
+        "4": "assist",
+        "5": "employ"
+      }
+    },
+    "originalIndex": 26,
+    "_revealed": true
+  },
+  {
+    "id": 635,
+    "skill": "grammar",
+    "part": 2,
+    "type": "sentence_completion",
+    "title": null,
+    "stem": "Complete each sentence using a word from each drop-down list.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 5,
+    "order": 28,
+    "metadata": {
+      "vocab_type": "sentence_completion",
+      "instruction": "",
+      "pairs": [
+        {
+          "prefix": "After it rained, the path was all",
+          "suffix": null,
+          "id": "1",
+          "after": "and my trainers got dirty."
+        },
+        {
+          "prefix": "It is important to create an eye-catching",
+          "suffix": null,
+          "id": "2",
+          "after": "when starting a business."
+        },
+        {
+          "prefix": "My cousin spent a fortune on her wedding. It was  My cousin spent a fortune on her wedding. It was incredibly",
+          "suffix": null,
+          "id": "3",
+          "after": null
+        },
+        {
+          "prefix": "Teachers should always give",
+          "suffix": null,
+          "id": "4",
+          "after": "to their students so they know how to improve."
+        },
+        {
+          "prefix": "Doing voluntary work is really",
+          "suffix": null,
+          "id": "5",
+          "after": "because it makes you feel like you are making a difference."
+        }
+      ],
+      "dropdown_pool": [
+        "logo",
+        "messy",
+        "expensive",
+        "gig",
+        "rewarding",
+        "muddy",
+        "boring",
+        "feedback",
+        "luxurious",
+        "lame",
+        "plan"
+      ],
+      "correct_answers": {
+        "1": "muddy",
+        "2": "logo",
+        "3": "luxurious",
+        "4": "feedback",
+        "5": "rewarding"
+      }
+    },
+    "originalIndex": 27,
+    "_revealed": true
+  },
+  {
+    "id": 636,
+    "skill": "grammar",
+    "part": 2,
+    "type": "synonym_match",
+    "title": null,
+    "stem": "Select a word from each drop-down list on the right that has the same or a very similar meaning to each word on the left.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 5,
+    "order": 29,
+    "metadata": {
+      "vocab_type": "synonym_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "jog",
+          "id": "1"
+        },
+        {
+          "prompt": "inspire",
+          "id": "2"
+        },
+        {
+          "prompt": "notice",
+          "id": "3"
+        },
+        {
+          "prompt": "utilize",
+          "id": "4"
+        },
+        {
+          "prompt": "conceal",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "make",
+        "use",
+        "made",
+        "influence",
+        "catch",
+        "see",
+        "lie",
+        "run",
+        "hide",
+        "cut",
+        "fix"
+      ],
+      "correct_answers": {
+        "1": "run",
+        "2": "influence",
+        "3": "see",
+        "4": "use",
+        "5": "hide"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "="
+    },
+    "originalIndex": 28,
+    "_revealed": true
+  },
+  {
+    "id": 637,
+    "skill": "grammar",
+    "part": 2,
+    "type": "collocation_match",
+    "title": null,
+    "stem": "Select a word from each drop-down list on the right that is most often used with each word on the left.",
+    "audio_path": null,
+    "audio_url": null,
+    "audio_urls": [],
+    "image_path": null,
+    "point": 5,
+    "order": 30,
+    "metadata": {
+      "vocab_type": "collocation_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "reduce",
+          "id": "1"
+        },
+        {
+          "prompt": "sentimental",
+          "id": "2"
+        },
+        {
+          "prompt": "immediate",
+          "id": "3"
+        },
+        {
+          "prompt": "white-water",
+          "id": "4"
+        },
+        {
+          "prompt": "semi-precious",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "file",
+        "nostalgia",
+        "family",
+        "issue",
+        "price",
+        "argument",
+        "surfing",
+        "value",
+        "goods",
+        "rafting",
+        "jewels"
+      ],
+      "correct_answers": {
+        "1": "price",
+        "2": "value",
+        "3": "family",
+        "4": "rafting",
+        "5": "jewels"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "+",
+      "explanation": "<p><strong>reduced price</strong> → giá đã được giảm</p><p><strong>sentimental value</strong> → giá trị kỷ niệm/tình cảm</p><p><strong>immediate family</strong> → gia đình gần nhất (bố mẹ, anh chị em, con)</p><p><strong>white-water rafting</strong> → hoạt động du lịch chèo thuyền trên sông mạnh</p><p><strong>semi-precious jewels</strong> → đá quý loại không quá hiếm</p>"
+    },
+    "originalIndex": 29,
+    "_revealed": true
+  }
+]

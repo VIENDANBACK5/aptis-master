@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="vi"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nói viết form A2 (cho hs mất gốc) - Hướng dẫn</title>
+    <meta name="csrf-token" content="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT">
+        <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js"><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css"><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script>    <style>
+        /* Restore Tailwind's reset styles for CKEditor content */
+        .ck-content strong { font-weight: bold; }
+        .ck-content em { font-style: italic; }
+        .ck-content u { text-decoration: underline; }
+        .ck-content s { text-decoration: line-through; }
+        .ck-content ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+        .ck-content h1 { font-size: 2em; font-weight: bold; margin-top: 0.67em; margin-bottom: 0.67em; }
+        .ck-content h2 { font-size: 1.5em; font-weight: bold; margin-top: 0.83em; margin-bottom: 0.83em; }
+        .ck-content h3 { font-size: 1.17em; font-weight: bold; margin-top: 1em; margin-bottom: 1em; }
+        .ck-content p { margin-bottom: 0.5em; }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 antialiased">
+        
+    <nav x-data="{ mobile: false }" class="relative z-40 bg-white border-b border-gray-200">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16 gap-4">
+                <a href="https://milaedu.com/dashboard" class="flex items-center gap-2 shrink-0">
+    <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+    <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Mila<span class="text-blue-600">edu</span></span>
+    </a>
+
+                
+                <div class="hidden md:flex items-center gap-1 ml-4">
+                                            <a href="https://milaedu.com/dashboard" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Luyện tập
+                                                    </a>
+                                            <a href="https://milaedu.com/tu-vung" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+                            Từ vựng
+                                                    </a>
+                                            <a href="https://milaedu.com/instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                                  bg-blue-50 text-blue-700">
+                            Hướng dẫn
+                                                    </a>
+                                    </div>
+
+                <div class="ml-auto flex items-center gap-2">
+                    
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+                        <button type="button" @click="open = !open" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                                    </button>
+                        <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-80 max-w-[calc(100vw-2rem)] bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden" style="display: none;">
+                            <div class="px-4 py-3 border-b border-gray-100 text-sm font-semibold text-gray-900">Thông báo</div>
+                                                            <div class="px-4 py-6 text-center text-sm text-gray-500">Bạn đã xem hết thông báo.</div>
+                                                    </div>
+                    </div>
+
+                    
+                    <div x-data="{ open: false }" class="relative" @click.outside="open = false" @keydown.escape.window="open = false">
+    <button type="button" @click="open = !open" :aria-expanded="open" class="flex items-center gap-2 pl-1 pr-2 sm:pr-3 py-1 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors" aria-expanded="false">
+        <span class="w-8 h-8 text-xs rounded-full bg-blue-50 text-blue-700 font-bold flex items-center justify-center shrink-0">M</span>
+        <span class="hidden sm:inline max-w-[10rem] truncate text-sm font-medium text-gray-700">Minh</span>
+        <svg class="w-5 h-5 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </button>
+    <div x-show="open" x-transition.origin.top.right="" class="absolute right-0 mt-2 w-60 bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden py-1 z-50" style="display: none;">
+        <div class="px-4 py-3 border-b border-gray-100">
+            <div class="text-sm font-semibold text-gray-900 truncate">Minh</div>
+            <div class="text-xs text-gray-500 truncate">minhtuantran210305@gmail.com</div>
+        </div>
+        <div class="py-1 [&amp;_a]:block [&amp;_a]:px-4 [&amp;_a]:py-2 [&amp;_a]:text-sm [&amp;_a]:text-gray-700 [&amp;_a:hover]:bg-gray-50">
+            <a href="https://milaedu.com/history">Lịch sử làm bài</a>
+                            <a href="https://milaedu.com/thiet-bi">Thiết bị của tôi</a>
+                        <a href="https://milaedu.com/doi-mat-khau">Đổi mật khẩu</a>
+        </div>
+        <form method="POST" action="https://milaedu.com/logout" class="border-t border-gray-100 pt-1">
+            <input type="hidden" name="_token" value="x7clhLdW3d9AAqAvoWFBSiMuw3THWU2AOfWokuTT" autocomplete="off">            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đăng xuất</button>
+        </form>
+    </div>
+</div>
+
+                    
+                    <button type="button" @click="mobile = !mobile" aria-label="Mở menu" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-100">
+                        <svg class="w-5 h-5 w-6 h-6" x-show="!mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-5 h-5 w-6 h-6" x-show="mobile" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div x-show="mobile" x-transition="" class="md:hidden border-t border-gray-100 bg-white px-4 py-2" style="display: none;">
+                            <a href="https://milaedu.com/dashboard" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Luyện tập
+                                    </a>
+                            <a href="https://milaedu.com/tu-vung" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
+                    Từ vựng
+                                    </a>
+                            <a href="https://milaedu.com/instructions" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">
+                    Hướng dẫn
+                                    </a>
+                    </div>
+    </nav>
+
+    <main class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                
+        
+        
+        
+        <div class="select-none" oncopy="return false" oncut="return false" oncontextmenu="return false" onselectstart="return false">
+<div class="max-w-5xl mx-auto">
+<nav class="flex flex-wrap items-center gap-1.5 text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+                                                <a href="https://milaedu.com/instructions" class="hover:text-blue-600">Hướng dẫn</a>
+                                <span class="text-gray-300">/</span>                            <span class="text-gray-900 font-medium">Nói viết form A2 (cho hs mất gốc)</span>
+                        </nav>
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+    <div class="flex items-center gap-4 min-w-0">
+                <div class="min-w-0">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">Nói viết form A2 (cho hs mất gốc)</h1>
+                            <p class="mt-0.5 text-gray-500">Cập nhật lúc 11:04 - 14/06/2026</p>
+                    </div>
+    </div>
+    </div>
+<div>
+    
+            <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden prose max-w-none [&amp;&gt;div]:p-6 sm:[&amp;&gt;div]:p-8">
+        <div class="p-5"><p><strong>Form 2&nbsp; cho các bạn mất gốc, mục tiêu A2</strong></p><p>&nbsp;</p><p><strong>Writing&nbsp;</strong></p><p><strong>Part 2</strong></p><p>Thường hỏi lý do tham gia câu lạc bộ nên cứ trả lời là thích làm các hoạt động giống tên câu lạc bộ.</p><p><strong>I like reading books/watching films/walking/ playing sports…</strong></p><p><strong>It helps me relax, reduce stress, improve my health, improve knowledge, make new friends, learn new things, lose weight, keep fit….</strong>&nbsp;</p><p><strong>Part 3</strong></p><p>Cố gắng trả lời nếu hiểu câu hỏi.</p><p>Không thì chuyển you thành I, my thành your bỏ tử hỏi và chép một đoạn xuống.</p><p>Trong câu hỏi có đoạn bắt đầu bằng chữ I thì chép nguyên đoạn đó xuống.</p><p>Có chữ opinion thì viết&nbsp;<strong>: I agree</strong> (chép từ chỗ that xuống, đổi You = I, Your = My)</p><p>có thể thêm một số câu trước khi trả lời để tăng thêm từ ví dụ: I’m glad to talk to you/ this is an interesting question, thank you for your welcome…..</p><p><strong>Part 4:</strong></p><p><strong>Học thuộc và gõ y nguyên 2 bức thư sau vào hai vị trí trống. Chú ý viết đúng chính tả chấm, phẩy.</strong></p><p><i><strong>Cho người bạn</strong></i></p><p><strong>Hi Tim,</strong></p><p>How are you these days? I hope you and your family are well. I am writing this email to tell you some news about my…..club</p><p>I'd love to hear your thoughts on this.</p><p>Let's catch up soon and discuss some suggestions.</p><p>Bye for now,</p><p>Kí tên mình</p><p>&nbsp;</p><p><strong>Hoặc&nbsp;</strong></p><p>Hi …..,</p><p>How are your family and your work? I hope all is well with you. Have you read the notice from the ….. club?&nbsp;I’m thinking of&nbsp;<strong>sending</strong> the manager an email with my ideas.&nbsp;</p><p>What do you think?</p><p>Love,<br>………</p><p>&nbsp;</p><p><i><strong>Cho quản lý</strong></i></p><p>Dear Club Manager,</p><p>I hope this email finds you well.&nbsp; My name is ….. I am …. years old and from …... I have been a member of the …… club for …. months. I am writing to express my thoughts and suggestions about the recent notice I received from the club.</p><p>Regarding the topic you mentioned in the mail, I recommend posting this information on our club’s forum so that members could share their suggestions. Additionally, the club could hold a meeting to gather feedback from the members.</p><p>I hope my ideas are helpful, and I am looking forward to hearing from you</p><p>Best regards,<br>kí tên</p><p><strong>Hoặc</strong></p><p>Dear Club Manager,</p><p>My name is …….., and I have been an active member of the club for more than a year. I am writing to share my thoughts and suggestions regarding the recent announcement from our club. After reading the notice, I felt …..(vui, buồn…nếu hiểu đề, không hiểu thì bỏ qua phần này)</p><p>In my opinion, it would be helpful if the club provided more detailed information on the forum so that members could share their opinions easily. Additionally, organizing a short meeting or online discussion would allow everyone to understand the purpose of the announcement and offer useful feedback.</p><p>I hope my suggestions are helpful. Thank you for taking the time to consider my ideas.&nbsp;</p><p>I look forward to hearing your response.</p><p>Sincerely,</p><p>kí tên mình vào đây</p><p><strong>Hoặc</strong></p><p>Dear Club Manager,</p><p>My name is………, and I have been a member of the club for over six months. I am writing in response to the notice you sent this morning.</p><p>Regarding the issue mentioned in your email, I suggest arranging a meeting or creating an online survey&nbsp;to collect ideas. This would provide an opportunity for all club members, including myself, to share our ideas. I have talked to other people and found that they share my opinion.</p><p>I hope my suggestions are helpful, and I look forward to hearing from you soon.</p><p>Kind regards,<br>Kí tên</p><p><strong>Cách 2 dành cho những bạn hiểu và trích được đề</strong></p><p><strong>Viết thư cho bạn</strong></p><p>Hi Tim,</p><p>How are you these days? I hope you and your family are well. I am writing to tell you some news related to my ……….. club.<strong>(trích ý chính của đề bài). </strong>I'd love to hear your thoughts on this.</p><p>Please write to me soon and let me know what you think.</p><p>Bye for now</p><p>Kí tên.</p><p><strong>Hoặc</strong></p><p>Hello Quan,</p><p>How’s it going? I hope all is well with you. I have some news related to my ……….. club.&nbsp;<strong>.(trích ý chính của đề bài). </strong>Your input would be invaluable! Let's catch up soon and discuss some suggestions.</p><p>Best,</p><p><strong>2. &nbsp; &nbsp;Email cho quản lý</strong></p><p>Dear Sir/ Manager</p><p>My name is ….. I am …. years old and from …... I have been a member of the …… club for seven months. I am writing to express my thoughts and suggestions regarding the recent notice I received from the club.</p><p>According to the news, <strong>(trích ý chính của đề bài).&nbsp;</strong>In my opinion, it would be helpful if the club posted this information on its forum so that members could share their suggestions. Additionally, the club could hold a meeting to gather feedback from the members.</p><p>I hope my ideas are helpful, and I am looking forward to hearing from you</p><p>Best regards,</p><p>kí tên</p><p>&nbsp;</p><p><strong>Speaking&nbsp;</strong></p><p>&nbsp;</p><p><strong>Video đọc các từ hay dùng&nbsp;</strong></p><p>&nbsp;</p><p><a href="https://drive.google.com/file/d/1wDOQ27WJY4_6_eB-GqIJLEG4McFu9o9P/view?usp=sharing"><i><strong>https://drive.google.com/file/d/1wDOQ27WJY4_6_eB-GqIJLEG4McFu9o9P/view?usp=sharing</strong></i></a></p><p>&nbsp;</p><p><strong>Các câu thường dùng tả tranh part 2,3</strong></p><p>&nbsp;</p><p>This&nbsp;is a&nbsp;picture&nbsp;taken indoors/ outdoors&nbsp;</p><p>In the picture I can see …people/ a man/ a women/ a kid/ a family&nbsp;</p><p>They are/ he is/ she is wearing casual clothes/ comfortable clothes/&nbsp;formal clothes/T-shirt and jeans/ a white shirt&nbsp;</p><p>They are/ he is/she is smiling/talking…&nbsp;</p><p>He is handsome&nbsp;</p><p>She is beautiful&nbsp;</p><p>They are happy&nbsp;</p><p>I can see … đồ vật (food/ table/sofa…)</p><p>There are many trees</p><p>The weather is nice/good/ beautiful&nbsp;</p><p>This is a nice picture and&nbsp;I&nbsp;love this picture very much&nbsp;</p><p>&nbsp;</p><p><strong>Tả tranh part 3: Tương tự như part 2, tách hai tranh ra thôi.</strong></p><p>In the first picture I can see …people</p><p>In the second picture there are/ is ….&nbsp;</p><p>I like the first picture/ the second picture because…….</p><p>&nbsp;</p><p><strong>Câu hỏi phụ part 2, 3</strong></p><p>Hiểu câu hỏi thì cố gắng trả lời không thì cố gắng đoán theo từ mình biết và nội dung tranh.</p><p>Lái các câu trả lời theo hướng sở thích và các cụm từ thường dùng.</p><p>&nbsp;</p><p>I like watching films/ listening to music/ playing games</p><p>I often do it with my friends (who)</p><p>I do it in my free time. (when)</p><p>&nbsp;</p><p><strong>It helps me relax, reduce stress, improve my health, improve knowledge, make new friends, learn new things, lose weight, keep fit, recharge my energy, boost my mood, connect with other people, refresh my mind….</strong>&nbsp;</p><p><strong>I am very happy.</strong>&nbsp;</p><p>&nbsp;</p><p><strong>Cách trả lời nếu không hiểu đề part 4&nbsp;</strong></p><p>&nbsp;</p><p>My name is …. I am twenty years old. I live in ……. city. I am a student. I like reading books and cooking. Now let me tell you about a time I…<strong>đọc lại đề bài từ chỗ tell a time...</strong></p><p><strong>Rồi cố nói 1,2 câu liên quan đến chủ đề bài nói, nếu không thể nói được thì nói tiếp như bên dưới&nbsp;</strong></p><p>This topic is very interesting, but it’s difficult for me to explain now. I am studying English, so I hope to answer better in the future.</p><p>This is my answer. I hope you like it. Thank you for listening.</p><p>&nbsp;</p><p><i>Tên tôi là… tôi 20 tuổi. tôi sống ở … tôi là sinh viên. Tôi thích đọc sách và nấu ăn. Bây giờ tôi muốn trả lời câu hỏi … đọc lại đề từ chỗ tell me a time…</i></p><p><i>Chủ đề này rất hay nhưng tiếng anh của tôi không tốt, do vậy tôi không thể kể câu chuyện của tôi cho bạn. Tôi đang học tiếng anh và hy vọng tôi có thể trả lời bạn sau. Cảm ơn vì đã lắng nghe.</i></p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Hoặc ghép đề học tiếng anh&nbsp;</strong></p><p>&nbsp;</p><p>My name is …. I am twenty years old. I live in …. I am a student at …. . I love reading books and travelling.&nbsp;<strong>Now let me tell you about a time when I…+ tên đề bài.</strong></p><p>I am studying English at&nbsp;Language Link Centre. At first, my English was not good&nbsp;and I couldn’t talk in English with my friends and teachers at school.&nbsp;</p><p>&nbsp;</p><p>When I studied English here, I + đề bài</p><p><strong>cố nói 1,2 câu liên quan đến chủ đề bài nếu có thể.</strong></p><p>&nbsp;</p><p>I try to study English. Now, my English is better.I can speak English with my friends and my teachers.&nbsp;</p><p>I like studying English because it helps me learn new things&nbsp;and improve my knowledge.</p><p>&nbsp;</p><p>This is my answer. I hope you like it. Thank you for listening.</p><p>&nbsp;</p><p><strong>Tham khảo cách ghép đề mức độ đơn giản, nếu phát âm tốt, nói to, rõ ràng vẫn có thể lên được B1</strong></p><p>&nbsp;</p><p><strong>1. Tell me a time you&nbsp;attended/took part in a course, learned a new thing&nbsp;– tham gia khoá học/ học điều mới</strong></p><p>My name is …. I am twenty years old. I live in …. I am a student at Hanoi University. I love reading books and travelling.&nbsp;<strong>Now let me tell you about a time when +&nbsp;I&nbsp;attended/took part in a course, learned a new thing</strong></p><p>I am studying English at Anna Centre. At first, my English was not good, I couldn’t talk in English with my friends àn teachers at school.&nbsp;</p><p><strong>When I studied English here, I learned a new thing.&nbsp;</strong></p><p><strong>I learned new words and grammar.</strong></p><p>I try to study English. Now, my English is better. I can speak English with my friends and my teachers.&nbsp;</p><p>I like studying English because it helps me learn new things and improve my knowledge.</p><p>&nbsp;</p><p><strong>2.</strong>&nbsp;<strong>Tell me a time you&nbsp;had many choices - kể lần bạn có nhiều lựa chọn</strong></p><p>My name is …. I am twenty years old. I live in …. I am a student at Hanoi University. I love reading books and travelling.&nbsp;<strong>Now let me tell you about a time when I had</strong> many choices.</p><p>I am studying English at Anna Centre. At first, my English was not good, and I couldn’t talk in English with my friends àn teachers at school.&nbsp;</p><p><strong>When I studied English here, I had many choices.</strong></p><p><strong>There were many English centers but I chose the Language Link center to study.</strong></p><p>I try to study English. Now, my English is better. I can speak English with my friends and teachers.</p><p>I like studying English because it helps me learn new things and improve my knowledge.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Tổng hợp câu hỏi part 1 - Viết</strong></p><figure class="table"><table><tbody><tr><td>STT</td><td>Tiếng anh</td><td>Dịch</td></tr><tr><td>1. &nbsp;</td><td><p>What is your&nbsp;name?</p><p>My name&nbsp;is Hung.</p></td><td><p>Tên bạn là gì?</p><p>Tên tôi là Hùng</p></td></tr><tr><td>2. &nbsp;</td><td><p>What do you&nbsp;do?</p><p>I am&nbsp;a student.</p></td><td><p>Bạn làm&nbsp;nghề gì?</p><p>Tôi là 1 học sinh</p></td></tr><tr><td>3.&nbsp; &nbsp; &nbsp;</td><td><p>Where&nbsp;do you&nbsp;live?</p><p>I live in Ho Chi Minh city.</p></td><td><p>Bạn&nbsp;sống ở đâu?</p><p>Tôi sống ở Tp. HCM</p></td></tr><tr><td>4. &nbsp;</td><td><p>Where are you&nbsp;from?</p><p>I&nbsp;am from&nbsp;Ho Chi Minh city.</p></td><td><p>Bạn đến từ đâu?</p><p>Tôi đến từ Tp. HCM.</p></td></tr><tr><td>5. &nbsp;</td><td><p>How are you?</p><p>I am fine.</p></td><td>Bạn khoẻ không?<br>Tôi khoẻ.</td></tr><tr><td>6. &nbsp;</td><td><p>What is the&nbsp;weather like today?</p><p>It is hot.</p><p>The weather today is hot.</p></td><td><p>Thời tiết&nbsp;hôm nay thế nào?</p><p>Trời nóng.</p><p>Thời tiết hôm nay nóng.</p></td></tr><tr><td>7. &nbsp;</td><td><p>What is your&nbsp;favorite time of year?</p><p>My favorite time of year is summer.</p><p>It’s summer.</p><p>I like summer.</p></td><td><p>Thời gian yêu thích trong năm&nbsp;của bạn là gì?</p><p>Thời gian gian yêu thích trong năm của tôi là mùa hè</p><p>Đó là mùa hè.</p><p>Tôi thích mùa hè.</p></td></tr><tr><td>8. &nbsp;</td><td><p>What is your&nbsp;favorite season?</p><p>My favorite season is summer.</p><p>It’s summer.</p><p>I like summer.</p></td><td><p>Mùa yêu thích&nbsp;của bạn là mùa gì?</p><p>Mùa yêu thích trong năm của tôi là mùa hè</p><p>Đó là mùa hè.</p><p>Tôi thích mùa hè.</p></td></tr><tr><td>9. &nbsp;</td><td><p>What is your&nbsp;favourite day?</p><p>It is Sunday.</p></td><td><p>Ngày yêu thích&nbsp;của bạn là gì?</p><p>Đó là chủ nhật.</p></td></tr><tr><td>10.&nbsp;&nbsp;</td><td><p>What's your&nbsp;favourite colour?</p><p>My favourite colour is red.</p><p>I like red.</p><p>It is red.</p></td><td><p>Màu sắc yêu thích&nbsp;của bạn là gì?</p><p>Màu yêu thích của tôi là màu đỏ.</p><p>Tôi thích màu đỏ.</p><p>Đó là màu đỏ.</p></td></tr><tr><td>11.&nbsp;&nbsp;</td><td><p>What is your&nbsp;favourite device?</p><p>My favourite device is a laptop.</p><p>It is laptop.</p></td><td><p>Thiết bị yêu thích&nbsp;của bạn là gì?</p><p>Thiết bị yêu thích của tôi là máy tính xách tay.</p><p>Đó là máy tính xách tay.</p></td></tr><tr><td>12.&nbsp;&nbsp;</td><td><p>What’s your&nbsp;favorite hobby?</p><p>My favorite hobby is playing football.</p><p>I like playing football.</p></td><td><p>Sở thích&nbsp;của bạn là gì?</p><p>Sở thích của tôi là chơi bóng đá.</p><p>Tôi thích chơi bóng đá.</p></td></tr><tr><td>13.&nbsp;&nbsp;</td><td><p>What is your&nbsp;favorite sport?</p><p>My favourite sport is football.</p><p>&nbsp;It is football</p><p>&nbsp;I like football.</p></td><td><p>Môn thể thao yêu thích&nbsp;của bạn là gì?</p><p>Môn thể thao yêu thích của</p><p>Đó là bóng đá</p><p>Tôi thích đá bóng</p></td></tr><tr><td>14.&nbsp;&nbsp;</td><td><p>What do you usually do when you have&nbsp;free time?</p><p>I like listening to music.</p></td><td><p>Khi rảnh rỗi&nbsp;bạn thường làm gì?</p><p>&nbsp;</p><p>Tôi thích nghe nhạc</p></td></tr><tr><td>15.&nbsp;&nbsp;</td><td><p>What do you like to&nbsp;do in the evening?</p><p>I like listening to music.</p></td><td><p>Bạn thích&nbsp;làm gì vào buổi tối?</p><p>Tôi thường nghe nhạc.</p></td></tr><tr><td>16.&nbsp;&nbsp;</td><td><p>What&nbsp;did&nbsp;you do on&nbsp;the weekend?</p><p>I read books.</p></td><td><p>Bạn&nbsp;đã&nbsp;làm gì&nbsp;vào cuối tuần?</p><p>Tôi đã đọc những quyển sách.</p></td></tr><tr><td>17.&nbsp;&nbsp;</td><td><p>How do you&nbsp;travel&nbsp;around your&nbsp;city/town?</p><p>I go by bus.</p><p>By bus.</p></td><td><p>Bạn&nbsp;đi lại quanh thành phố/ thị trấn của bạn bằng phương tiện gì?</p><p>Tôi đi bằng xe bus.</p></td></tr><tr><td>18.&nbsp;&nbsp;</td><td><p>How do you&nbsp;get to work?</p><p>I go to work by bus.</p><p>Bu bus.</p></td><td><p>Bạn&nbsp;đi làm bằng phương tiện&nbsp;gì?</p><p>Tôi đi làm bằng xe bus.</p></td></tr><tr><td>19.&nbsp;&nbsp;</td><td><p>What&nbsp;time do you&nbsp;get up?</p><p>I get up at 6 o’çlock.</p><p>6 o’çlock</p></td><td><p>Mấy giờ bạn thức dậy?</p><p>Tôi dậy lúc 6h</p></td></tr><tr><td>20.&nbsp;&nbsp;</td><td><p>What&nbsp;time do you go to bed?</p><p>I go to bed at 11 o’çlock.</p><p>11 o’çlock.</p></td><td><p>Bạn đi ngủ lúc mấy giờ?</p><p>Tôi đi ngủ lúc 11h.</p></td></tr><tr><td>21.&nbsp;&nbsp;</td><td><p>When is your&nbsp;birthday?</p><p>My birthday&nbsp;is on May 6th.</p><p>It is on May 6th</p><p>on May 6th.</p></td><td><p>Khi nào là sinh nhật của bạn?</p><p>Sinh nhật tôi vào ngày 6 tháng 5.</p><p>Đó là ngày 6/5</p></td></tr><tr><td>22.&nbsp;&nbsp;</td><td><p>Where would you like to&nbsp;go on holiday?</p><p>I like going to Vung Tau beach.</p><p>Vung Tau beach.</p></td><td><p>Bạn thích&nbsp;đi đâu vào kỳ nghỉ?</p><p>Tôi muốn đi biển Vũng Tàu</p></td></tr><tr><td>23.&nbsp;&nbsp;</td><td><p>What is a place you would like to&nbsp;visit in your country?</p><p>I like visiting Vung Tau beach.</p></td><td><p>Nơi bạn muốn đến thăm&nbsp;ở đất nước bạn là gì?</p><p>Tôi thích đến biển Vũng tàu.</p></td></tr><tr><td>24.&nbsp;&nbsp;</td><td><p>What is your&nbsp;first language?</p><p>It is Vietnamese.</p></td><td><p>Tiếng mẹ đẻ&nbsp;của bạn là gì?</p><p>Đó là tiếng Việt.</p></td></tr><tr><td>25.&nbsp;&nbsp;</td><td><p>Who do you usually&nbsp;go to the movies&nbsp;with?</p><p>I go with my friends.</p></td><td><p>Bạn thường&nbsp;đi xem phim với ai?</p><p>Tôi đi với các bạn của tôi.</p></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p><strong>&nbsp;</strong></p><p>&nbsp;</p></div>
+    </div>
+    </div>
+
+<script>
+    document.addEventListener('keydown', function(e) {
+        // Chặn F12, Ctrl+C, Ctrl+X, Ctrl+U, Ctrl+S, Ctrl+P
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S' || e.key === 'p' || e.key === 'P')) {
+            e.preventDefault();
+        }
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+</script>
+</div>
+</div>
+    </main>
+
+    
+    
+
+</body></html>

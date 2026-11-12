@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Đăng nhập · Milaedu</title>
+<meta name="description" content="Nền tảng luyện thi Aptis online: đề thi thử sát thật, Chấm chữa writing và speaking chi tiết, lộ trình bám sát mục tiêu điểm. Học mọi lúc, mọi nơi.">
+<meta name="keywords" content="luyện thi Aptis, Aptis online, Aptis Speaking, Aptis Writing, khóa học Aptis, thi thử Aptis">
+<link rel="canonical" href="https://milaedu.com/login">
+    <meta name="robots" content="noindex, nofollow">
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Milaedu">
+<meta property="og:title" content="Đăng nhập · Milaedu">
+<meta property="og:description" content="Nền tảng luyện thi Aptis online: đề thi thử sát thật, Chấm chữa writing và speaking chi tiết, lộ trình bám sát mục tiêu điểm. Học mọi lúc, mọi nơi.">
+<meta property="og:url" content="https://milaedu.com/login">
+<meta property="og:image" content="https://milaedu.com/images/og-default.png">
+<meta property="og:locale" content="vi_VN">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Đăng nhập · Milaedu">
+<meta name="twitter:description" content="Nền tảng luyện thi Aptis online: đề thi thử sát thật, Chấm chữa writing và speaking chi tiết, lộ trình bám sát mục tiêu điểm. Học mọi lúc, mọi nơi.">
+<meta name="twitter:image" content="https://milaedu.com/images/og-default.png">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0b2b52">
+
+    <link rel="preload" as="style" href="https://milaedu.com/build/assets/app-BJzhjW0K.css" /><link rel="modulepreload" as="script" href="https://milaedu.com/build/assets/app-DDRM6NOy.js" /><link rel="stylesheet" href="https://milaedu.com/build/assets/app-BJzhjW0K.css" /><script type="module" src="https://milaedu.com/build/assets/app-DDRM6NOy.js"></script></head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+    <div class="min-h-screen flex flex-col">
+
+        
+        <header class="px-4 sm:px-6">
+            <div class="max-w-6xl mx-auto h-16 flex items-center justify-between">
+                <a href="https://milaedu.com" class="flex items-center gap-2">
+                    <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-700 to-indigo-700 text-white font-bold flex items-center justify-center">M</span>
+                    <span class="font-bold text-xl text-slate-900">Mila<span class="text-blue-700">edu</span></span>
+                </a>
+                <a href="https://milaedu.com" class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 hover:text-blue-700 transition-colors">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    Về trang chủ
+                </a>
+            </div>
+        </header>
+
+        
+        <main class="flex-1 flex justify-center items-center px-4 py-8 sm:px-6">
+            <div class="w-full max-w-md">
+                                
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-8">
+    <div class="mb-8">
+        <h1 class="text-2xl font-extrabold text-slate-900">Đăng nhập</h1>
+        <p class="text-slate-500 mt-1">Tiếp tục lộ trình luyện thi Aptis của bạn.</p>
+    </div>
+
+    <form method="POST" action="https://milaedu.com/login" class="space-y-1">
+        <input type="hidden" name="_token" value="EQuidjKuzWEh2Lp2qrg6Ua9t0MFGapYOMZr5lQt5" autocomplete="off">
+        <div class="mb-4">
+            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+            Email
+                            <span class="text-red-500">*</span>
+                    </label>
+    
+    <input 
+        id="email"
+        type="email"
+        name="email"
+        value=""
+        placeholder="email@example.com"
+        required
+        class="w-full px-4 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-200"
+    >
+
+    </div>
+        <div class="mb-4">
+            <label for="password" class="block text-sm font-medium text-gray-700 mb-2">
+            Mật khẩu
+                            <span class="text-red-500">*</span>
+                    </label>
+    
+    <input 
+        id="password"
+        type="password"
+        name="password"
+        value=""
+        placeholder="••••••••"
+        required
+        class="w-full px-4 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-200"
+    >
+
+    </div>
+
+        <label class="flex items-center gap-2 text-sm text-slate-600 mb-5">
+            <input type="checkbox" name="remember" class="rounded border-slate-300 text-blue-700 focus:ring-blue-600">
+            Ghi nhớ đăng nhập
+        </label>
+
+        <button type="submit" class="inline-flex items-center justify-center gap-1.5 font-semibold transition-colors disabled:opacity-50 px-4 py-2.5 text-sm rounded-xl bg-blue-600 hover:bg-blue-700 text-white w-full py-3">
+                Đăng nhập
+    </button>
+    </form>
+
+    <p class="text-center text-sm text-slate-600 mt-6">
+        Chưa có tài khoản?
+        <a href="https://milaedu.com/register" class="text-blue-700 font-medium hover:underline">Đăng ký ngay</a>
+    </p>
+</div>
+            </div>
+        </main>
+
+        
+        <footer class="py-6 text-center text-xs text-slate-400">
+            © 2026 Milaedu · Luyện thi Aptis
+        </footer>
+
+    </div>
+</body>
+</html>

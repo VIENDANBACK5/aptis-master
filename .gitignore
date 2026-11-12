@@ -1,0 +1,21 @@
+# Chrome profile with private tokens & session cookies
+chrome_profile/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Scraper temporary artifacts & screenshots
+*.log
+dashboard_screenshot.png
+dashboard.html
+dashboard_data.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
