@@ -1,0 +1,174 @@
+{
+  "set_id": 211,
+  "title": "Debate club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 211,
+      "questions": [
+        {
+          "id": 549,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a Debate Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "Where are you from?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where do you want to go on holiday?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do in the evening?",
+                "placeholder": ""
+              },
+              {
+                "label": "What's your favorite sports?",
+                "placeholder": ""
+              },
+              {
+                "label": "What's your frst language?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Debate club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 211,
+      "questions": [
+        {
+          "id": 412,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "What do you usually talk about with your friends?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Debate club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 211,
+      "questions": [
+        {
+          "id": 413,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Hi! Nowadays, there are many ways to update news. How do you keep up with world issues?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I often stay updated on world events by selectively reading articles or posts on online forums. It's a very convenient option for busy people who work all day."
+              },
+              {
+                "prompt": "Next week, I will participate in a debate in front of 50 people. How can I make a good impression?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I think you need to share your opinions confidently and, if possible, add some humor to make the conversation more engaging and comfortable. This will create a memorable experience for the audience"
+              },
+              {
+                "prompt": "Before deciding something, consider two sides of the problem. What do you think about that?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "This is true in all cases. If we don’t fully understand an issue before making a decision, it could lead us astray and sometimes make us regret our choices"
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Debate club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 211,
+      "questions": [
+        {
+          "id": 414,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "Debate Club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "We want to encourage many young people to join the club. Unfortunately, young people usually think that debating is not for them. What do you think are the benefits of debate and speaking in public? Please list two benefits that you feel are the most important and why.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend, also a club member. Write about how you feel and what you think the club should do. Write about 50 words.",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Debate club - Part 4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "set_id": 254,
+  "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 254,
+      "questions": [
+        {
+          "id": 783,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Which sports do people in your country like?",
+              "2. Tell me about a typical Vietnamese meal",
+              "3. Tell me the last time you saw an advertisement"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 254,
+      "questions": [
+        {
+          "id": 784,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/BcJjX41QO5VwEoSl83sApHrhYW6eqOY3s9b6EWUg.png",
+            "questions": [
+              "1. Describe the picture.",
+              "2. What outdoor activities do you like to do with your family or friends?",
+              "3: Why do you think spending time in nature is good for people’s health?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "BcJjX41QO5VwEoSl83sApHrhYW6eqOY3s9b6EWUg.png"
+          },
+          "point": 5,
+          "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 254,
+      "questions": [
+        {
+          "id": 785,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/x9t6QMpSIQVW7Wvl1M2Mf5dMpjQhOypEYmHrArjw.png",
+              "speaking_images/CAc91vtWpPBqGIHvf9cAElGW6eJjHJlN2aiTNsYy.png"
+            ],
+            "questions": [
+              "1. Compare two pictures.",
+              "2. Can you tell me about a memorable trip you had? What time of the year do you prefer to travel? Why?",
+              "Why do people like to change their place of living?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "x9t6QMpSIQVW7Wvl1M2Mf5dMpjQhOypEYmHrArjw.png",
+              "CAc91vtWpPBqGIHvf9cAElGW6eJjHJlN2aiTNsYy.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 254,
+      "questions": [
+        {
+          "id": 786,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/wQgevQQWwjyu4smRGk2xXokRWeXtq2pGUjNxLhFh.png",
+            "questions": [
+              "1. Tell me a time you watched a Sport event.",
+              "2. Why do you think some sports events attract millions of viewers worldwide?",
+              "3. Do you agree that hosting international sports events is beneficial for a country?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "wQgevQQWwjyu4smRGk2xXokRWeXtq2pGUjNxLhFh.png"
+          },
+          "point": 20,
+          "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao - Part 4"
+        }
+      ]
+    }
+  ]
+}

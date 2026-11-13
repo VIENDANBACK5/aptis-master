@@ -1,0 +1,174 @@
+{
+  "set_id": 229,
+  "title": "Sports club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 229,
+      "questions": [
+        {
+          "id": 474,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form. Use 1-5 words.",
+            "fields": [
+              {
+                "label": "What’s the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "How are you?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s your favorite hobby?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you get to work?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do in the evening?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Sports club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 229,
+      "questions": [
+        {
+          "id": 539,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Now you've become a new member of the Sports club. Fill in the form. Write in sentences. Use 20-30 words \r\nWhy did you decide to join the club?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Sports club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 229,
+      "questions": [
+        {
+          "id": 475,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a sports club. You are talking to three other members in the sports club chat room. Talk to them using sentences. Use 30-40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "When was the last time you played sports?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "The last time I played sports was two weeks ago. I played badminton with my friends in my schoolyard, which helped me release stress and unwind after several hours of studying."
+              },
+              {
+                "prompt": "I usually play sports with my friends and watch sports programs. What about you?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I often play various physical activities with my friends, such as football, volleyball, and badminton. I also watch sports programs on television to stay updated about the sports world."
+              },
+              {
+                "prompt": "I like playing sports with my friend, but my brother likes playing sports alone. What do you think about this issue?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Oh, I think playing sports alone is quite boring. However, I respect your brother’s choice. He can enjoy individual/solo sports such as fishing, swimming, going to the gym, or riding a bike.\r\n\r\n\r\nOr\r\nWell, I think everyone has their own preferences. But if you ask your brother to play sports with you, I think he’ll still enjoy it. You guys will have a wonderful time together."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Sports club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 229,
+      "questions": [
+        {
+          "id": 476,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of the sports club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Please give your suggestions about the organization of playing sports for young members.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Sports club - Part 4"
+        }
+      ]
+    }
+  ]
+}

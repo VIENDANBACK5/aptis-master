@@ -1,0 +1,139 @@
+{
+  "set_id": 239,
+  "title": "Đề 6 - cô gái đi xe bus + trẻ em chơi trong nhà - chơi ngoài trời + sử dụng mạng internet",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 239,
+      "questions": [
+        {
+          "id": 555,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "Tell me about the place you live at",
+              "What are you wearing today?",
+              "Please tell me about your favourite film star"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 239,
+      "questions": [
+        {
+          "id": 509,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/zRGXu6NikjLK2KzilJrs5AZgR3RO7hW8AefVxGTh.jpg",
+            "questions": [
+              "Describe the picture",
+              "The last time you traveled by bus?",
+              "What are some useful ways for people to avoid boredom when traveling by bus?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "zRGXu6NikjLK2KzilJrs5AZgR3RO7hW8AefVxGTh.jpg"
+          },
+          "point": 5,
+          "title": "Đề 6 - Người trong xe bus - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 239,
+      "questions": [
+        {
+          "id": 510,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/PmbrCccjXSiOkMHp6AXtKShYsnMSVvmNWBNJgjd0.jpg",
+              "speaking_images/94b6SJ1bi6FjvZ9yFeHHfsKAeTlqfTRxlkvb76pU.jpg"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "Which activity do you prefer?",
+              "Why is it important for children to take part in different activities?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "PmbrCccjXSiOkMHp6AXtKShYsnMSVvmNWBNJgjd0.jpg",
+              "94b6SJ1bi6FjvZ9yFeHHfsKAeTlqfTRxlkvb76pU.jpg"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 6 - Người trong xe bus - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 239,
+      "questions": [
+        {
+          "id": 511,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/ljhEem57eYEPSBFesnSTZ1I3cdvkhcocdhNnrNQ9.jpg",
+            "questions": [
+              "Tell me a time you used the internet?",
+              "What do you use the internet for?",
+              "Some people say that the Internet has a bad impact on our lives. What do you think?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "ljhEem57eYEPSBFesnSTZ1I3cdvkhcocdhNnrNQ9.jpg"
+          },
+          "point": 20,
+          "title": "Đề 6 - Người trong xe bus - Part 4"
+        }
+      ]
+    }
+  ]
+}

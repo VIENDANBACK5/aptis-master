@@ -1,0 +1,174 @@
+{
+  "set_id": 230,
+  "title": "TECHNOLOGY CLUB (phiên bản 1)",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 230,
+      "questions": [
+        {
+          "id": 477,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "Where are you from?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do last night?",
+                "placeholder": ""
+              },
+              {
+                "label": "First language?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favorite color?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 230,
+      "questions": [
+        {
+          "id": 478,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a technology club. Fill in the form. 20 - 30 words\r\n\r\n\r\nWhat do you usually use your laptop for?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 230,
+      "questions": [
+        {
+          "id": 479,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Tell me a time you had problems with your technology device.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Last week, I bought a new iPhone 12 Pro Max, one of the most expensive mobile phones recently. I dropped it, and the screen broke. I feel terrible and regret spending money on a new phone."
+              },
+              {
+                "prompt": "I often help Grandma use the computer. Have you ever helped anyone?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I often help my little brother fix errors on his laptop and sometimes help my parents search the Internet for information. It makes me happy when I can support them."
+              },
+              {
+                "prompt": "Modern technology makes life easier. What’s your opinion about this?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I agree that modern technology makes life easier. For example, robots are becoming increasingly popular, helping us save time with tasks like cleaning or cooking."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 230,
+      "questions": [
+        {
+          "id": 480,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "TECHNOLOGY CLUB (phiên bản 1)",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Members often post on the website's club. Lately, however, there have been a few negative comments on other members' posts. Please give your opinion on how to fix the situation.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 40,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 4"
+        }
+      ]
+    }
+  ]
+}

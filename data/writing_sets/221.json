@@ -1,0 +1,174 @@
+{
+  "set_id": 221,
+  "title": "Museum Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 221,
+      "questions": [
+        {
+          "id": 542,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a museum club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "What's your hobby?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you get to work?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do in the evening?",
+                "placeholder": ""
+              },
+              {
+                "label": "What kinds of movies do you like?",
+                "placeholder": ""
+              },
+              {
+                "label": "What's your favorite food?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Museum Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 221,
+      "questions": [
+        {
+          "id": 543,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of the Museum Club. Fill in the form. Write in sentences. Use 20–30 words. Recommended time: 7 minutes.\r\nTell me the last time you went to a museum?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Museum Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 221,
+      "questions": [
+        {
+          "id": 446,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a museum club. You are talking to three other members in the museum club chat room. Talk to them using sentences. Use 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Tell a museum you visited when you were a child?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "When I was a child, I visited the Vietnam National Museum with my parents. I saw many old objects and learned about Vietnamese history. It was an interesting and memorable experience."
+              },
+              {
+                "prompt": "Which do you prefer, the History Museum or Sports Museum?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I prefer the History Museum because I enjoy learning about famous people and historical events. It helps me understand the past better and gives me a lot of useful knowledge."
+              },
+              {
+                "prompt": "Nowadays, many museums use technology to create online exhibitions. Will that be successful?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Yes, I think it will be successful because people can visit museums from anywhere. Online exhibitions are convenient, save time, and encourage more people to learn about history and culture."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Museum Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 221,
+      "questions": [
+        {
+          "id": 447,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "Museum Club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Currently, the museum club is considering that members may pay a fee to visit museums\r\nPlease give your opinion?",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Museum Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

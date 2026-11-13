@@ -1,0 +1,174 @@
+{
+  "set_id": 217,
+  "title": "GARDEN CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 217,
+      "questions": [
+        {
+          "id": 433,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What's your job?",
+                "placeholder": ""
+              },
+              {
+                "label": "What are you going to do tomorrow?",
+                "placeholder": ""
+              },
+              {
+                "label": "What will you do after work?",
+                "placeholder": ""
+              },
+              {
+                "label": "What sports do you like?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favorite color?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "GARDEN CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 217,
+      "questions": [
+        {
+          "id": 434,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Describe a garden or a park near your home? Write in sentences. Use 20-30 words.",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "GARDEN CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 217,
+      "questions": [
+        {
+          "id": 435,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a garden club. You are talking to three other members in the garden club chat room. Talk to them using sentences. Use 30-40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "I don't live in the countryside, so when I want to appreciate nature, I have to go to the park. How about you?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I also like going to the park because I live in the city, where there is not much nature. The park helps me relax, enjoy fresh air, and feel closer to nature after busy days."
+              },
+              {
+                "prompt": "I am planning to buy a house, do you think I should buy a house with a garden or without a garden?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I think you should buy a house with a garden because it gives you space to grow plants and relax. It is also a great place for family activities and enjoying fresh air at home."
+              },
+              {
+                "prompt": "People should pay a small fee to maintain public parks and gardens. What do you think?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I agree people should pay a small fee to maintain public parks and gardens. The money can help keep them clean, safe, and beautiful, so everyone can enjoy a better environment and relaxing space."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "GARDEN CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 217,
+      "questions": [
+        {
+          "id": 436,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of the garden club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "The city council wants to encourage more people to participate in gardening. The council has two proposals. One is to plant 50 new trees and new species of flowers at the local park. The second is to offer practical workshops in gardening skills at the local college. Which proposal should we support?",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "GARDEN CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

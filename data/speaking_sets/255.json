@@ -1,0 +1,139 @@
+{
+  "set_id": 255,
+  "title": "Đề 18: chơi game + thành phố - trang trại - thành tựu",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 255,
+      "questions": [
+        {
+          "id": 787,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Tell me about your friend",
+              "2. Describe the area where you live.",
+              "3. Tell me a time you went exercise with other."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 255,
+      "questions": [
+        {
+          "id": 788,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/gqjh4erlTE1QQMsL5k8wLMzs0qRTHqFIQJkKDTRP.png",
+            "questions": [
+              "1. Describe the picture.",
+              "2. What do you usually use your computer for?",
+              "3. Why do so many people enjoy playing games these days?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "gqjh4erlTE1QQMsL5k8wLMzs0qRTHqFIQJkKDTRP.png"
+          },
+          "point": 5,
+          "title": "Đề 18: chơi game + thành phố - trang trại  - thành tựu - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 255,
+      "questions": [
+        {
+          "id": 789,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/TeLopDqISlaFGIVrlZLRjpKYiuga88xuMAE3kVO6.png",
+              "speaking_images/sPQBowFIE7kefWsHTegjKzXdwVrqE7GcMy3NXyk7.png"
+            ],
+            "questions": [
+              "Tell me what you see in the two pictures?",
+              "2. What are your attractions in the city and the countryside?",
+              "3. Do you think more people will live in cities in the future?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "TeLopDqISlaFGIVrlZLRjpKYiuga88xuMAE3kVO6.png",
+              "sPQBowFIE7kefWsHTegjKzXdwVrqE7GcMy3NXyk7.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 18: chơi game + thành phố - trang trại  - thành tựu - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 255,
+      "questions": [
+        {
+          "id": 790,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/FhFVwDe2OFUIyWsJOwwE5XxFalyflsrqkzQHuXqU.jpg",
+            "questions": [
+              "1. Tell me an achievement you are proud of.",
+              "2. How did you feel when you achieved it?",
+              "3. What qualities do people need in order to achieve success?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "FhFVwDe2OFUIyWsJOwwE5XxFalyflsrqkzQHuXqU.jpg"
+          },
+          "point": 20,
+          "title": "Đề 18: chơi game + thành phố - trang trại  - thành tựu - Part 4"
+        }
+      ]
+    }
+  ]
+}

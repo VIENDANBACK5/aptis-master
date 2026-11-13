@@ -1,0 +1,139 @@
+{
+  "set_id": 248,
+  "title": "Đề 15: Treo tranh + ăn ở nhà hàng ngoài trời - ăn cùng gia đình - kể một lần đi xa",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 248,
+      "questions": [
+        {
+          "id": 605,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Please tell me about your favourite food",
+              "2. How did you come here?",
+              "3. Tell me about your hobbies?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 248,
+      "questions": [
+        {
+          "id": 536,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/RUCBcykBKUgmBpXcWVk0f8Q90e5gFBADqxsqGpuG.jpg",
+            "questions": [
+              "Describe the picture",
+              "Have you ever repaired and rearranged things in your home?",
+              "Why do people enjoy changing their home decor to make it look different from the original?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "RUCBcykBKUgmBpXcWVk0f8Q90e5gFBADqxsqGpuG.jpg"
+          },
+          "point": 5,
+          "title": "Đề 15: Part 4; kể một lần đi xa - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 248,
+      "questions": [
+        {
+          "id": 537,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/JHJuoxvyTHP7ZnneNfCHPs9MUBqiZnc9098k5p7F.jpg",
+              "speaking_images/JeRu9zkiyZ8x4bXXg4JYkaut88GCcPIuzRQyj6sg.png"
+            ],
+            "questions": [
+              "Tell me what you see in two pictures",
+              "What are the benefits of each type of eating?",
+              "People say that it is better to eat with others than eat alone. What do you think?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "JHJuoxvyTHP7ZnneNfCHPs9MUBqiZnc9098k5p7F.jpg",
+              "JeRu9zkiyZ8x4bXXg4JYkaut88GCcPIuzRQyj6sg.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 15: Part 4; kể một lần đi xa - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 248,
+      "questions": [
+        {
+          "id": 538,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/dtQajPvUN9l81o9agELjM4WCUoesbniBDMKTa4kC.jpg",
+            "questions": [
+              "Describe a time when you had to travel far away.",
+              "How did you feel?",
+              "Why do people need to respect the culture of the place they visit?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "dtQajPvUN9l81o9agELjM4WCUoesbniBDMKTa4kC.jpg"
+          },
+          "point": 20,
+          "title": "Đề 15: Part 4; kể một lần đi xa - Part 4"
+        }
+      ]
+    }
+  ]
+}

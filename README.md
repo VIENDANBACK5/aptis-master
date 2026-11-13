@@ -1,74 +1,45 @@
-# Aptis Master - Hệ Thống Luyện Thi Aptis Trực Tuyến & Ngoại Tuyến
+# Aptis Master - Hệ Thống Luyện Thi Aptis Trực Tuyến & Ngoại Tuyến (Trọn Bộ 4 Kỹ Năng)
 
-Hệ thống luyện thi Aptis toàn diện với đầy đủ ngân hàng câu hỏi, âm thanh gốc (243 audio files), đáp án chuẩn 100% cùng lời giải chi tiết và cẩm nang chiến thuật làm bài. Ứng dụng chạy mượt mà cả **Offline trên máy tính** và **Online trên Netlify**.
-
----
-
-## 🎯 Các tính năng chính
-
-- 🎧 **Listening (Parts 1, 2, 3, 4):** Đầy đủ 243 bài nghe audio MP3, hỗ trợ thanh tua bài nghe (seekbar), chỉnh tốc độ phát (0.8x, 1.0x, 1.2x), đếm số lần nghe và transcript kèm dịch nghĩa.
-- 📖 **Reading (Parts 1, 2, 3, 4):** Điền từ đoạn văn, sắp xếp câu văn thành đoạn hoàn chỉnh (kèm nút đổi vị trí ⬆ ⬇), ghép người với ý kiến, ghép tiêu đề đoạn văn.
-- ✍️ **Grammar & Vocabulary:** Bộ đề ngữ pháp và từ vựng phong phú, giải thích chi tiết từng câu.
-- 💡 **Instant Evaluation & Explanations:** Chấm điểm tức thời, hiển thị ngay đáp án đúng/sai kèm giải thích chi tiết.
-- 💾 **Lưu tiến độ học tập (Auto-save):** Tự động ghi nhớ các câu đã làm qua `localStorage`.
-- 📚 **Cẩm nang chiến thuật:** 12 bài viết chiến thuật độc quyền từ giáo viên Aptis.
+Hệ thống luyện thi Aptis toàn diện nhất với đầy đủ ngân hàng câu hỏi, âm thanh gốc, hình ảnh mô tả tranh, đáp án chính thức 100% cùng cẩm nang chiến thuật và bài mẫu chuẩn CEFR.
 
 ---
 
-## 🚀 Hướng Dẫn Deploy Lên Netlify (Chỉ 1 Phút)
+## 🎯 Trọn Bộ 4 Kỹ Năng Aptis + Grammar & Vocabulary
 
-Hệ thống được thiết kế theo kiến trúc **JAMstack tĩnh thuần túy** (HTML5 + Tailwind CSS + Vanilla JS + Static JSON & MP3). Do đó, bạn có thể triển khai lên Netlify hoàn toàn miễn phí và không cần cấu hình build phức tạp:
+1. 🎧 **Listening (Parts 1, 2, 3, 4):**
+   - 194 câu hỏi luyện thi, 243 file nghe MP3 gốc chất lượng cao.
+   - Hỗ trợ thanh tua (seekbar), chỉnh tốc độ nghe (0.8x, 1.0x, 1.2x), đếm số lần nghe và transcript lời thoại kèm lời giải chi tiết.
 
-### Cách 1: Kết nối trực tiếp qua GitHub (Khuyên dùng)
-1. Tạo một repository mới trên **GitHub** (ví dụ: `aptis-master` hoặc `aptis-practice`).
-2. Push toàn bộ mã nguồn lên repository:
-   ```bash
-   git remote add origin https://github.com/<tai-khoan-cua-ban>/<ten-repo>.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Đăng nhập vào [Netlify](https://app.netlify.com/):
-   - Chọn **Add new site** > **Import an existing project**.
-   - Chọn **GitHub** và chọn repo bạn vừa push lên.
-   - Các thông số thiết lập:
-     - **Base directory:** *(để trống)*
-     - **Build command:** *(để trống)*
-     - **Publish directory:** `.` (hoặc để trống)
-   - Bấm **Deploy site**.
-4. Netlify đã cấu hình sẵn file `netlify.toml` tự động tối ưu cache và phân phối byte-range cho audio files. Trang web sẽ sẵn sàng truy cập ngay lập tức!
+2. 📖 **Reading (Parts 1, 2, 3, 4):**
+   - 104 câu hỏi bao gồm: điền từ hoàn thành email (Part 1), sắp xếp trật tự câu văn thành đoạn hoàn chỉnh có nút ⬆ ⬇ (Part 2), ghép ý kiến 4 người (Part 3), nối tiêu đề đoạn văn (Part 4).
 
-### Cách 2: Kéo thả thủ công (Netlify Drop)
-1. Đăng nhập [Netlify Drop](https://app.netlify.com/drop).
-2. Kéo toàn bộ thư mục `Aptis` thả vào giao diện Netlify Drop (lưu ý không cần kéo thư mục `chrome_profile/`).
+3. 🗣️ **Speaking (20 Bộ Đề Thi Thử):**
+   - Đầy đủ 20 đề thi trọn gói (Đề 1 đến Đề 20) chia đều 4 Part chuẩn Aptis:
+     - **Part 1:** 3 câu hỏi thông tin cá nhân kèm đồng hồ 30 giây.
+     - **Part 2:** Tả tranh (ảnh màu chất lượng cao) + 2 câu hỏi liên hệ kèm đồng hồ 45 giây.
+     - **Part 3:** So sánh 2 bức tranh song song (side-by-side) + 2 câu hỏi kèm đồng hồ 45 giây.
+     - **Part 4:** Thảo luận tình huống sâu, đồng hồ 2 giai đoạn: 60s Chuẩn bị + 120s Trả lời liên tục.
+   - Tải sẵn toàn bộ 79 hình ảnh tả tranh sắc nét.
 
----
+4. 📝 **Writing (30 Bộ Đề Câu Lạc Bộ):**
+   - Đầy đủ 30 CLB thực tế (Art Club, Travel Club, Technology Club, Book Club...):
+     - **Part 1:** Điền biểu mẫu 5 câu hỏi ngắn.
+     - **Part 2:** Viết đoạn văn ngắn 20-30 từ.
+     - **Part 3:** Trả lời 3 tin nhắn thảo luận trong nhóm (30-40 từ mỗi tin).
+     - **Part 4:** Đọc thông báo email từ CLB và viết 2 email: Email thân mật cho bạn bè (50 từ) & Email trang trọng cho Ban Quản Trị (120-150 từ).
+   - Tích hợp **bộ đếm số từ tự động thời gian thực (Live Word Counter)** và **bài viết mẫu chuẩn B2/C1**.
 
-## 💻 Hướng Dẫn Chạy Offline Trên Máy Tính
+5. ✍️ **Grammar & Vocabulary (Đề 1, 2, 3):**
+   - 70 câu hỏi ngữ pháp và từ vựng chọn lọc, giải thích chi tiết từng câu.
 
-Không cần kết nối internet hay tài khoản:
-
-- **Cách nhanh nhất:** Nhấp đúp chuột vào file **`Chay_On_Luyen_Aptis.bat`**. Trình duyệt sẽ tự động mở tại `http://localhost:8080`.
-- **Dùng dòng lệnh:**
-  ```powershell
-  python app.py
-  ```
+6. 📚 **Cẩm Nang & Mẹo Ôn Thi:**
+   - 12 bài viết chiến thuật độc quyền từ giáo viên Aptis: cách nâng band Speaking B2/C, form viết email, ý tưởng Part 4, chống liệt Speaking & Writing...
 
 ---
 
-## 📁 Cấu Trúc Thư Mục
+## 🚀 Truy Cập & Triển Khai
 
-```
-Aptis/
-├── index.html                     # Giao diện ứng dụng chính (Single Page Application)
-├── netlify.toml                   # Cấu hình cache, CORS và byte-range cho Netlify
-├── README.md                      # Tài liệu dự án
-├── HUONG_DAN_SU_DUNG.md           # Hướng dẫn ôn luyện chi tiết
-├── app.py                         # Local server hỗ trợ Range Request cho audio
-├── Chay_On_Luyen_Aptis.bat        # Launcher 1-click cho Windows
-├── data/
-│   ├── all_questions_processed.json  # Toàn bộ câu hỏi, đáp án, transcript
-│   ├── all_instructions.json     # Cẩm nang 12 chiến thuật ôn thi
-│   ├── APTIS_TONG_HOP_DE_VA_DAP_AN.md # File markdown tổng hợp đề và giải
-│   └── audio/                     # 243 file audio MP3 các bài nghe Aptis
-```
-
+- **Website Trực Tuyến:** [https://aptis-master.netlify.app/](https://aptis-master.netlify.app/)
+- **Chạy Ngoại Tuyến (Offline trên máy tính):**
+  - Nhấp đúp chuột vào file **`Chay_On_Luyen_Aptis.bat`**
+  - Hoặc chạy lệnh: `python app.py` (Mở trình duyệt tại `http://localhost:8080`)

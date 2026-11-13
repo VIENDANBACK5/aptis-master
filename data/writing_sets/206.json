@@ -1,0 +1,174 @@
+{
+  "set_id": 206,
+  "title": "Business club.",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 206,
+      "questions": [
+        {
+          "id": 393,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What is your hobby?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favourite food?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favourite time of a day?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you get to work?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where are you from?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Business club. - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 206,
+      "questions": [
+        {
+          "id": 394,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Now you've become a new member of the Business club. Fill in the form. Write in sentences. Use 20-30 words\r\n Where do you usually go shopping?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Business club. - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 206,
+      "questions": [
+        {
+          "id": 395,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are speaking to fellow members of the Business club in a group chat. Respond to them in full sentences (30-40 words per answer).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "I know there are a lot of successful small businesses these days. Tell me about a successful small business in your area.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I am going to tell you about a successful small business in my area. The coffee shop is called “Highland”. It is well-known for its cozy atmosphere, excellent coffee and friendly staff. They offer unique drinks like coconut coffee and seasonal fruit smoothies. Moreover, it is beautifully decorated which allows customers to take nice pictures."
+              },
+              {
+                "prompt": "I have a friend who wants to open a second coffee shop. She opened her first one a year ago and it was quite successful. What advice do you have to help her be more successful in her second shop?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "There is a lot of advice to help your friend succeed in her second shop. Firstly, she should choose the right location. Secondly, it is essential to provide high-quality products. Besides, the shop should offer new drinks and snacks. Finally, the staff should be friendly and professional."
+              },
+              {
+                "prompt": "Can you tell me what qualities and skills are needed to create a successful small business?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "To create a successful small business, we need creativity, good communication, problem-solving skills, and strong leadership. We should also be patient, flexible, and willing to learn from mistakes and market changes."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Business club. - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 206,
+      "questions": [
+        {
+          "id": 396,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "Business club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Currently our club is planning to support local individuals who want to start up a small business. The club has 2 proposals: First, create a call center where customers can call to ask questions and request help. Second, create free courses to support local universities nearby. Let us know which option you would use and why.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write a short email to your friend (about 50 words) about your choice and the idea.",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Write an email to the manager of the club (about 120-150 words) about your choice and why.",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Business club. - Part 4"
+        }
+      ]
+    }
+  ]
+}

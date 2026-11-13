@@ -1,0 +1,174 @@
+{
+  "set_id": 209,
+  "title": "Community Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 209,
+      "questions": [
+        {
+          "id": 404,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What's the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you usually do in the evening?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where would you like to live?",
+                "placeholder": ""
+              },
+              {
+                "label": "Which season of the year do you like?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where do you like to go in the summer?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Community Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 209,
+      "questions": [
+        {
+          "id": 405,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a Community Club. Fill in the form. Write in sentences. Use 20-30 words.\r\nWhere do you usually go shopping?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Community Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 209,
+      "questions": [
+        {
+          "id": 406,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a Community Club. You are talking to three other members in the Community Club chat room. Talk to them using sentences. Use 30-40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "My friend wants to go to the hair salon, but her car isn't working. Can you suggest some ways for her to get there?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "She can book a local taxi through apps like Grab or call a nearby taxi company. It’s convenient and reliable."
+              },
+              {
+                "prompt": "Volunteering provides great learning opportunities. helps others a lot. Do you agree?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Thank you for your interesting question. I completely agree with this idea because volunteering helps us expand our knowledge and learn new skills. Additionally, it gives us the chance to relax and unwind after a busy day."
+              },
+              {
+                "prompt": "Do you agree with the view that volunteering is a form of learning, especially for young people? Why?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I completely agree with this idea. Volunteering is a great way for young people to learn because it gives them real-life experiences they can’t get in a classroom. It helps them build important skills like teamwork, communication, and solving problems. It also teaches them about social issues and how to handle different situations."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Community Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 209,
+      "questions": [
+        {
+          "id": 407,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a Community Club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Our club needs support with several tasks this year. First, we need more members who can actively participate in our ongoing projects. Second, we are looking for creative ideas\r\nto develop new activities. Could you share some suggestions with us to help support our projects this year?",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend. Write about your feelings and what you would like to do. Write about 50 words.",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Community Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

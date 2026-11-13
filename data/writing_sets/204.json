@@ -1,0 +1,174 @@
+{
+  "set_id": 204,
+  "title": "Art Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 204,
+      "questions": [
+        {
+          "id": 385,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What kinds of art do you like?",
+                "placeholder": ""
+              },
+              {
+                "label": "Who is your favorite artist?",
+                "placeholder": ""
+              },
+              {
+                "label": "How often do you draw or paint?",
+                "placeholder": ""
+              },
+              {
+                "label": "What art materials do you usually use?",
+                "placeholder": ""
+              },
+              {
+                "label": "Why do you want to join the art club?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Art Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 204,
+      "questions": [
+        {
+          "id": 386,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Tell me a painting or a photo that you like",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Art Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 204,
+      "questions": [
+        {
+          "id": 387,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I also kept a painting of my family for a long time. I have many memories of it. Whenever I look at the photo, it reminds me of happy moments with my loved ones."
+              },
+              {
+                "prompt": "I would like to learn to paint, but I have not found an effective way. Should I take a course at my local college? Please give me some advice.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I think you should definitely take a course at your local college. The teachers can guide you step by step, and you’ll have access to resources that make learning easier. Plus, after completing the course, you’ll receive a certificate and have opportunities to connect with like-minded people."
+              },
+              {
+                "prompt": "Street art—where people paint on buildings—is becoming popular. However, some people criticize it as bad. What is your opinion?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Street art is a unique and creative form of expression that can make public spaces more beautiful. However, it’s essential to paint in appropriate locations and convey meaningful ideas. When done thoughtfully, street art can inspire communities and enhance urban environments."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Art Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 204,
+      "questions": [
+        {
+          "id": 388,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "Art Club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "The Art Club is organizing a talk to the public to attract more attention. We are going to invite an artist to give a talk to the members. As a club member, could you suggest an artist to join our conversation, and what topic should they share to gain more attention? We would like to have both young and old members.”",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend – also a member of the",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Write an email to the organizer of the plan.",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Art Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

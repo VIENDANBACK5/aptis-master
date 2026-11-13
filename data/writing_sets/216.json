@@ -1,0 +1,174 @@
+{
+  "set_id": 216,
+  "title": "Food Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 216,
+      "questions": [
+        {
+          "id": 547,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a Food Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "What is your full name?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your surname?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do yesterday?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do every morning?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you do in your free time?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Food Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 216,
+      "questions": [
+        {
+          "id": 430,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "What did you eat for breakfast?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Food Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 216,
+      "questions": [
+        {
+          "id": 431,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Nowadays, many people order pizza instead of cooking by themselves when busy. What about you? When you are busy, what do you usually eat?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Fast food has become very trendy due to its convenience. It saves time and effort after a long day of work. Pizza is also budget-friendly compared to homemade meals. When I’m busy, I often order pizza too."
+              },
+              {
+                "prompt": "Is it essential for children to participate in cooking courses at school?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Yes, it’s very important. Learning to cook makes children more independent and able to care for themselves. It also helps strengthen family bonds when they prepare meals together, making it a meaningful and practical life skill."
+              },
+              {
+                "prompt": "Should a tax be imposed on unhealthy food?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": ""
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Food Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 216,
+      "questions": [
+        {
+          "id": 432,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a food club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Our club will meet next week and invite some chefs to our town. However, we have new members in this meeting who just started learning to cook. Therefore, please share your ideas for this event and ways to encourage people to attend our club to learn how to cook.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Food Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

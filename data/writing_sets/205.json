@@ -1,0 +1,174 @@
+{
+  "set_id": 205,
+  "title": "Book club: 1",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 205,
+      "questions": [
+        {
+          "id": 389,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What’s your favorite hobby?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you get to work?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do in the evening?",
+                "placeholder": ""
+              },
+              {
+                "label": "What kinds of movies do you like?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s your favorite food?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Book club: 1 - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 205,
+      "questions": [
+        {
+          "id": 390,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a book club. Fill in the form. Write in sentences. Use 20 – 30 words. \r\nPlease tell me about your free time and hobbies?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Book club: 1 - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 205,
+      "questions": [
+        {
+          "id": 391,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a book club. You are talking to three other members in the book club chat room. Talk to them using sentences. Use 30-40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "A: Hi! Welcome to the club. When and where do you like reading books?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I really like reading at the park near my house in the morning because it helps me improve my knowledge, learn about many things, and unwind after a hard day’s work.\r\n\r\nThank you for welcoming me to the club! I enjoy reading books at the park near my house every morning. I particularly love history books because they help me understand the past better.\r\nOr\r\nI love reading books in my room before going to bed. It helps me relax after a long, hard day and sleep better."
+              },
+              {
+                "prompt": "B: Hi! I want to give my friend a book. What would you suggest I buy?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "You should give your friend the book “Chicken Soup for the Soul\" because it is interesting. I really like this book because it helps me learn about many things, improve my knowledge, and unwind after a hard day’s work. \r\n\r\nI recommend Truyen Kieu by Nguyen Du. It’s an engaging story filled with poetry and meaningful lessons. I believe your friend would enjoy it and appreciate its cultural significance.\r\nOr\r\nIf your friend enjoys fantasy novels, I suggest the Harry Potter series. It’s exciting and widely loved. I own the entire series and adore it; your friend might enjoy it too."
+              },
+              {
+                "prompt": "C: Do online books replace traditional books? What do you think about that?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Both online and traditional books have their advantages and disadvantages. However, online books require devices and internet access, so they cannot entirely replace traditional books, which offer an authentic reading experience.\r\n\r\n\r\nor\r\nAs someone who enjoys both, I don’t think online books can fully replace traditional ones. While digital books are convenient, they can strain your eyes, and many people still prefer printed books for their authentic reading experience."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Book club: 1 - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 205,
+      "questions": [
+        {
+          "id": 392,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a book club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "The club will hold a talk show/event. Who do you want to invite? What is the theme? Please suggest both young and old people",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write to a friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Write an email to the manager of the club. (120-150 words)",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Book club: 1 - Part 4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "set_id": 227,
+  "title": "SCIENCE CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 227,
+      "questions": [
+        {
+          "id": 466,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What is your favorite color?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your first school?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you do in your free time?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favorite sport?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do last night?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "SCIENCE CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 227,
+      "questions": [
+        {
+          "id": 467,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Do you like Science? Why? (Write in sentences about 20-30 words)",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "SCIENCE CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 227,
+      "questions": [
+        {
+          "id": 468,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are in a club chat room with three club members. You will answer and exchange some opinions with those three people. Write answers in sentences about 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Why did you decide to join our Science Club? How often can you attend?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I am interested in science, and my best friend is a club member, so I decided to join. Additionally, science has improved my thinking abilities and problem-solving skills. I go to school on weekdays, so I can participate in the club on weekends."
+              },
+              {
+                "prompt": "You learned about Science in school in the past. Do you remember anything about Science?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Well, I have a keen interest in science. Back when I was in secondary school, I was fascinated by the subject. I still remember some basic facts, such as: First, the Earth revolves around the Sun. Second, water boils at 100 degrees Celsius. Finally, I remember information about the Big Bang."
+              },
+              {
+                "prompt": "Who is your favorite inventor or scientist? Why?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I admire Marie Curie greatly. She was the first woman in the world to receive a Nobel Prize. She was a hardworking woman and was deeply passionate about her research."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "SCIENCE CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 227,
+      "questions": [
+        {
+          "id": 469,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You have received an email from the Science Club about next month&amp;#039;s club exhibition.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Our club is preparing to organize the science exhibition next month. Both young people and older adults can take part in our activities. We are planning for our exhibition. Could you contribute some ideas for our event team? Does our club issue tickets for participants? I would like to hear your contribution.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "SCIENCE CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

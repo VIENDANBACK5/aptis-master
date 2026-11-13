@@ -1,0 +1,139 @@
+{
+  "set_id": 237,
+  "title": "Đề 4 - Cô gái đi siêu thị + ăn một mình ở nhà - ăn pizza cùng bạn + thể thao mạo hiểm",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 237,
+      "questions": [
+        {
+          "id": 552,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Please tell me about the last time you saw an advertisement.",
+              "2. What sports do people like in your country?",
+              "3. What is the best way to travel around your country?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 237,
+      "questions": [
+        {
+          "id": 503,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/TW4OqdqjrWEQhQyXTdHCfDHQkwv5dRqEC2lQf6OW.png",
+            "questions": [
+              "Describe the picture?",
+              "Tell me the time you went to the supermarket?",
+              "3. Why do people love shopping on the Internet?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "TW4OqdqjrWEQhQyXTdHCfDHQkwv5dRqEC2lQf6OW.png"
+          },
+          "point": 5,
+          "title": "Đề 4 - Mua hàng - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 237,
+      "questions": [
+        {
+          "id": 504,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/82V2JGgO6L9AuuHyH32U1pEuSqYIKKHp4FeS7Zo3.png",
+              "speaking_images/wq07arwSYgyv7KE60d2PNEODjm0zpjVqufCLG3fQ.webp"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "Do you prefer eating at home or eating out?",
+              "Why do people now like eating unhealthy food?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "82V2JGgO6L9AuuHyH32U1pEuSqYIKKHp4FeS7Zo3.png",
+              "wq07arwSYgyv7KE60d2PNEODjm0zpjVqufCLG3fQ.webp"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 4 - Mua hàng - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 237,
+      "questions": [
+        {
+          "id": 505,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/tCLouY6pTiKWKR4i1XJWcT3GrOV7llN6GcfXkG75.jpg",
+            "questions": [
+              "Tell me a time you tried to play an extreme sport?",
+              "How did you feel?",
+              "Only adults are allowed to play extreme sports. What do you think about it?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "tCLouY6pTiKWKR4i1XJWcT3GrOV7llN6GcfXkG75.jpg"
+          },
+          "point": 20,
+          "title": "Đề 4 - Mua hàng - Part 4"
+        }
+      ]
+    }
+  ]
+}

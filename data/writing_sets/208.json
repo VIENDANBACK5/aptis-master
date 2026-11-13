@@ -1,0 +1,174 @@
+{
+  "set_id": 208,
+  "title": "College",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 208,
+      "questions": [
+        {
+          "id": 550,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You have 5 messages from a member of the College. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "Which sport do you like to play the most?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do last night?",
+                "placeholder": ""
+              },
+              {
+                "label": "Do you like shopping?",
+                "placeholder": ""
+              },
+              {
+                "label": "What are you wearing today?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favorite kind of music?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "College - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 208,
+      "questions": [
+        {
+          "id": 401,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Please tell us when you can attend courses and what you want to study.",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "College - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 208,
+      "questions": [
+        {
+          "id": 402,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "A. Hi! Welcome to college. What course are you doing, and why did you choose it?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Hi! Thank you for your interesting question. I am attending an English course. I really like studying English at college because it allows me to make friends with many people.\r\n\r\n\r\nAt present, I chose accounting as my major because I have a passion for math. Moreover, when I complete a complex calculation, I feel like I am walking on air. I truly love my course."
+              },
+              {
+                "prompt": "Welcome! How do you feel about the college so far?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Hi! Thank you for your interesting question. I think college is interesting. I really like studying at this college because it enables me to make friends with many people. \r\n\r\n\r\nStudying at college is very different from studying in high school. College encourages students to learn independently, which is a new and exciting challenge for me"
+              },
+              {
+                "prompt": "Did you hear that the college sports club has closed? What do you think about this?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I am not excited about this situation. I really like playing sports in this sports club because it helps me improve my health and unwind after a hard day at work.\r\n\r\n\r\nI feel disappointed to hear about the sports club closing. It’s upsetting because I just joined the club in June. I hope the news isn’t accurate, as the club is such an important part of student life."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "College - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 208,
+      "questions": [
+        {
+          "id": 403,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a college. You received this email from the college administrator.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "We are writing to inform you that the end-of-course exams will occur two weeks earlier. Your exam, scheduled for the 21st of next month, will now happen on the 7th of next month. We apologize for any difficulty this may cause.",
+              "sign_off": "Best regards,\r\nCollege Administrator"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend. Write about your feelings and what the college should do about the situation. Write about 50 words.",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the administrator",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "College - Part 4"
+        }
+      ]
+    }
+  ]
+}

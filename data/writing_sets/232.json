@@ -1,0 +1,174 @@
+{
+  "set_id": 232,
+  "title": "TV Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 232,
+      "questions": [
+        {
+          "id": 485,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a TV club. Fill in the form. Use 1-5 words.",
+            "fields": [
+              {
+                "label": "What is your name?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you do?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favorite day?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you travel around your city/town?",
+                "placeholder": ""
+              },
+              {
+                "label": "What time do you get up?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "TV Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 232,
+      "questions": [
+        {
+          "id": 486,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Do you usually watch TV?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "TV Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 232,
+      "questions": [
+        {
+          "id": 487,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "What do you like to do when you watch TV?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "When I watch TV, I usually sit on the sofa and have a drink. I like watching movies and sports programs. Sometimes, I eat some snacks while watching TV. I enjoy these activities because they help me relax after a busy day."
+              },
+              {
+                "prompt": "Do you like watching TV alone or with others?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I prefer watching TV with my family because we can enjoy the programs together. We can talk about interesting scenes and share our opinions. Moreover, watching TV together gives us more opportunities to spend quality time with each other."
+              },
+              {
+                "prompt": "Is it good for children to watch TV programs too much?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "No, I don't think it is good for children to watch too much TV. It can hurt their eyes and reduce the time they spend playing outside. Children should also read books, exercise, and spend time with their family."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "TV Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 232,
+      "questions": [
+        {
+          "id": 488,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of the TV club and you received an email",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "-The club is planning to organize a conference to invite all members. The members come from different countries and have only communicated with each other online before. The club would like to get your suggestions on the venue of this conference and the activities held during the conference.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "TV Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

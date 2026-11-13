@@ -1,0 +1,174 @@
+{
+  "set_id": 218,
+  "title": "HEALTH CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 218,
+      "questions": [
+        {
+          "id": 437,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a health club. Fill in the form. Use 1 – 5 words.",
+            "fields": [
+              {
+                "label": "Where are you from?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you do in your free time?",
+                "placeholder": ""
+              },
+              {
+                "label": "First language?",
+                "placeholder": ""
+              },
+              {
+                "label": "Who do you usually go to the movies with?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "HEALTH CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 218,
+      "questions": [
+        {
+          "id": 438,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a health club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\nPlease tell me what classes you want to take and what times and days suit you.",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "HEALTH CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 218,
+      "questions": [
+        {
+          "id": 439,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a health club. You are talking to three other members in the health club chat room. Talk to them using sentences. Use 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Hi! Welcome to the club. How did you hear about the club?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Hi. Thank you for your interesting question. I heard about the club from my friends. I really like joining this club because it helps me improve my health and unwind after a hard working day.\r\n\r\nI found out about this club through my friends who recommended it to me. I also came across it on the internet and saw positive reviews that motivated me to join."
+              },
+              {
+                "prompt": "Hi! What do you hope to achieve by joining the club?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I hope it will help me avoid health problems such as obesity, keep fit, and unwind after a hard working day. Moreover, when I join the club, I can make new friends with people who have the same hobbies. \r\n\r\nBy joining the club, I hope to meet new people, improve my health, and maintain a balanced lifestyle. I plan to exercise regularly and eat a healthy, balanced diet to prevent illness."
+              },
+              {
+                "prompt": "What do you think of the health club facilities? Should we change anything?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I think the health club facilities are very good. In my opinion, we should not do anything. I really like doing this club because it can help me to stay away from health problems such as obesity, keep fit, and unwind after a busy day. \r\n\r\nI think the facilities are good and meet the basic needs of members. However, upgrading some equipment, like adding advanced workout machines, would improve the overall experience and quality of the club.\r\nOr\r\nPersonally, I find health club facilities quite good. They can satisfy the essential demands of club members. However, it would be wonderful if the advanced full-body workout machines could be equipped in a physical location to improve our club's quality."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "HEALTH CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 218,
+      "questions": [
+        {
+          "id": 440,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "A manager of the health club has an announcement for the club’s members",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Because of personal reasons, the instructor will be away for two weeks. We will use our facilities by ourselves without the assistance of an instructor. I am so sorry about this situation and hope you are doing well in the next two weeks.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "HEALTH CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

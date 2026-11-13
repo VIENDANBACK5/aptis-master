@@ -1,0 +1,139 @@
+{
+  "set_id": 234,
+  "title": "Đề 1: 2 bố con đá bóng + cưỡi lạc đà - xe ngựa + cố gắng đạt mục tiêu",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 234,
+      "questions": [
+        {
+          "id": 553,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "What do you like doing in your free time?",
+              "Tell me the best way to travel around your country.",
+              "Describe your journey here today."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 234,
+      "questions": [
+        {
+          "id": 493,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/WuRZAQAcjUpMkkgI9LywbaAfd3gi4VItMOaqoYj5.jpg",
+            "questions": [
+              "Describe the picture?",
+              "What outdoor activities do you take part in?",
+              "Why do many people like outdoor activities?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "WuRZAQAcjUpMkkgI9LywbaAfd3gi4VItMOaqoYj5.jpg"
+          },
+          "point": 5,
+          "title": "2 bố con đá bóng - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 234,
+      "questions": [
+        {
+          "id": 494,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/KcleioqXkOJokqYIIOrVhQ600MtWw84Sqa1lQgM0.jpg",
+              "speaking_images/K1AvQaq8fY0MkUGppnqP82jevGyFilTAn3LIPfJs.jpg"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "What are the interesting points of these 2 ways of traveling above?",
+              "Should animals be treated like a means of transportation?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "KcleioqXkOJokqYIIOrVhQ600MtWw84Sqa1lQgM0.jpg",
+              "K1AvQaq8fY0MkUGppnqP82jevGyFilTAn3LIPfJs.jpg"
+            ]
+          },
+          "point": 10,
+          "title": "2 bố con đá bóng - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 234,
+      "questions": [
+        {
+          "id": 495,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/XVJmFZazeKseL18ulzID7woDub600zbfOz4plnas.jpg",
+            "questions": [
+              "1. Tell me a time you achieved a goal.",
+              "2. How did you feel?",
+              "3. What ways can help people achieve goals?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "XVJmFZazeKseL18ulzID7woDub600zbfOz4plnas.jpg"
+          },
+          "point": 20,
+          "title": "2 bố con đá bóng - Part 4"
+        }
+      ]
+    }
+  ]
+}

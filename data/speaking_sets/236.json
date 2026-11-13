@@ -1,0 +1,139 @@
+{
+  "set_id": 236,
+  "title": "Đề 3 - Phỏng vấn + Đọc sách giấy - đọc sách điện tử + một lần vội vàng",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 236,
+      "questions": [
+        {
+          "id": 551,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Please tell me about your family",
+              "2. What do you like doing in your free time?",
+              "3. What‘s the weather like today?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 236,
+      "questions": [
+        {
+          "id": 500,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/nrjd6ZFrlkaW2tXy5CX2GnWgB1583ZyGVqHAUR9m.png",
+            "questions": [
+              "Describe the picture?",
+              "Do you prefer reading newspapers or watching news?",
+              "Why do people need to watch the news?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "nrjd6ZFrlkaW2tXy5CX2GnWgB1583ZyGVqHAUR9m.png"
+          },
+          "point": 5,
+          "title": "Đề 3 - Phỏng vấn - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 236,
+      "questions": [
+        {
+          "id": 501,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/6Vtp2co0FZtbRiaMLEuBj61s5kNb57SevSsbSlip.png",
+              "speaking_images/j1yOtC42cfece4TDsemFBVQ5aBT2DweZRMaHAQSm.png"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "Do you prefer reading printed books or e-books?",
+              "Does technology affect the way we read books?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "6Vtp2co0FZtbRiaMLEuBj61s5kNb57SevSsbSlip.png",
+              "j1yOtC42cfece4TDsemFBVQ5aBT2DweZRMaHAQSm.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 3 - Phỏng vấn - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 236,
+      "questions": [
+        {
+          "id": 502,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/bNTtkFeC1905yhStzbkyCBz5FC5dicjEskAqLpXM.jpg",
+            "questions": [
+              "1.\tTell me a time when you were in a hurry?",
+              "2.\tHow did you feel?",
+              "3.\tModern life makes us busier and more rushed. What do you think?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "bNTtkFeC1905yhStzbkyCBz5FC5dicjEskAqLpXM.jpg"
+          },
+          "point": 20,
+          "title": "Đề 3 - Phỏng vấn - Part 4"
+        }
+      ]
+    }
+  ]
+}

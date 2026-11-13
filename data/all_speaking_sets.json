@@ -1,0 +1,2781 @@
+[
+  {
+    "set_id": 234,
+    "title": "Đề 1: 2 bố con đá bóng + cưỡi lạc đà - xe ngựa + cố gắng đạt mục tiêu",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 234,
+        "questions": [
+          {
+            "id": 553,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "What do you like doing in your free time?",
+                "Tell me the best way to travel around your country.",
+                "Describe your journey here today."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 234,
+        "questions": [
+          {
+            "id": 493,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/WuRZAQAcjUpMkkgI9LywbaAfd3gi4VItMOaqoYj5.jpg",
+              "questions": [
+                "Describe the picture?",
+                "What outdoor activities do you take part in?",
+                "Why do many people like outdoor activities?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "WuRZAQAcjUpMkkgI9LywbaAfd3gi4VItMOaqoYj5.jpg"
+            },
+            "point": 5,
+            "title": "2 bố con đá bóng - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 234,
+        "questions": [
+          {
+            "id": 494,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/KcleioqXkOJokqYIIOrVhQ600MtWw84Sqa1lQgM0.jpg",
+                "speaking_images/K1AvQaq8fY0MkUGppnqP82jevGyFilTAn3LIPfJs.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "What are the interesting points of these 2 ways of traveling above?",
+                "Should animals be treated like a means of transportation?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "KcleioqXkOJokqYIIOrVhQ600MtWw84Sqa1lQgM0.jpg",
+                "K1AvQaq8fY0MkUGppnqP82jevGyFilTAn3LIPfJs.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "2 bố con đá bóng - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 234,
+        "questions": [
+          {
+            "id": 495,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/XVJmFZazeKseL18ulzID7woDub600zbfOz4plnas.jpg",
+              "questions": [
+                "1. Tell me a time you achieved a goal.",
+                "2. How did you feel?",
+                "3. What ways can help people achieve goals?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "XVJmFZazeKseL18ulzID7woDub600zbfOz4plnas.jpg"
+            },
+            "point": 20,
+            "title": "2 bố con đá bóng - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 235,
+    "title": "Đề 2: Đi bộ qua đường + ngồi xe lăn chơi bóng rổ - chơi thể thao ngoài trời + đi công viên giải trí",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 235,
+        "questions": [
+          {
+            "id": 496,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "Please tell me about the last thing you saw on television",
+                "Please tell me about your favourite film star",
+                "Please tell me about a famous place."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 235,
+        "questions": [
+          {
+            "id": 497,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/UHqfqLk1UA7O6f6KQ6QRBDS2HnvXr34AnBz6JjM6.png",
+              "questions": [
+                "Describe the picture",
+                "Tell me the last time you crossed the street",
+                "Why are some people scared of crossing the street?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "UHqfqLk1UA7O6f6KQ6QRBDS2HnvXr34AnBz6JjM6.png"
+            },
+            "point": 5,
+            "title": "Đề 2 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 235,
+        "questions": [
+          {
+            "id": 498,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/wn4RKHnnevS6QPryf1kgGMkBRT7ce9ChKDQDuVBk.jpg",
+                "speaking_images/dInAONMChhXqEArVoy74g8jPmXcyWwBiDNnNBSbw.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "What is your favourite sport?",
+                "What are the benefits of indoor activities?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "wn4RKHnnevS6QPryf1kgGMkBRT7ce9ChKDQDuVBk.jpg",
+                "dInAONMChhXqEArVoy74g8jPmXcyWwBiDNnNBSbw.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 2 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 235,
+        "questions": [
+          {
+            "id": 499,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/MbKOYn9dfTVivZ76i2X6Td3E4BCCgBqSPRSZ0hel.webp",
+              "questions": [
+                "Tell me a time you went to visit an amusement park",
+                "How did you feel?",
+                "Do people in your country often visit amusement parks?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "MbKOYn9dfTVivZ76i2X6Td3E4BCCgBqSPRSZ0hel.webp"
+            },
+            "point": 20,
+            "title": "Đề 2 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 236,
+    "title": "Đề 3 - Phỏng vấn + Đọc sách giấy - đọc sách điện tử + một lần vội vàng",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 236,
+        "questions": [
+          {
+            "id": 551,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Please tell me about your family",
+                "2. What do you like doing in your free time?",
+                "3. What‘s the weather like today?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 236,
+        "questions": [
+          {
+            "id": 500,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/nrjd6ZFrlkaW2tXy5CX2GnWgB1583ZyGVqHAUR9m.png",
+              "questions": [
+                "Describe the picture?",
+                "Do you prefer reading newspapers or watching news?",
+                "Why do people need to watch the news?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "nrjd6ZFrlkaW2tXy5CX2GnWgB1583ZyGVqHAUR9m.png"
+            },
+            "point": 5,
+            "title": "Đề 3 - Phỏng vấn - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 236,
+        "questions": [
+          {
+            "id": 501,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/6Vtp2co0FZtbRiaMLEuBj61s5kNb57SevSsbSlip.png",
+                "speaking_images/j1yOtC42cfece4TDsemFBVQ5aBT2DweZRMaHAQSm.png"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "Do you prefer reading printed books or e-books?",
+                "Does technology affect the way we read books?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "6Vtp2co0FZtbRiaMLEuBj61s5kNb57SevSsbSlip.png",
+                "j1yOtC42cfece4TDsemFBVQ5aBT2DweZRMaHAQSm.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 3 - Phỏng vấn - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 236,
+        "questions": [
+          {
+            "id": 502,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/bNTtkFeC1905yhStzbkyCBz5FC5dicjEskAqLpXM.jpg",
+              "questions": [
+                "1.\tTell me a time when you were in a hurry?",
+                "2.\tHow did you feel?",
+                "3.\tModern life makes us busier and more rushed. What do you think?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "bNTtkFeC1905yhStzbkyCBz5FC5dicjEskAqLpXM.jpg"
+            },
+            "point": 20,
+            "title": "Đề 3 - Phỏng vấn - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 237,
+    "title": "Đề 4 - Cô gái đi siêu thị + ăn một mình ở nhà - ăn pizza cùng bạn + thể thao mạo hiểm",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 237,
+        "questions": [
+          {
+            "id": 552,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Please tell me about the last time you saw an advertisement.",
+                "2. What sports do people like in your country?",
+                "3. What is the best way to travel around your country?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 237,
+        "questions": [
+          {
+            "id": 503,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/TW4OqdqjrWEQhQyXTdHCfDHQkwv5dRqEC2lQf6OW.png",
+              "questions": [
+                "Describe the picture?",
+                "Tell me the time you went to the supermarket?",
+                "3. Why do people love shopping on the Internet?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "TW4OqdqjrWEQhQyXTdHCfDHQkwv5dRqEC2lQf6OW.png"
+            },
+            "point": 5,
+            "title": "Đề 4 - Mua hàng - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 237,
+        "questions": [
+          {
+            "id": 504,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/82V2JGgO6L9AuuHyH32U1pEuSqYIKKHp4FeS7Zo3.png",
+                "speaking_images/wq07arwSYgyv7KE60d2PNEODjm0zpjVqufCLG3fQ.webp"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "Do you prefer eating at home or eating out?",
+                "Why do people now like eating unhealthy food?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "82V2JGgO6L9AuuHyH32U1pEuSqYIKKHp4FeS7Zo3.png",
+                "wq07arwSYgyv7KE60d2PNEODjm0zpjVqufCLG3fQ.webp"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 4 - Mua hàng - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 237,
+        "questions": [
+          {
+            "id": 505,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/tCLouY6pTiKWKR4i1XJWcT3GrOV7llN6GcfXkG75.jpg",
+              "questions": [
+                "Tell me a time you tried to play an extreme sport?",
+                "How did you feel?",
+                "Only adults are allowed to play extreme sports. What do you think about it?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "tCLouY6pTiKWKR4i1XJWcT3GrOV7llN6GcfXkG75.jpg"
+            },
+            "point": 20,
+            "title": "Đề 4 - Mua hàng - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 238,
+    "title": "Đề 5 - Gia đình ngồi trong ô tô + nghe nhạc trực tiếp - nghe nhạc ở nhà + đọc quyển sách hay",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 238,
+        "questions": [
+          {
+            "id": 554,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "Describe the typical meal in your country.",
+                "What is the best way to travel in your country?",
+                "What do people in your country like to read?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 238,
+        "questions": [
+          {
+            "id": 506,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/42hQRXkRCZ9jIlP5MWl4v7NttV20LyVejZFx33Xp.png",
+              "questions": [
+                "Describe the picture?",
+                "Tell me the last time you traveled by car?",
+                "Why do people need to learn how to ride?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "42hQRXkRCZ9jIlP5MWl4v7NttV20LyVejZFx33Xp.png"
+            },
+            "point": 5,
+            "title": "Đề 5 - Gia đình ngồi trong ô tô - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 238,
+        "questions": [
+          {
+            "id": 507,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/BiUjol3SJ567gnJCsS7bRGeFrQnIjH6gHK0vhRld.jpg",
+                "speaking_images/Op5bvuIEReQojuyGBSIwgCoQzIqxICMu6oXAoMU2.png"
+              ],
+              "questions": [
+                "Tell me what you see in the two pictures?",
+                "Which of these two situations would you prefer to be in?",
+                "Why do you think people listen to music?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "BiUjol3SJ567gnJCsS7bRGeFrQnIjH6gHK0vhRld.jpg",
+                "Op5bvuIEReQojuyGBSIwgCoQzIqxICMu6oXAoMU2.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 5 - Gia đình ngồi trong ô tô - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 238,
+        "questions": [
+          {
+            "id": 508,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": null,
+              "questions": [
+                "Tell me the last time you read an interesting book",
+                "How do you feel about this book?",
+                "Some people love watching films more than reading books. What do you think?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120
+            },
+            "point": 20,
+            "title": "Đề 5 - Gia đình ngồi trong ô tô - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 239,
+    "title": "Đề 6 - cô gái đi xe bus + trẻ em chơi trong nhà - chơi ngoài trời + sử dụng mạng internet",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 239,
+        "questions": [
+          {
+            "id": 555,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "Tell me about the place you live at",
+                "What are you wearing today?",
+                "Please tell me about your favourite film star"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 239,
+        "questions": [
+          {
+            "id": 509,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/zRGXu6NikjLK2KzilJrs5AZgR3RO7hW8AefVxGTh.jpg",
+              "questions": [
+                "Describe the picture",
+                "The last time you traveled by bus?",
+                "What are some useful ways for people to avoid boredom when traveling by bus?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "zRGXu6NikjLK2KzilJrs5AZgR3RO7hW8AefVxGTh.jpg"
+            },
+            "point": 5,
+            "title": "Đề 6 - Người trong xe bus - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 239,
+        "questions": [
+          {
+            "id": 510,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/PmbrCccjXSiOkMHp6AXtKShYsnMSVvmNWBNJgjd0.jpg",
+                "speaking_images/94b6SJ1bi6FjvZ9yFeHHfsKAeTlqfTRxlkvb76pU.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "Which activity do you prefer?",
+                "Why is it important for children to take part in different activities?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "PmbrCccjXSiOkMHp6AXtKShYsnMSVvmNWBNJgjd0.jpg",
+                "94b6SJ1bi6FjvZ9yFeHHfsKAeTlqfTRxlkvb76pU.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 6 - Người trong xe bus - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 239,
+        "questions": [
+          {
+            "id": 511,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/ljhEem57eYEPSBFesnSTZ1I3cdvkhcocdhNnrNQ9.jpg",
+              "questions": [
+                "Tell me a time you used the internet?",
+                "What do you use the internet for?",
+                "Some people say that the Internet has a bad impact on our lives. What do you think?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "ljhEem57eYEPSBFesnSTZ1I3cdvkhcocdhNnrNQ9.jpg"
+            },
+            "point": 20,
+            "title": "Đề 6 - Người trong xe bus - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 240,
+    "title": "Đề 7: Bố con nấu ăn + gia đình chơi cờ - cậu bé chơi game + ai đó giúp đỡ bạn",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 240,
+        "questions": [
+          {
+            "id": 556,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me about your favourite clothes.",
+                "2. What’s the weather like today?",
+                "3. Tell me a time you watched a movie."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 240,
+        "questions": [
+          {
+            "id": 512,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/Y8YrMI0IXor3k6PCRF7zZTsf9sGt0ifbxs1B2IQL.jpg",
+              "questions": [
+                "Describe the picture.",
+                "Describe the last time you prepared a healthy meal.",
+                "2. Why do parents care about their children?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "Y8YrMI0IXor3k6PCRF7zZTsf9sGt0ifbxs1B2IQL.jpg"
+            },
+            "point": 5,
+            "title": "Đề 7 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 240,
+        "questions": [
+          {
+            "id": 513,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/EF90uH1FpXpyKfQel09646d9uydmFw0MIBkJHcNd.jpg",
+                "speaking_images/L09s1HJ3pLje0SlHnJCqQdWHBpMilh36tGZK7Tgr.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures.",
+                "2. What is the difference between playing chess with family and playing games alone?",
+                "3. What are the harmful effects of children spending too much time playing video games?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "EF90uH1FpXpyKfQel09646d9uydmFw0MIBkJHcNd.jpg",
+                "L09s1HJ3pLje0SlHnJCqQdWHBpMilh36tGZK7Tgr.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 7 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 240,
+        "questions": [
+          {
+            "id": 514,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/xJbHxtuVoqXYyg2I1kombNlGo8NPo3II4rU6sDsX.jpg",
+              "questions": [
+                "Tell me a time when somebody helped you.",
+                "How did you feel?",
+                "How to encourage people to cooperate?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "xJbHxtuVoqXYyg2I1kombNlGo8NPo3II4rU6sDsX.jpg"
+            },
+            "point": 20,
+            "title": "Đề 7 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 241,
+    "title": "Đề 8: Cô giáo chơi cùng học sinh + ôm mèo - xem rắn + giúp đỡ người khác",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 241,
+        "questions": [
+          {
+            "id": 557,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "What do you like doing in your free time?",
+                "What did you do last night?",
+                "Please tell me about your favourite food"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 241,
+        "questions": [
+          {
+            "id": 515,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/1zcPY1LyyMDObmhaALGVzLGxs2iSQZvC47d1cR4M.jpg",
+              "questions": [
+                "Describe the picture?",
+                "What kind of games did you play when you were a child?",
+                "Why do children have to spend time playing?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "1zcPY1LyyMDObmhaALGVzLGxs2iSQZvC47d1cR4M.jpg"
+            },
+            "point": 5,
+            "title": "Đề 8 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 241,
+        "questions": [
+          {
+            "id": 516,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/WGjBZU8hbuGmZKuPc0H675L6BBfV6ReeMfwYnEdq.jpg",
+                "speaking_images/DgagEs32mBZXKHUy3fAkGXyCNFWOXd5CBgxB17Kx.png"
+              ],
+              "questions": [
+                "Tell me what you see in the two pictures.",
+                "The attractions of keeping these animals as pets?",
+                "Some people think that animals should not be kept in the home. What do you think?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "WGjBZU8hbuGmZKuPc0H675L6BBfV6ReeMfwYnEdq.jpg",
+                "DgagEs32mBZXKHUy3fAkGXyCNFWOXd5CBgxB17Kx.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 8 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 241,
+        "questions": [
+          {
+            "id": 517,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/AUYvGqzBuoldbyjHhevABvs2KSJvv8giFpBP0iPC.jpg",
+              "questions": [
+                "Tell me a time when you gave help.",
+                "How did you feel?",
+                "How can people be encouraged to do good things?/ What are ways to motivate others?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "AUYvGqzBuoldbyjHhevABvs2KSJvv8giFpBP0iPC.jpg"
+            },
+            "point": 20,
+            "title": "Đề 8 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 242,
+    "title": "Đề 9: Xem triển lãm + gia đình ngồi bãi cỏ - cô gái ở ban công + học điều mới",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 242,
+        "questions": [
+          {
+            "id": 579,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me about your typical day",
+                "2. Describe your favorite place",
+                "3. Describe your first school."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 242,
+        "questions": [
+          {
+            "id": 518,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/EM2M4eDgt27oAhLB5AGexRrAnMYLQNjlxffcYn94.png",
+              "questions": [
+                "Describe the picture?",
+                "Talk about the last time you saw paintings",
+                "Why do people like looking at paintings?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "EM2M4eDgt27oAhLB5AGexRrAnMYLQNjlxffcYn94.png"
+            },
+            "point": 5,
+            "title": "Đề 9 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 242,
+        "questions": [
+          {
+            "id": 519,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/Za0nretWHGKM0D4ftM5kyOWDZtTgHaD4JUEDwT6f.jpg",
+                "speaking_images/2n8n0p5AAqTA4EvO3vyzWCMAX1U7VojwaESinE75.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from two pictures",
+                "Do you prefer living with family or living alone?’",
+                "Nowadays, why do many people like to live alone?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "Za0nretWHGKM0D4ftM5kyOWDZtTgHaD4JUEDwT6f.jpg",
+                "2n8n0p5AAqTA4EvO3vyzWCMAX1U7VojwaESinE75.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 9 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 242,
+        "questions": [
+          {
+            "id": 520,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/suuy4yq9t9stsvuENMNJzdgJ1jxQZ9samPgJxd8k.jpg",
+              "questions": [
+                "Tell me about a time you received good news from an important email or phone call",
+                "How did you feel?",
+                "There is so much information available on the Internet nowadays. What do you think? Model answer"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "suuy4yq9t9stsvuENMNJzdgJ1jxQZ9samPgJxd8k.jpg"
+            },
+            "point": 20,
+            "title": "Đề 9 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 243,
+    "title": "Đề 10: 3 cậu bé đá bóng + chơi với khỉ - cá voi + đạt được mục tiêu",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 243,
+        "questions": [
+          {
+            "id": 574,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "What do you do? (What’s your job?)",
+                "Tell me about your last holiday",
+                "Describe your room."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 243,
+        "questions": [
+          {
+            "id": 521,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/XLN9snzgPYFm8uNHz5AHpayMShyItFDPXKKs8Q01.png",
+              "questions": [
+                "Describe the picture",
+                "The last time you played sports?",
+                "3. Why should people play sports?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "XLN9snzgPYFm8uNHz5AHpayMShyItFDPXKKs8Q01.png"
+            },
+            "point": 5,
+            "title": "Đề 10 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 243,
+        "questions": [
+          {
+            "id": 522,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/ElWx0lLdShF7y2M6a14xSx6y1oSNVPHb10W0KU1z.jpg",
+                "speaking_images/70LG5iEZUTW211lywZlwU9iPrh3u4QALIF0S3aRj.png"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "What are the attractions of the two pictures?",
+                "What is the relationship between people and animals?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "ElWx0lLdShF7y2M6a14xSx6y1oSNVPHb10W0KU1z.jpg",
+                "70LG5iEZUTW211lywZlwU9iPrh3u4QALIF0S3aRj.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 10 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 243,
+        "questions": [
+          {
+            "id": 523,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/HkxmUBC5Sf0Fc9iLMwiBl29J3lRVXuTgKXUzOxoM.jpg",
+              "questions": [
+                "Tell me a time you achieve a goal?",
+                "How did you feel?",
+                "What ways can help people achieve goals?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "HkxmUBC5Sf0Fc9iLMwiBl29J3lRVXuTgKXUzOxoM.jpg"
+            },
+            "point": 20,
+            "title": "Đề 10 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 244,
+    "title": "Đề 11: Gia đình dùng máy tính + đá bóng - nhảy cao + xem tác phẩm nghệ thuật",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 244,
+        "questions": [
+          {
+            "id": 559,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me about your favorite singer",
+                "2. What did you do yesterday?",
+                "3. What is the best way to travel in your country?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 244,
+        "questions": [
+          {
+            "id": 524,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/1egbtSPKW8W3RHklzjd9hsQL42dl8k2nnTAxRx1G.jpg",
+              "questions": [
+                "Describe the picture?",
+                "Tell me the last time you used the internet?",
+                "Why do many people use the computer to relax?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "1egbtSPKW8W3RHklzjd9hsQL42dl8k2nnTAxRx1G.jpg"
+            },
+            "point": 5,
+            "title": "ĐỀ 11 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 244,
+        "questions": [
+          {
+            "id": 525,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/7rqs5dWlS5wAiItmvBL3huHUZN83okbG8je02uDY.jpg",
+                "speaking_images/fQPUNkRKfDb6NFr9Ty8sG4hebRPSFvGmU7pd7CB0.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "How are these kinds of sports different?",
+                "What sports are more popular than others?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "7rqs5dWlS5wAiItmvBL3huHUZN83okbG8je02uDY.jpg",
+                "fQPUNkRKfDb6NFr9Ty8sG4hebRPSFvGmU7pd7CB0.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "ĐỀ 11 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 244,
+        "questions": [
+          {
+            "id": 526,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/BTirVMQACQ7rU6SBYVGAImU50Eanccgv7K4qMoVP.jpg",
+              "questions": [
+                "Tell me a time you saw an impressive work of art",
+                "How did you feel?",
+                "It is impossible to teach people to be creative. Do you agree with it?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "BTirVMQACQ7rU6SBYVGAImU50Eanccgv7K4qMoVP.jpg"
+            },
+            "point": 20,
+            "title": "ĐỀ 11 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 245,
+    "title": "Đề 12: Xem phim ở rạp + ăn trên đường phố - ăn nhà hàng + nhận một món quà",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 245,
+        "questions": [
+          {
+            "id": 602,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Please tell me about a famous place in your country?",
+                "Tell me about your last holiday",
+                "Please tell me about your favorite film."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 245,
+        "questions": [
+          {
+            "id": 527,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/pOZvjPr7YxneKCsdZigxcFrI8u1LLo5ZOsJP0GCz.jpg",
+              "questions": [
+                "Describe the picture",
+                "Tell me a time you laughed a lot.",
+                "Do you think people from different countries laugh at different things?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "pOZvjPr7YxneKCsdZigxcFrI8u1LLo5ZOsJP0GCz.jpg"
+            },
+            "point": 5,
+            "title": "Đề 12 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 245,
+        "questions": [
+          {
+            "id": 528,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/c7oPcWtOfW5zmuTeQgODBK6uMoZTDO6iZkf5ede0.jpg",
+                "speaking_images/4L9pDZg74kDlXeoFY3tiWNzxaJ2mAHE7Dqhd84rq.jpg"
+              ],
+              "questions": [
+                "Tell me what you see in the two pictures",
+                "What are the disadvantages of eating in both places",
+                "Why do you think people don't like eating out alone?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "c7oPcWtOfW5zmuTeQgODBK6uMoZTDO6iZkf5ede0.jpg",
+                "4L9pDZg74kDlXeoFY3tiWNzxaJ2mAHE7Dqhd84rq.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 12 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 245,
+        "questions": [
+          {
+            "id": 529,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/jJK4pKJ5naUnioPqZ1TgLU6kAFBhn805MrKrHoft.jpg",
+              "questions": [
+                "Describe a time you received a gift",
+                "2.\tHow did you feel about this gift?",
+                "3. Do you prefer handmade gifts or gifts bought in stores?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "jJK4pKJ5naUnioPqZ1TgLU6kAFBhn805MrKrHoft.jpg"
+            },
+            "point": 20,
+            "title": "Đề 12 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 246,
+    "title": "Đề 13: Mẹ con đọc sách + thuyết trình - làm việc nhóm + kể một lần nhận được quà",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 246,
+        "questions": [
+          {
+            "id": 603,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me about your family.",
+                "2. What do you like to do on the weekend?",
+                "Tell me about your hometown."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 246,
+        "questions": [
+          {
+            "id": 530,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/0NGU4Vf4IglhIOCUgsf1HK9KHw6N2fHykWTIt8rF.jpg",
+              "questions": [
+                "Describe the picture?",
+                "What sorts of things help you sleep easily?",
+                "Why is it important to sleep enough per night?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "0NGU4Vf4IglhIOCUgsf1HK9KHw6N2fHykWTIt8rF.jpg"
+            },
+            "point": 5,
+            "title": "Đề 13: Part 4: kể một lần nhận được quà - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 246,
+        "questions": [
+          {
+            "id": 531,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/zkDnNSiemLAu74lPSDSiZK8ozs9YXT22NDeo6Npd.jpg",
+                "speaking_images/Z9sGe8hCJQiXHZuygO450u0ZspnOowiTZ55YLo5q.jpg"
+              ],
+              "questions": [
+                "Describe two pictures",
+                "What are the problems of giving a presentation in these situations?",
+                "Technology has improved the ability to communicate with other people."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "zkDnNSiemLAu74lPSDSiZK8ozs9YXT22NDeo6Npd.jpg",
+                "Z9sGe8hCJQiXHZuygO450u0ZspnOowiTZ55YLo5q.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 13: Part 4: kể một lần nhận được quà - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 246,
+        "questions": [
+          {
+            "id": 532,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/fixuNVWvpnn0B2EwDMtupn29JiDRNEW53g1ARV4V.jpg",
+              "questions": [
+                "Describe a time you received a gift",
+                "How did you feel?",
+                "When do people give gifts?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "fixuNVWvpnn0B2EwDMtupn29JiDRNEW53g1ARV4V.jpg"
+            },
+            "point": 20,
+            "title": "Đề 13: Part 4: kể một lần nhận được quà - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 247,
+    "title": "Đề 14: Bố con ăn sáng + trồng rau - trồng hoa + kể một lần đến thăm bạn",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 247,
+        "questions": [
+          {
+            "id": 604,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "Please describe your typical day.",
+                "2. Describe your first school.",
+                "3. What do you like doing with your friends?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 247,
+        "questions": [
+          {
+            "id": 533,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/U49fRUupkMAQJYHtQ7R11Tq8p3jd66GZIuCAixwi.png",
+              "questions": [
+                "Describe the picture?",
+                "What do you eat for breakfast?",
+                "Do you think people should eat breakfast?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "U49fRUupkMAQJYHtQ7R11Tq8p3jd66GZIuCAixwi.png"
+            },
+            "point": 5,
+            "title": "Đề 14: part 4: kể một lần đến thăm bạn - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 247,
+        "questions": [
+          {
+            "id": 534,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/Em3gQ4Qyqr3gWH8cdx5Cs9LSsqpLda5yvMwb6Ky3.jpg",
+                "speaking_images/2D6QaSUkPidkuZNSkGixr3GIN4bS859JOvYfTBkR.jpg"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "What are the benefits of growing a garden?",
+                "What are the attractions of growing trees and flowers?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "Em3gQ4Qyqr3gWH8cdx5Cs9LSsqpLda5yvMwb6Ky3.jpg",
+                "2D6QaSUkPidkuZNSkGixr3GIN4bS859JOvYfTBkR.jpg"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 14: part 4: kể một lần đến thăm bạn - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 247,
+        "questions": [
+          {
+            "id": 535,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/z5jdWY6keuxDmCVJQ0c78yYf1skP4dCi8azyIzs4.jpg",
+              "questions": [
+                "Tell me a time you visited your friend?",
+                "What do you think about some unexpected visitors?",
+                "Some people like to live in a small community but some people like living in the big city. What is your opinion?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "z5jdWY6keuxDmCVJQ0c78yYf1skP4dCi8azyIzs4.jpg"
+            },
+            "point": 20,
+            "title": "Đề 14: part 4: kể một lần đến thăm bạn - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 248,
+    "title": "Đề 15: Treo tranh + ăn ở nhà hàng ngoài trời - ăn cùng gia đình - kể một lần đi xa",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 248,
+        "questions": [
+          {
+            "id": 605,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Please tell me about your favourite food",
+                "2. How did you come here?",
+                "3. Tell me about your hobbies?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 248,
+        "questions": [
+          {
+            "id": 536,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/RUCBcykBKUgmBpXcWVk0f8Q90e5gFBADqxsqGpuG.jpg",
+              "questions": [
+                "Describe the picture",
+                "Have you ever repaired and rearranged things in your home?",
+                "Why do people enjoy changing their home decor to make it look different from the original?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "RUCBcykBKUgmBpXcWVk0f8Q90e5gFBADqxsqGpuG.jpg"
+            },
+            "point": 5,
+            "title": "Đề 15: Part 4; kể một lần đi xa - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 248,
+        "questions": [
+          {
+            "id": 537,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/JHJuoxvyTHP7ZnneNfCHPs9MUBqiZnc9098k5p7F.jpg",
+                "speaking_images/JeRu9zkiyZ8x4bXXg4JYkaut88GCcPIuzRQyj6sg.png"
+              ],
+              "questions": [
+                "Tell me what you see in two pictures",
+                "What are the benefits of each type of eating?",
+                "People say that it is better to eat with others than eat alone. What do you think?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "JHJuoxvyTHP7ZnneNfCHPs9MUBqiZnc9098k5p7F.jpg",
+                "JeRu9zkiyZ8x4bXXg4JYkaut88GCcPIuzRQyj6sg.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 15: Part 4; kể một lần đi xa - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 248,
+        "questions": [
+          {
+            "id": 538,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/dtQajPvUN9l81o9agELjM4WCUoesbniBDMKTa4kC.jpg",
+              "questions": [
+                "Describe a time when you had to travel far away.",
+                "How did you feel?",
+                "Why do people need to respect the culture of the place they visit?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "dtQajPvUN9l81o9agELjM4WCUoesbniBDMKTa4kC.jpg"
+            },
+            "point": 20,
+            "title": "Đề 15: Part 4; kể một lần đi xa - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 253,
+    "title": "Đề 16: Dùng điện thoại + phòng ngủ - camping + gặp người nước ngoài",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 253,
+        "questions": [
+          {
+            "id": 779,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me the last time you saw a movie.",
+                "2. Tell me about your typical day.",
+                "3. Describe your journey here today."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 253,
+        "questions": [
+          {
+            "id": 780,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/S3dTNnF9kSKSz2e4rUQHJ1mwBxQJCWmM8T1FzhYO.png",
+              "questions": [
+                "1. Describe this picture.",
+                "What do you usually use your mobile phone for?",
+                "Do you think smartphones are making people less social in real life?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "S3dTNnF9kSKSz2e4rUQHJ1mwBxQJCWmM8T1FzhYO.png"
+            },
+            "point": 5,
+            "title": "Đề 16: Dùng điện thoại + ngủ trong nhà - camping + gặp người nước ngoài - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 253,
+        "questions": [
+          {
+            "id": 781,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/SLVnDv2e9p2qH9tSzrwKyyaiZXplIi3Qnv6k6PQh.png",
+                "speaking_images/PSe4Wycxtv9hDMfgXq792u6Hvr2nuZC9CdDz5hNw.png"
+              ],
+              "questions": [
+                "Tell me what can you see in two pictures.",
+                "Do you think sleep is important?",
+                "Is spending the night in places like this attractive?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "SLVnDv2e9p2qH9tSzrwKyyaiZXplIi3Qnv6k6PQh.png",
+                "PSe4Wycxtv9hDMfgXq792u6Hvr2nuZC9CdDz5hNw.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 16: Dùng điện thoại + ngủ trong nhà - camping + gặp người nước ngoài - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 253,
+        "questions": [
+          {
+            "id": 782,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/lxPh64yuxAENJzRV4YpnjhDyesdju7shhwGXIHJB.png",
+              "questions": [
+                "1. Tell me a time you met or talk with a foreigner.",
+                "2. Why do some people feel shy or nervous when communicating with strangers from other countries?",
+                "3. Do you think interacting with people from different cultural backgrounds is important"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "lxPh64yuxAENJzRV4YpnjhDyesdju7shhwGXIHJB.png"
+            },
+            "point": 20,
+            "title": "Đề 16: Dùng điện thoại + ngủ trong nhà - camping + gặp người nước ngoài - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 254,
+    "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 254,
+        "questions": [
+          {
+            "id": 783,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Which sports do people in your country like?",
+                "2. Tell me about a typical Vietnamese meal",
+                "3. Tell me the last time you saw an advertisement"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 254,
+        "questions": [
+          {
+            "id": 784,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/BcJjX41QO5VwEoSl83sApHrhYW6eqOY3s9b6EWUg.png",
+              "questions": [
+                "1. Describe the picture.",
+                "2. What outdoor activities do you like to do with your family or friends?",
+                "3: Why do you think spending time in nature is good for people’s health?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "BcJjX41QO5VwEoSl83sApHrhYW6eqOY3s9b6EWUg.png"
+            },
+            "point": 5,
+            "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 254,
+        "questions": [
+          {
+            "id": 785,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/x9t6QMpSIQVW7Wvl1M2Mf5dMpjQhOypEYmHrArjw.png",
+                "speaking_images/CAc91vtWpPBqGIHvf9cAElGW6eJjHJlN2aiTNsYy.png"
+              ],
+              "questions": [
+                "1. Compare two pictures.",
+                "2. Can you tell me about a memorable trip you had? What time of the year do you prefer to travel? Why?",
+                "Why do people like to change their place of living?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "x9t6QMpSIQVW7Wvl1M2Mf5dMpjQhOypEYmHrArjw.png",
+                "CAc91vtWpPBqGIHvf9cAElGW6eJjHJlN2aiTNsYy.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 254,
+        "questions": [
+          {
+            "id": 786,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/wQgevQQWwjyu4smRGk2xXokRWeXtq2pGUjNxLhFh.png",
+              "questions": [
+                "1. Tell me a time you watched a Sport event.",
+                "2. Why do you think some sports events attract millions of viewers worldwide?",
+                "3. Do you agree that hosting international sports events is beneficial for a country?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "wQgevQQWwjyu4smRGk2xXokRWeXtq2pGUjNxLhFh.png"
+            },
+            "point": 20,
+            "title": "Đề 17: Đi bộ trong rừng + Đảo - nhà tuyết + xem thể thao - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 255,
+    "title": "Đề 18: chơi game + thành phố - trang trại - thành tựu",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 255,
+        "questions": [
+          {
+            "id": 787,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me about your friend",
+                "2. Describe the area where you live.",
+                "3. Tell me a time you went exercise with other."
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 255,
+        "questions": [
+          {
+            "id": 788,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/gqjh4erlTE1QQMsL5k8wLMzs0qRTHqFIQJkKDTRP.png",
+              "questions": [
+                "1. Describe the picture.",
+                "2. What do you usually use your computer for?",
+                "3. Why do so many people enjoy playing games these days?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "gqjh4erlTE1QQMsL5k8wLMzs0qRTHqFIQJkKDTRP.png"
+            },
+            "point": 5,
+            "title": "Đề 18: chơi game + thành phố - trang trại  - thành tựu - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 255,
+        "questions": [
+          {
+            "id": 789,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/TeLopDqISlaFGIVrlZLRjpKYiuga88xuMAE3kVO6.png",
+                "speaking_images/sPQBowFIE7kefWsHTegjKzXdwVrqE7GcMy3NXyk7.png"
+              ],
+              "questions": [
+                "Tell me what you see in the two pictures?",
+                "2. What are your attractions in the city and the countryside?",
+                "3. Do you think more people will live in cities in the future?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "TeLopDqISlaFGIVrlZLRjpKYiuga88xuMAE3kVO6.png",
+                "sPQBowFIE7kefWsHTegjKzXdwVrqE7GcMy3NXyk7.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 18: chơi game + thành phố - trang trại  - thành tựu - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 255,
+        "questions": [
+          {
+            "id": 790,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/FhFVwDe2OFUIyWsJOwwE5XxFalyflsrqkzQHuXqU.jpg",
+              "questions": [
+                "1. Tell me an achievement you are proud of.",
+                "2. How did you feel when you achieved it?",
+                "3. What qualities do people need in order to achieve success?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "FhFVwDe2OFUIyWsJOwwE5XxFalyflsrqkzQHuXqU.jpg"
+            },
+            "point": 20,
+            "title": "Đề 18: chơi game + thành phố - trang trại  - thành tựu - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 256,
+    "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 256,
+        "questions": [
+          {
+            "id": 791,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "What are your plans for this evening?",
+                "Describe the room you are in/this room.",
+                "Please tell me about a famous place in your country?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 256,
+        "questions": [
+          {
+            "id": 792,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/9dLCNgpWbGUz3nO2PecNnZGJKZdpD8FbQQOlYCeq.png",
+              "questions": [
+                "Describe the picture.",
+                "2. Do you enjoy watching sports in a stadium?",
+                "3. Have you ever been to a live sports event with your friends or family?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "9dLCNgpWbGUz3nO2PecNnZGJKZdpD8FbQQOlYCeq.png"
+            },
+            "point": 5,
+            "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 256,
+        "questions": [
+          {
+            "id": 793,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/6qedrBkG3o0IsjF8V8uO82gDa3wJjKqAzd8FvHdk.png",
+                "speaking_images/ukb4bP9mcFUa9lzENOglRcUuLuXMyFurODIaLHSX.png"
+              ],
+              "questions": [
+                "Tell me what you see from the two pictures?",
+                "Do you prefer traveling by plane or by train? Why?",
+                "What are the advantages of public transport?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "6qedrBkG3o0IsjF8V8uO82gDa3wJjKqAzd8FvHdk.png",
+                "ukb4bP9mcFUa9lzENOglRcUuLuXMyFurODIaLHSX.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 256,
+        "questions": [
+          {
+            "id": 794,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/jKTRTiwJorBJhecQEcJdf2pMCFHC0ONpZngPSHCk.webp",
+              "questions": [
+                "1. Tell me a time you met a person who impressed you.",
+                "2. How did you feel after meeting this person?",
+                "3. What are the benefits of meeting different people?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "jKTRTiwJorBJhecQEcJdf2pMCFHC0ONpZngPSHCk.webp"
+            },
+            "point": 20,
+            "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 257,
+    "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn",
+    "skill": "speaking",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 257,
+        "questions": [
+          {
+            "id": 795,
+            "skill": "speaking",
+            "part": 1,
+            "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                "1. Tell me about your family.",
+                "2. What did you do last night?",
+                "3. Why do people like playing sports?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 30
+            },
+            "point": 5,
+            "title": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 257,
+        "questions": [
+          {
+            "id": 796,
+            "skill": "speaking",
+            "part": 2,
+            "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/R4dTcSwqHUZnlwSF49ku95mL7XNLft5QlC4gjOGk.png",
+              "questions": [
+                "1.\tDescribe the picture.",
+                "2.\tWhen was the last time you played a game?",
+                "3.\tWhy do people enjoy playing games together?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_image": "R4dTcSwqHUZnlwSF49ku95mL7XNLft5QlC4gjOGk.png"
+            },
+            "point": 5,
+            "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 257,
+        "questions": [
+          {
+            "id": 797,
+            "skill": "speaking",
+            "part": 3,
+            "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_paths": [
+                "speaking_images/ABxKqsIYjFyVvoT4uuUhe7oI2h3ZBaqvUnL2LMjQ.png",
+                "speaking_images/E3u2bEiKxDaquEvWkrb0GHKu337WGOQM5VQg5xnj.png"
+              ],
+              "questions": [
+                "1. Tell me what you see in the two pictures.",
+                "2. Do you think volunteering is important?",
+                "3. What are the benefits of volunteering for the community?"
+              ],
+              "sample_answer": null,
+              "prep_time": 0,
+              "answer_time_per_question": 45,
+              "local_images": [
+                "ABxKqsIYjFyVvoT4uuUhe7oI2h3ZBaqvUnL2LMjQ.png",
+                "E3u2bEiKxDaquEvWkrb0GHKu337WGOQM5VQg5xnj.png"
+              ]
+            },
+            "point": 10,
+            "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 257,
+        "questions": [
+          {
+            "id": 798,
+            "skill": "speaking",
+            "part": 4,
+            "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "image_path": "speaking_images/2XReKp0mwNzFHNJkjdVa0jrZzUMSH5Jca6dhDexk.png",
+              "questions": [
+                "1.\tTell me about a time when you felt really relaxed.",
+                "2.\tDo you find it easy to relax? Why or why not?",
+                "3.\tWhy is relaxation important for people?"
+              ],
+              "sample_answer": null,
+              "prep_time": 60,
+              "total_answer_time": 120,
+              "local_image": "2XReKp0mwNzFHNJkjdVa0jrZzUMSH5Jca6dhDexk.png"
+            },
+            "point": 20,
+            "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn - Part 4"
+          }
+        ]
+      }
+    ]
+  }
+]

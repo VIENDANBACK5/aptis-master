@@ -1,0 +1,139 @@
+{
+  "set_id": 256,
+  "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 256,
+      "questions": [
+        {
+          "id": 791,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "What are your plans for this evening?",
+              "Describe the room you are in/this room.",
+              "Please tell me about a famous place in your country?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 256,
+      "questions": [
+        {
+          "id": 792,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/9dLCNgpWbGUz3nO2PecNnZGJKZdpD8FbQQOlYCeq.png",
+            "questions": [
+              "Describe the picture.",
+              "2. Do you enjoy watching sports in a stadium?",
+              "3. Have you ever been to a live sports event with your friends or family?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "9dLCNgpWbGUz3nO2PecNnZGJKZdpD8FbQQOlYCeq.png"
+          },
+          "point": 5,
+          "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 256,
+      "questions": [
+        {
+          "id": 793,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/6qedrBkG3o0IsjF8V8uO82gDa3wJjKqAzd8FvHdk.png",
+              "speaking_images/ukb4bP9mcFUa9lzENOglRcUuLuXMyFurODIaLHSX.png"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "Do you prefer traveling by plane or by train? Why?",
+              "What are the advantages of public transport?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "6qedrBkG3o0IsjF8V8uO82gDa3wJjKqAzd8FvHdk.png",
+              "ukb4bP9mcFUa9lzENOglRcUuLuXMyFurODIaLHSX.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 256,
+      "questions": [
+        {
+          "id": 794,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/jKTRTiwJorBJhecQEcJdf2pMCFHC0ONpZngPSHCk.webp",
+            "questions": [
+              "1. Tell me a time you met a person who impressed you.",
+              "2. How did you feel after meeting this person?",
+              "3. What are the benefits of meeting different people?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "jKTRTiwJorBJhecQEcJdf2pMCFHC0ONpZngPSHCk.webp"
+          },
+          "point": 20,
+          "title": "Đề 19: xem thể thao + tàu, máy bay + người gây ấn tượng - Part 4"
+        }
+      ]
+    }
+  ]
+}

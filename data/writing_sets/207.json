@@ -1,0 +1,174 @@
+{
+  "set_id": 207,
+  "title": "Car Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 207,
+      "questions": [
+        {
+          "id": 397,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a Car club. Fill in the form.",
+            "fields": [
+              {
+                "label": "Do you like traveling by motorbike or car?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your job?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you do in your free time?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "Who do you want to travel with?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Car Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 207,
+      "questions": [
+        {
+          "id": 398,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a Car club. Fill in the form. Write in sentences.\r\nDo you usually travel by car?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Car Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 207,
+      "questions": [
+        {
+          "id": 399,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a Car club. You are talking to three other members in the book club chat room. Talk to them using sentences. Use 30 - 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "A: Tell me about a time you traveled by car.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I remember traveling by car with my family last summer holiday. We talked, listened to music, enjoyed the scenery, and felt relaxed spending time together on the road."
+              },
+              {
+                "prompt": "B: Tell me about memories when traveling by car.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Last holiday, my family took a road trip from Hanoi to Ho Chi Minh City. It was an unforgettable experience! This journey made me appreciate Vietnam’s breathtaking landscapes, which I believe everyone should explore at least once in their lifetime."
+              },
+              {
+                "prompt": "C: Should we take public transportation or buy a car?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "To be honest, public transportation is better for reducing emissions and protecting the environment. However, it can sometimes be less convenient and comfortable than owning a car."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Car Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 207,
+      "questions": [
+        {
+          "id": 400,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of the Car club. You have received this email from the club:",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "\"There will be a car program running across Europe. The program invites the Car Club to send 2 representatives (1 main driver and 1 passenger) and both must have good driving skills.\r\nDo you have any suggestions for the above positions?\"",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Email to a friend (50 words):",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Car Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

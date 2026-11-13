@@ -1,0 +1,174 @@
+{
+  "set_id": 226,
+  "title": "READING CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 226,
+      "questions": [
+        {
+          "id": 462,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "How is the weather today?",
+                "placeholder": ""
+              },
+              {
+                "label": "What is your favorite season of the year?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do every morning?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do in your free time?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do last night?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "READING CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 226,
+      "questions": [
+        {
+          "id": 463,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "When was the last time you read a book, and how was the book?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "READING CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 226,
+      "questions": [
+        {
+          "id": 464,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "I like reading sports magazines. Do you like them? Why?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I enjoy reading sports magazines because they provide specific and detailed information. I especially like reading about badminton, which is very exciting."
+              },
+              {
+                "prompt": "How often do you read? Who do you read with?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": ""
+              },
+              {
+                "prompt": "Nowadays, children prefer playing games to reading books. Do you think this is worrying? Why?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I enjoy reading sports magazines because they provide specific and detailed information. I especially like reading about badminton, which is very exciting."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "READING CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 226,
+      "questions": [
+        {
+          "id": 465,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You received this email from the manager of the club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "The club received an email about a new library, and we need to brainstorm how to design it to appeal to both young and old.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "READING CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

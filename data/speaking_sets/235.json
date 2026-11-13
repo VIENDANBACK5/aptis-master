@@ -1,0 +1,139 @@
+{
+  "set_id": 235,
+  "title": "Đề 2: Đi bộ qua đường + ngồi xe lăn chơi bóng rổ - chơi thể thao ngoài trời + đi công viên giải trí",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 235,
+      "questions": [
+        {
+          "id": 496,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "Please tell me about the last thing you saw on television",
+              "Please tell me about your favourite film star",
+              "Please tell me about a famous place."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 235,
+      "questions": [
+        {
+          "id": 497,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/UHqfqLk1UA7O6f6KQ6QRBDS2HnvXr34AnBz6JjM6.png",
+            "questions": [
+              "Describe the picture",
+              "Tell me the last time you crossed the street",
+              "Why are some people scared of crossing the street?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "UHqfqLk1UA7O6f6KQ6QRBDS2HnvXr34AnBz6JjM6.png"
+          },
+          "point": 5,
+          "title": "Đề 2 - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 235,
+      "questions": [
+        {
+          "id": 498,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/wn4RKHnnevS6QPryf1kgGMkBRT7ce9ChKDQDuVBk.jpg",
+              "speaking_images/dInAONMChhXqEArVoy74g8jPmXcyWwBiDNnNBSbw.jpg"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "What is your favourite sport?",
+              "What are the benefits of indoor activities?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "wn4RKHnnevS6QPryf1kgGMkBRT7ce9ChKDQDuVBk.jpg",
+              "dInAONMChhXqEArVoy74g8jPmXcyWwBiDNnNBSbw.jpg"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 2 - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 235,
+      "questions": [
+        {
+          "id": 499,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/MbKOYn9dfTVivZ76i2X6Td3E4BCCgBqSPRSZ0hel.webp",
+            "questions": [
+              "Tell me a time you went to visit an amusement park",
+              "How did you feel?",
+              "Do people in your country often visit amusement parks?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "MbKOYn9dfTVivZ76i2X6Td3E4BCCgBqSPRSZ0hel.webp"
+          },
+          "point": 20,
+          "title": "Đề 2 - Part 4"
+        }
+      ]
+    }
+  ]
+}

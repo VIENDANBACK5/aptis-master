@@ -1,0 +1,174 @@
+{
+  "set_id": 215,
+  "title": "Fitness club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 215,
+      "questions": [
+        {
+          "id": 426,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What is your hobby?",
+                "placeholder": ""
+              },
+              {
+                "label": "Why do you want to join a club?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you relax?",
+                "placeholder": ""
+              },
+              {
+                "label": "Why do you learn English?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Fitness club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 215,
+      "questions": [
+        {
+          "id": 427,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a fitness club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\n\r\nPlease talk about the last time you had to run somewhere.",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Fitness club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 215,
+      "questions": [
+        {
+          "id": 428,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a fitness club. You are talking to three other members in the fitness club chat room. Talk to them using sentences. Use 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "I often go jogging because it is good for my health. What about you?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I also spend two hours a day jogging in the park with my family. It helps me reduce stress, relax after a hard-working day, boost my mood, make new friends, and keep my body fit."
+              },
+              {
+                "prompt": "How can the quality of the fitness club be improved?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "We can improve the quality by upgrading the equipment, offering better customer service, gathering feedback from members, and organizing more engaging activities to keep everyone motivated and satisfied."
+              },
+              {
+                "prompt": "Nowadays, technology makes people&amp;amp;#039;s lives more accessible but also makes them lazy and dislike exercise. Do you agree with this opinion?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I agree with this idea. Technology is beneficial, but we should exercise more to improve our health, keep our bodies fit, and strengthen our bodies. \r\n\r\nI strongly believe that technology has many benefits and some drawbacks. Technology enables people to work more effectively and save time. However, modern technology also makes people too lazy to participate in outdoor activities such as hiking, climbing mountains, or going for a picnic."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Fitness club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 215,
+      "questions": [
+        {
+          "id": 429,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a fitness club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Some of the club's equipment is old and needs to be replaced. Our club plans to hold a sponsorship event to raise money to upgrade sports equipment. Some people also think the club should increase the membership fee to 50%. Please give your opinions.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Fitness club - Part 4"
+        }
+      ]
+    }
+  ]
+}

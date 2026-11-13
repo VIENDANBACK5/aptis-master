@@ -1,0 +1,139 @@
+{
+  "set_id": 245,
+  "title": "Đề 12: Xem phim ở rạp + ăn trên đường phố - ăn nhà hàng + nhận một món quà",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 245,
+      "questions": [
+        {
+          "id": 602,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Please tell me about a famous place in your country?",
+              "Tell me about your last holiday",
+              "Please tell me about your favorite film."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 245,
+      "questions": [
+        {
+          "id": 527,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/pOZvjPr7YxneKCsdZigxcFrI8u1LLo5ZOsJP0GCz.jpg",
+            "questions": [
+              "Describe the picture",
+              "Tell me a time you laughed a lot.",
+              "Do you think people from different countries laugh at different things?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "pOZvjPr7YxneKCsdZigxcFrI8u1LLo5ZOsJP0GCz.jpg"
+          },
+          "point": 5,
+          "title": "Đề 12 - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 245,
+      "questions": [
+        {
+          "id": 528,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/c7oPcWtOfW5zmuTeQgODBK6uMoZTDO6iZkf5ede0.jpg",
+              "speaking_images/4L9pDZg74kDlXeoFY3tiWNzxaJ2mAHE7Dqhd84rq.jpg"
+            ],
+            "questions": [
+              "Tell me what you see in the two pictures",
+              "What are the disadvantages of eating in both places",
+              "Why do you think people don't like eating out alone?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "c7oPcWtOfW5zmuTeQgODBK6uMoZTDO6iZkf5ede0.jpg",
+              "4L9pDZg74kDlXeoFY3tiWNzxaJ2mAHE7Dqhd84rq.jpg"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 12 - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 245,
+      "questions": [
+        {
+          "id": 529,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/jJK4pKJ5naUnioPqZ1TgLU6kAFBhn805MrKrHoft.jpg",
+            "questions": [
+              "Describe a time you received a gift",
+              "2.\tHow did you feel about this gift?",
+              "3. Do you prefer handmade gifts or gifts bought in stores?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "jJK4pKJ5naUnioPqZ1TgLU6kAFBhn805MrKrHoft.jpg"
+          },
+          "point": 20,
+          "title": "Đề 12 - Part 4"
+        }
+      ]
+    }
+  ]
+}

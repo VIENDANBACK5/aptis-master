@@ -1,0 +1,138 @@
+{
+  "set_id": 238,
+  "title": "Đề 5 - Gia đình ngồi trong ô tô + nghe nhạc trực tiếp - nghe nhạc ở nhà + đọc quyển sách hay",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 238,
+      "questions": [
+        {
+          "id": 554,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "Describe the typical meal in your country.",
+              "What is the best way to travel in your country?",
+              "What do people in your country like to read?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 238,
+      "questions": [
+        {
+          "id": 506,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/42hQRXkRCZ9jIlP5MWl4v7NttV20LyVejZFx33Xp.png",
+            "questions": [
+              "Describe the picture?",
+              "Tell me the last time you traveled by car?",
+              "Why do people need to learn how to ride?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "42hQRXkRCZ9jIlP5MWl4v7NttV20LyVejZFx33Xp.png"
+          },
+          "point": 5,
+          "title": "Đề 5 - Gia đình ngồi trong ô tô - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 238,
+      "questions": [
+        {
+          "id": 507,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/BiUjol3SJ567gnJCsS7bRGeFrQnIjH6gHK0vhRld.jpg",
+              "speaking_images/Op5bvuIEReQojuyGBSIwgCoQzIqxICMu6oXAoMU2.png"
+            ],
+            "questions": [
+              "Tell me what you see in the two pictures?",
+              "Which of these two situations would you prefer to be in?",
+              "Why do you think people listen to music?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "BiUjol3SJ567gnJCsS7bRGeFrQnIjH6gHK0vhRld.jpg",
+              "Op5bvuIEReQojuyGBSIwgCoQzIqxICMu6oXAoMU2.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 5 - Gia đình ngồi trong ô tô - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 238,
+      "questions": [
+        {
+          "id": 508,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": null,
+            "questions": [
+              "Tell me the last time you read an interesting book",
+              "How do you feel about this book?",
+              "Some people love watching films more than reading books. What do you think?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120
+          },
+          "point": 20,
+          "title": "Đề 5 - Gia đình ngồi trong ô tô - Part 4"
+        }
+      ]
+    }
+  ]
+}

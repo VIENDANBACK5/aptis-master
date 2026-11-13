@@ -1,0 +1,174 @@
+{
+  "set_id": 213,
+  "title": "FASHION CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 213,
+      "questions": [
+        {
+          "id": 418,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What are you wearing today?",
+                "placeholder": ""
+              },
+              {
+                "label": "How many people are in your family?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do yesterday?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you go to school?",
+                "placeholder": ""
+              },
+              {
+                "label": "What's your hobby?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "FASHION CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 213,
+      "questions": [
+        {
+          "id": 419,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a fashion club. Fill in the form. Write in sentences. Use 20 - 30 words. When was the last time you went shopping for clothes?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "FASHION CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 213,
+      "questions": [
+        {
+          "id": 420,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a fashion club. You are talking to three other members in the fashion club chat room. Talk to them using sentences. Use 30 - 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Some people like to buy clothes to try on themselves. Some prefer to buy online. How do you like it and why?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Some people prefer to shop for clothes in-store, while others like to shop online. Personally, I enjoy buying clothes online because it’s easier, faster, and I can compare prices and options without leaving home. Plus, online shopping is convenient"
+              },
+              {
+                "prompt": "Hi! Why did you decide to join the club?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Hi! I joined the fashion club because I love stylish clothes and want to learn more about fashion trends. It’s also fun to meet others who share the same interest."
+              },
+              {
+                "prompt": "Why do people like fashion?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "=> People enjoy fashion because it allows them to showcase their personality and creativity. It boosts their confidence and makes them feel stylish. Fashion also keeps them in touch with the latest trends and connects them to contemporary culture.\r\nor\r\nPeople like fashion because it helps them express their personality, look confident, and feel happy. Fashion also allows people to follow trends, be creative, and show their own unique style."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "FASHION CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 213,
+      "questions": [
+        {
+          "id": 421,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "Fashion Club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "We are going to hold an event with famous designers who will talk about their clothing designs and answer members' questions. We need feed back on organization. There are two opinions that should be held online, while others want to organize a fashion show event . State your opinion",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "FASHION CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

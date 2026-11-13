@@ -1,0 +1,174 @@
+{
+  "set_id": 224,
+  "title": "Outdoor Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 224,
+      "questions": [
+        {
+          "id": 540,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a outdoor club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "Who do you usually go to the movies with?",
+                "placeholder": ""
+              },
+              {
+                "label": "Do you like to take photos?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where do you like to go on holiday?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s your favorite color?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do last night?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Outdoor Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 224,
+      "questions": [
+        {
+          "id": 455,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Why did you join?",
+            "word_limit": {
+              "min": 20,
+              "max": 30
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Outdoor Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 224,
+      "questions": [
+        {
+          "id": 456,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "What kinds of outdoor activities do you often do?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I often go for walks and play badminton with my friends. Sometimes, we go to the park and take photos of beautiful places. I also enjoy cycling because it helps me stay healthy and relax after studying."
+              },
+              {
+                "prompt": "How often and what time can you come to the club?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I can come to the club twice a week, usually on Saturday and Sunday. I am free in the morning, from about 8 to 11 a.m. I prefer this time because the weather is cooler and I can enjoy outdoor activities comfortably."
+              },
+              {
+                "prompt": "What are the most popular outdoor activities in your country?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "In my country, walking, cycling, swimming, and playing badminton are very popular outdoor activities. Many people also enjoy going to the beach, hiking, and having picnics with their families. These activities are popular because they are fun, healthy, and suitable for different ages."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Outdoor Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 224,
+      "questions": [
+        {
+          "id": 457,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You received this email from the secretary of the club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Our outdoor club will organize an outdoor event at the end of this month. There will be two options: Going to the mountain or traveling to the beach. We want members to raise their voices and suggest activities to make the event more appealing to members so that children can join.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Outdoor Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

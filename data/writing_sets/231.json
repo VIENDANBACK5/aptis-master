@@ -1,0 +1,174 @@
+{
+  "set_id": 231,
+  "title": "TRAVEL CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 231,
+      "questions": [
+        {
+          "id": 481,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a sports club. Fill in the form.",
+            "fields": [
+              {
+                "label": "What is your favorite subject in high school?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like doing with your friends?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where do you wanna go on holiday?",
+                "placeholder": ""
+              },
+              {
+                "label": "Why are you interested in travel?",
+                "placeholder": ""
+              },
+              {
+                "label": "Tell me a place you often visit?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "TRAVEL CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 231,
+      "questions": [
+        {
+          "id": 482,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Where do you usually travel on holiday?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "TRAVEL CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 231,
+      "questions": [
+        {
+          "id": 483,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Do you prefer to travel alone or with a group? Why?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I like to travel with friends rather than go alone because we can do many activities together, such as board games, team sports, etc. We can also have some beer and talk to each other."
+              },
+              {
+                "prompt": "Tell me about an exciting summer vacation you went on.",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "The most exciting journey I have been on was when I visited Hanoi last week. That day, I visited Hoan Kiem Lake. I really like traveling because it allows me to explore new places, meet new people, and expand my knowledge. \r\n\r\nOr : Last month, I traveled to Da Lat City with my group of friends. We hired motorbikes to explore the city and enjoy the beautiful sights. We took a lot of gorgeous photos."
+              },
+              {
+                "prompt": "Traveling a long distance by some means of transportation is not good for the environment. Do you agree?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Traveling a long distance by some means of transportation is not good for the environment because transportation emits CO2 into the atmosphere, which causes environmental pollution."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "TRAVEL CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 231,
+      "questions": [
+        {
+          "id": 484,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "TRAVEL CLUB",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Our club plans to encourage tourists to visit our area and expect them to behave politely. Please raise your voice and give some suggestions for this plan.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "TRAVEL CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

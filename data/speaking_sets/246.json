@@ -1,0 +1,139 @@
+{
+  "set_id": 246,
+  "title": "Đề 13: Mẹ con đọc sách + thuyết trình - làm việc nhóm + kể một lần nhận được quà",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 246,
+      "questions": [
+        {
+          "id": 603,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Tell me about your family.",
+              "2. What do you like to do on the weekend?",
+              "Tell me about your hometown."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 246,
+      "questions": [
+        {
+          "id": 530,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/0NGU4Vf4IglhIOCUgsf1HK9KHw6N2fHykWTIt8rF.jpg",
+            "questions": [
+              "Describe the picture?",
+              "What sorts of things help you sleep easily?",
+              "Why is it important to sleep enough per night?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "0NGU4Vf4IglhIOCUgsf1HK9KHw6N2fHykWTIt8rF.jpg"
+          },
+          "point": 5,
+          "title": "Đề 13: Part 4: kể một lần nhận được quà - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 246,
+      "questions": [
+        {
+          "id": 531,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/zkDnNSiemLAu74lPSDSiZK8ozs9YXT22NDeo6Npd.jpg",
+              "speaking_images/Z9sGe8hCJQiXHZuygO450u0ZspnOowiTZ55YLo5q.jpg"
+            ],
+            "questions": [
+              "Describe two pictures",
+              "What are the problems of giving a presentation in these situations?",
+              "Technology has improved the ability to communicate with other people."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "zkDnNSiemLAu74lPSDSiZK8ozs9YXT22NDeo6Npd.jpg",
+              "Z9sGe8hCJQiXHZuygO450u0ZspnOowiTZ55YLo5q.jpg"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 13: Part 4: kể một lần nhận được quà - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 246,
+      "questions": [
+        {
+          "id": 532,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/fixuNVWvpnn0B2EwDMtupn29JiDRNEW53g1ARV4V.jpg",
+            "questions": [
+              "Describe a time you received a gift",
+              "How did you feel?",
+              "When do people give gifts?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "fixuNVWvpnn0B2EwDMtupn29JiDRNEW53g1ARV4V.jpg"
+          },
+          "point": 20,
+          "title": "Đề 13: Part 4: kể một lần nhận được quà - Part 4"
+        }
+      ]
+    }
+  ]
+}

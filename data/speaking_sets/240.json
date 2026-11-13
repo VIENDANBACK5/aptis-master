@@ -1,0 +1,139 @@
+{
+  "set_id": 240,
+  "title": "Đề 7: Bố con nấu ăn + gia đình chơi cờ - cậu bé chơi game + ai đó giúp đỡ bạn",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 240,
+      "questions": [
+        {
+          "id": 556,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Tell me about your favourite clothes.",
+              "2. What’s the weather like today?",
+              "3. Tell me a time you watched a movie."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 240,
+      "questions": [
+        {
+          "id": 512,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/Y8YrMI0IXor3k6PCRF7zZTsf9sGt0ifbxs1B2IQL.jpg",
+            "questions": [
+              "Describe the picture.",
+              "Describe the last time you prepared a healthy meal.",
+              "2. Why do parents care about their children?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "Y8YrMI0IXor3k6PCRF7zZTsf9sGt0ifbxs1B2IQL.jpg"
+          },
+          "point": 5,
+          "title": "Đề 7 - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 240,
+      "questions": [
+        {
+          "id": 513,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/EF90uH1FpXpyKfQel09646d9uydmFw0MIBkJHcNd.jpg",
+              "speaking_images/L09s1HJ3pLje0SlHnJCqQdWHBpMilh36tGZK7Tgr.jpg"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures.",
+              "2. What is the difference between playing chess with family and playing games alone?",
+              "3. What are the harmful effects of children spending too much time playing video games?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "EF90uH1FpXpyKfQel09646d9uydmFw0MIBkJHcNd.jpg",
+              "L09s1HJ3pLje0SlHnJCqQdWHBpMilh36tGZK7Tgr.jpg"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 7 - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 240,
+      "questions": [
+        {
+          "id": 514,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/xJbHxtuVoqXYyg2I1kombNlGo8NPo3II4rU6sDsX.jpg",
+            "questions": [
+              "Tell me a time when somebody helped you.",
+              "How did you feel?",
+              "How to encourage people to cooperate?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "xJbHxtuVoqXYyg2I1kombNlGo8NPo3II4rU6sDsX.jpg"
+          },
+          "point": 20,
+          "title": "Đề 7 - Part 4"
+        }
+      ]
+    }
+  ]
+}

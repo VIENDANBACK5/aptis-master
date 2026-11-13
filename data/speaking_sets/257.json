@@ -1,0 +1,139 @@
+{
+  "set_id": 257,
+  "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 257,
+      "questions": [
+        {
+          "id": 795,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Tell me about your family.",
+              "2. What did you do last night?",
+              "3. Why do people like playing sports?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 257,
+      "questions": [
+        {
+          "id": 796,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/R4dTcSwqHUZnlwSF49ku95mL7XNLft5QlC4gjOGk.png",
+            "questions": [
+              "1.\tDescribe the picture.",
+              "2.\tWhen was the last time you played a game?",
+              "3.\tWhy do people enjoy playing games together?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "R4dTcSwqHUZnlwSF49ku95mL7XNLft5QlC4gjOGk.png"
+          },
+          "point": 5,
+          "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 257,
+      "questions": [
+        {
+          "id": 797,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/ABxKqsIYjFyVvoT4uuUhe7oI2h3ZBaqvUnL2LMjQ.png",
+              "speaking_images/E3u2bEiKxDaquEvWkrb0GHKu337WGOQM5VQg5xnj.png"
+            ],
+            "questions": [
+              "1. Tell me what you see in the two pictures.",
+              "2. Do you think volunteering is important?",
+              "3. What are the benefits of volunteering for the community?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "ABxKqsIYjFyVvoT4uuUhe7oI2h3ZBaqvUnL2LMjQ.png",
+              "E3u2bEiKxDaquEvWkrb0GHKu337WGOQM5VQg5xnj.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 257,
+      "questions": [
+        {
+          "id": 798,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/2XReKp0mwNzFHNJkjdVa0jrZzUMSH5Jca6dhDexk.png",
+            "questions": [
+              "1.\tTell me about a time when you felt really relaxed.",
+              "2.\tDo you find it easy to relax? Why or why not?",
+              "3.\tWhy is relaxation important for people?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "2XReKp0mwNzFHNJkjdVa0jrZzUMSH5Jca6dhDexk.png"
+          },
+          "point": 20,
+          "title": "Đề 20: gia đình chơi game + giúp người già - trồng cây + thư giãn - Part 4"
+        }
+      ]
+    }
+  ]
+}

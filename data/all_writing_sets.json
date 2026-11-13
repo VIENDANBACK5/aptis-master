@@ -1,0 +1,5222 @@
+[
+  {
+    "set_id": 204,
+    "title": "Art Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 204,
+        "questions": [
+          {
+            "id": 385,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What kinds of art do you like?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Who is your favorite artist?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How often do you draw or paint?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What art materials do you usually use?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Why do you want to join the art club?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Art Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 204,
+        "questions": [
+          {
+            "id": 386,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Tell me a painting or a photo that you like",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Art Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 204,
+        "questions": [
+          {
+            "id": 387,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I also kept a painting of my family for a long time. I have many memories of it. Whenever I look at the photo, it reminds me of happy moments with my loved ones."
+                },
+                {
+                  "prompt": "I would like to learn to paint, but I have not found an effective way. Should I take a course at my local college? Please give me some advice.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I think you should definitely take a course at your local college. The teachers can guide you step by step, and you’ll have access to resources that make learning easier. Plus, after completing the course, you’ll receive a certificate and have opportunities to connect with like-minded people."
+                },
+                {
+                  "prompt": "Street art—where people paint on buildings—is becoming popular. However, some people criticize it as bad. What is your opinion?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Street art is a unique and creative form of expression that can make public spaces more beautiful. However, it’s essential to paint in appropriate locations and convey meaningful ideas. When done thoughtfully, street art can inspire communities and enhance urban environments."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Art Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 204,
+        "questions": [
+          {
+            "id": 388,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Art Club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "The Art Club is organizing a talk to the public to attract more attention. We are going to invite an artist to give a talk to the members. As a club member, could you suggest an artist to join our conversation, and what topic should they share to gain more attention? We would like to have both young and old members.”",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend – also a member of the",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Write an email to the organizer of the plan.",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Art Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 205,
+    "title": "Book club: 1",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 205,
+        "questions": [
+          {
+            "id": 389,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What’s your favorite hobby?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you get to work?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do in the evening?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What kinds of movies do you like?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s your favorite food?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Book club: 1 - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 205,
+        "questions": [
+          {
+            "id": 390,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a book club. Fill in the form. Write in sentences. Use 20 – 30 words. \r\nPlease tell me about your free time and hobbies?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Book club: 1 - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 205,
+        "questions": [
+          {
+            "id": 391,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a book club. You are talking to three other members in the book club chat room. Talk to them using sentences. Use 30-40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "A: Hi! Welcome to the club. When and where do you like reading books?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I really like reading at the park near my house in the morning because it helps me improve my knowledge, learn about many things, and unwind after a hard day’s work.\r\n\r\nThank you for welcoming me to the club! I enjoy reading books at the park near my house every morning. I particularly love history books because they help me understand the past better.\r\nOr\r\nI love reading books in my room before going to bed. It helps me relax after a long, hard day and sleep better."
+                },
+                {
+                  "prompt": "B: Hi! I want to give my friend a book. What would you suggest I buy?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "You should give your friend the book “Chicken Soup for the Soul\" because it is interesting. I really like this book because it helps me learn about many things, improve my knowledge, and unwind after a hard day’s work. \r\n\r\nI recommend Truyen Kieu by Nguyen Du. It’s an engaging story filled with poetry and meaningful lessons. I believe your friend would enjoy it and appreciate its cultural significance.\r\nOr\r\nIf your friend enjoys fantasy novels, I suggest the Harry Potter series. It’s exciting and widely loved. I own the entire series and adore it; your friend might enjoy it too."
+                },
+                {
+                  "prompt": "C: Do online books replace traditional books? What do you think about that?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Both online and traditional books have their advantages and disadvantages. However, online books require devices and internet access, so they cannot entirely replace traditional books, which offer an authentic reading experience.\r\n\r\n\r\nor\r\nAs someone who enjoys both, I don’t think online books can fully replace traditional ones. While digital books are convenient, they can strain your eyes, and many people still prefer printed books for their authentic reading experience."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Book club: 1 - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 205,
+        "questions": [
+          {
+            "id": 392,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a book club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "The club will hold a talk show/event. Who do you want to invite? What is the theme? Please suggest both young and old people",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write to a friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Write an email to the manager of the club. (120-150 words)",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Book club: 1 - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 206,
+    "title": "Business club.",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 206,
+        "questions": [
+          {
+            "id": 393,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What is your hobby?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favourite food?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favourite time of a day?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you get to work?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Business club. - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 206,
+        "questions": [
+          {
+            "id": 394,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Now you've become a new member of the Business club. Fill in the form. Write in sentences. Use 20-30 words\r\n Where do you usually go shopping?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Business club. - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 206,
+        "questions": [
+          {
+            "id": 395,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are speaking to fellow members of the Business club in a group chat. Respond to them in full sentences (30-40 words per answer).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I know there are a lot of successful small businesses these days. Tell me about a successful small business in your area.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I am going to tell you about a successful small business in my area. The coffee shop is called “Highland”. It is well-known for its cozy atmosphere, excellent coffee and friendly staff. They offer unique drinks like coconut coffee and seasonal fruit smoothies. Moreover, it is beautifully decorated which allows customers to take nice pictures."
+                },
+                {
+                  "prompt": "I have a friend who wants to open a second coffee shop. She opened her first one a year ago and it was quite successful. What advice do you have to help her be more successful in her second shop?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "There is a lot of advice to help your friend succeed in her second shop. Firstly, she should choose the right location. Secondly, it is essential to provide high-quality products. Besides, the shop should offer new drinks and snacks. Finally, the staff should be friendly and professional."
+                },
+                {
+                  "prompt": "Can you tell me what qualities and skills are needed to create a successful small business?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "To create a successful small business, we need creativity, good communication, problem-solving skills, and strong leadership. We should also be patient, flexible, and willing to learn from mistakes and market changes."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Business club. - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 206,
+        "questions": [
+          {
+            "id": 396,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Business club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Currently our club is planning to support local individuals who want to start up a small business. The club has 2 proposals: First, create a call center where customers can call to ask questions and request help. Second, create free courses to support local universities nearby. Let us know which option you would use and why.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write a short email to your friend (about 50 words) about your choice and the idea.",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Write an email to the manager of the club (about 120-150 words) about your choice and why.",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Business club. - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 207,
+    "title": "Car Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 207,
+        "questions": [
+          {
+            "id": 397,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a Car club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "Do you like traveling by motorbike or car?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your job?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do in your free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Who do you want to travel with?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Car Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 207,
+        "questions": [
+          {
+            "id": 398,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a Car club. Fill in the form. Write in sentences.\r\nDo you usually travel by car?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Car Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 207,
+        "questions": [
+          {
+            "id": 399,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a Car club. You are talking to three other members in the book club chat room. Talk to them using sentences. Use 30 - 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "A: Tell me about a time you traveled by car.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I remember traveling by car with my family last summer holiday. We talked, listened to music, enjoyed the scenery, and felt relaxed spending time together on the road."
+                },
+                {
+                  "prompt": "B: Tell me about memories when traveling by car.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Last holiday, my family took a road trip from Hanoi to Ho Chi Minh City. It was an unforgettable experience! This journey made me appreciate Vietnam’s breathtaking landscapes, which I believe everyone should explore at least once in their lifetime."
+                },
+                {
+                  "prompt": "C: Should we take public transportation or buy a car?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "To be honest, public transportation is better for reducing emissions and protecting the environment. However, it can sometimes be less convenient and comfortable than owning a car."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Car Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 207,
+        "questions": [
+          {
+            "id": 400,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of the Car club. You have received this email from the club:",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "\"There will be a car program running across Europe. The program invites the Car Club to send 2 representatives (1 main driver and 1 passenger) and both must have good driving skills.\r\nDo you have any suggestions for the above positions?\"",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Email to a friend (50 words):",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Car Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 208,
+    "title": "College",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 208,
+        "questions": [
+          {
+            "id": 550,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You have 5 messages from a member of the College. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "Which sport do you like to play the most?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do last night?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Do you like shopping?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What are you wearing today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite kind of music?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "College - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 208,
+        "questions": [
+          {
+            "id": 401,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Please tell us when you can attend courses and what you want to study.",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "College - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 208,
+        "questions": [
+          {
+            "id": 402,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "A. Hi! Welcome to college. What course are you doing, and why did you choose it?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hi! Thank you for your interesting question. I am attending an English course. I really like studying English at college because it allows me to make friends with many people.\r\n\r\n\r\nAt present, I chose accounting as my major because I have a passion for math. Moreover, when I complete a complex calculation, I feel like I am walking on air. I truly love my course."
+                },
+                {
+                  "prompt": "Welcome! How do you feel about the college so far?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hi! Thank you for your interesting question. I think college is interesting. I really like studying at this college because it enables me to make friends with many people. \r\n\r\n\r\nStudying at college is very different from studying in high school. College encourages students to learn independently, which is a new and exciting challenge for me"
+                },
+                {
+                  "prompt": "Did you hear that the college sports club has closed? What do you think about this?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I am not excited about this situation. I really like playing sports in this sports club because it helps me improve my health and unwind after a hard day at work.\r\n\r\n\r\nI feel disappointed to hear about the sports club closing. It’s upsetting because I just joined the club in June. I hope the news isn’t accurate, as the club is such an important part of student life."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "College - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 208,
+        "questions": [
+          {
+            "id": 403,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a college. You received this email from the college administrator.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "We are writing to inform you that the end-of-course exams will occur two weeks earlier. Your exam, scheduled for the 21st of next month, will now happen on the 7th of next month. We apologize for any difficulty this may cause.",
+                "sign_off": "Best regards,\r\nCollege Administrator"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend. Write about your feelings and what the college should do about the situation. Write about 50 words.",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the administrator",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "College - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 209,
+    "title": "Community Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 209,
+        "questions": [
+          {
+            "id": 404,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What's the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you usually do in the evening?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where would you like to live?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Which season of the year do you like?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where do you like to go in the summer?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Community Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 209,
+        "questions": [
+          {
+            "id": 405,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a Community Club. Fill in the form. Write in sentences. Use 20-30 words.\r\nWhere do you usually go shopping?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Community Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 209,
+        "questions": [
+          {
+            "id": 406,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a Community Club. You are talking to three other members in the Community Club chat room. Talk to them using sentences. Use 30-40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "My friend wants to go to the hair salon, but her car isn't working. Can you suggest some ways for her to get there?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "She can book a local taxi through apps like Grab or call a nearby taxi company. It’s convenient and reliable."
+                },
+                {
+                  "prompt": "Volunteering provides great learning opportunities. helps others a lot. Do you agree?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Thank you for your interesting question. I completely agree with this idea because volunteering helps us expand our knowledge and learn new skills. Additionally, it gives us the chance to relax and unwind after a busy day."
+                },
+                {
+                  "prompt": "Do you agree with the view that volunteering is a form of learning, especially for young people? Why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I completely agree with this idea. Volunteering is a great way for young people to learn because it gives them real-life experiences they can’t get in a classroom. It helps them build important skills like teamwork, communication, and solving problems. It also teaches them about social issues and how to handle different situations."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Community Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 209,
+        "questions": [
+          {
+            "id": 407,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a Community Club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Our club needs support with several tasks this year. First, we need more members who can actively participate in our ongoing projects. Second, we are looking for creative ideas\r\nto develop new activities. Could you share some suggestions with us to help support our projects this year?",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend. Write about your feelings and what you would like to do. Write about 50 words.",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Community Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 210,
+    "title": "COMPUTER CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 210,
+        "questions": [
+          {
+            "id": 408,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a computer club. Fill in the form. Use 1 – 5 words.",
+              "fields": [
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do in your free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your first language?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Who do you usually go to the movies with?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "COMPUTER CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 210,
+        "questions": [
+          {
+            "id": 409,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a computer club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\nPart 2: When and where do you use a computer?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "COMPUTER CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 210,
+        "questions": [
+          {
+            "id": 410,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Q1: My grandmother doesn’t know how to use the computer. Your solutions",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "You should guide her step by step through basic computer operations, such as surfing the Internet, playing music, or watching videos on YouTube. A simple and patient approach will make her feel more confident."
+                },
+                {
+                  "prompt": "The last time you used your computer. Your purpose.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I used my computer yesterday to watch my favorite movie, Queen of Tears. It was a fantastic experience, and I enjoyed every moment of it.\r\n\r\n\r\nOr\r\nThe last time I used my computer was 4 hours ago. I reviewed some basic knowledge for an upcoming exam and checked the schedule carefully. Afterward, I listened to an English song to relax and refresh my mind."
+                },
+                {
+                  "prompt": "Nowadays, people use computers a lot. This is not good. Your opinion",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "While computers bring many benefits, overusing them can lead to reduced physical activity and social interaction, which is harmful. Striking a balance is essential for a healthier lifestyle.\r\n \r\nor\r\nIt’s clear that using computers a lot is not good. It makes us depend on computers deeply. Sitting in front of them for several hours can also affect our eye health."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "COMPUTER CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 210,
+        "questions": [
+          {
+            "id": 411,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Computer CLUB",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "We are making some changes to the website because we want more people to join us. As you know, the website at the moment is very simple and we would be interested to hear some ideas about ways to make it more attractive and why you think it would be attract more visitors.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "COMPUTER CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 211,
+    "title": "Debate club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 211,
+        "questions": [
+          {
+            "id": 549,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a Debate Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where do you want to go on holiday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do in the evening?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What's your favorite sports?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What's your frst language?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Debate club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 211,
+        "questions": [
+          {
+            "id": 412,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "What do you usually talk about with your friends?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Debate club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 211,
+        "questions": [
+          {
+            "id": 413,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Hi! Nowadays, there are many ways to update news. How do you keep up with world issues?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I often stay updated on world events by selectively reading articles or posts on online forums. It's a very convenient option for busy people who work all day."
+                },
+                {
+                  "prompt": "Next week, I will participate in a debate in front of 50 people. How can I make a good impression?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I think you need to share your opinions confidently and, if possible, add some humor to make the conversation more engaging and comfortable. This will create a memorable experience for the audience"
+                },
+                {
+                  "prompt": "Before deciding something, consider two sides of the problem. What do you think about that?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "This is true in all cases. If we don’t fully understand an issue before making a decision, it could lead us astray and sometimes make us regret our choices"
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Debate club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 211,
+        "questions": [
+          {
+            "id": 414,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Debate Club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "We want to encourage many young people to join the club. Unfortunately, young people usually think that debating is not for them. What do you think are the benefits of debate and speaking in public? Please list two benefits that you feel are the most important and why.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend, also a club member. Write about how you feel and what you think the club should do. Write about 50 words.",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Debate club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 212,
+    "title": "English Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 212,
+        "questions": [
+          {
+            "id": 548,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a English Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "Where did you go last night?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like doing with your friend?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Which sport do you like to play the most?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do last night?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Do you like shopping?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "English Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 212,
+        "questions": [
+          {
+            "id": 415,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "What do you usually use the internet for?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "English Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 212,
+        "questions": [
+          {
+            "id": 416,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I usually spend 6 hours a day studying English. How do you learn English?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I often spend two hours a day studying English. I usually use my laptop, computer, and smartphone to practice my listening, reading, writing, and speaking skills. I really like studying English because it helps me relieve stress, improve my knowledge, learn about many things, and make money.\r\n\r\nI prefer learning English by watching movies and listening to US-UK songs rather than taking formal courses. This helps me expand my vocabulary, improve my listening skills, and make the process of learning more enjoyable."
+                },
+                {
+                  "prompt": "English is a popular language in the world. What are your thoughts on this idea?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I totally agree with this idea. I really like studying English because it helps me relieve stress, improve my knowledge, learn about many things, and make money.\r\n\r\nI agree with this statement. English is widely spoken and taught globally. Many devices use English as their default language. If you want to deeply explore subjects of interest, learning English is"
+                },
+                {
+                  "prompt": "When do you usually use English?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I often use English when I talk with my friends. I really like studying English because it can help me relieve stress, improve my knowledge, learn about many things, and make money.\r\n\r\n\r\nI use English whenever I get the chance. I use it to search for information at work, study lessons, or read new books. Sometimes, when I travel abroad, I also use it to communicate with locals. It’s enjoyable because it helps me connect with others and understand their cultures better."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "English Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 212,
+        "questions": [
+          {
+            "id": 417,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "English Club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "As more new words and phrases are added to the language, many people strongly react to this issue. Some gladly accept while others argue that there should be rules for language. Write a letter to your friend and the club manager to express your views and explain why many people react like this.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "English Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 213,
+    "title": "FASHION CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 213,
+        "questions": [
+          {
+            "id": 418,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What are you wearing today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How many people are in your family?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do yesterday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you go to school?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What's your hobby?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "FASHION CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 213,
+        "questions": [
+          {
+            "id": 419,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a fashion club. Fill in the form. Write in sentences. Use 20 - 30 words. When was the last time you went shopping for clothes?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "FASHION CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 213,
+        "questions": [
+          {
+            "id": 420,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a fashion club. You are talking to three other members in the fashion club chat room. Talk to them using sentences. Use 30 - 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Some people like to buy clothes to try on themselves. Some prefer to buy online. How do you like it and why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Some people prefer to shop for clothes in-store, while others like to shop online. Personally, I enjoy buying clothes online because it’s easier, faster, and I can compare prices and options without leaving home. Plus, online shopping is convenient"
+                },
+                {
+                  "prompt": "Hi! Why did you decide to join the club?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hi! I joined the fashion club because I love stylish clothes and want to learn more about fashion trends. It’s also fun to meet others who share the same interest."
+                },
+                {
+                  "prompt": "Why do people like fashion?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "=> People enjoy fashion because it allows them to showcase their personality and creativity. It boosts their confidence and makes them feel stylish. Fashion also keeps them in touch with the latest trends and connects them to contemporary culture.\r\nor\r\nPeople like fashion because it helps them express their personality, look confident, and feel happy. Fashion also allows people to follow trends, be creative, and show their own unique style."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "FASHION CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 213,
+        "questions": [
+          {
+            "id": 421,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Fashion Club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "We are going to hold an event with famous designers who will talk about their clothing designs and answer members' questions. We need feed back on organization. There are two opinions that should be held online, while others want to organize a fashion show event . State your opinion",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "FASHION CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 214,
+    "title": "Film Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 214,
+        "questions": [
+          {
+            "id": 422,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What’s your favorite sport?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How many people are in your family?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do yesterday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you go to school?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s your hobby?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Film Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 214,
+        "questions": [
+          {
+            "id": 423,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a film club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\nPlease write some of your favorite films and why you like watching them.",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Film Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 214,
+        "questions": [
+          {
+            "id": 424,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a film club. You are talking to three other members in the food club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Hi. Welcome to the club. How often do you watch films?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I’m a student, so I only have free time on weekends. On Sundays, I like to spend the whole day watching movies to unwind and recharge."
+                },
+                {
+                  "prompt": "Hi. Can you remember the first film that you watched? What was it like?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "The first film I watched was Titanic, which beautifully portrays the romance between Jack and Rose until tragedy struck and the ship sank, separating them forever.\r\n\r\nOr\r\n\r\nAs far as I can remember, the first film I watched was Doraemon, my all-time favorite cartoon. It tells the story of a robotic cat named Doraemon and a boy, Nobita Nobi, teaching many valuable life lessons."
+                },
+                {
+                  "prompt": "What would you like to learn from the film club?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I hope to gain a better understanding of film production and enjoy memorable moments with other club members. Watching famous films and making new friends would also be exciting.\r\nOr\r\nI’d like to learn about various kinds of films and explore more exciting movies. As a club member, I can also exchange knowledge and share my passion for films with others."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Film Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 214,
+        "questions": [
+          {
+            "id": 425,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "YOU ARE A MEMBER OF A FILM CLUB. YOU RECEIVED THIS EMAIL FROM THE CLUB.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "We are writing to tell you that the guest actor, James Mc Avoy, will unfortunately not be able to give a talk at our next club meeting due to personal reasons. He has requested we reschedule the talk for the next year in either January or March. Please contact the club secretary if you have a preference for one of the two months. Our meeting will take place as usual with a discussion on the advantages and disadvantages of learning on the Internet.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Film Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 215,
+    "title": "Fitness club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 215,
+        "questions": [
+          {
+            "id": 426,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What is your hobby?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Why do you want to join a club?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you relax?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Why do you learn English?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Fitness club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 215,
+        "questions": [
+          {
+            "id": 427,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a fitness club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\n\r\nPlease talk about the last time you had to run somewhere.",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Fitness club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 215,
+        "questions": [
+          {
+            "id": 428,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a fitness club. You are talking to three other members in the fitness club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I often go jogging because it is good for my health. What about you?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I also spend two hours a day jogging in the park with my family. It helps me reduce stress, relax after a hard-working day, boost my mood, make new friends, and keep my body fit."
+                },
+                {
+                  "prompt": "How can the quality of the fitness club be improved?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "We can improve the quality by upgrading the equipment, offering better customer service, gathering feedback from members, and organizing more engaging activities to keep everyone motivated and satisfied."
+                },
+                {
+                  "prompt": "Nowadays, technology makes people&amp;amp;#039;s lives more accessible but also makes them lazy and dislike exercise. Do you agree with this opinion?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I agree with this idea. Technology is beneficial, but we should exercise more to improve our health, keep our bodies fit, and strengthen our bodies. \r\n\r\nI strongly believe that technology has many benefits and some drawbacks. Technology enables people to work more effectively and save time. However, modern technology also makes people too lazy to participate in outdoor activities such as hiking, climbing mountains, or going for a picnic."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Fitness club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 215,
+        "questions": [
+          {
+            "id": 429,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a fitness club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Some of the club's equipment is old and needs to be replaced. Our club plans to hold a sponsorship event to raise money to upgrade sports equipment. Some people also think the club should increase the membership fee to 50%. Please give your opinions.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Fitness club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 216,
+    "title": "Food Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 216,
+        "questions": [
+          {
+            "id": 547,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a Food Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "What is your full name?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your surname?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do yesterday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do every morning?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do in your free time?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Food Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 216,
+        "questions": [
+          {
+            "id": 430,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "What did you eat for breakfast?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Food Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 216,
+        "questions": [
+          {
+            "id": 431,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Nowadays, many people order pizza instead of cooking by themselves when busy. What about you? When you are busy, what do you usually eat?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Fast food has become very trendy due to its convenience. It saves time and effort after a long day of work. Pizza is also budget-friendly compared to homemade meals. When I’m busy, I often order pizza too."
+                },
+                {
+                  "prompt": "Is it essential for children to participate in cooking courses at school?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Yes, it’s very important. Learning to cook makes children more independent and able to care for themselves. It also helps strengthen family bonds when they prepare meals together, making it a meaningful and practical life skill."
+                },
+                {
+                  "prompt": "Should a tax be imposed on unhealthy food?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": ""
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Food Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 216,
+        "questions": [
+          {
+            "id": 432,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a food club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Our club will meet next week and invite some chefs to our town. However, we have new members in this meeting who just started learning to cook. Therefore, please share your ideas for this event and ways to encourage people to attend our club to learn how to cook.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Food Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 217,
+    "title": "GARDEN CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 217,
+        "questions": [
+          {
+            "id": 433,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What's your job?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What are you going to do tomorrow?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What will you do after work?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What sports do you like?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite color?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "GARDEN CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 217,
+        "questions": [
+          {
+            "id": 434,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Describe a garden or a park near your home? Write in sentences. Use 20-30 words.",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "GARDEN CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 217,
+        "questions": [
+          {
+            "id": 435,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a garden club. You are talking to three other members in the garden club chat room. Talk to them using sentences. Use 30-40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I don't live in the countryside, so when I want to appreciate nature, I have to go to the park. How about you?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I also like going to the park because I live in the city, where there is not much nature. The park helps me relax, enjoy fresh air, and feel closer to nature after busy days."
+                },
+                {
+                  "prompt": "I am planning to buy a house, do you think I should buy a house with a garden or without a garden?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I think you should buy a house with a garden because it gives you space to grow plants and relax. It is also a great place for family activities and enjoying fresh air at home."
+                },
+                {
+                  "prompt": "People should pay a small fee to maintain public parks and gardens. What do you think?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I agree people should pay a small fee to maintain public parks and gardens. The money can help keep them clean, safe, and beautiful, so everyone can enjoy a better environment and relaxing space."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "GARDEN CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 217,
+        "questions": [
+          {
+            "id": 436,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of the garden club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "The city council wants to encourage more people to participate in gardening. The council has two proposals. One is to plant 50 new trees and new species of flowers at the local park. The second is to offer practical workshops in gardening skills at the local college. Which proposal should we support?",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "GARDEN CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 218,
+    "title": "HEALTH CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 218,
+        "questions": [
+          {
+            "id": 437,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a health club. Fill in the form. Use 1 – 5 words.",
+              "fields": [
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do in your free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "First language?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Who do you usually go to the movies with?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "HEALTH CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 218,
+        "questions": [
+          {
+            "id": 438,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a health club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\nPlease tell me what classes you want to take and what times and days suit you.",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "HEALTH CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 218,
+        "questions": [
+          {
+            "id": 439,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a health club. You are talking to three other members in the health club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Hi! Welcome to the club. How did you hear about the club?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hi. Thank you for your interesting question. I heard about the club from my friends. I really like joining this club because it helps me improve my health and unwind after a hard working day.\r\n\r\nI found out about this club through my friends who recommended it to me. I also came across it on the internet and saw positive reviews that motivated me to join."
+                },
+                {
+                  "prompt": "Hi! What do you hope to achieve by joining the club?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I hope it will help me avoid health problems such as obesity, keep fit, and unwind after a hard working day. Moreover, when I join the club, I can make new friends with people who have the same hobbies. \r\n\r\nBy joining the club, I hope to meet new people, improve my health, and maintain a balanced lifestyle. I plan to exercise regularly and eat a healthy, balanced diet to prevent illness."
+                },
+                {
+                  "prompt": "What do you think of the health club facilities? Should we change anything?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I think the health club facilities are very good. In my opinion, we should not do anything. I really like doing this club because it can help me to stay away from health problems such as obesity, keep fit, and unwind after a busy day. \r\n\r\nI think the facilities are good and meet the basic needs of members. However, upgrading some equipment, like adding advanced workout machines, would improve the overall experience and quality of the club.\r\nOr\r\nPersonally, I find health club facilities quite good. They can satisfy the essential demands of club members. However, it would be wonderful if the advanced full-body workout machines could be equipped in a physical location to improve our club's quality."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "HEALTH CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 218,
+        "questions": [
+          {
+            "id": 440,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "A manager of the health club has an announcement for the club’s members",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Because of personal reasons, the instructor will be away for two weeks. We will use our facilities by ourselves without the assistance of an instructor. I am so sorry about this situation and hope you are doing well in the next two weeks.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "HEALTH CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 219,
+    "title": "Beautiful Home Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 219,
+        "questions": [
+          {
+            "id": 546,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a Beautiful Home Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "What is your first school?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite type of music?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What kinds of movies do you like?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite film?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Beautiful Home Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 219,
+        "questions": [
+          {
+            "id": 441,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Describe where you live (20-30 words)",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Beautiful home Clu - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 219,
+        "questions": [
+          {
+            "id": 442,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a home living club. You are talking to three other members in the home living chat room. Use 30-40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "You must stay in the bedroom but share with your brother. How do you feel?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I will feel a little uncomfortable because I prefer having a separate bedroom. My brother and I will discuss how we can come up with a solution that suits us both."
+                },
+                {
+                  "prompt": "Living in the city or the countryside is better. Do you agree? Why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Both the city and countryside are ideal places to live, but everyone has their own preferences. I prefer the city because of my work. It offers more conveniences and opportunities, making life easier in many ways."
+                },
+                {
+                  "prompt": "Nowadays, old buildings are demolished and replaced with modern buildings. I feel we should protect historic buildings. What do you think about protecting historic buildings?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I agree with protecting historic buildings. We must respect and preserve history. Historic architecture is also unique and interesting, so I believe it should be maintained for future generations to admire."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Beautiful home Clu - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 219,
+        "questions": [
+          {
+            "id": 443,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a home living club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Many young families want to buy a house or an apartment. The club wants the members to make suggestions to help them find homes.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Beautiful home Clu - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 220,
+    "title": "Language Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 220,
+        "questions": [
+          {
+            "id": 544,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a Language Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "What is your favorite animal?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your first language?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Who do you usually go to the movie with?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite time of the day?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What's the weather like today?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Language Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 220,
+        "questions": [
+          {
+            "id": 545,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of the Language Club. Fill in the form. Write in sentences. Use 20–30 words. Recommended time: 7 minutes.\r\nTell me your free time and interests?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Language Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 220,
+        "questions": [
+          {
+            "id": 444,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of the language club. You are talking to three other members in the language club chat room. Use 30 - 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Why did you choose this course?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "This course is essential for my current job. I also want to meet new people to expand my network. The best way to network is to attend language clubs."
+                },
+                {
+                  "prompt": "How have you found the course so far? What has been challenging?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I find this course exciting and valuable. During the course, I have learned a lot. I had some difficulties when I had to speak in front of a crowd."
+                },
+                {
+                  "prompt": "What are you hoping to do when you finish the course?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "At the end of the course, I hope my language skills will improve and be more confident. I will apply the knowledge and skills gained from this course at work."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Language Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 220,
+        "questions": [
+          {
+            "id": 445,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of the language club and received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "The club will have a lecture soon and needs a speaker. Write an email expressing your desire to be a speaker and giving the topic of the talk.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Language Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 221,
+    "title": "Museum Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 221,
+        "questions": [
+          {
+            "id": 542,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a museum club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "What's your hobby?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you get to work?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do in the evening?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What kinds of movies do you like?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What's your favorite food?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Museum Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 221,
+        "questions": [
+          {
+            "id": 543,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of the Museum Club. Fill in the form. Write in sentences. Use 20–30 words. Recommended time: 7 minutes.\r\nTell me the last time you went to a museum?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Museum Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 221,
+        "questions": [
+          {
+            "id": 446,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a museum club. You are talking to three other members in the museum club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Tell a museum you visited when you were a child?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "When I was a child, I visited the Vietnam National Museum with my parents. I saw many old objects and learned about Vietnamese history. It was an interesting and memorable experience."
+                },
+                {
+                  "prompt": "Which do you prefer, the History Museum or Sports Museum?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I prefer the History Museum because I enjoy learning about famous people and historical events. It helps me understand the past better and gives me a lot of useful knowledge."
+                },
+                {
+                  "prompt": "Nowadays, many museums use technology to create online exhibitions. Will that be successful?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Yes, I think it will be successful because people can visit museums from anywhere. Online exhibitions are convenient, save time, and encourage more people to learn about history and culture."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Museum Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 221,
+        "questions": [
+          {
+            "id": 447,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Museum Club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Currently, the museum club is considering that members may pay a fee to visit museums\r\nPlease give your opinion?",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Museum Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 222,
+    "title": "Music club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 222,
+        "questions": [
+          {
+            "id": 541,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a music club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "How many phones do you have?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How often do you go shopping?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where do you live?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where would you like to live?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Music club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 222,
+        "questions": [
+          {
+            "id": 448,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Please tell us about the last time you listened to music.",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Music club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 222,
+        "questions": [
+          {
+            "id": 449,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a music club. You are talking to three other members in the music club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Hi! How often do you listen to music?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I listen to music at home every evening. I really like listening to music because it helps me feel comfortable after a day at work.\r\n\r\n\r\nI’m a big fan of music, especially K-pop and R&B. I listen to music whenever I have free time, and I also enjoy listening while studying or doing housework.\r\nPlease tell us about the last time you listened to music.\r\n\r\n\r\nThe last time I listened to music was 5 hours ago. I enjoyed my favorite songs along with the attractive videos on YouTube."
+                },
+                {
+                  "prompt": "I plan to give my son music lessons, but he doesn’t like it. What should I do?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I suggest showing your son some of the benefits of music. It can help reduce anxiety, improve mood, and enhance work efficiency. Understanding these benefits may make him more interested in music lessons.\r\n\r\n\r\nOr\r\nEveryone has their own preferences, so if your son doesn’t enjoy the lessons, try to find out what interests him. You could nurture his other hobbies and introduce him to music in a way that suits his interests."
+                },
+                {
+                  "prompt": "Do you agree that music is essential in a culture",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I agree that music is essential in a culture. It reflects a society's values, history, and traditions. Music helps people connect, express emotions, and preserve cultural identity across generations."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Music club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 222,
+        "questions": [
+          {
+            "id": 450,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "Phàn nàn vì thường xuyên mở nhạc muộn",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Our club has recently had some concerts and plays music at night. However, residents living near our club complain about the noise from our concerts.\r\nPlease give me some suggestions to solve this problem,",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friends. Write about your feelings and ask for advice on how to deal with them. Write about 50 words. You have 10 minutes.",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Music club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 223,
+    "title": "Nature Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 223,
+        "questions": [
+          {
+            "id": 451,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a nature club. Fill in the form. Use 1 - 5 words.",
+              "fields": [
+                {
+                  "label": "What's your favorite sport?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How many people are in your family?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do yesterday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you go to school?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What's your hobby?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Nature Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 223,
+        "questions": [
+          {
+            "id": 452,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a nature club. Fill in the form. Write in sentences. Use 20-30 words.\r\nPlease tell me about your free time and hobbies?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Nature Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 223,
+        "questions": [
+          {
+            "id": 453,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a nature club. You are talking to three other members in the nature club chat room. Talk to them using sentences. Use 30 - 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Hi! Welcome to the club. Where do you like to visit?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "If I have a chance, I'd like to visit Da Lat. Da Lat is famous for its cool weather, various types of flowers, and romantic scenes. When visiting Da Lat, I will go to its pine forests, flowers garden, vintage houses, and stores,"
+                },
+                {
+                  "prompt": "Hi! Why did you decide to join the club?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hi! I joined the nature club because I love spending time outdoors and want to learn more about protecting the environment. It’s also a great way to meet others who share my passion."
+                },
+                {
+                  "prompt": "The bigger the club, the more environmentally conscious people are, right?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Yes, that's true! A bigger club means more people learning about nature and taking action to protect the environment. Together, we can make a bigger impact and inspire others to care for our planet."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Nature Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 223,
+        "questions": [
+          {
+            "id": 454,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a nature club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "The club wants to make a plan for the young people because they just love to stay home and play games.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Nature Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 224,
+    "title": "Outdoor Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 224,
+        "questions": [
+          {
+            "id": 540,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a outdoor club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+              "fields": [
+                {
+                  "label": "Who do you usually go to the movies with?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Do you like to take photos?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where do you like to go on holiday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s your favorite color?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do last night?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Outdoor Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 224,
+        "questions": [
+          {
+            "id": 455,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Why did you join?",
+              "word_limit": {
+                "min": 20,
+                "max": 30
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Outdoor Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 224,
+        "questions": [
+          {
+            "id": 456,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "What kinds of outdoor activities do you often do?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I often go for walks and play badminton with my friends. Sometimes, we go to the park and take photos of beautiful places. I also enjoy cycling because it helps me stay healthy and relax after studying."
+                },
+                {
+                  "prompt": "How often and what time can you come to the club?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I can come to the club twice a week, usually on Saturday and Sunday. I am free in the morning, from about 8 to 11 a.m. I prefer this time because the weather is cooler and I can enjoy outdoor activities comfortably."
+                },
+                {
+                  "prompt": "What are the most popular outdoor activities in your country?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "In my country, walking, cycling, swimming, and playing badminton are very popular outdoor activities. Many people also enjoy going to the beach, hiking, and having picnics with their families. These activities are popular because they are fun, healthy, and suitable for different ages."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Outdoor Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 224,
+        "questions": [
+          {
+            "id": 457,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You received this email from the secretary of the club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Our outdoor club will organize an outdoor event at the end of this month. There will be two options: Going to the mountain or traveling to the beach. We want members to raise their voices and suggest activities to make the event more appealing to members so that children can join.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Outdoor Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 225,
+    "title": "PHOTOGRAPHY CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 225,
+        "questions": [
+          {
+            "id": 458,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a photography club. Fill in the form. Use 1 – 5 words.",
+              "fields": [
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do in your free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "First language?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Who do you usually go to the movies with?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "PHOTOGRAPHY CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 225,
+        "questions": [
+          {
+            "id": 459,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a photography club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\nWhat is your favorite time and place to take pictures?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "PHOTOGRAPHY CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 225,
+        "questions": [
+          {
+            "id": 460,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a photography club. You are talking to three other members in the photography club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Hi! Welcome to the club. What is your favorite photo?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hello! It’s great to talk to you. My favorite photo is of a waterfall in Cao Bang Province. I saw it last month at a friend’s house, and the breathtaking scenery left a strong impression on me."
+                },
+                {
+                  "prompt": "Hi! What kind of photos do you like to take?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Hi! I like taking nature photos, especially sunsets, flowers, and trees. I also enjoy capturing happy moments with friends and interesting things I see during my travels."
+                },
+                {
+                  "prompt": "Is it reasonable to take pictures with the phone?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Yes, it is reasonable to take pictures with a phone. It’s easy, convenient, and phone cameras today are very good for capturing everyday moments and beautiful scenes."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "PHOTOGRAPHY CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 225,
+        "questions": [
+          {
+            "id": 461,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a photography club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Last year, the club held a contest, but there was only one category. This year, the club will be divided into women, men, and children under 16.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "PHOTOGRAPHY CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 226,
+    "title": "READING CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 226,
+        "questions": [
+          {
+            "id": 462,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "How is the weather today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite season of the year?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do every morning?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do in your free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do last night?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "READING CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 226,
+        "questions": [
+          {
+            "id": 463,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "When was the last time you read a book, and how was the book?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "READING CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 226,
+        "questions": [
+          {
+            "id": 464,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I like reading sports magazines. Do you like them? Why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I enjoy reading sports magazines because they provide specific and detailed information. I especially like reading about badminton, which is very exciting."
+                },
+                {
+                  "prompt": "How often do you read? Who do you read with?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": ""
+                },
+                {
+                  "prompt": "Nowadays, children prefer playing games to reading books. Do you think this is worrying? Why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I enjoy reading sports magazines because they provide specific and detailed information. I especially like reading about badminton, which is very exciting."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "READING CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 226,
+        "questions": [
+          {
+            "id": 465,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You received this email from the manager of the club",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "The club received an email about a new library, and we need to brainstorm how to design it to appeal to both young and old.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "READING CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 227,
+    "title": "SCIENCE CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 227,
+        "questions": [
+          {
+            "id": 466,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What is your favorite color?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your first school?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do in your free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite sport?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do last night?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "SCIENCE CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 227,
+        "questions": [
+          {
+            "id": 467,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Do you like Science? Why? (Write in sentences about 20-30 words)",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "SCIENCE CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 227,
+        "questions": [
+          {
+            "id": 468,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are in a club chat room with three club members. You will answer and exchange some opinions with those three people. Write answers in sentences about 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Why did you decide to join our Science Club? How often can you attend?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I am interested in science, and my best friend is a club member, so I decided to join. Additionally, science has improved my thinking abilities and problem-solving skills. I go to school on weekdays, so I can participate in the club on weekends."
+                },
+                {
+                  "prompt": "You learned about Science in school in the past. Do you remember anything about Science?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Well, I have a keen interest in science. Back when I was in secondary school, I was fascinated by the subject. I still remember some basic facts, such as: First, the Earth revolves around the Sun. Second, water boils at 100 degrees Celsius. Finally, I remember information about the Big Bang."
+                },
+                {
+                  "prompt": "Who is your favorite inventor or scientist? Why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I admire Marie Curie greatly. She was the first woman in the world to receive a Nobel Prize. She was a hardworking woman and was deeply passionate about her research."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "SCIENCE CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 227,
+        "questions": [
+          {
+            "id": 469,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You have received an email from the Science Club about next month&amp;#039;s club exhibition.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Our club is preparing to organize the science exhibition next month. Both young people and older adults can take part in our activities. We are planning for our exhibition. Could you contribute some ideas for our event team? Does our club issue tickets for participants? I would like to hear your contribution.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "SCIENCE CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 228,
+    "title": "Social Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 228,
+        "questions": [
+          {
+            "id": 470,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a social club. Fill in the form. Use 1 – 5 words.",
+              "fields": [
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How are you?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s your hobby?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you get to work?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do in the evening?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Writing Social Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 228,
+        "questions": [
+          {
+            "id": 471,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a social club. Fill in the form.\r\nWrite in sentences. Use 20 – 30 words.\r\nWhat do you like to do with friends, and where do you go?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Writing Social Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 228,
+        "questions": [
+          {
+            "id": 472,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a social club. You are talking to three other members in the social club chat room. Talk to them using sentences. Use 30 – 40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Where did you meet your friends for the first time, and how did you become friends?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I have very kind friends, and we’ve been friends for two years. We first met in school, and we didn’t know each other before. Only when we did our group homework did we become friends.\r\nOr\r\nThe first time my friends and I met was five years ago at our primary school. We worked in a group and did exercises together. Gradually, we became close-knit and good friends. We still keep in touch now."
+                },
+                {
+                  "prompt": "I have just moved to the city and want to make some friends. Can you give me some advice?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I have some advice for you. Firstly, you can make new friends through Facebook or other social networking sites. Secondly, you should take the initiative to talk to new people. You can say hello or ask their names."
+                },
+                {
+                  "prompt": "It is much easier to make new friends because of computers and mobile phones. Do you agree? Why or why not?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I agree that computers and mobile phones make it easier to make new friends. Nowadays, instead of meeting face to face, people use mobile phones or computers to contact their friends anywhere."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Writing Social Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 228,
+        "questions": [
+          {
+            "id": 473,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of a social club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "We want to organize monthly face-to-face meetings. We want your suggestions about when and where we could meet. This would suit both young and old people. Please send us your suggestions and your reasons.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend. Write about your feelings and what you would like to do. Write about 50 words",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Writing Social Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 229,
+    "title": "Sports club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 229,
+        "questions": [
+          {
+            "id": 474,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form. Use 1-5 words.",
+              "fields": [
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How are you?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s your favorite hobby?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you get to work?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like to do in the evening?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Sports club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 229,
+        "questions": [
+          {
+            "id": 539,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Now you've become a new member of the Sports club. Fill in the form. Write in sentences. Use 20-30 words \r\nWhy did you decide to join the club?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Sports club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 229,
+        "questions": [
+          {
+            "id": 475,
+            "skill": "writing",
+            "part": 3,
+            "stem": "You are a member of a sports club. You are talking to three other members in the sports club chat room. Talk to them using sentences. Use 30-40 words.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "When was the last time you played sports?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "The last time I played sports was two weeks ago. I played badminton with my friends in my schoolyard, which helped me release stress and unwind after several hours of studying."
+                },
+                {
+                  "prompt": "I usually play sports with my friends and watch sports programs. What about you?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I often play various physical activities with my friends, such as football, volleyball, and badminton. I also watch sports programs on television to stay updated about the sports world."
+                },
+                {
+                  "prompt": "I like playing sports with my friend, but my brother likes playing sports alone. What do you think about this issue?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Oh, I think playing sports alone is quite boring. However, I respect your brother’s choice. He can enjoy individual/solo sports such as fishing, swimming, going to the gym, or riding a bike.\r\n\r\n\r\nOr\r\nWell, I think everyone has their own preferences. But if you ask your brother to play sports with you, I think he’ll still enjoy it. You guys will have a wonderful time together."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Sports club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 229,
+        "questions": [
+          {
+            "id": 476,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of the sports club. You received this email from the club.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Please give your suggestions about the organization of playing sports for young members.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Sports club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 230,
+    "title": "TECHNOLOGY CLUB (phiên bản 1)",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 230,
+        "questions": [
+          {
+            "id": 477,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "Where are you from?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What’s the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What did you do last night?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "First language?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite color?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 230,
+        "questions": [
+          {
+            "id": 478,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "You are a new member of a technology club. Fill in the form. 20 - 30 words\r\n\r\n\r\nWhat do you usually use your laptop for?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 230,
+        "questions": [
+          {
+            "id": 479,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Tell me a time you had problems with your technology device.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Last week, I bought a new iPhone 12 Pro Max, one of the most expensive mobile phones recently. I dropped it, and the screen broke. I feel terrible and regret spending money on a new phone."
+                },
+                {
+                  "prompt": "I often help Grandma use the computer. Have you ever helped anyone?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I often help my little brother fix errors on his laptop and sometimes help my parents search the Internet for information. It makes me happy when I can support them."
+                },
+                {
+                  "prompt": "Modern technology makes life easier. What’s your opinion about this?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I agree that modern technology makes life easier. For example, robots are becoming increasingly popular, helping us save time with tasks like cleaning or cooking."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 230,
+        "questions": [
+          {
+            "id": 480,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "TECHNOLOGY CLUB (phiên bản 1)",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Members often post on the website's club. Lately, however, there have been a few negative comments on other members' posts. Please give your opinion on how to fix the situation.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 40,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "TECHNOLOGY CLUB (phiên bản 1) - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 231,
+    "title": "TRAVEL CLUB",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 231,
+        "questions": [
+          {
+            "id": 481,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What is your favorite subject in high school?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you like doing with your friends?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Where do you wanna go on holiday?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Why are you interested in travel?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Tell me a place you often visit?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "TRAVEL CLUB - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 231,
+        "questions": [
+          {
+            "id": 482,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Where do you usually travel on holiday?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "TRAVEL CLUB - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 231,
+        "questions": [
+          {
+            "id": 483,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "Do you prefer to travel alone or with a group? Why?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I like to travel with friends rather than go alone because we can do many activities together, such as board games, team sports, etc. We can also have some beer and talk to each other."
+                },
+                {
+                  "prompt": "Tell me about an exciting summer vacation you went on.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "The most exciting journey I have been on was when I visited Hanoi last week. That day, I visited Hoan Kiem Lake. I really like traveling because it allows me to explore new places, meet new people, and expand my knowledge. \r\n\r\nOr : Last month, I traveled to Da Lat City with my group of friends. We hired motorbikes to explore the city and enjoy the beautiful sights. We took a lot of gorgeous photos."
+                },
+                {
+                  "prompt": "Traveling a long distance by some means of transportation is not good for the environment. Do you agree?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Traveling a long distance by some means of transportation is not good for the environment because transportation emits CO2 into the atmosphere, which causes environmental pollution."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "TRAVEL CLUB - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 231,
+        "questions": [
+          {
+            "id": 484,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "TRAVEL CLUB",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "Our club plans to encourage tourists to visit our area and expect them to behave politely. Please raise your voice and give some suggestions for this plan.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "TRAVEL CLUB - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 232,
+    "title": "TV Club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 232,
+        "questions": [
+          {
+            "id": 485,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a TV club. Fill in the form. Use 1-5 words.",
+              "fields": [
+                {
+                  "label": "What is your name?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you do?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite day?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "How do you travel around your city/town?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What time do you get up?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "TV Club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 232,
+        "questions": [
+          {
+            "id": 486,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "Do you usually watch TV?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "TV Club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 232,
+        "questions": [
+          {
+            "id": 487,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "What do you like to do when you watch TV?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "When I watch TV, I usually sit on the sofa and have a drink. I like watching movies and sports programs. Sometimes, I eat some snacks while watching TV. I enjoy these activities because they help me relax after a busy day."
+                },
+                {
+                  "prompt": "Do you like watching TV alone or with others?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I prefer watching TV with my family because we can enjoy the programs together. We can talk about interesting scenes and share our opinions. Moreover, watching TV together gives us more opportunities to spend quality time with each other."
+                },
+                {
+                  "prompt": "Is it good for children to watch TV programs too much?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "No, I don't think it is good for children to watch too much TV. It can hurt their eyes and reduce the time they spend playing outside. Children should also read books, exercise, and spend time with their family."
+                }
+              ]
+            },
+            "point": 10,
+            "title": "TV Club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 232,
+        "questions": [
+          {
+            "id": 488,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "You are a member of the TV club and you received an email",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "-The club is planning to organize a conference to invite all members. The members come from different countries and have only communicated with each other online before. The club would like to get your suggestions on the venue of this conference and the activities held during the conference.",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "TV Club - Part 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "set_id": 233,
+    "title": "Walking club",
+    "skill": "writing",
+    "sections": [
+      {
+        "index": 0,
+        "part": 1,
+        "part_label": "1",
+        "set_id": 233,
+        "questions": [
+          {
+            "id": 489,
+            "skill": "writing",
+            "part": 1,
+            "stem": "Please fill in the form below.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "instructions": "You want to join a sports club. Fill in the form.",
+              "fields": [
+                {
+                  "label": "What is the weather like today?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "Your favorite time of year?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What do you usually do when you have free time?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "What is your favorite sport?",
+                  "placeholder": ""
+                },
+                {
+                  "label": "A place you would like to visit in your country?",
+                  "placeholder": ""
+                }
+              ],
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Walking club - Part 1"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "part": 2,
+        "part_label": "2",
+        "set_id": 233,
+        "questions": [
+          {
+            "id": 490,
+            "skill": "writing",
+            "part": 2,
+            "stem": "Write a short text (20-30 words).",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "scenario": "When and where do you like to walk?",
+              "word_limit": {
+                "min": 20,
+                "max": 45
+              },
+              "hints": "Write roughly 20-30 words.",
+              "sample_answer": null
+            },
+            "point": 5,
+            "title": "Walking club - Part 2"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "part": 3,
+        "part_label": "3",
+        "set_id": 233,
+        "questions": [
+          {
+            "id": 491,
+            "skill": "writing",
+            "part": 3,
+            "stem": "Respond to the messages in the group.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "questions": [
+                {
+                  "prompt": "I usually go for a walk. Do you like to walk or not?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I love walking, and it’s part of my daily routine. I often walk to work, which is a great way to stay fit and clear my mind before starting the day."
+                },
+                {
+                  "prompt": "I like to walk, but when it rains, I get wet. Tell me about a time you had a bad experience while walking.",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "Last year, I went on a long solo walk around Hoan Kiem Lake, which took almost two hours. When I got home, my legs were sore. While it was a memorable experience, I don’t think I’ll do it again unless I have a friend to join me."
+                },
+                {
+                  "prompt": "Walking is the best form of exercise. What do you think when many people walk and know if it is good for your health?",
+                  "word_limit": {
+                    "min": 30,
+                    "max": 60
+                  },
+                  "sample_answer": "I believe walking is the best form of exercise. Walking daily helps you stay fit and is an excellent way to relieve stress after a long day. It’s also completely free. It's accessible to everyone and doesn't require special equipment"
+                }
+              ]
+            },
+            "point": 10,
+            "title": "Walking club - Part 3"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "part": 4,
+        "part_label": "4",
+        "set_id": 233,
+        "questions": [
+          {
+            "id": 492,
+            "skill": "writing",
+            "part": 4,
+            "stem": "Read the email and complete the two tasks.",
+            "audio_path": null,
+            "audio_url": null,
+            "audio_urls": [],
+            "image_path": null,
+            "metadata": {
+              "context": "The club plans to organize a walk across European countries. A few group members suggested it, but it was said to be unrealistic. Please send us your suggestions and your reasons.",
+              "email": {
+                "greeting": "Dear Member,",
+                "body": "-",
+                "sign_off": "Best regards,\r\nThe Management"
+              },
+              "task1": {
+                "instruction": "Write an email to your friend",
+                "word_limit": {
+                  "min": 50,
+                  "max": 75
+                },
+                "sample_answer": null
+              },
+              "task2": {
+                "instruction": "Email to the manager of the club:",
+                "word_limit": {
+                  "min": 120,
+                  "max": 225
+                },
+                "sample_answer": null
+              }
+            },
+            "point": 20,
+            "title": "Walking club - Part 4"
+          }
+        ]
+      }
+    ]
+  }
+]

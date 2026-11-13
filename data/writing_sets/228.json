@@ -1,0 +1,174 @@
+{
+  "set_id": 228,
+  "title": "Social Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 228,
+      "questions": [
+        {
+          "id": 470,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a social club. Fill in the form. Use 1 – 5 words.",
+            "fields": [
+              {
+                "label": "What’s the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "How are you?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s your hobby?",
+                "placeholder": ""
+              },
+              {
+                "label": "How do you get to work?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like to do in the evening?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Writing Social Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 228,
+      "questions": [
+        {
+          "id": 471,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a social club. Fill in the form.\r\nWrite in sentences. Use 20 – 30 words.\r\nWhat do you like to do with friends, and where do you go?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Writing Social Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 228,
+      "questions": [
+        {
+          "id": 472,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a social club. You are talking to three other members in the social club chat room. Talk to them using sentences. Use 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Where did you meet your friends for the first time, and how did you become friends?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I have very kind friends, and we’ve been friends for two years. We first met in school, and we didn’t know each other before. Only when we did our group homework did we become friends.\r\nOr\r\nThe first time my friends and I met was five years ago at our primary school. We worked in a group and did exercises together. Gradually, we became close-knit and good friends. We still keep in touch now."
+              },
+              {
+                "prompt": "I have just moved to the city and want to make some friends. Can you give me some advice?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I have some advice for you. Firstly, you can make new friends through Facebook or other social networking sites. Secondly, you should take the initiative to talk to new people. You can say hello or ask their names."
+              },
+              {
+                "prompt": "It is much easier to make new friends because of computers and mobile phones. Do you agree? Why or why not?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I agree that computers and mobile phones make it easier to make new friends. Nowadays, instead of meeting face to face, people use mobile phones or computers to contact their friends anywhere."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Writing Social Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 228,
+      "questions": [
+        {
+          "id": 473,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a social club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "We want to organize monthly face-to-face meetings. We want your suggestions about when and where we could meet. This would suit both young and old people. Please send us your suggestions and your reasons.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend. Write about your feelings and what you would like to do. Write about 50 words",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Writing Social Club - Part 4"
+        }
+      ]
+    }
+  ]
+}

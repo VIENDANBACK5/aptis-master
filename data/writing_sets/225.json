@@ -1,0 +1,174 @@
+{
+  "set_id": 225,
+  "title": "PHOTOGRAPHY CLUB",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 225,
+      "questions": [
+        {
+          "id": 458,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a photography club. Fill in the form. Use 1 – 5 words.",
+            "fields": [
+              {
+                "label": "Where are you from?",
+                "placeholder": ""
+              },
+              {
+                "label": "What’s the weather like today?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you do in your free time?",
+                "placeholder": ""
+              },
+              {
+                "label": "First language?",
+                "placeholder": ""
+              },
+              {
+                "label": "Who do you usually go to the movies with?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "PHOTOGRAPHY CLUB - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 225,
+      "questions": [
+        {
+          "id": 459,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "You are a new member of a photography club. Fill in the form. Write in sentences. Use 20 – 30 words.\r\nWhat is your favorite time and place to take pictures?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "PHOTOGRAPHY CLUB - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 225,
+      "questions": [
+        {
+          "id": 460,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a photography club. You are talking to three other members in the photography club chat room. Talk to them using sentences. Use 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Hi! Welcome to the club. What is your favorite photo?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Hello! It’s great to talk to you. My favorite photo is of a waterfall in Cao Bang Province. I saw it last month at a friend’s house, and the breathtaking scenery left a strong impression on me."
+              },
+              {
+                "prompt": "Hi! What kind of photos do you like to take?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Hi! I like taking nature photos, especially sunsets, flowers, and trees. I also enjoy capturing happy moments with friends and interesting things I see during my travels."
+              },
+              {
+                "prompt": "Is it reasonable to take pictures with the phone?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "Yes, it is reasonable to take pictures with a phone. It’s easy, convenient, and phone cameras today are very good for capturing everyday moments and beautiful scenes."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "PHOTOGRAPHY CLUB - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 225,
+      "questions": [
+        {
+          "id": 461,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "You are a member of a photography club. You received this email from the club.",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Last year, the club held a contest, but there was only one category. This year, the club will be divided into women, men, and children under 16.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "PHOTOGRAPHY CLUB - Part 4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "set_id": 243,
+  "title": "Đề 10: 3 cậu bé đá bóng + chơi với khỉ - cá voi + đạt được mục tiêu",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 243,
+      "questions": [
+        {
+          "id": 574,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "What do you do? (What’s your job?)",
+              "Tell me about your last holiday",
+              "Describe your room."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 243,
+      "questions": [
+        {
+          "id": 521,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/XLN9snzgPYFm8uNHz5AHpayMShyItFDPXKKs8Q01.png",
+            "questions": [
+              "Describe the picture",
+              "The last time you played sports?",
+              "3. Why should people play sports?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "XLN9snzgPYFm8uNHz5AHpayMShyItFDPXKKs8Q01.png"
+          },
+          "point": 5,
+          "title": "Đề 10 - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 243,
+      "questions": [
+        {
+          "id": 522,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/ElWx0lLdShF7y2M6a14xSx6y1oSNVPHb10W0KU1z.jpg",
+              "speaking_images/70LG5iEZUTW211lywZlwU9iPrh3u4QALIF0S3aRj.png"
+            ],
+            "questions": [
+              "Tell me what you see from the two pictures?",
+              "What are the attractions of the two pictures?",
+              "What is the relationship between people and animals?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "ElWx0lLdShF7y2M6a14xSx6y1oSNVPHb10W0KU1z.jpg",
+              "70LG5iEZUTW211lywZlwU9iPrh3u4QALIF0S3aRj.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 10 - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 243,
+      "questions": [
+        {
+          "id": 523,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/HkxmUBC5Sf0Fc9iLMwiBl29J3lRVXuTgKXUzOxoM.jpg",
+            "questions": [
+              "Tell me a time you achieve a goal?",
+              "How did you feel?",
+              "What ways can help people achieve goals?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "HkxmUBC5Sf0Fc9iLMwiBl29J3lRVXuTgKXUzOxoM.jpg"
+          },
+          "point": 20,
+          "title": "Đề 10 - Part 4"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aptis Master · Hệ Thống Luyện Thi Aptis Trực Tuyến</title>
+  <title>Aptis Master · Hệ Thống Luyện Thi Aptis Trực Tuyến 4 Kỹ Năng</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -54,20 +54,28 @@
         </div>
         <div>
           <span class="text-lg font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent">Aptis Master</span>
-          <span class="hidden sm:inline-block ml-2 px-2 py-0.5 text-[11px] font-semibold bg-emerald-50 text-emerald-700 rounded-full border border-emerald-200">100% Chuẩn Đề & Đáp Án</span>
+          <span class="hidden sm:inline-block ml-2 px-2 py-0.5 text-[11px] font-semibold bg-emerald-50 text-emerald-700 rounded-full border border-emerald-200">Trọn Bộ 4 Kỹ Năng</span>
         </div>
       </div>
 
       <nav class="flex items-center gap-1 sm:gap-2">
-        <button onclick="showDashboard()" id="nav-btn-dash" class="px-3.5 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 transition-colors bg-blue-50 text-blue-700">
+        <button onclick="showDashboard()" id="nav-btn-dash" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors bg-blue-50 text-blue-700">
           <i data-lucide="layout-grid" class="w-4 h-4"></i>
-          <span class="hidden sm:inline">Kho Đề Thi</span>
+          <span>Kho Đề Thi</span>
         </button>
-        <button onclick="showInstructions()" id="nav-btn-instr" class="px-3.5 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 transition-colors text-slate-600 hover:bg-slate-100">
-          <i data-lucide="book-marked" class="w-4 h-4"></i>
-          <span class="hidden sm:inline">Cẩm Nang & Mẹo</span>
+        <button onclick="filterCategory('speaking'); showDashboard();" id="nav-btn-speaking" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors text-slate-600 hover:bg-slate-100">
+          <i data-lucide="mic" class="w-4 h-4 text-orange-600"></i>
+          <span>Speaking (20 Đề)</span>
         </button>
-        <button onclick="resetAllProgress()" title="Đặt lại toàn bộ tiến độ làm bài" class="p-2 rounded-lg text-slate-400 hover:text-red-600 hover:bg-red-50 transition-colors ml-2">
+        <button onclick="filterCategory('writing'); showDashboard();" id="nav-btn-writing" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors text-slate-600 hover:bg-slate-100">
+          <i data-lucide="pen-tool" class="w-4 h-4 text-rose-600"></i>
+          <span>Writing (30 Đề)</span>
+        </button>
+        <button onclick="showInstructions()" id="nav-btn-instr" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors text-slate-600 hover:bg-slate-100">
+          <i data-lucide="book-marked" class="w-4 h-4 text-indigo-600"></i>
+          <span class="hidden sm:inline">Cẩm Nang</span>
+        </button>
+        <button onclick="resetAllProgress()" title="Đặt lại toàn bộ tiến độ làm bài" class="p-2 rounded-lg text-slate-400 hover:text-red-600 hover:bg-red-50 transition-colors ml-1">
           <i data-lucide="rotate-ccw" class="w-4 h-4"></i>
         </button>
       </nav>
@@ -84,13 +92,13 @@
         <div class="absolute -right-10 -bottom-10 opacity-10 pointer-events-none">
           <i data-lucide="award" class="w-72 h-72"></i>
         </div>
-        <div class="relative z-10 max-w-2xl">
+        <div class="relative z-10 max-w-3xl">
           <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-white/20 text-white backdrop-blur-md mb-3 border border-white/20">
-            <i data-lucide="check-check" class="w-3.5 h-3.5"></i> Đầy đủ 100% âm thanh & đáp án chính thức
+            <i data-lucide="check-check" class="w-3.5 h-3.5"></i> Đầy đủ trọn bộ 4 Kỹ Năng: Listening · Reading · Speaking · Writing + Grammar
           </span>
           <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mb-2">Hệ Thống Ôn Luyện Đề Thi Aptis Trực Tuyến</h1>
           <p class="text-blue-100 text-sm sm:text-base leading-relaxed">
-            Học mọi lúc mọi nơi trên điện thoại, máy tính bảng hoặc máy tính. Gồm 368 câu hỏi thực tế, 243 file nghe MP3 chất lượng cao, chia đúng từng dạng câu hỏi và có lời giải chi tiết.
+            Học mọi lúc mọi nơi trên điện thoại, máy tính bảng hoặc máy tính. Gồm 368 câu hỏi trắc nghiệm, 243 file nghe MP3, 20 bộ đề thi thử Speaking kèm ảnh màu & bấm giờ, 30 bộ đề thi thử Writing kèm bài mẫu chuẩn B2/C.
           </p>
         </div>
       </div>
@@ -103,7 +111,7 @@
           </div>
           <div>
             <div class="text-2xl font-black text-slate-800" id="stat-total-q">368</div>
-            <div class="text-xs text-slate-500 font-medium">Tổng số câu hỏi</div>
+            <div class="text-xs text-slate-500 font-medium">Câu trắc nghiệm</div>
           </div>
         </div>
 
@@ -117,33 +125,45 @@
           </div>
         </div>
 
-        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex items-center gap-4">
-          <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold text-xl">
-            <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex items-center gap-4 cursor-pointer hover:border-orange-300 transition-colors" onclick="filterCategory('speaking')">
+          <div class="w-12 h-12 rounded-xl bg-orange-50 text-orange-600 flex items-center justify-center font-bold text-xl">
+            <i data-lucide="mic" class="w-6 h-6"></i>
           </div>
           <div>
-            <div class="text-2xl font-black text-slate-800" id="stat-answered">0</div>
-            <div class="text-xs text-slate-500 font-medium">Câu đã làm</div>
+            <div class="text-2xl font-black text-slate-800" id="stat-speaking-count">20</div>
+            <div class="text-xs text-slate-500 font-medium">Bộ Đề Speaking (Ảnh & Giờ)</div>
           </div>
         </div>
 
-        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex items-center gap-4">
-          <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center font-bold text-xl">
-            <i data-lucide="target" class="w-6 h-6"></i>
+        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex items-center gap-4 cursor-pointer hover:border-rose-300 transition-colors" onclick="filterCategory('writing')">
+          <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center font-bold text-xl">
+            <i data-lucide="pen-tool" class="w-6 h-6"></i>
           </div>
           <div>
-            <div class="text-2xl font-black text-slate-800" id="stat-accuracy">0%</div>
-            <div class="text-xs text-slate-500 font-medium">Tỉ lệ trả lời đúng</div>
+            <div class="text-2xl font-black text-slate-800" id="stat-writing-count">30</div>
+            <div class="text-xs text-slate-500 font-medium">Bộ Đề Writing (CLB & Mẫu)</div>
           </div>
         </div>
       </div>
 
       <!-- Skill Section Tabs -->
-      <div class="flex items-center gap-2 border-b border-slate-200 pb-3 overflow-x-auto">
-        <button onclick="filterCategory('all')" class="cat-pill active px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-900 text-white">Tất cả đề thi</button>
-        <button onclick="filterCategory('listening')" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Listening (Nghe)</button>
-        <button onclick="filterCategory('reading')" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Reading (Đọc)</button>
-        <button onclick="filterCategory('grammar')" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Grammar & Vocab</button>
+      <div class="flex items-center gap-2 border-b border-slate-200 pb-3 overflow-x-auto" id="cat-tabs-container">
+        <button onclick="filterCategory('all')" id="tab-pill-all" class="cat-pill active px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-900 text-white shrink-0">Tất cả đề thi (4 Kỹ Năng)</button>
+        <button onclick="filterCategory('listening')" id="tab-pill-listening" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center gap-1.5 shrink-0">
+          <i data-lucide="headphones" class="w-3.5 h-3.5 text-blue-600"></i> Listening (Nghe)
+        </button>
+        <button onclick="filterCategory('reading')" id="tab-pill-reading" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center gap-1.5 shrink-0">
+          <i data-lucide="book-open" class="w-3.5 h-3.5 text-emerald-600"></i> Reading (Đọc)
+        </button>
+        <button onclick="filterCategory('speaking')" id="tab-pill-speaking" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center gap-1.5 shrink-0">
+          <i data-lucide="mic" class="w-3.5 h-3.5 text-orange-600"></i> Speaking (20 Đề Nói)
+        </button>
+        <button onclick="filterCategory('writing')" id="tab-pill-writing" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center gap-1.5 shrink-0">
+          <i data-lucide="pen-tool" class="w-3.5 h-3.5 text-rose-600"></i> Writing (30 Đề Viết)
+        </button>
+        <button onclick="filterCategory('grammar')" id="tab-pill-grammar" class="cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center gap-1.5 shrink-0">
+          <i data-lucide="check-square" class="w-3.5 h-3.5 text-purple-600"></i> Grammar & Vocab
+        </button>
       </div>
 
       <!-- Section Cards Grid -->
@@ -152,7 +172,7 @@
       </div>
     </div>
 
-    <!-- 2. PRACTICE ROOM VIEW -->
+    <!-- 2. PRACTICE ROOM VIEW (LISTENING, READING, GRAMMAR) -->
     <div id="view-practice" class="hidden space-y-6">
       <!-- Practice Header Bar -->
       <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-sm flex flex-wrap items-center justify-between gap-4">
@@ -282,7 +302,71 @@
       </div>
     </div>
 
-    <!-- 3. INSTRUCTIONS (CẨM NANG) VIEW -->
+    <!-- 3. SPEAKING EXAM VIEW (PHÒNG LUYỆN NÓI 20 BỘ ĐỀ) -->
+    <div id="view-speaking" class="hidden space-y-6">
+      <!-- Speaking Header Bar -->
+      <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-sm flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <button onclick="showDashboard()" class="p-2 rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-100 transition-colors">
+            <i data-lucide="arrow-left" class="w-5 h-5"></i>
+          </button>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-orange-100 text-orange-700 uppercase">Speaking Exam</span>
+              <span id="speaking-set-badge" class="text-xs text-slate-500 font-medium">Đề 1</span>
+            </div>
+            <h2 id="speaking-set-title" class="text-base sm:text-lg font-bold text-slate-900 leading-tight mt-0.5">Speaking Test Title</h2>
+          </div>
+        </div>
+
+        <!-- Part Navigation Tabs -->
+        <div class="flex items-center gap-1.5 overflow-x-auto" id="speaking-part-nav">
+          <button onclick="switchSpeakingPart(1)" id="btn-spk-part-1" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-orange-600 text-white">Part 1 (30s)</button>
+          <button onclick="switchSpeakingPart(2)" id="btn-spk-part-2" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Part 2 (Tả tranh)</button>
+          <button onclick="switchSpeakingPart(3)" id="btn-spk-part-3" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Part 3 (2 Tranh)</button>
+          <button onclick="switchSpeakingPart(4)" id="btn-spk-part-4" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Part 4 (Chuyên sâu)</button>
+        </div>
+      </div>
+
+      <!-- Speaking Main Card -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-8 space-y-6" id="speaking-main-content">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- 4. WRITING EXAM VIEW (PHÒNG LUYỆN VIẾT 30 BỘ ĐỀ CLB) -->
+    <div id="view-writing" class="hidden space-y-6">
+      <!-- Writing Header Bar -->
+      <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-sm flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <button onclick="showDashboard()" class="p-2 rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-100 transition-colors">
+            <i data-lucide="arrow-left" class="w-5 h-5"></i>
+          </button>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-rose-100 text-rose-700 uppercase">Writing Exam</span>
+              <span id="writing-club-badge" class="text-xs text-slate-500 font-medium">Art Club</span>
+            </div>
+            <h2 id="writing-set-title" class="text-base sm:text-lg font-bold text-slate-900 leading-tight mt-0.5">Writing Test Title</h2>
+          </div>
+        </div>
+
+        <!-- Part Navigation Tabs -->
+        <div class="flex items-center gap-1.5 overflow-x-auto" id="writing-part-nav">
+          <button onclick="switchWritingPart(1)" id="btn-wrt-part-1" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-rose-600 text-white">Part 1 (Điền form)</button>
+          <button onclick="switchWritingPart(2)" id="btn-wrt-part-2" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Part 2 (20-30 từ)</button>
+          <button onclick="switchWritingPart(3)" id="btn-wrt-part-3" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Part 3 (Tin nhắn)</button>
+          <button onclick="switchWritingPart(4)" id="btn-wrt-part-4" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">Part 4 (Viết Email)</button>
+        </div>
+      </div>
+
+      <!-- Writing Main Card -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-8 space-y-6" id="writing-main-content">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- 5. INSTRUCTIONS (CẨM NANG) VIEW -->
     <div id="view-instructions" class="hidden space-y-6">
       <div class="flex items-center justify-between">
         <div>
@@ -296,17 +380,27 @@
       </div>
     </div>
 
-    <!-- 4. INSTRUCTION MODAL READER -->
+    <!-- 6. INSTRUCTION MODAL READER -->
     <div id="guide-modal" class="hidden fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
-        <div class="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
-          <h3 id="modal-guide-title" class="font-bold text-slate-900 text-base sm:text-lg line-clamp-1">Tiêu đề bài viết</h3>
-          <button onclick="closeGuideModal()" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-200 transition-colors">
+      <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+        <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between bg-slate-50">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
+              <i data-lucide="book-open" class="w-4 h-4"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base" id="modal-guide-title">Tiêu đề bài hướng dẫn</h3>
+          </div>
+          <button onclick="closeGuideModal()" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors">
             <i data-lucide="x" class="w-5 h-5"></i>
           </button>
         </div>
-        <div class="flex-1 overflow-y-auto p-6 sm:p-8 prose prose-slate max-w-none" id="modal-guide-body">
-          <!-- Article HTML rendered here -->
+        <div class="p-6 overflow-y-auto flex-1 prose prose-slate max-w-none text-sm leading-relaxed" id="modal-guide-body">
+          <!-- Rendered by JS -->
+        </div>
+        <div class="px-6 py-3 border-t border-slate-100 bg-slate-50 flex justify-end">
+          <button onclick="closeGuideModal()" class="px-4 py-2 rounded-xl bg-slate-900 text-white text-xs font-bold hover:bg-slate-800 transition-colors">
+            Đóng cẩm nang
+          </button>
         </div>
       </div>
     </div>
@@ -314,76 +408,106 @@
   </main>
 
   <!-- ================= FOOTER ================= -->
-  <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-      <div>Aptis Master Online & Offline Suite · Dữ liệu chuẩn xác 100% từ MilaEdu</div>
-      <div>Hệ thống phục vụ học viên tự luyện thi Aptis ESOL & General</div>
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div>Aptis Master Offline & Cloud System · Chuẩn đề & đáp án chính thức 100%</div>
+      <div>Trọn bộ 4 Kỹ Năng: Listening · Reading · Speaking · Writing</div>
     </div>
   </footer>
 
-  <!-- ================= APP LOGIC JAVASCRIPT ================= -->
+  <!-- ================= JAVASCRIPT APPLICATION LOGIC ================= -->
   <script>
+    // App State
     let appDatabase = null;
+    let speakingSets = [];
+    let writingSets = [];
     let instructionsDatabase = null;
+    let currentCategory = 'all';
 
     let sections = [];
     let currentSection = null;
-    let questions = [];
     let currentIdx = 0;
+    let questions = [];
+
+    // Speaking state
+    let currentSpeakingSet = null;
+    let currentSpeakingPart = 1;
+    let speakingTimerInterval = null;
+    let speakingSecondsRemaining = 0;
+    let speakingTimerRunning = false;
+
+    // Writing state
+    let currentWritingSet = null;
+    let currentWritingPart = 1;
+
+    // Progress State (persisted via localStorage)
+    let progressData = {
+      answered: {},
+      correct: {},
+      writingDrafts: {}
+    };
+
     let userAnswers = {};
     let checkedState = {};
 
+    let audioListenCounts = {};
     let timerInterval = null;
     let secondsElapsed = 0;
-    let audioListenCounts = {};
 
-    const STORAGE_KEY = 'aptis_master_progress_v3';
-    let progressData = loadProgress();
+    // Audio seekbar dragging
+    let isSeeking = false;
 
-    function loadProgress() {
-      try {
-        const d = localStorage.getItem(STORAGE_KEY);
-        return d ? JSON.parse(d) : { answered: {}, correct: {} };
-      } catch (e) {
-        return { answered: {}, correct: {} };
+    // Load progress from localStorage
+    try {
+      const saved = localStorage.getItem('aptis_progress_v2');
+      if (saved) {
+        progressData = JSON.parse(saved);
+        if (!progressData.writingDrafts) progressData.writingDrafts = {};
       }
+    } catch (e) {
+      console.warn('Cannot load progress from localStorage', e);
     }
 
     function saveProgress() {
       try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(progressData));
+        localStorage.setItem('aptis_progress_v2', JSON.stringify(progressData));
         updateDashboardStats();
-      } catch (e) {}
+      } catch (e) {
+        console.warn('Cannot save progress', e);
+      }
     }
 
     function resetAllProgress() {
-      if (confirm('Bạn có chắc chắn muốn đặt lại toàn bộ lịch sử làm bài và điểm số không?')) {
-        localStorage.removeItem(STORAGE_KEY);
-        progressData = { answered: {}, correct: {} };
-        userAnswers = {};
-        checkedState = {};
-        updateDashboardStats();
+      if (confirm('Bạn có chắc chắn muốn đặt lại toàn bộ tiến độ làm bài không?')) {
+        progressData = { answered: {}, correct: {}, writingDrafts: {} };
+        saveProgress();
         if (currentSection) {
-          renderQuestion(currentIdx);
+          userAnswers = {};
+          checkedState = {};
           renderPalette();
+          renderQuestion(currentIdx);
+        } else {
+          showDashboard();
         }
       }
     }
 
     async function initApp() {
-      await fetchSections();
+      await Promise.all([
+        fetchSections(),
+        fetchSpeakingSets(),
+        fetchWritingSets()
+      ]);
       updateDashboardStats();
       lucide.createIcons();
     }
 
     async function fetchSections() {
       try {
-        // Ưu tiên nạp thẳng từ static JSON (chạy hoàn hảo trên Netlify & GitHub Pages)
         const res = await fetch('/data/all_questions_processed.json');
         appDatabase = await res.json();
         sections = appDatabase.sections;
       } catch (err) {
-        // Fallback sang local API nếu chạy qua app.py
         try {
           const res = await fetch('/api/sections');
           sections = await res.json();
@@ -391,13 +515,74 @@
           console.error('Lỗi nạp sections:', e);
         }
       }
-      renderSectionsGrid(sections);
+      renderSectionsGrid();
     }
 
-    function renderSectionsGrid(list) {
+    async function fetchSpeakingSets() {
+      try {
+        const res = await fetch('/data/all_speaking_sets.json');
+        speakingSets = await res.json();
+        document.getElementById('stat-speaking-count').innerText = speakingSets.length;
+      } catch (e) {
+        console.warn('Lỗi nạp speaking sets:', e);
+      }
+    }
+
+    async function fetchWritingSets() {
+      try {
+        const res = await fetch('/data/all_writing_sets.json');
+        writingSets = await res.json();
+        document.getElementById('stat-writing-count').innerText = writingSets.length;
+      } catch (e) {
+        console.warn('Lỗi nạp writing sets:', e);
+      }
+    }
+
+    function updateDashboardStats() {
+      let totalQ = 0;
+      if (sections && sections.length) {
+        sections.forEach(s => totalQ += s.total_questions);
+      }
+      document.getElementById('stat-total-q').innerText = totalQ || 368;
+    }
+
+    function filterCategory(cat) {
+      currentCategory = cat;
+      document.querySelectorAll('.cat-pill').forEach(b => {
+        b.className = 'cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center gap-1.5 shrink-0';
+      });
+      const activeBtn = document.getElementById(`tab-pill-${cat}`);
+      if (activeBtn) {
+        activeBtn.className = 'cat-pill active px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-900 text-white flex items-center gap-1.5 shrink-0';
+      }
+      renderSectionsGrid();
+    }
+
+    function renderSectionsGrid() {
       const grid = document.getElementById('sections-grid');
       grid.innerHTML = '';
 
+      // If Speaking is selected
+      if (currentCategory === 'speaking') {
+        renderSpeakingCards(grid);
+        lucide.createIcons();
+        return;
+      }
+
+      // If Writing is selected
+      if (currentCategory === 'writing') {
+        renderWritingCards(grid);
+        lucide.createIcons();
+        return;
+      }
+
+      // If All, or Listening, Reading, Grammar
+      let list = sections;
+      if (currentCategory !== 'all') {
+        list = sections.filter(s => s.skill === currentCategory);
+      }
+
+      // First render regular practice sections
       list.forEach(sec => {
         const secAnswered = Object.keys(progressData.answered).filter(k => k.startsWith(sec.id + '_')).length;
         const secCorrect = Object.keys(progressData.correct).filter(k => k.startsWith(sec.id + '_') && progressData.correct[k]).length;
@@ -439,34 +624,781 @@
         `;
         grid.appendChild(card);
       });
+
+      // If 'all', also show featured entry cards for Speaking & Writing
+      if (currentCategory === 'all') {
+        const spkCard = document.createElement('div');
+        spkCard.className = 'bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-6 border-2 border-orange-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group';
+        spkCard.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-12 h-12 rounded-xl bg-orange-500 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-orange-500/20">
+                <i data-lucide="mic" class="w-6 h-6"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-orange-100 text-orange-800">
+                20 Bộ Đề Thi
+              </span>
+            </div>
+            <h3 class="font-black text-slate-900 text-lg mb-1 group-hover:text-orange-600 transition-colors">Speaking (Kỹ Năng Nói)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed mb-4">Luyện tập trọn bộ 20 đề thi thử Speaking: tả tranh màu sắc nét Part 2-3-4, có đồng hồ bấm giờ chuẩn kỳ thi thật.</p>
+          </div>
+          <div class="border-t border-orange-200/60 pt-4 mt-2">
+            <button onclick="filterCategory('speaking')" class="w-full py-2.5 px-4 rounded-xl font-bold text-xs bg-orange-600 hover:bg-orange-700 text-white transition-colors flex items-center justify-center gap-1.5 shadow-md shadow-orange-600/20">
+              <span>Khám phá 20 Đề Speaking</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        `;
+        grid.appendChild(spkCard);
+
+        const wrtCard = document.createElement('div');
+        wrtCard.className = 'bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-6 border-2 border-rose-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group';
+        wrtCard.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-12 h-12 rounded-xl bg-rose-500 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-rose-500/20">
+                <i data-lucide="pen-tool" class="w-6 h-6"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-rose-100 text-rose-800">
+                30 Bộ Đề Thi
+              </span>
+            </div>
+            <h3 class="font-black text-slate-900 text-lg mb-1 group-hover:text-rose-600 transition-colors">Writing (Kỹ Năng Viết)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed mb-4">30 đề CLB thực tế gồm 4 Part: điền form, viết tin nhắn, viết email thân mật & trang trọng kèm bộ đếm từ và bài mẫu.</p>
+          </div>
+          <div class="border-t border-rose-200/60 pt-4 mt-2">
+            <button onclick="filterCategory('writing')" class="w-full py-2.5 px-4 rounded-xl font-bold text-xs bg-rose-600 hover:bg-rose-700 text-white transition-colors flex items-center justify-center gap-1.5 shadow-md shadow-rose-600/20">
+              <span>Khám phá 30 Đề Writing</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        `;
+        grid.appendChild(wrtCard);
+      }
+
       lucide.createIcons();
     }
 
-    function filterCategory(cat) {
-      document.querySelectorAll('.cat-pill').forEach(b => {
-        b.className = 'cat-pill px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200';
-      });
-      event.target.className = 'cat-pill active px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-slate-900 text-white';
+    function renderSpeakingCards(grid) {
+      if (!speakingSets.length) {
+        grid.innerHTML = '<div class="col-span-full py-12 text-center text-slate-400">Đang nạp 20 bộ đề Speaking...</div>';
+        return;
+      }
 
-      if (cat === 'all') {
-        renderSectionsGrid(sections);
+      speakingSets.forEach((set, idx) => {
+        const card = document.createElement('div');
+        card.className = 'bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-orange-400 hover:shadow-md transition-all flex flex-col justify-between group';
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-12 h-12 rounded-xl bg-orange-50 text-orange-600 flex items-center justify-center font-bold text-lg">
+                <i data-lucide="mic" class="w-6 h-6"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-orange-100 text-orange-800">
+                Đề ${idx + 1}
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base mb-2 group-hover:text-orange-600 transition-colors leading-snug">${set.title}</h3>
+            <p class="text-xs text-slate-500 mb-4">Trọn bộ 4 Part · Tả tranh màu sắc nét & câu hỏi có đồng hồ đếm ngược</p>
+          </div>
+
+          <div class="border-t border-slate-100 pt-4 mt-2">
+            <button onclick="startSpeakingTest(${set.set_id})" class="w-full py-2.5 px-4 rounded-xl font-bold text-xs bg-orange-600 hover:bg-orange-700 text-white transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+              <span>Luyện nói đề này</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function renderWritingCards(grid) {
+      if (!writingSets.length) {
+        grid.innerHTML = '<div class="col-span-full py-12 text-center text-slate-400">Đang nạp 30 bộ đề Writing...</div>';
+        return;
+      }
+
+      writingSets.forEach((set, idx) => {
+        const card = document.createElement('div');
+        card.className = 'bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-rose-400 hover:shadow-md transition-all flex flex-col justify-between group';
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center font-bold text-lg">
+                <i data-lucide="pen-tool" class="w-6 h-6"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-rose-100 text-rose-800">
+                CLB #${idx + 1}
+              </span>
+            </div>
+            <h3 class="font-bold text-slate-900 text-lg mb-2 group-hover:text-rose-600 transition-colors">${set.title}</h3>
+            <p class="text-xs text-slate-500 mb-4">4 Part: Điền form · Viết đoạn văn · Trả lời 3 tin nhắn · Viết 2 email kèm bài mẫu</p>
+          </div>
+
+          <div class="border-t border-slate-100 pt-4 mt-2">
+            <button onclick="startWritingTest(${set.set_id})" class="w-full py-2.5 px-4 rounded-xl font-bold text-xs bg-rose-600 hover:bg-rose-700 text-white transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+              <span>Luyện viết đề này</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // ================= SPEAKING TEST LOGIC =================
+    function startSpeakingTest(setId) {
+      currentSpeakingSet = speakingSets.find(s => s.set_id === setId);
+      if (!currentSpeakingSet) return;
+
+      document.getElementById('view-dashboard').classList.add('hidden');
+      document.getElementById('view-practice').classList.add('hidden');
+      document.getElementById('view-writing').classList.add('hidden');
+      document.getElementById('view-instructions').classList.add('hidden');
+      document.getElementById('view-speaking').classList.remove('hidden');
+
+      document.getElementById('speaking-set-badge').innerText = `ID: ${currentSpeakingSet.set_id}`;
+      document.getElementById('speaking-set-title').innerText = currentSpeakingSet.title;
+
+      switchSpeakingPart(1);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function switchSpeakingPart(partNum) {
+      currentSpeakingPart = partNum;
+      clearInterval(speakingTimerInterval);
+      speakingTimerRunning = false;
+
+      // Update part nav buttons
+      [1, 2, 3, 4].forEach(p => {
+        const btn = document.getElementById(`btn-spk-part-${p}`);
+        if (p === partNum) {
+          btn.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-orange-600 text-white';
+        } else {
+          btn.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200';
+        }
+      });
+
+      const container = document.getElementById('speaking-main-content');
+      container.innerHTML = '';
+
+      const sec = (currentSpeakingSet.sections || []).find(s => s.part === partNum);
+      const q = (sec && sec.questions && sec.questions[0]) ? sec.questions[0] : null;
+      const meta = (q && q.metadata) ? q.metadata : {};
+
+      if (!q) {
+        container.innerHTML = '<div class="py-12 text-center text-slate-400">Không có dữ liệu cho phần thi này.</div>';
+        return;
+      }
+
+      // PART 1
+      if (partNum === 1) {
+        const questionsList = meta.questions || [];
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-orange-600 mb-1 block">Speaking · Part 1</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Personal Information & Daily Life</h3>
+            <p class="text-xs text-slate-500 mt-1">${q.stem}</p>
+          </div>
+
+          <!-- Timer Box -->
+          <div class="bg-orange-50/70 border border-orange-200 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-orange-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                <i data-lucide="timer" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-orange-950 uppercase">Thời gian trả lời mỗi câu: 30 giây</div>
+                <div class="text-2xl font-black text-orange-600 font-mono" id="spk-timer-display">00:30</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="toggleSpeakingCountdown(30)" id="btn-spk-timer-toggle" class="px-4 py-2 rounded-xl bg-orange-600 text-white text-xs font-bold hover:bg-orange-700 shadow-sm flex items-center gap-1.5">
+                <i data-lucide="play" class="w-4 h-4"></i> Bắt đầu tính giờ
+              </button>
+              <button onclick="resetSpeakingCountdown(30)" class="px-3 py-2 rounded-xl border border-orange-200 text-orange-700 text-xs font-bold hover:bg-orange-100 flex items-center gap-1.5">
+                <i data-lucide="rotate-ccw" class="w-4 h-4"></i> Đặt lại
+              </button>
+            </div>
+          </div>
+
+          <!-- Questions list -->
+          <div class="space-y-4 pt-2">
+            ${questionsList.map((ques, qIdx) => `
+              <div class="p-5 rounded-2xl border border-slate-200 bg-white hover:border-orange-300 transition-all flex items-start gap-4">
+                <div class="w-8 h-8 rounded-full bg-orange-100 text-orange-700 font-black text-sm flex items-center justify-center shrink-0">
+                  ${qIdx + 1}
+                </div>
+                <div class="flex-1">
+                  <h4 class="text-base font-bold text-slate-900">${ques}</h4>
+                  <div class="mt-2 text-xs text-slate-400 flex items-center gap-1.5">
+                    <i data-lucide="mic" class="w-3.5 h-3.5 text-orange-500"></i>
+                    <span>Tập trung nói trôi chảy, trả lời từ 3-5 câu hoàn chỉnh.</span>
+                  </div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // PART 2
+      else if (partNum === 2) {
+        const questionsList = meta.questions || [];
+        const imgName = meta.local_image;
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-orange-600 mb-1 block">Speaking · Part 2</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Describe a Picture & Related Questions</h3>
+            <p class="text-xs text-slate-500 mt-1">Quan sát bức tranh màu bên dưới và trả lời lần lượt 3 câu hỏi (45 giây mỗi câu).</p>
+          </div>
+
+          <!-- Image Display -->
+          ${imgName ? `
+            <div class="bg-slate-900/5 rounded-2xl p-3 border border-slate-200 flex justify-center">
+              <img src="/data/images/speaking/${encodeURIComponent(imgName)}" alt="Aptis Speaking Part 2" class="rounded-xl max-h-80 object-contain shadow-md" onerror="this.onerror=null; this.src='https://milaedu.com/storage/${meta.image_path}';">
+            </div>
+          ` : ''}
+
+          <!-- Timer Box -->
+          <div class="bg-orange-50/70 border border-orange-200 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-orange-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                <i data-lucide="timer" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-orange-950 uppercase">Thời gian trả lời mỗi câu: 45 giây</div>
+                <div class="text-2xl font-black text-orange-600 font-mono" id="spk-timer-display">00:45</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="toggleSpeakingCountdown(45)" id="btn-spk-timer-toggle" class="px-4 py-2 rounded-xl bg-orange-600 text-white text-xs font-bold hover:bg-orange-700 shadow-sm flex items-center gap-1.5">
+                <i data-lucide="play" class="w-4 h-4"></i> Bắt đầu tính giờ
+              </button>
+              <button onclick="resetSpeakingCountdown(45)" class="px-3 py-2 rounded-xl border border-orange-200 text-orange-700 text-xs font-bold hover:bg-orange-100 flex items-center gap-1.5">
+                <i data-lucide="rotate-ccw" class="w-4 h-4"></i> Đặt lại
+              </button>
+            </div>
+          </div>
+
+          <!-- Questions -->
+          <div class="space-y-4 pt-2">
+            ${questionsList.map((ques, qIdx) => `
+              <div class="p-5 rounded-2xl border border-slate-200 bg-white hover:border-orange-300 transition-all flex items-start gap-4">
+                <div class="w-8 h-8 rounded-full bg-orange-100 text-orange-700 font-black text-sm flex items-center justify-center shrink-0">
+                  ${qIdx + 1}
+                </div>
+                <div class="flex-1">
+                  <h4 class="text-base font-bold text-slate-900">${ques}</h4>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // PART 3
+      else if (partNum === 3) {
+        const questionsList = meta.questions || [];
+        const imgs = meta.local_images || [];
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-orange-600 mb-1 block">Speaking · Part 3</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Compare Two Pictures</h3>
+            <p class="text-xs text-slate-500 mt-1">${q.stem}</p>
+          </div>
+
+          <!-- Dual Images Display -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            ${imgs.map((im, i) => `
+              <div class="bg-slate-900/5 rounded-2xl p-3 border border-slate-200 flex flex-col items-center">
+                <span class="text-xs font-bold text-slate-500 mb-2">Bức tranh ${i + 1}</span>
+                <img src="/data/images/speaking/${encodeURIComponent(im)}" alt="Aptis Part 3" class="rounded-xl h-60 object-contain shadow-sm" onerror="this.onerror=null; this.src='https://milaedu.com/storage/${meta.image_paths[i]}';">
+              </div>
+            `).join('')}
+          </div>
+
+          <!-- Timer Box -->
+          <div class="bg-orange-50/70 border border-orange-200 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-orange-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                <i data-lucide="timer" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-orange-950 uppercase">Thời gian trả lời mỗi câu: 45 giây</div>
+                <div class="text-2xl font-black text-orange-600 font-mono" id="spk-timer-display">00:45</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="toggleSpeakingCountdown(45)" id="btn-spk-timer-toggle" class="px-4 py-2 rounded-xl bg-orange-600 text-white text-xs font-bold hover:bg-orange-700 shadow-sm flex items-center gap-1.5">
+                <i data-lucide="play" class="w-4 h-4"></i> Bắt đầu tính giờ
+              </button>
+              <button onclick="resetSpeakingCountdown(45)" class="px-3 py-2 rounded-xl border border-orange-200 text-orange-700 text-xs font-bold hover:bg-orange-100 flex items-center gap-1.5">
+                <i data-lucide="rotate-ccw" class="w-4 h-4"></i> Đặt lại
+              </button>
+            </div>
+          </div>
+
+          <!-- Questions -->
+          <div class="space-y-4 pt-2">
+            ${questionsList.map((ques, qIdx) => `
+              <div class="p-5 rounded-2xl border border-slate-200 bg-white hover:border-orange-300 transition-all flex items-start gap-4">
+                <div class="w-8 h-8 rounded-full bg-orange-100 text-orange-700 font-black text-sm flex items-center justify-center shrink-0">
+                  ${qIdx + 1}
+                </div>
+                <div class="flex-1">
+                  <h4 class="text-base font-bold text-slate-900">${ques}</h4>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // PART 4
+      else if (partNum === 4) {
+        const questionsList = meta.questions || [];
+        const imgName = meta.local_image;
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-orange-600 mb-1 block">Speaking · Part 4</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Personal Experience & General Discussion</h3>
+            <p class="text-xs text-slate-500 mt-1">${q.stem}</p>
+          </div>
+
+          <!-- Image Display if present -->
+          ${imgName ? `
+            <div class="bg-slate-900/5 rounded-2xl p-3 border border-slate-200 flex justify-center">
+              <img src="/data/images/speaking/${encodeURIComponent(imgName)}" alt="Aptis Part 4" class="rounded-xl max-h-72 object-contain shadow-md" onerror="this.onerror=null; this.src='https://milaedu.com/storage/${meta.image_path}';">
+            </div>
+          ` : ''}
+
+          <!-- Two-Stage Timer Box -->
+          <div class="bg-orange-50/70 border border-orange-200 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-xl bg-orange-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                <i data-lucide="timer" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-orange-950 uppercase" id="spk-phase-label">Giai đoạn 1: Chuẩn bị (60 giây)</div>
+                <div class="text-2xl font-black text-orange-600 font-mono" id="spk-timer-display">01:00</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="startSpeakingPart4Countdown()" id="btn-spk-timer-toggle" class="px-4 py-2 rounded-xl bg-orange-600 text-white text-xs font-bold hover:bg-orange-700 shadow-sm flex items-center gap-1.5">
+                <i data-lucide="play" class="w-4 h-4"></i> Bắt đầu chuẩn bị (60s)
+              </button>
+              <button onclick="resetSpeakingCountdown(60)" class="px-3 py-2 rounded-xl border border-orange-200 text-orange-700 text-xs font-bold hover:bg-orange-100 flex items-center gap-1.5">
+                <i data-lucide="rotate-ccw" class="w-4 h-4"></i> Đặt lại
+              </button>
+            </div>
+          </div>
+
+          <!-- Questions -->
+          <div class="space-y-4 pt-2">
+            ${questionsList.map((ques, qIdx) => `
+              <div class="p-5 rounded-2xl border border-slate-200 bg-white hover:border-orange-300 transition-all flex items-start gap-4">
+                <div class="w-8 h-8 rounded-full bg-orange-100 text-orange-700 font-black text-sm flex items-center justify-center shrink-0">
+                  ${qIdx + 1}
+                </div>
+                <div class="flex-1">
+                  <h4 class="text-base font-bold text-slate-900">${ques}</h4>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // Add Footer Navigation in Speaking Part
+      const footer = document.createElement('div');
+      footer.className = 'border-t border-slate-100 pt-6 flex flex-wrap items-center justify-between gap-3 mt-8';
+      footer.innerHTML = `
+        <button onclick="switchSpeakingPart(${partNum - 1})" ${partNum === 1 ? 'disabled' : ''} class="px-4 py-2.5 rounded-xl border border-slate-200 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors flex items-center gap-2 disabled:opacity-40">
+          <i data-lucide="chevron-left" class="w-4 h-4"></i> Part trước
+        </button>
+
+        <button onclick="showInstructions()" class="px-4 py-2 rounded-xl border border-orange-300 bg-orange-50 text-orange-800 text-xs font-bold hover:bg-orange-100 transition-colors flex items-center gap-1.5">
+          <i data-lucide="book-open" class="w-4 h-4"></i> Mẹo làm bài Speaking
+        </button>
+
+        <button onclick="switchSpeakingPart(${partNum + 1})" ${partNum === 4 ? 'disabled' : ''} class="px-4 py-2.5 rounded-xl border border-slate-200 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors flex items-center gap-2 disabled:opacity-40">
+          Part tiếp theo <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+      `;
+      container.appendChild(footer);
+
+      lucide.createIcons();
+    }
+
+    function toggleSpeakingCountdown(seconds) {
+      if (speakingTimerRunning) {
+        clearInterval(speakingTimerInterval);
+        speakingTimerRunning = false;
+        document.getElementById('btn-spk-timer-toggle').innerHTML = '<i data-lucide="play" class="w-4 h-4"></i> Tiếp tục';
+        lucide.createIcons();
       } else {
-        const filtered = sections.filter(s => s.skill === cat);
-        renderSectionsGrid(filtered);
+        if (speakingSecondsRemaining <= 0) {
+          speakingSecondsRemaining = seconds;
+        }
+        speakingTimerRunning = true;
+        document.getElementById('btn-spk-timer-toggle').innerHTML = '<i data-lucide="pause" class="w-4 h-4"></i> Tạm dừng';
+        lucide.createIcons();
+
+        speakingTimerInterval = setInterval(() => {
+          speakingSecondsRemaining--;
+          const m = String(Math.floor(speakingSecondsRemaining / 60)).padStart(2, '0');
+          const s = String(speakingSecondsRemaining % 60).padStart(2, '0');
+          const disp = document.getElementById('spk-timer-display');
+          if (disp) disp.innerText = `${m}:${s}`;
+
+          if (speakingSecondsRemaining <= 0) {
+            clearInterval(speakingTimerInterval);
+            speakingTimerRunning = false;
+            if (disp) disp.innerText = "00:00 (Hết giờ!)";
+            const btn = document.getElementById('btn-spk-timer-toggle');
+            if (btn) btn.innerHTML = '<i data-lucide="rotate-ccw" class="w-4 h-4"></i> Chạy lại';
+            lucide.createIcons();
+          }
+        }, 1000);
       }
     }
 
-    function updateDashboardStats() {
-      const answeredKeys = Object.keys(progressData.answered);
-      const totalAnswered = answeredKeys.length;
-      const totalCorrect = Object.values(progressData.correct).filter(Boolean).length;
-      const acc = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
-
-      document.getElementById('stat-answered').innerText = totalAnswered;
-      document.getElementById('stat-accuracy').innerText = acc + '%';
+    function resetSpeakingCountdown(seconds) {
+      clearInterval(speakingTimerInterval);
+      speakingTimerRunning = false;
+      speakingSecondsRemaining = seconds;
+      const m = String(Math.floor(seconds / 60)).padStart(2, '0');
+      const s = String(seconds % 60).padStart(2, '0');
+      const disp = document.getElementById('spk-timer-display');
+      if (disp) disp.innerText = `${m}:${s}`;
+      const btn = document.getElementById('btn-spk-timer-toggle');
+      if (btn) btn.innerHTML = '<i data-lucide="play" class="w-4 h-4"></i> Bắt đầu tính giờ';
+      lucide.createIcons();
     }
 
-    // ================= PRACTICE ENGINE =================
+    function startSpeakingPart4Countdown() {
+      resetSpeakingCountdown(60);
+      const label = document.getElementById('spk-phase-label');
+      if (label) label.innerText = "Giai đoạn 1: Chuẩn bị (60 giây)";
+      toggleSpeakingCountdown(60);
+
+      // Once prep reaches 0, auto switch to Speaking 120s
+      const checkPrep = setInterval(() => {
+        if (speakingSecondsRemaining <= 0) {
+          clearInterval(checkPrep);
+          if (label) label.innerText = "Giai đoạn 2: Trả lời liên tục (120 giây)";
+          resetSpeakingCountdown(120);
+          toggleSpeakingCountdown(120);
+        }
+      }, 500);
+    }
+
+    // ================= WRITING TEST LOGIC =================
+    function startWritingTest(setId) {
+      currentWritingSet = writingSets.find(s => s.set_id === setId);
+      if (!currentWritingSet) return;
+
+      document.getElementById('view-dashboard').classList.add('hidden');
+      document.getElementById('view-practice').classList.add('hidden');
+      document.getElementById('view-speaking').classList.add('hidden');
+      document.getElementById('view-instructions').classList.add('hidden');
+      document.getElementById('view-writing').classList.remove('hidden');
+
+      document.getElementById('writing-club-badge').innerText = `CLB: ${currentWritingSet.title}`;
+      document.getElementById('writing-set-title').innerText = currentWritingSet.title;
+
+      switchWritingPart(1);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function switchWritingPart(partNum) {
+      currentWritingPart = partNum;
+
+      [1, 2, 3, 4].forEach(p => {
+        const btn = document.getElementById(`btn-wrt-part-${p}`);
+        if (p === partNum) {
+          btn.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-rose-600 text-white';
+        } else {
+          btn.className = 'px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200';
+        }
+      });
+
+      const container = document.getElementById('writing-main-content');
+      container.innerHTML = '';
+
+      const sec = (currentWritingSet.sections || []).find(s => s.part === partNum);
+      const q = (sec && sec.questions && sec.questions[0]) ? sec.questions[0] : null;
+      const meta = (q && q.metadata) ? q.metadata : {};
+
+      if (!q) {
+        container.innerHTML = '<div class="py-12 text-center text-slate-400">Không có dữ liệu cho phần thi này.</div>';
+        return;
+      }
+
+      const draftKeyPrefix = `wrt_${currentWritingSet.set_id}_p${partNum}_`;
+
+      // PART 1
+      if (partNum === 1) {
+        const fields = meta.fields || [];
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-rose-600 mb-1 block">Writing · Part 1</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Fill in the Form</h3>
+            <p class="text-xs text-slate-500 mt-1">${meta.instructions || q.stem}</p>
+          </div>
+
+          <div class="space-y-4 pt-2">
+            ${fields.map((f, fIdx) => {
+              const val = progressData.writingDrafts[`${draftKeyPrefix}${fIdx}`] || '';
+              return `
+                <div class="p-4 rounded-xl border border-slate-200 bg-white space-y-1.5">
+                  <label class="block text-xs font-bold text-slate-700">${fIdx + 1}. ${f.label}</label>
+                  <input type="text" value="${val}" oninput="saveWritingDraft('${draftKeyPrefix}${fIdx}', this.value)" placeholder="${f.placeholder || 'Nhập câu trả lời ngắn của bạn...'}" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:border-rose-500 focus:ring-1 focus:ring-rose-500 outline-none">
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+      }
+
+      // PART 2
+      else if (partNum === 2) {
+        const draftVal = progressData.writingDrafts[`${draftKeyPrefix}text`] || '';
+        const wordCount = countWords(draftVal);
+        const sample = meta.sample_answer;
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-rose-600 mb-1 block">Writing · Part 2</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Short Text Response (20 - 30 words)</h3>
+            <p class="text-xs text-slate-500 mt-1">${meta.hints || q.stem}</p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">Tình huống câu hỏi:</div>
+            <p class="text-base font-bold text-slate-900">${meta.scenario || q.stem}</p>
+          </div>
+
+          <!-- Textarea with live counter -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-slate-600">Bài viết của bạn:</span>
+              <span id="wrt-p2-count" class="px-2.5 py-0.5 rounded-full font-mono text-[11px] ${wordCount >= 20 && wordCount <= 30 ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600'}">
+                Đã viết: ${wordCount} từ (Yêu cầu: 20-30 từ)
+              </span>
+            </div>
+            <textarea rows="4" oninput="handleWritingInput(this, 'wrt-p2-count', 20, 30, '${draftKeyPrefix}text')" placeholder="Gõ câu trả lời của bạn tại đây (khoảng 20 đến 30 từ)..." class="w-full p-4 rounded-xl border border-slate-300 text-sm focus:border-rose-500 focus:ring-1 focus:ring-rose-500 outline-none leading-relaxed">${draftVal}</textarea>
+          </div>
+
+          ${sample ? `
+            <div class="pt-2">
+              <button onclick="toggleSample('sample-p2')" class="text-xs font-bold text-rose-600 hover:text-rose-700 flex items-center gap-1.5">
+                <i data-lucide="eye" class="w-4 h-4"></i> Xem câu trả lời mẫu
+              </button>
+              <div id="sample-p2" class="hidden mt-3 p-4 rounded-xl bg-amber-50/70 border border-amber-200 text-xs text-amber-950 leading-relaxed font-sans">
+                <div class="font-bold text-amber-900 mb-1">Bài mẫu tham khảo:</div>
+                ${sample}
+              </div>
+            </div>
+          ` : ''}
+        `;
+      }
+
+      // PART 3
+      else if (partNum === 3) {
+        const questionsList = meta.questions || [];
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-rose-600 mb-1 block">Writing · Part 3</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Social Network Chat Responses</h3>
+            <p class="text-xs text-slate-500 mt-1">Trả lời 3 thành viên trong nhóm trò chuyện trực tuyến (mỗi câu từ 30 - 40 từ).</p>
+          </div>
+
+          <div class="space-y-6 pt-2">
+            ${questionsList.map((ques, qIdx) => {
+              const draft = progressData.writingDrafts[`${draftKeyPrefix}${qIdx}`] || '';
+              const wc = countWords(draft);
+              return `
+                <div class="p-5 rounded-2xl border border-slate-200 bg-white space-y-3">
+                  <div class="flex items-start gap-3">
+                    <div class="w-9 h-9 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-xs shrink-0">
+                      M${qIdx + 1}
+                    </div>
+                    <div class="flex-1 bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+                      <div class="text-[11px] font-bold text-slate-500 mb-1">Thành viên ${qIdx + 1}:</div>
+                      <p class="text-sm font-semibold text-slate-800">${ques.prompt}</p>
+                    </div>
+                  </div>
+
+                  <div class="space-y-1.5 pt-1">
+                    <div class="flex items-center justify-between text-xs font-semibold">
+                      <span class="text-slate-600">Câu trả lời của bạn:</span>
+                      <span id="wrt-p3-count-${qIdx}" class="px-2.5 py-0.5 rounded-full font-mono text-[11px] ${wc >= 30 && wc <= 40 ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600'}">
+                        Đã viết: ${wc} từ (Yêu cầu: 30-40 từ)
+                      </span>
+                    </div>
+                    <textarea rows="3" oninput="handleWritingInput(this, 'wrt-p3-count-${qIdx}', 30, 40, '${draftKeyPrefix}${qIdx}')" placeholder="Gõ câu trả lời cho thành viên ${qIdx + 1}..." class="w-full p-3.5 rounded-xl border border-slate-300 text-sm focus:border-rose-500 focus:ring-1 focus:ring-rose-500 outline-none leading-relaxed">${draft}</textarea>
+                  </div>
+
+                  ${ques.sample_answer ? `
+                    <div>
+                      <button onclick="toggleSample('sample-p3-${qIdx}')" class="text-xs font-bold text-rose-600 hover:text-rose-700 flex items-center gap-1.5">
+                        <i data-lucide="eye" class="w-3.5 h-3.5"></i> Xem câu trả lời mẫu
+                      </button>
+                      <div id="sample-p3-${qIdx}" class="hidden mt-2 p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 text-xs text-amber-950 leading-relaxed">
+                        <div class="font-bold text-amber-900 mb-1">Bài mẫu tham khảo:</div>
+                        ${ques.sample_answer}
+                      </div>
+                    </div>
+                  ` : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+      }
+
+      // PART 4
+      else if (partNum === 4) {
+        const email = meta.email || {};
+        const t1 = meta.task1 || {};
+        const t2 = meta.task2 || {};
+
+        const draftT1 = progressData.writingDrafts[`${draftKeyPrefix}t1`] || '';
+        const draftT2 = progressData.writingDrafts[`${draftKeyPrefix}t2`] || '';
+        const wcT1 = countWords(draftT1);
+        const wcT2 = countWords(draftT2);
+
+        container.innerHTML = `
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-rose-600 mb-1 block">Writing · Part 4</span>
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900 leading-snug">Email Writing Tasks</h3>
+            <p class="text-xs text-slate-500 mt-1">Đọc thông báo của CLB và viết 2 bức email: 1 bức thân mật (50 từ) và 1 bức trang trọng (120-150 từ).</p>
+          </div>
+
+          <!-- Official Club Email Announcement Box -->
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-slate-900 to-indigo-950 text-white shadow-lg space-y-3">
+            <div class="flex items-center gap-2 text-indigo-300 text-xs font-bold uppercase tracking-wider">
+              <i data-lucide="mail" class="w-4 h-4"></i> Thông báo từ Ban Quản Trị CLB (${meta.context || currentWritingSet.title})
+            </div>
+            <div class="border-t border-white/10 pt-3 text-sm leading-relaxed text-indigo-100 space-y-2">
+              <p class="font-semibold">${email.greeting || 'Dear Member,'}</p>
+              <p>${email.body || ''}</p>
+              <p class="font-medium text-xs text-indigo-300">${email.sign_off || 'Best regards,<br>The Management'}</p>
+            </div>
+          </div>
+
+          <!-- TASK 1: INFORMAL EMAIL -->
+          <div class="p-6 rounded-2xl border border-slate-200 bg-white space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-800">
+                Nhiệm vụ 1: Email Thân Mật (Informal)
+              </span>
+              <span id="wrt-p4-t1-count" class="px-2.5 py-0.5 rounded-full font-mono text-[11px] ${wcT1 >= 45 && wcT1 <= 75 ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600'}">
+                Đã viết: ${wcT1} từ (Khoảng 50 từ: 45-75 từ)
+              </span>
+            </div>
+            <p class="text-sm font-semibold text-slate-800">${t1.instruction || 'Write an email to your friend.'}</p>
+            
+            <textarea rows="4" oninput="handleWritingInput(this, 'wrt-p4-t1-count', 45, 75, '${draftKeyPrefix}t1')" placeholder="Gõ email thân mật gửi cho bạn bè của bạn (khoảng 50 từ)..." class="w-full p-3.5 rounded-xl border border-slate-300 text-sm focus:border-rose-500 focus:ring-1 focus:ring-rose-500 outline-none leading-relaxed">${draftT1}</textarea>
+
+            ${t1.sample_answer ? `
+              <div>
+                <button onclick="toggleSample('sample-p4-t1')" class="text-xs font-bold text-rose-600 hover:text-rose-700 flex items-center gap-1.5">
+                  <i data-lucide="eye" class="w-3.5 h-3.5"></i> Xem email mẫu thân mật
+                </button>
+                <div id="sample-p4-t1" class="hidden mt-2 p-3.5 rounded-xl bg-amber-50/70 border border-amber-200 text-xs text-amber-950 leading-relaxed font-sans">
+                  <div class="font-bold text-amber-900 mb-1">Email mẫu gửi bạn bè:</div>
+                  ${t1.sample_answer}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- TASK 2: FORMAL EMAIL -->
+          <div class="p-6 rounded-2xl border border-slate-200 bg-white space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-purple-100 text-purple-800">
+                Nhiệm vụ 2: Email Trang Trọng (Formal)
+              </span>
+              <span id="wrt-p4-t2-count" class="px-2.5 py-0.5 rounded-full font-mono text-[11px] ${wcT2 >= 120 && wcT2 <= 150 ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600'}">
+                Đã viết: ${wcT2} từ (Yêu cầu: 120-150 từ)
+              </span>
+            </div>
+            <p class="text-sm font-semibold text-slate-800">${t2.instruction || 'Write an email to the organizer.'}</p>
+            
+            <textarea rows="7" oninput="handleWritingInput(this, 'wrt-p4-t2-count', 120, 150, '${draftKeyPrefix}t2')" placeholder="Gõ email trang trọng gửi cho Ban Quản Trị / Chủ Tịch CLB (120-150 từ)..." class="w-full p-4 rounded-xl border border-slate-300 text-sm focus:border-rose-500 focus:ring-1 focus:ring-rose-500 outline-none leading-relaxed">${draftT2}</textarea>
+
+            ${t2.sample_answer ? `
+              <div>
+                <button onclick="toggleSample('sample-p4-t2')" class="text-xs font-bold text-rose-600 hover:text-rose-700 flex items-center gap-1.5">
+                  <i data-lucide="eye" class="w-3.5 h-3.5"></i> Xem email mẫu trang trọng
+                </button>
+                <div id="sample-p4-t2" class="hidden mt-2 p-4 rounded-xl bg-amber-50/70 border border-amber-200 text-xs text-amber-950 leading-relaxed font-sans">
+                  <div class="font-bold text-amber-900 mb-1">Email mẫu trang trọng (Formal):</div>
+                  ${t2.sample_answer}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }
+
+      // Add Footer Navigation in Writing Part
+      const footer = document.createElement('div');
+      footer.className = 'border-t border-slate-100 pt-6 flex flex-wrap items-center justify-between gap-3 mt-8';
+      footer.innerHTML = `
+        <button onclick="switchWritingPart(${partNum - 1})" ${partNum === 1 ? 'disabled' : ''} class="px-4 py-2.5 rounded-xl border border-slate-200 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors flex items-center gap-2 disabled:opacity-40">
+          <i data-lucide="chevron-left" class="w-4 h-4"></i> Part trước
+        </button>
+
+        <button onclick="showInstructions()" class="px-4 py-2 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 text-xs font-bold hover:bg-rose-100 transition-colors flex items-center gap-1.5">
+          <i data-lucide="book-open" class="w-4 h-4"></i> Cẩm nang & Form viết thư
+        </button>
+
+        <button onclick="switchWritingPart(${partNum + 1})" ${partNum === 4 ? 'disabled' : ''} class="px-4 py-2.5 rounded-xl border border-slate-200 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors flex items-center gap-2 disabled:opacity-40">
+          Part tiếp theo <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+      `;
+      container.appendChild(footer);
+
+      lucide.createIcons();
+    }
+
+    function countWords(str) {
+      if (!str) return 0;
+      return str.trim().split(/\s+/).filter(Boolean).length;
+    }
+
+    function handleWritingInput(el, countBadgeId, min, max, draftKey) {
+      const text = el.value;
+      const count = countWords(text);
+      const badge = document.getElementById(countBadgeId);
+      if (badge) {
+        badge.innerText = `Đã viết: ${count} từ (Yêu cầu: ${min}-${max} từ)`;
+        if (count >= min && count <= max) {
+          badge.className = 'px-2.5 py-0.5 rounded-full font-mono text-[11px] bg-emerald-100 text-emerald-800';
+        } else if (count > max) {
+          badge.className = 'px-2.5 py-0.5 rounded-full font-mono text-[11px] bg-rose-100 text-rose-800';
+        } else {
+          badge.className = 'px-2.5 py-0.5 rounded-full font-mono text-[11px] bg-slate-100 text-slate-600';
+        }
+      }
+      saveWritingDraft(draftKey, text);
+    }
+
+    function saveWritingDraft(key, value) {
+      progressData.writingDrafts[key] = value;
+      saveProgress();
+    }
+
+    function toggleSample(id) {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle('hidden');
+    }
+
+    // ================= PRACTICE ROOM (LISTENING, READING, GRAMMAR) =================
     async function startPractice(secId) {
       currentSection = sections.find(s => s.id === secId);
       if (!currentSection) return;
@@ -488,7 +1420,7 @@
       checkedState = {};
 
       questions.forEach((q, idx) => {
-        const key = `${currentSection.id}_${idx}`;
+        const key = `${secId}_${idx}`;
         if (progressData.answered[key] !== undefined) {
           userAnswers[idx] = progressData.answered[key];
         }
@@ -499,10 +1431,13 @@
 
       document.getElementById('view-dashboard').classList.add('hidden');
       document.getElementById('view-instructions').classList.add('hidden');
+      document.getElementById('view-speaking').classList.add('hidden');
+      document.getElementById('view-writing').classList.add('hidden');
       document.getElementById('view-practice').classList.remove('hidden');
 
       document.getElementById('practice-sec-title').innerText = currentSection.title;
       startTimer();
+
       renderPalette();
       renderQuestion(0);
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -545,16 +1480,17 @@
 
       if (isChecked) {
         if (isChecked.isCorrect) {
-          base += "bg-emerald-500 text-white border-emerald-600";
+          return base + "bg-emerald-500 text-white border-emerald-600";
         } else {
-          base += "bg-red-500 text-white border-red-600";
+          return base + "bg-red-500 text-white border-red-600";
         }
-      } else if (isAnswered) {
-        base += "bg-blue-100 text-blue-700 border border-blue-300";
-      } else {
-        base += "bg-slate-100 text-slate-600 hover:bg-slate-200";
       }
-      return base;
+
+      if (isAnswered) {
+        return base + "bg-blue-100 text-blue-700 border border-blue-300";
+      }
+
+      return base + "bg-slate-100 text-slate-600 hover:bg-slate-200 border border-slate-200";
     }
 
     function updatePaletteActive() {
@@ -581,7 +1517,7 @@
       document.getElementById('q-category-label').innerText = `${q.skill.toUpperCase()} · PART ${q.part}`;
       document.getElementById('q-stem-text').innerHTML = q.stem;
 
-      // Audio setup (Hỗ trợ cả static Netlify path lẫn local audio)
+      // Audio setup
       const audioContainer = document.getElementById('audio-player-container');
       const audioEl = document.getElementById('main-audio-element');
       audioEl.pause();
@@ -709,11 +1645,12 @@
           saveProgress();
           renderQuestion(idx);
         };
+
         choiceCard.innerHTML = `
-          <div class="w-8 h-8 rounded-lg border flex items-center justify-center font-bold text-xs ${letterStyle}">
+          <div class="w-8 h-8 rounded-lg border flex items-center justify-center font-bold text-xs shrink-0 ${letterStyle}">
             ${optId}
           </div>
-          <div class="flex-1 text-sm sm:text-base leading-snug">${optText}</div>
+          <div class="text-sm sm:text-base leading-snug flex-1">${optText}</div>
         `;
         container.appendChild(choiceCard);
       });
@@ -778,325 +1715,382 @@
 
     function renderSpeakerMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const items = m.items || [];
-      const choices = m.choices || [];
+      const speakers = m.speakers || ['Speaker A', 'Speaker B', 'Speaker C', 'Speaker D'];
+      const opinions = m.opinions || [];
       const audios = m.audio_files || [];
-      const ansMap = userAnswers[idx] || {};
+      const checked = checkedState[idx];
 
-      items.forEach((speaker, sIdx) => {
-        const audioFile = audios[sIdx] ? audios[sIdx].split('/').pop() : null;
-        const row = document.createElement('div');
-        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3 shadow-sm";
+      if (!userAnswers[idx]) userAnswers[idx] = {};
+      const currentMap = userAnswers[idx];
 
-        let optionsHtml = `<option value="">-- Chọn nhận định của ${speaker} --</option>`;
-        choices.forEach((c, cIdx) => {
-          if (c === "Đáp án bỏ") return;
-          const isSel = ansMap[sIdx] == cIdx;
-          optionsHtml += `<option value="${cIdx}" ${isSel ? 'selected' : ''}>${c}</option>`;
-        });
+      const guide = document.createElement('div');
+      guide.className = "text-xs font-semibold text-slate-500 mb-2";
+      guide.innerText = "Nghe từng người nói và chọn ý kiến phù hợp nhất tương ứng:";
+      container.appendChild(guide);
 
-        row.innerHTML = `
-          <div class="flex items-center justify-between">
-            <div class="flex items-center gap-2">
-              <span class="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 font-bold text-xs flex items-center justify-center">${speaker}</span>
-              <span class="font-bold text-sm text-slate-800">Ý kiến của ${speaker}</span>
-            </div>
-            ${audioFile ? `
-              <button onclick="playMiniAudio('${audioFile}')" class="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 text-xs font-semibold hover:bg-blue-100 flex items-center gap-1.5 border border-blue-200">
-                <i data-lucide="play" class="w-3.5 h-3.5"></i> Nghe âm thanh
-              </button>
-            ` : ''}
-          </div>
-          <select onchange="selectSpeakerMatch(${idx}, ${sIdx}, this.value)" class="w-full p-2.5 rounded-lg border border-slate-200 text-sm bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-600 focus:outline-none">
-            ${optionsHtml}
+      speakers.forEach((spk, sIdx) => {
+        const audioFile = audios[sIdx];
+        const spkRow = document.createElement('div');
+        spkRow.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3";
+
+        let audioButtonHtml = '';
+        if (audioFile) {
+          audioButtonHtml = `
+            <button onclick="playSpecificAudio('${audioFile}')" class="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-100 text-xs font-semibold flex items-center gap-1.5 transition-colors">
+              <i data-lucide="volume-2" class="w-3.5 h-3.5"></i> Nghe Audio ${spk}
+            </button>
+          `;
+        }
+
+        let selectHtml = `
+          <select onchange="onSpeakerMatchChange(${idx}, '${spk}', this.value)" class="w-full mt-1.5 p-2.5 rounded-lg border border-slate-300 text-sm font-medium bg-white focus:ring-2 focus:ring-blue-500 outline-none">
+            <option value="">-- Chọn ý kiến của ${spk} --</option>
+            ${opinions.map(op => `
+              <option value="${op}" ${currentMap[spk] === op ? 'selected' : ''}>${op}</option>
+            `).join('')}
           </select>
         `;
-        container.appendChild(row);
+
+        if (checked) {
+          const correctOp = m.correct_matches ? m.correct_matches[spk] : null;
+          const isUserRight = currentMap[spk] === correctOp;
+          selectHtml += `
+            <div class="text-xs font-semibold mt-1.5 ${isUserRight ? 'text-emerald-600' : 'text-red-500'}">
+              ${isUserRight ? '✓ Đúng' : `✗ Đáp án đúng: ${correctOp}`}
+            </div>
+          `;
+        }
+
+        spkRow.innerHTML = `
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-slate-900">${spk}</span>
+            ${audioButtonHtml}
+          </div>
+          ${selectHtml}
+        `;
+        container.appendChild(spkRow);
       });
     }
 
-    function selectSpeakerMatch(qIdx, sIdx, val) {
+    function onSpeakerMatchChange(qIdx, spk, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][sIdx] = val;
+      userAnswers[qIdx][spk] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
+      updatePaletteActive();
     }
 
-    function playMiniAudio(file) {
+    function playSpecificAudio(file) {
       const audioEl = document.getElementById('main-audio-element');
       audioEl.src = `/data/audio/${encodeURIComponent(file)}`;
       audioEl.play();
+      document.getElementById('icon-play-audio').setAttribute('data-lucide', 'pause');
+      lucide.createIcons();
     }
 
     function renderConversationMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const statements = m.statements || [];
-      const choices = m.shared_choices || ['Man', 'Woman', 'Both'];
-      const ansMap = userAnswers[idx] || {};
+      const questionsList = m.questions || [];
+      const checked = checkedState[idx];
+      if (!userAnswers[idx]) userAnswers[idx] = {};
 
-      statements.forEach((stmt, sIdx) => {
+      questionsList.forEach((subQ, sIdx) => {
         const row = document.createElement('div');
-        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2 shadow-sm";
-        
-        let chipsHtml = '';
-        choices.forEach((c, cIdx) => {
-          const isSel = ansMap[sIdx] == cIdx;
-          chipsHtml += `
-            <button onclick="selectConvMatch(${idx}, ${sIdx}, ${cIdx})" class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all ${isSel ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
-              ${c}
-            </button>
-          `;
-        });
+        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2";
+
+        const selectedOpt = userAnswers[idx][sIdx];
+        const options = ['Người nam (Man)', 'Người nữ (Woman)', 'Cả hai (Both)'];
 
         row.innerHTML = `
-          <p class="text-sm font-semibold text-slate-800 leading-snug">${sIdx + 1}. ${stmt}</p>
-          <div class="flex items-center gap-2 pt-1">${chipsHtml}</div>
+          <div class="text-sm font-bold text-slate-900">${sIdx + 1}. ${subQ.text || subQ}</div>
+          <div class="grid grid-cols-3 gap-2 pt-1">
+            ${options.map((opt, oIdx) => {
+              const optVal = ['Man', 'Woman', 'Both'][oIdx];
+              let btnStyle = "bg-slate-50 text-slate-700 border-slate-200 hover:bg-blue-50";
+              if (selectedOpt === optVal) {
+                btnStyle = "bg-blue-600 text-white border-blue-600 font-bold";
+              }
+              if (checked) {
+                const correctOpt = subQ.correct_answer || ['Man', 'Woman', 'Both'][0];
+                if (optVal === correctOpt) btnStyle = "bg-emerald-600 text-white border-emerald-600 font-bold";
+                else if (selectedOpt === optVal) btnStyle = "bg-red-500 text-white border-red-500 line-through";
+              }
+              return `
+                <button onclick="selectConversationOpt(${idx}, ${sIdx}, '${optVal}')" class="py-2 px-3 rounded-lg border text-xs text-center transition-all ${btnStyle}">
+                  ${opt}
+                </button>
+              `;
+            }).join('')}
+          </div>
         `;
         container.appendChild(row);
       });
     }
 
-    function selectConvMatch(qIdx, sIdx, cIdx) {
+    function selectConversationOpt(qIdx, subIdx, optVal) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][sIdx] = cIdx;
+      userAnswers[qIdx][subIdx] = optVal;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
       renderQuestion(qIdx);
+    }
+
+    function renderListeningMonologue(container, q, idx) {
+      const m = q.raw_metadata || {};
+      const subQs = m.sub_questions || [];
+      const checked = checkedState[idx];
+      if (!userAnswers[idx]) userAnswers[idx] = {};
+
+      subQs.forEach((sub, sIdx) => {
+        const item = document.createElement('div');
+        item.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3";
+        item.innerHTML = `<div class="font-bold text-sm text-slate-900">${sIdx + 1}. ${sub.question}</div>`;
+
+        const choicesDiv = document.createElement('div');
+        choicesDiv.className = "space-y-2";
+
+        (sub.choices || []).forEach(ch => {
+          const isSel = userAnswers[idx][sIdx] === ch;
+          let style = "border-slate-200 bg-white hover:bg-blue-50 text-slate-800";
+          if (isSel) style = "border-blue-600 bg-blue-50 text-blue-900 font-semibold";
+          if (checked) {
+            if (ch === sub.correct_answer) style = "border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold";
+            else if (isSel) style = "border-red-400 bg-red-50 text-red-900 line-through";
+          }
+
+          const chBtn = document.createElement('div');
+          chBtn.className = `p-3 rounded-lg border text-xs cursor-pointer transition-all ${style}`;
+          chBtn.innerText = ch;
+          chBtn.onclick = () => {
+            userAnswers[idx][sIdx] = ch;
+            const key = `${currentSection.id}_${idx}`;
+            progressData.answered[key] = userAnswers[idx];
+            saveProgress();
+            renderQuestion(idx);
+          };
+          choicesDiv.appendChild(chBtn);
+        });
+
+        item.appendChild(choicesDiv);
+        container.appendChild(item);
+      });
     }
 
     function renderFillInBlanks(container, q, idx) {
       const m = q.raw_metadata || {};
-      const paragraphs = m.paragraphs || [];
-      const choices = m.choices || [];
-      const ansMap = userAnswers[idx] || {};
+      const textHtml = m.text_with_blanks || q.stem;
+      const blanks = m.blanks || [];
+      const checked = checkedState[idx];
+      if (!userAnswers[idx]) userAnswers[idx] = {};
 
-      paragraphs.forEach((p, pIdx) => {
-        const row = document.createElement('div');
-        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2.5 shadow-sm";
-
-        let textPart = p.replace('[BLANK]', `<span class="font-bold text-blue-600 underline">[ Ô trống ${pIdx + 1} ]</span>`);
-        let selectHtml = `<option value="">-- Chọn từ cho ô trống ${pIdx + 1} --</option>`;
-
-        (choices[pIdx] || []).forEach((c, cIdx) => {
-          const isSel = ansMap[pIdx] == cIdx;
-          selectHtml += `<option value="${cIdx}" ${isSel ? 'selected' : ''}>${c}</option>`;
-        });
-
-        row.innerHTML = `
-          <p class="text-sm text-slate-800 leading-relaxed">${textPart}</p>
-          <select onchange="selectBlankWord(${idx}, ${pIdx}, this.value)" class="w-full p-2.5 rounded-lg border border-slate-200 text-sm bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-600">
-            ${selectHtml}
+      const wrap = document.createElement('div');
+      wrap.className = "p-6 rounded-xl border border-slate-200 bg-white text-sm sm:text-base leading-loose text-slate-800 space-y-4";
+      
+      let rendered = textHtml;
+      blanks.forEach((b, bIdx) => {
+        const sel = userAnswers[idx][bIdx] || '';
+        let selHtml = `
+          <select onchange="onBlankChange(${idx}, ${bIdx}, this.value)" class="inline-block mx-1.5 px-3 py-1 rounded-lg border border-slate-300 text-xs font-bold bg-blue-50 text-blue-900 focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer">
+            <option value="">[ Chỗ trống ${bIdx + 1} ]</option>
+            ${(b.options || []).map(opt => `
+              <option value="${opt}" ${sel === opt ? 'selected' : ''}>${opt}</option>
+            `).join('')}
           </select>
         `;
-        container.appendChild(row);
+        if (checked) {
+          const isRight = sel === b.correct_answer;
+          selHtml += `<span class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">(${b.correct_answer})</span>`;
+        }
+        rendered = rendered.replace(`[BLANK_${bIdx + 1}]`, selHtml).replace(`___`, selHtml);
       });
+
+      wrap.innerHTML = rendered;
+      container.appendChild(wrap);
     }
 
-    function selectBlankWord(qIdx, pIdx, val) {
+    function onBlankChange(qIdx, bIdx, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][pIdx] = val;
+      userAnswers[qIdx][bIdx] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
+      updatePaletteActive();
     }
 
     function renderTextQuestionMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const options = m.options || [];
-      const names = m.names || ['Person A', 'Person B', 'Person C', 'Person D'];
-      const questList = m.questions || [];
-      const ansMap = userAnswers[idx] || {};
+      const texts = m.texts || [];
+      const questionsList = m.questions || [];
+      const checked = checkedState[idx];
+      if (!userAnswers[idx]) userAnswers[idx] = {};
 
-      const textGrid = document.createElement('div');
-      textGrid.className = "grid grid-cols-1 md:grid-cols-2 gap-3 mb-6";
-      options.forEach((txt, oIdx) => {
-        const box = document.createElement('div');
-        box.className = "p-3.5 rounded-xl border border-blue-100 bg-blue-50/30 text-xs leading-relaxed text-slate-700";
-        box.innerHTML = `<span class="font-bold text-blue-700 uppercase block mb-1">${names[oIdx] || 'Người ' + (oIdx+1)}</span>${txt}`;
-        textGrid.appendChild(box);
+      const textsBox = document.createElement('div');
+      textsBox.className = "grid grid-cols-1 md:grid-cols-2 gap-4 mb-6";
+      texts.forEach(t => {
+        const tDiv = document.createElement('div');
+        tDiv.className = "p-4 rounded-xl border border-slate-200 bg-slate-50 text-xs sm:text-sm leading-relaxed";
+        tDiv.innerHTML = `<span class="font-bold text-blue-700 block mb-1">${t.label || t.title}:</span> ${t.content}`;
+        textsBox.appendChild(tDiv);
       });
-      container.appendChild(textGrid);
+      container.appendChild(textsBox);
 
-      questList.forEach((question, qnIdx) => {
-        const row = document.createElement('div');
-        row.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm";
-
-        let buttons = '';
-        names.forEach((name, nIdx) => {
-          const isSel = ansMap[qnIdx] == nIdx;
-          buttons += `
-            <button onclick="selectPersonMatch(${idx}, ${qnIdx}, ${nIdx})" class="px-3 py-1 rounded-lg text-xs font-bold transition-all ${isSel ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
-              ${name}
-            </button>
-          `;
-        });
-
-        row.innerHTML = `
-          <div class="text-xs sm:text-sm font-semibold text-slate-800 leading-snug">${qnIdx + 1}. ${question}</div>
-          <div class="flex items-center gap-1.5 flex-wrap">${buttons}</div>
+      const qsBox = document.createElement('div');
+      qsBox.className = "space-y-3";
+      questionsList.forEach((ques, qsubIdx) => {
+        const qRow = document.createElement('div');
+        qRow.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3";
+        const curAns = userAnswers[idx][qsubIdx];
+        
+        let selHtml = `
+          <select onchange="onTextMatchChange(${idx}, ${qsubIdx}, this.value)" class="p-2 rounded-lg border border-slate-300 text-xs font-bold bg-white outline-none">
+            <option value="">-- Chọn đoạn văn --</option>
+            ${texts.map(t => `
+              <option value="${t.label}" ${curAns === t.label ? 'selected' : ''}>${t.label}</option>
+            `).join('')}
+          </select>
         `;
-        container.appendChild(row);
+        if (checked) {
+          const isRight = curAns === ques.correct_label;
+          selHtml += `<span class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">Đúng: ${ques.correct_label}</span>`;
+        }
+
+        qRow.innerHTML = `
+          <div class="text-xs sm:text-sm font-semibold text-slate-900">${qsubIdx + 1}. ${ques.question}</div>
+          ${selHtml}
+        `;
+        qsBox.appendChild(qRow);
       });
+      container.appendChild(qsBox);
     }
 
-    function selectPersonMatch(qIdx, qnIdx, nIdx) {
+    function onTextMatchChange(qIdx, subIdx, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][qnIdx] = nIdx;
+      userAnswers[qIdx][subIdx] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
-      renderQuestion(qIdx);
+      updatePaletteActive();
     }
 
     function renderMatchingHeadings(container, q, idx) {
       const m = q.raw_metadata || {};
-      const paragraphs = m.paragraphs || [];
       const headings = m.headings || [];
-      const ansMap = userAnswers[idx] || {};
+      const paragraphs = m.paragraphs || [];
+      const checked = checkedState[idx];
+      if (!userAnswers[idx]) userAnswers[idx] = {};
 
       paragraphs.forEach((p, pIdx) => {
-        const row = document.createElement('div');
-        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2 shadow-sm";
+        const pBox = document.createElement('div');
+        pBox.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2";
+        const curSel = userAnswers[idx][pIdx];
 
-        let optionsHtml = `<option value="">-- Chọn tiêu đề phù hợp cho Đoạn ${pIdx + 1} --</option>`;
-        headings.forEach((h, hIdx) => {
-          const isSel = ansMap[pIdx] == hIdx;
-          optionsHtml += `<option value="${hIdx}" ${isSel ? 'selected' : ''}>${h}</option>`;
-        });
-
-        row.innerHTML = `
-          <div class="text-xs font-bold text-slate-500 uppercase">Đoạn văn ${pIdx + 1}</div>
-          <p class="text-xs sm:text-sm text-slate-800 leading-relaxed">${p}</p>
-          <select onchange="selectHeadingMatch(${idx}, ${pIdx}, this.value)" class="w-full p-2.5 rounded-lg border border-slate-200 text-sm bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-600">
-            ${optionsHtml}
+        let selHtml = `
+          <select onchange="onHeadingChange(${idx}, ${pIdx}, this.value)" class="w-full p-2.5 rounded-lg border border-slate-300 text-xs sm:text-sm font-bold bg-white focus:ring-2 focus:ring-blue-500 outline-none">
+            <option value="">-- Chọn tiêu đề phù hợp nhất --</option>
+            ${headings.map(h => `
+              <option value="${h}" ${curSel === h ? 'selected' : ''}>${h}</option>
+            `).join('')}
           </select>
         `;
-        container.appendChild(row);
+        if (checked) {
+          const isRight = curSel === p.correct_heading;
+          selHtml += `<div class="text-xs font-semibold ${isRight ? 'text-emerald-600' : 'text-red-500'}">Đáp án đúng: ${p.correct_heading}</div>`;
+        }
+
+        pBox.innerHTML = `
+          <p class="text-xs sm:text-sm text-slate-800 leading-relaxed italic border-l-2 border-slate-200 pl-3">${p.text}</p>
+          ${selHtml}
+        `;
+        container.appendChild(pBox);
       });
     }
 
-    function selectHeadingMatch(qIdx, pIdx, val) {
+    function onHeadingChange(qIdx, pIdx, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
       userAnswers[qIdx][pIdx] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
+      updatePaletteActive();
     }
 
     function renderCollocationMatch(container, q, idx) {
       const m = q.raw_metadata || {};
       const pairs = m.pairs || [];
-      const pool = m.dropdown_pool || [];
-      const ansMap = userAnswers[idx] || {};
+      const checked = checkedState[idx];
+      if (!userAnswers[idx]) userAnswers[idx] = {};
 
       pairs.forEach((pair, pIdx) => {
         const row = document.createElement('div');
-        row.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm";
+        row.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3";
+        const cur = userAnswers[idx][pIdx];
 
-        let selectHtml = `<option value="">-- Chọn từ ghép tương ứng --</option>`;
-        pool.forEach(word => {
-          const isSel = ansMap[pIdx] === word;
-          selectHtml += `<option value="${word}" ${isSel ? 'selected' : ''}>${word}</option>`;
-        });
+        let selHtml = `
+          <select onchange="onCollocationChange(${idx}, ${pIdx}, this.value)" class="p-2 rounded-lg border border-slate-300 text-xs font-bold bg-white outline-none">
+            <option value="">-- Ghép từ --</option>
+            ${(pair.options || []).map(opt => `
+              <option value="${opt}" ${cur === opt ? 'selected' : ''}>${opt}</option>
+            `).join('')}
+          </select>
+        `;
+        if (checked) {
+          const isRight = cur === pair.correct;
+          selHtml += `<span class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">${pair.correct}</span>`;
+        }
 
         row.innerHTML = `
-          <div class="font-bold text-sm text-slate-800">${pair.prompt} +</div>
-          <select onchange="selectCollocation(${idx}, ${pIdx}, this.value)" class="w-full sm:w-64 p-2 rounded-lg border border-slate-200 text-sm bg-slate-50">
-            ${selectHtml}
-          </select>
+          <span class="text-sm font-bold text-slate-900">${pIdx + 1}. ${pair.word} ...</span>
+          ${selHtml}
         `;
         container.appendChild(row);
       });
     }
 
-    function selectCollocation(qIdx, pIdx, val) {
+    function onCollocationChange(qIdx, pIdx, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
       userAnswers[qIdx][pIdx] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
+      updatePaletteActive();
     }
 
-    function renderListeningMonologue(container, q, idx) {
-      const m = q.raw_metadata || {};
-      const subQuests = m.questions || [];
-      const ansMap = userAnswers[idx] || {};
-
-      subQuests.forEach((sub, sIdx) => {
-        const box = document.createElement('div');
-        box.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3 shadow-sm";
-
-        let choicesHtml = '';
-        (sub.choices || []).forEach((c, cIdx) => {
-          const isSel = ansMap[sIdx] == cIdx;
-          choicesHtml += `
-            <div onclick="selectMonologueSub(${idx}, ${sIdx}, ${cIdx})" class="p-3 rounded-lg border cursor-pointer text-xs sm:text-sm flex items-center gap-2.5 transition-all ${isSel ? 'border-blue-600 bg-blue-50 text-blue-900 font-semibold' : 'border-slate-200 hover:bg-slate-50 text-slate-800'}">
-              <span class="w-5 h-5 rounded border flex items-center justify-center font-bold text-[10px] ${isSel ? 'bg-blue-600 text-white' : 'bg-slate-100'}">${['A','B','C'][cIdx]}</span>
-              <span>${c}</span>
-            </div>
-          `;
-        });
-
-        box.innerHTML = `
-          <h4 class="font-bold text-sm text-slate-900">${sIdx + 1}. ${sub.question}</h4>
-          <div class="space-y-2">${choicesHtml}</div>
-        `;
-        container.appendChild(box);
-      });
-    }
-
-    function selectMonologueSub(qIdx, sIdx, cIdx) {
-      if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][sIdx] = cIdx;
-      const key = `${currentSection.id}_${qIdx}`;
-      progressData.answered[key] = userAnswers[qIdx];
-      saveProgress();
-      renderQuestion(qIdx);
-    }
-
-    // ================= CHECK ANSWER MASTER ENGINE =================
+    // Evaluation & Feedback
     function checkCurrentAnswer() {
       const q = questions[currentIdx];
+      if (!q) return;
+
       const userAns = userAnswers[currentIdx];
-
-      if (!userAns) {
-        alert('Vui lòng làm bài hoặc chọn câu trả lời trước khi kiểm tra!');
-        return;
-      }
-
-      const m = q.raw_metadata || {};
       let isCorrect = false;
+      const m = q.raw_metadata || {};
 
       if (q.type === 'sentence_ordering') {
-        const correct = m.correct_order || (m.sentences || []).filter(Boolean);
-        isCorrect = JSON.stringify(userAns) === JSON.stringify(correct);
-      }
-      else if (m.correct_answers) {
-        const corr = m.correct_answers;
-        if (Array.isArray(corr)) {
-          let matchCount = 0;
-          corr.forEach((cVal, cIdx) => {
-            if (userAns[cIdx] == cVal) matchCount++;
-          });
-          isCorrect = matchCount === corr.length;
-        } else if (typeof corr === 'object') {
-          let allMatch = true;
-          Object.keys(corr).forEach(k => {
-            if (userAns[k] != corr[k]) allMatch = false;
-          });
-          isCorrect = allMatch;
+        const correctOrder = m.correct_order || (m.sentences || []);
+        if (Array.isArray(userAns)) {
+          isCorrect = JSON.stringify(userAns) === JSON.stringify(correctOrder);
         }
-      }
-      else if (m.correct_option) {
-        isCorrect = String(userAns).toUpperCase() === String(m.correct_option).toUpperCase();
-      }
-      else if (q.correct_answer) {
-        isCorrect = String(userAns).trim().toLowerCase() === String(q.correct_answer).trim().toLowerCase();
-      }
-      else {
-        isCorrect = true;
+      } else if (q.type === 'listening_speaker_match') {
+        if (userAns && m.correct_matches) {
+          isCorrect = Object.keys(m.correct_matches).every(k => userAns[k] === m.correct_matches[k]);
+        }
+      } else if (q.type === 'fill_in_blanks_mc') {
+        if (userAns && m.blanks) {
+          isCorrect = m.blanks.every((b, i) => userAns[i] === b.correct_answer);
+        }
+      } else if (q.type === 'text_question_match') {
+        if (userAns && m.questions) {
+          isCorrect = m.questions.every((ques, i) => userAns[i] === ques.correct_label);
+        }
+      } else if (q.type === 'matching_headings') {
+        if (userAns && m.paragraphs) {
+          isCorrect = m.paragraphs.every((p, i) => userAns[i] === p.correct_heading);
+        }
+      } else {
+        // Standard MCQ
+        const optId = userAns;
+        isCorrect = (optId === m.correct_option) || (optId === q.correct_answer);
       }
 
       checkedState[currentIdx] = { isCorrect };
@@ -1104,7 +2098,13 @@
       progressData.correct[key] = isCorrect;
       saveProgress();
 
+      showFeedbackUI(isCorrect, q);
       renderQuestion(currentIdx);
+
+      const expText = m.explanation || q.description;
+      if (expText) {
+        document.getElementById('btn-toggle-explain').classList.remove('hidden');
+      }
       updatePaletteActive();
     }
 
@@ -1117,41 +2117,64 @@
 
       box.classList.remove('hidden');
       if (isCorrect) {
-        box.className = 'rounded-xl p-4 border bg-emerald-50 border-emerald-300 text-emerald-900';
+        box.className = "rounded-xl p-5 border bg-emerald-50 border-emerald-300 text-emerald-900";
         icon.innerHTML = '<i data-lucide="check-circle-2" class="w-6 h-6 text-emerald-600"></i>';
-        title.innerText = '🎉 Rất xuất sắc! Đáp án chính xác.';
-        sub.innerText = 'Bạn đã nắm vững kiến thức phần này.';
+        title.innerText = "Chính xác!";
+        sub.innerText = "Bạn đã trả lời đúng câu hỏi này. Hãy bấm 'Xem giải thích' để đọc chi tiết.";
       } else {
-        box.className = 'rounded-xl p-4 border bg-red-50 border-red-300 text-red-900';
-        icon.innerHTML = '<i data-lucide="x-circle" class="w-6 h-6 text-red-600"></i>';
-        title.innerText = '❌ Chưa chính xác!';
-        sub.innerText = 'Bấm nút "Xem giải thích" bên dưới để xem đáp án đúng và phân tích chi tiết.';
+        box.className = "rounded-xl p-5 border bg-red-50 border-red-300 text-red-900";
+        icon.innerHTML = '<i data-lucide="alert-circle" class="w-6 h-6 text-red-600"></i>';
+        title.innerText = "Chưa chính xác!";
+        sub.innerText = m.correct_option ? `Đáp án đúng là: ${m.correct_option}` : (q.correct_answer ? `Đáp án đúng: ${q.correct_answer}` : "Hãy xem phần giải thích bên dưới để nắm vững kiến thức.");
       }
-
-      const expContent = document.getElementById('explanation-content');
-      const explanationHtml = m.explanation || q.description || '<p>Chưa có transcript chi tiết cho câu hỏi này.</p>';
-      expContent.innerHTML = explanationHtml;
       lucide.createIcons();
     }
 
     function toggleExplanation() {
       const drawer = document.getElementById('explanation-drawer');
-      drawer.classList.toggle('hidden');
-    }
+      const content = document.getElementById('explanation-content');
+      const q = questions[currentIdx];
+      if (!q) return;
 
-    function prevQuestion() {
-      if (currentIdx > 0) renderQuestion(currentIdx - 1);
+      const m = q.raw_metadata || {};
+      const expText = m.explanation || q.description || 'Không có giải thích chi tiết cho câu hỏi này.';
+
+      content.innerHTML = `
+        <div class="space-y-3">
+          ${m.transcript ? `
+            <div class="p-3 bg-white/70 rounded-lg border border-amber-200">
+              <span class="font-bold text-amber-900 block mb-1">Transcript bài nghe:</span>
+              <p class="text-xs sm:text-sm text-amber-900 leading-relaxed italic">${m.transcript}</p>
+            </div>
+          ` : ''}
+          <div class="text-xs sm:text-sm text-amber-950 leading-relaxed">${expText}</div>
+        </div>
+      `;
+
+      drawer.classList.toggle('hidden');
+      lucide.createIcons();
     }
 
     function nextQuestion() {
-      if (currentIdx < questions.length - 1) renderQuestion(currentIdx + 1);
+      if (currentIdx < questions.length - 1) {
+        renderQuestion(currentIdx + 1);
+        window.scrollTo({ top: 120, behavior: 'smooth' });
+      }
     }
 
+    function prevQuestion() {
+      if (currentIdx > 0) {
+        renderQuestion(currentIdx - 1);
+        window.scrollTo({ top: 120, behavior: 'smooth' });
+      }
+    }
+
+    // Audio Controls
     function toggleAudio() {
-      const el = document.getElementById('main-audio-element');
+      const audio = document.getElementById('main-audio-element');
       const icon = document.getElementById('icon-play-audio');
-      if (el.paused) {
-        el.play();
+      if (audio.paused) {
+        audio.play();
         icon.setAttribute('data-lucide', 'pause');
         const q = questions[currentIdx];
         if (q && q.audio_file) {
@@ -1159,23 +2182,36 @@
           document.getElementById('listen-count-badge').innerText = `Đã nghe: ${audioListenCounts[q.audio_file]} lần`;
         }
       } else {
-        el.pause();
+        audio.pause();
         icon.setAttribute('data-lucide', 'play');
       }
       lucide.createIcons();
     }
 
     function onAudioTimeUpdate() {
-      const el = document.getElementById('main-audio-element');
-      if (!el.duration) return;
-      const pct = (el.currentTime / el.duration) * 100;
+      if (isSeeking) return;
+      const audio = document.getElementById('main-audio-element');
+      if (!audio.duration) return;
+
+      const pct = (audio.currentTime / audio.duration) * 100;
       document.getElementById('audio-seekbar').value = pct;
 
-      const curM = String(Math.floor(el.currentTime / 60)).padStart(2, '0');
-      const curS = String(Math.floor(el.currentTime % 60)).padStart(2, '0');
-      const durM = String(Math.floor(el.duration / 60)).padStart(2, '0');
-      const durS = String(Math.floor(el.duration % 60)).padStart(2, '0');
+      const curM = String(Math.floor(audio.currentTime / 60)).padStart(2, '0');
+      const curS = String(Math.floor(audio.currentTime % 60)).padStart(2, '0');
+      const durM = String(Math.floor(audio.duration / 60)).padStart(2, '0');
+      const durS = String(Math.floor(audio.duration % 60)).padStart(2, '0');
       document.getElementById('audio-time-display').innerText = `${curM}:${curS} / ${durM}:${durS}`;
+    }
+
+    function seekAudio(val) {
+      const audio = document.getElementById('main-audio-element');
+      if (!audio.duration) return;
+      audio.currentTime = (val / 100) * audio.duration;
+    }
+
+    function setAudioSpeed(speed) {
+      const audio = document.getElementById('main-audio-element');
+      audio.playbackRate = speed;
     }
 
     function onAudioEnded() {
@@ -1183,46 +2219,41 @@
       lucide.createIcons();
     }
 
-    function seekAudio(val) {
-      const el = document.getElementById('main-audio-element');
-      if (el.duration) {
-        el.currentTime = (val / 100) * el.duration;
-      }
-    }
-
-    function setAudioSpeed(speed) {
-      const el = document.getElementById('main-audio-element');
-      el.playbackRate = speed;
-    }
-
+    // Dashboard View Navigation
     function showDashboard() {
-      const audioEl = document.getElementById('main-audio-element');
-      if (audioEl) audioEl.pause();
       clearInterval(timerInterval);
+      clearInterval(speakingTimerInterval);
+      const audio = document.getElementById('main-audio-element');
+      if (audio) audio.pause();
 
       document.getElementById('view-practice').classList.add('hidden');
       document.getElementById('view-instructions').classList.add('hidden');
+      document.getElementById('view-speaking').classList.add('hidden');
+      document.getElementById('view-writing').classList.add('hidden');
       document.getElementById('view-dashboard').classList.remove('hidden');
 
-      document.getElementById('nav-btn-dash').className = 'px-3.5 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 transition-colors bg-blue-50 text-blue-700';
-      document.getElementById('nav-btn-instr').className = 'px-3.5 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 transition-colors text-slate-600 hover:bg-slate-100';
+      document.getElementById('nav-btn-dash').className = 'px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors bg-blue-50 text-blue-700';
+      document.getElementById('nav-btn-instr').className = 'px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors text-slate-600 hover:bg-slate-100';
 
-      updateDashboardStats();
-      renderSectionsGrid(sections);
+      renderSectionsGrid();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    // Instructions / Guides View
     async function showInstructions() {
-      const audioEl = document.getElementById('main-audio-element');
-      if (audioEl) audioEl.pause();
       clearInterval(timerInterval);
+      clearInterval(speakingTimerInterval);
+      const audio = document.getElementById('main-audio-element');
+      if (audio) audio.pause();
 
       document.getElementById('view-practice').classList.add('hidden');
       document.getElementById('view-dashboard').classList.add('hidden');
+      document.getElementById('view-speaking').classList.add('hidden');
+      document.getElementById('view-writing').classList.add('hidden');
       document.getElementById('view-instructions').classList.remove('hidden');
 
-      document.getElementById('nav-btn-instr').className = 'px-3.5 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 transition-colors bg-blue-50 text-blue-700';
-      document.getElementById('nav-btn-dash').className = 'px-3.5 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 transition-colors text-slate-600 hover:bg-slate-100';
+      document.getElementById('nav-btn-instr').className = 'px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors bg-blue-50 text-blue-700';
+      document.getElementById('nav-btn-dash').className = 'px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-colors text-slate-600 hover:bg-slate-100';
 
       const listContainer = document.getElementById('instructions-list');
       listContainer.innerHTML = '<div class="col-span-full py-12 text-center text-slate-400">Đang tải danh mục cẩm nang...</div>';
@@ -1280,8 +2311,8 @@
       document.getElementById('guide-modal').classList.add('hidden');
     }
 
-    window.onload = initApp;
+    // Kick off app
+    window.addEventListener('DOMContentLoaded', initApp);
   </script>
 </body>
 </html>
-

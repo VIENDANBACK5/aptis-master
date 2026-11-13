@@ -1,0 +1,174 @@
+{
+  "set_id": 222,
+  "title": "Music club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 222,
+      "questions": [
+        {
+          "id": 541,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a music club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "How many phones do you have?",
+                "placeholder": ""
+              },
+              {
+                "label": "How often do you go shopping?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where are you from?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where do you live?",
+                "placeholder": ""
+              },
+              {
+                "label": "Where would you like to live?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Music club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 222,
+      "questions": [
+        {
+          "id": 448,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "Please tell us about the last time you listened to music.",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "Music club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 222,
+      "questions": [
+        {
+          "id": 449,
+          "skill": "writing",
+          "part": 3,
+          "stem": "You are a member of a music club. You are talking to three other members in the music club chat room. Talk to them using sentences. Use 30 – 40 words.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "Hi! How often do you listen to music?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I listen to music at home every evening. I really like listening to music because it helps me feel comfortable after a day at work.\r\n\r\n\r\nI’m a big fan of music, especially K-pop and R&B. I listen to music whenever I have free time, and I also enjoy listening while studying or doing housework.\r\nPlease tell us about the last time you listened to music.\r\n\r\n\r\nThe last time I listened to music was 5 hours ago. I enjoyed my favorite songs along with the attractive videos on YouTube."
+              },
+              {
+                "prompt": "I plan to give my son music lessons, but he doesn’t like it. What should I do?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I suggest showing your son some of the benefits of music. It can help reduce anxiety, improve mood, and enhance work efficiency. Understanding these benefits may make him more interested in music lessons.\r\n\r\n\r\nOr\r\nEveryone has their own preferences, so if your son doesn’t enjoy the lessons, try to find out what interests him. You could nurture his other hobbies and introduce him to music in a way that suits his interests."
+              },
+              {
+                "prompt": "Do you agree that music is essential in a culture",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I agree that music is essential in a culture. It reflects a society's values, history, and traditions. Music helps people connect, express emotions, and preserve cultural identity across generations."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "Music club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 222,
+      "questions": [
+        {
+          "id": 450,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "Phàn nàn vì thường xuyên mở nhạc muộn",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "Our club has recently had some concerts and plays music at night. However, residents living near our club complain about the noise from our concerts.\r\nPlease give me some suggestions to solve this problem,",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friends. Write about your feelings and ask for advice on how to deal with them. Write about 50 words. You have 10 minutes.",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "Music club - Part 4"
+        }
+      ]
+    }
+  ]
+}

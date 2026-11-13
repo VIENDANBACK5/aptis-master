@@ -1,0 +1,139 @@
+{
+  "set_id": 241,
+  "title": "Đề 8: Cô giáo chơi cùng học sinh + ôm mèo - xem rắn + giúp đỡ người khác",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 241,
+      "questions": [
+        {
+          "id": 557,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "What do you like doing in your free time?",
+              "What did you do last night?",
+              "Please tell me about your favourite food"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 241,
+      "questions": [
+        {
+          "id": 515,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/1zcPY1LyyMDObmhaALGVzLGxs2iSQZvC47d1cR4M.jpg",
+            "questions": [
+              "Describe the picture?",
+              "What kind of games did you play when you were a child?",
+              "Why do children have to spend time playing?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "1zcPY1LyyMDObmhaALGVzLGxs2iSQZvC47d1cR4M.jpg"
+          },
+          "point": 5,
+          "title": "Đề 8 - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 241,
+      "questions": [
+        {
+          "id": 516,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/WGjBZU8hbuGmZKuPc0H675L6BBfV6ReeMfwYnEdq.jpg",
+              "speaking_images/DgagEs32mBZXKHUy3fAkGXyCNFWOXd5CBgxB17Kx.png"
+            ],
+            "questions": [
+              "Tell me what you see in the two pictures.",
+              "The attractions of keeping these animals as pets?",
+              "Some people think that animals should not be kept in the home. What do you think?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "WGjBZU8hbuGmZKuPc0H675L6BBfV6ReeMfwYnEdq.jpg",
+              "DgagEs32mBZXKHUy3fAkGXyCNFWOXd5CBgxB17Kx.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 8 - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 241,
+      "questions": [
+        {
+          "id": 517,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/AUYvGqzBuoldbyjHhevABvs2KSJvv8giFpBP0iPC.jpg",
+            "questions": [
+              "Tell me a time when you gave help.",
+              "How did you feel?",
+              "How can people be encouraged to do good things?/ What are ways to motivate others?"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "AUYvGqzBuoldbyjHhevABvs2KSJvv8giFpBP0iPC.jpg"
+          },
+          "point": 20,
+          "title": "Đề 8 - Part 4"
+        }
+      ]
+    }
+  ]
+}

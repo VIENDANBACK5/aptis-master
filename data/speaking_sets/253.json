@@ -1,0 +1,139 @@
+{
+  "set_id": 253,
+  "title": "Đề 16: Dùng điện thoại + phòng ngủ - camping + gặp người nước ngoài",
+  "skill": "speaking",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 253,
+      "questions": [
+        {
+          "id": 779,
+          "skill": "speaking",
+          "part": 1,
+          "stem": "In this part, I am going to ask you three short questions about yourself and your interests. You will have 30 seconds to reply to each question.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              "1. Tell me the last time you saw a movie.",
+              "2. Tell me about your typical day.",
+              "3. Describe your journey here today."
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 30
+          },
+          "point": 5,
+          "title": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 253,
+      "questions": [
+        {
+          "id": 780,
+          "skill": "speaking",
+          "part": 2,
+          "stem": "In this part, I'm going to ask you to describe a picture. Then I will ask you two questions about it. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/S3dTNnF9kSKSz2e4rUQHJ1mwBxQJCWmM8T1FzhYO.png",
+            "questions": [
+              "1. Describe this picture.",
+              "What do you usually use your mobile phone for?",
+              "Do you think smartphones are making people less social in real life?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_image": "S3dTNnF9kSKSz2e4rUQHJ1mwBxQJCWmM8T1FzhYO.png"
+          },
+          "point": 5,
+          "title": "Đề 16: Dùng điện thoại + ngủ trong nhà - camping + gặp người nước ngoài - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 253,
+      "questions": [
+        {
+          "id": 781,
+          "skill": "speaking",
+          "part": 3,
+          "stem": "In this part, I'm going to ask you to compare two pictures, and I will then ask you two questions about them. You will have 45 seconds for each response.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_paths": [
+              "speaking_images/SLVnDv2e9p2qH9tSzrwKyyaiZXplIi3Qnv6k6PQh.png",
+              "speaking_images/PSe4Wycxtv9hDMfgXq792u6Hvr2nuZC9CdDz5hNw.png"
+            ],
+            "questions": [
+              "Tell me what can you see in two pictures.",
+              "Do you think sleep is important?",
+              "Is spending the night in places like this attractive?"
+            ],
+            "sample_answer": null,
+            "prep_time": 0,
+            "answer_time_per_question": 45,
+            "local_images": [
+              "SLVnDv2e9p2qH9tSzrwKyyaiZXplIi3Qnv6k6PQh.png",
+              "PSe4Wycxtv9hDMfgXq792u6Hvr2nuZC9CdDz5hNw.png"
+            ]
+          },
+          "point": 10,
+          "title": "Đề 16: Dùng điện thoại + ngủ trong nhà - camping + gặp người nước ngoài - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 253,
+      "questions": [
+        {
+          "id": 782,
+          "skill": "speaking",
+          "part": 4,
+          "stem": "In this part, I'm going to show you a picture and ask you three questions. You will have one minute to think about your answers before you start speaking. You will have two minutes to answer all three questions.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "image_path": "speaking_images/lxPh64yuxAENJzRV4YpnjhDyesdju7shhwGXIHJB.png",
+            "questions": [
+              "1. Tell me a time you met or talk with a foreigner.",
+              "2. Why do some people feel shy or nervous when communicating with strangers from other countries?",
+              "3. Do you think interacting with people from different cultural backgrounds is important"
+            ],
+            "sample_answer": null,
+            "prep_time": 60,
+            "total_answer_time": 120,
+            "local_image": "lxPh64yuxAENJzRV4YpnjhDyesdju7shhwGXIHJB.png"
+          },
+          "point": 20,
+          "title": "Đề 16: Dùng điện thoại + ngủ trong nhà - camping + gặp người nước ngoài - Part 4"
+        }
+      ]
+    }
+  ]
+}

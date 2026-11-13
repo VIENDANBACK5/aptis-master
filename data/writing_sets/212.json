@@ -1,0 +1,174 @@
+{
+  "set_id": 212,
+  "title": "English Club",
+  "skill": "writing",
+  "sections": [
+    {
+      "index": 0,
+      "part": 1,
+      "part_label": "1",
+      "set_id": 212,
+      "questions": [
+        {
+          "id": 548,
+          "skill": "writing",
+          "part": 1,
+          "stem": "Please fill in the form below.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "instructions": "You want to join a English Club. You have 5 messages from a member of the club. Write short answers (1–5 words) to each message. Recommended time: 3 minutes.",
+            "fields": [
+              {
+                "label": "Where did you go last night?",
+                "placeholder": ""
+              },
+              {
+                "label": "What do you like doing with your friend?",
+                "placeholder": ""
+              },
+              {
+                "label": "Which sport do you like to play the most?",
+                "placeholder": ""
+              },
+              {
+                "label": "What did you do last night?",
+                "placeholder": ""
+              },
+              {
+                "label": "Do you like shopping?",
+                "placeholder": ""
+              }
+            ],
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "English Club - Part 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "part": 2,
+      "part_label": "2",
+      "set_id": 212,
+      "questions": [
+        {
+          "id": 415,
+          "skill": "writing",
+          "part": 2,
+          "stem": "Write a short text (20-30 words).",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "scenario": "What do you usually use the internet for?",
+            "word_limit": {
+              "min": 20,
+              "max": 45
+            },
+            "hints": "Write roughly 20-30 words.",
+            "sample_answer": null
+          },
+          "point": 5,
+          "title": "English Club - Part 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "part": 3,
+      "part_label": "3",
+      "set_id": 212,
+      "questions": [
+        {
+          "id": 416,
+          "skill": "writing",
+          "part": 3,
+          "stem": "Respond to the messages in the group.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "questions": [
+              {
+                "prompt": "I usually spend 6 hours a day studying English. How do you learn English?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I often spend two hours a day studying English. I usually use my laptop, computer, and smartphone to practice my listening, reading, writing, and speaking skills. I really like studying English because it helps me relieve stress, improve my knowledge, learn about many things, and make money.\r\n\r\nI prefer learning English by watching movies and listening to US-UK songs rather than taking formal courses. This helps me expand my vocabulary, improve my listening skills, and make the process of learning more enjoyable."
+              },
+              {
+                "prompt": "English is a popular language in the world. What are your thoughts on this idea?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I totally agree with this idea. I really like studying English because it helps me relieve stress, improve my knowledge, learn about many things, and make money.\r\n\r\nI agree with this statement. English is widely spoken and taught globally. Many devices use English as their default language. If you want to deeply explore subjects of interest, learning English is"
+              },
+              {
+                "prompt": "When do you usually use English?",
+                "word_limit": {
+                  "min": 30,
+                  "max": 60
+                },
+                "sample_answer": "I often use English when I talk with my friends. I really like studying English because it can help me relieve stress, improve my knowledge, learn about many things, and make money.\r\n\r\n\r\nI use English whenever I get the chance. I use it to search for information at work, study lessons, or read new books. Sometimes, when I travel abroad, I also use it to communicate with locals. It’s enjoyable because it helps me connect with others and understand their cultures better."
+              }
+            ]
+          },
+          "point": 10,
+          "title": "English Club - Part 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "part": 4,
+      "part_label": "4",
+      "set_id": 212,
+      "questions": [
+        {
+          "id": 417,
+          "skill": "writing",
+          "part": 4,
+          "stem": "Read the email and complete the two tasks.",
+          "audio_path": null,
+          "audio_url": null,
+          "audio_urls": [],
+          "image_path": null,
+          "metadata": {
+            "context": "English Club",
+            "email": {
+              "greeting": "Dear Member,",
+              "body": "As more new words and phrases are added to the language, many people strongly react to this issue. Some gladly accept while others argue that there should be rules for language. Write a letter to your friend and the club manager to express your views and explain why many people react like this.",
+              "sign_off": "Best regards,\r\nThe Management"
+            },
+            "task1": {
+              "instruction": "Write an email to your friend",
+              "word_limit": {
+                "min": 50,
+                "max": 75
+              },
+              "sample_answer": null
+            },
+            "task2": {
+              "instruction": "Email to the manager of the club:",
+              "word_limit": {
+                "min": 120,
+                "max": 225
+              },
+              "sample_answer": null
+            }
+          },
+          "point": 20,
+          "title": "English Club - Part 4"
+        }
+      ]
+    }
+  ]
+}
