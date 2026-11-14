@@ -431,6 +431,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
           <!-- Native HTML5 Audio Player (Chuẩn 100% mọi trình duyệt) -->
           <audio id="main-audio-element" preload="auto" controls controlslist="nodownload" class="w-full h-11 rounded-xl shadow-sm border border-gray-200 bg-white" onplay="onAudioPlay()" onpause="onAudioPause()" onended="onAudioEnded()"></audio>
+          <div class="text-[11px] text-gray-500 pt-0.5 flex items-center justify-between flex-wrap gap-2">
+            <span>💡 <i>Nếu trình duyệt bị nghẽn âm thanh: <a id="audio-direct-link" href="#" target="_blank" class="text-blue-600 underline font-semibold hover:text-blue-800">Bấm vào đây để mở nghe file gốc trong tab mới</a></i></span>
+          </div>
         </div>
 
         <!-- Question Interactive Area -->
@@ -1317,13 +1320,22 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       let src = q.audio_file || q.audio_path || q.audio_url || m.audio_file || m.audio_url;
       if (!src) return '';
       src = String(src).trim();
-      if (src.startsWith('http://') || src.startsWith('https://')) return src;
-      if (src.startsWith('/data/audio/')) return src;
-      if (src.startsWith('data/audio/')) return '/' + src;
-      if (src.startsWith('/audio/')) return '/data' + src;
-      if (src.startsWith('audio/')) return '/data/' + src;
-      const filename = src.split('/').pop().split('\\').pop();
-      return '/data/audio/' + filename;
+      let path = '';
+      if (src.startsWith('http://') || src.startsWith('https://')) {
+        path = src;
+      } else if (src.startsWith('/data/audio/')) {
+        path = src;
+      } else if (src.startsWith('data/audio/')) {
+        path = '/' + src;
+      } else if (src.startsWith('/audio/')) {
+        path = '/data' + src;
+      } else if (src.startsWith('audio/')) {
+        path = '/data/' + src;
+      } else {
+        const filename = src.split('/').pop().split('\\').pop();
+        path = '/data/audio/' + filename;
+      }
+      return path + (path.includes('?') ? '&' : '?') + 'v=aptis_v' + APP_VERSION;
     }
 
     function onAudioPlay() {
@@ -1431,6 +1443,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         audioEl.src = audioSrc;
         audioEl.preload = 'auto';
         audioEl.load();
+
+        const directLink = document.getElementById('audio-direct-link');
+        if (directLink) directLink.href = audioSrc;
 
         const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + idx : 'q');
         const count = audioListenCounts[srcKey] || 0;
