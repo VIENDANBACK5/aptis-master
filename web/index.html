@@ -1400,33 +1400,48 @@
       const pct = Math.round(((idx + 1) / questions.length) * 100);
       document.getElementById('practice-progress-bar').style.width = `${pct}%`;
 
-      // Tip & Mnemonic Box (Mẹo thi & Ghi nhớ Aptis)
+      // Tip & Mnemonic Box (Chỉ hiện mẹo ghi nhớ độc quyền, TUYỆT ĐỐI KHÔNG làm lộ script hội thoại hay đáp án)
       const tipBox = document.getElementById('q-tip-box');
       const m = q.raw_metadata || {};
-      const expl = m.explanation || q.explanation || '';
-      const title = q.title || '';
+      let tipText = (q.mnemonic_tip || '').trim();
 
-      let tipText = '';
-      if (expl && expl.trim().length) {
-        tipText = expl;
-      } else if (title && (title.includes(' - ') || title.includes('. ') || title.includes(':'))) {
-        tipText = `<p class="font-bold text-amber-900">${title}</p>`;
+      // Fallback: nếu chưa có q.mnemonic_tip nhưng title có chứa mẹo thì trích xuất câu ngắn
+      if (!tipText && q.title) {
+        const titleStr = q.title.trim();
+        for (const sep of [' - ', '. ', ': ']) {
+          if (titleStr.includes(sep)) {
+            const parts = titleStr.split(sep);
+            const cand = parts[parts.length - 1].trim();
+            if (cand.length > 3 && cand.length < 90 && !cand.toLowerCase().startsWith('man:') && !cand.toLowerCase().startsWith('woman:')) {
+              tipText = cand;
+              break;
+            }
+          }
+        }
+      }
+
+      // Đảm bảo không bao giờ rò rỉ script hội thoại trong hộp mẹo trước khi nộp bài
+      if (tipText.toLowerCase().includes('man:') || tipText.toLowerCase().includes('woman:') || tipText.length > 150) {
+        tipText = '';
       }
 
       if (tipBox) {
         if (tipText) {
           tipBox.classList.remove('hidden');
+          let subRule = '';
+          if (currentSection && currentSection.id === 'listening_3') {
+            subRule = `<div class="text-[11px] text-amber-700/90 mt-1 font-normal">💡 <i>Quy ước chuẩn: Nam nói trước áp dụng thứ tự này. Nếu nữ nói trước đổi ngược lại (M ↔ W, Both giữ nguyên).</i></div>`;
+          }
           tipBox.innerHTML = `
-            <div class="p-4 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 text-amber-950 shadow-sm flex items-start gap-3">
-              <span class="text-2xl shrink-0 mt-0.5">💡</span>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 text-amber-950 shadow-sm flex items-start gap-3">
+              <span class="text-xl sm:text-2xl shrink-0 mt-0.5">💡</span>
               <div class="flex-1 min-w-0">
-                <div class="flex items-center justify-between gap-2 mb-1">
-                  <div class="flex items-center gap-2">
-                    <span class="font-bold text-xs uppercase tracking-wider text-amber-900">Mẹo thi & Ghi nhớ độc quyền:</span>
-                    <span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-amber-200 text-amber-900">Aptis Master Tip</span>
-                  </div>
+                <div class="flex items-center gap-2 mb-1">
+                  <span class="font-bold text-xs uppercase tracking-wider text-amber-900">Mẹo thi & Ghi nhớ độc quyền:</span>
+                  <span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-amber-200 text-amber-900">Aptis Master Tip</span>
                 </div>
-                <div class="text-sm font-semibold text-amber-900 leading-relaxed">${tipText}</div>
+                <div class="text-sm sm:text-base font-bold text-amber-900 leading-snug">${tipText}</div>
+                ${subRule}
               </div>
             </div>
           `;
@@ -2125,13 +2140,29 @@
       container.appendChild(wrap);
 
       if (checked) {
-        const expl = m.explanation || q.title || '';
-        const desc = m.description || '';
-        showFeedbackExplanation(
-          (expl ? `<div class="mb-3 font-bold text-amber-900 text-sm">💡 Mẹo ghi nhớ: ${expl}</div>` : '') +
-          (desc ? `<div class="border-t border-gray-200/60 pt-2"><div class="font-bold text-gray-700 text-xs uppercase mb-1">📜 Toàn bộ đoạn hội thoại:</div><div class="text-xs text-gray-600 leading-relaxed">${desc}</div></div>` : ''),
-          checked.isCorrect
-        );
+        const tipStr = q.mnemonic_tip || '';
+        let transcript = m.description || '';
+        if (!transcript && m.explanation && (m.explanation.includes('Man:') || m.explanation.includes('Woman:') || m.explanation.includes('<p>'))) {
+          transcript = m.explanation;
+        }
+
+        let fbContent = '';
+        if (tipStr) {
+          fbContent += `<div class="mb-3 p-3 bg-amber-50 rounded-xl border border-amber-200 font-bold text-amber-900 text-sm">💡 Mẹo ghi nhớ độc quyền: ${tipStr}</div>`;
+        }
+        if (transcript) {
+          fbContent += `
+            <div class="border-t border-gray-200/60 pt-3 mt-2">
+              <div class="font-bold text-gray-800 text-xs uppercase mb-2 flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                Toàn bộ đoạn hội thoại & Lời thoại (Transcript):
+              </div>
+              <div class="text-xs text-gray-700 leading-relaxed space-y-1 bg-slate-50 p-3.5 rounded-xl border border-gray-200/80">${transcript}</div>
+            </div>
+          `;
+        }
+
+        showFeedbackExplanation(fbContent, checked.isCorrect);
       }
     }
 

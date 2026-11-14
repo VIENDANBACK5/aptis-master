@@ -6097,7 +6097,7 @@
         "skill": "listening",
         "part": 3,
         "type": "listening_conversation",
-        "stem": "Part 3 (câu 15) có 16 đề, chỉ cần học theo mẹo, quy ước đều là nam nói trước, đi thi gặp nam nói trước => chọn theo câu văn mẹo này, nữ nói trước => đổi ngược lại (M-W, W-M, both giữ nguyên). Đợi qua phần giới thiệu xong mới tính nam hay nữ nói trước.",
+        "stem": "Listen to two people discussing Community Design. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. Who expresses which opinion?",
         "choices": [],
         "correct_answer": null,
         "has_audio": true,
@@ -6124,7 +6124,8 @@
           ],
           "explanation": "<p>Bàn Wề Mưa Bão - BWMB</p><p><strong>Man:</strong> You know, I believe building design can shape people’s behaviors and interactions from the start. When spaces are designed well, people feel comfortable and naturally start connecting.<br><br><strong>Woman:</strong> Of course, design matters, but there’s no shortcut to building real community connections. Creating community takes time and consistency, even in spaces that encourage interaction.<br><br><strong>Man:</strong> Really? But I also feel that work communities and social communities aren’t as different as we might think. Both require spaces that help people feel connected and valued, whether it’s at work or in social settings.<br><br><strong>Woman:</strong> I’m not sure I agree with that. Work communities and social communities serve very different purposes. In a social community, people gather out of personal interest and shared hobbies, but in work communities, people connect because of their job roles. That can affect how close they feel and how they interact with one another.<br><br><strong>Man:</strong> I see your point, but even in work communities, people still find ways to connect on a personal level. A good work environment encourages friendships that might go beyond work topics.<br><br><strong>Woman:</strong> That’s a good point. And with technology, people can now connect for both work and social reasons, even if they’re not physically together. But I still think it’s important to build spaces where people can gather in person.<br><br><strong>Man:</strong> Yes, I agree, but I think technology has really changed how communities form. It makes connecting so much easier, and people don’t always need to meet face-to-face to feel a sense of community.<br><br><strong>Woman:</strong> I see that, but I don’t think online connections can fully replace in-person gatherings. There’s a different energy when people come together in real spaces—something technology just can’t replicate.<br><br><strong>Man:</strong> I understand, but I feel that virtual spaces can be just as meaningful. Technology adds a new layer, making it possible for communities to thrive even across distances, and that’s valuable in its own way.</p>"
         },
-        "title": "Community design - Bàn Wề Mưa Bão (BWMB - nam), nữ nói trước đổi thành BMWB"
+        "title": "Community Design (Bàn Wề Mưa Bão (BWMB))",
+        "mnemonic_tip": "Bàn Wề Mưa Bão (BWMB)"
       },
       {
         "id": 766,
@@ -6159,7 +6160,8 @@
           ],
           "explanation": "<p>Wừa Mới Bôi Môi</p>"
         },
-        "title": "The subject of beauty. Wừa Mới Bôi Môi"
+        "title": "The Subject of Beauty (Wừa Mới Bôi Môi (W-M-B-M))",
+        "mnemonic_tip": "Wừa Mới Bôi Môi (W-M-B-M)"
       },
       {
         "id": 225,
@@ -6194,7 +6196,8 @@
           ],
           "explanation": "<p>Mới Vừa Bị Bắt MWBB</p><p>&nbsp;</p><p>Man: You know, I’ve always believed that auditions are the most important part of an actor’s career. I mean, that’s where the magic happens. It doesn’t matter how great you are in rehearsals or even in the final performance; if you can’t nail that audition, you’re not getting anywhere.&nbsp;</p><p>Woman: Yeah, but it’s not just about the audition. I’ve seen actors who can absolutely shine when they’re given the right material to work with. Strong scripts really bring out the best in them. If the writing’s weak, even a talented actor might struggle to connect. I think actors respond best when they feel inspired by what’s on the page.&nbsp;</p><p>Man: That’s true, but whether it’s a strong script or a weak one, they still have to nail that first audition to even get the chance to perform, right?&nbsp;</p><p>Woman: Sure, the audition is key, but once they’re in, the script can make or break their performance. It’s kind of a balance between both.&nbsp;</p><p>Man: I agree with that. But I also think there’s a huge difference between theater acting and screen acting. The two require completely different skill sets. In theater, you’ve got to project and be larger than life, whereas on screen, it’s all about subtlety, keeping everything smaller and more contained. Woman: Absolutely! They’re such different worlds. The way you use your body, your voice, even how you interact with your fellow actors—it’s all completely different depending on whether you’re on stage or in front of a camera.&nbsp;</p><p>Man: Right, and that’s why actors deserve as much praise as possible. They’re constantly shifting between styles and adapting to new roles. It’s tough! Woman: Couldn’t agree more. I mean, whether it’s theater or film, acting is such an emotional and demanding job. Encouragement and praise go a long way. They need to feel appreciated for all the work they put in.</p>"
         },
-        "title": "Audition - Actor - Diễn viên Mới Wừa Bị Bắt"
+        "title": "Audition - Actor (Diễn viên Mới Vừa Bị Bắt (MWBB))",
+        "mnemonic_tip": "Diễn viên Mới Vừa Bị Bắt (MWBB)"
       },
       {
         "id": 799,
@@ -6228,7 +6231,8 @@
             "0"
           ]
         },
-        "title": "Culture differences at work ( Làm việc phải \" Bàn Việc Miệt Mài))"
+        "title": "Culture Differences at Work (Làm việc phải \"Bàn Việc Miệt Mài\" (BVMM))",
+        "mnemonic_tip": "Làm việc phải \"Bàn Việc Miệt Mài\" (BVMM)"
       },
       {
         "id": 227,
@@ -6263,7 +6267,8 @@
           ],
           "explanation": "<p>Wen Bạn Miền Bắc WBMB</p><p>&nbsp;</p><p>Man: Hi, Emma. You know, I've been thinking a lot about how much the internet has improved lately. It's really starting to shape the way our lives develop.&nbsp;</p><p>Woman: Really? In what way? Man: Well, take a look at this article I found. It talks about how the internet influences everything - from how we learn to how we make decisions.&nbsp;</p><p>Woman: Ah, so you're saying the internet gives us access to a lot of information? That's true in my opinion.&nbsp;</p><p>Man: Hmm... not exactly. Not exactly. I think the information is helpful, but you actually need strong searching skills to find what's useful. And the problem is, too many people fall for fake news.&nbsp;</p><p>Woman: That's a fair point. Just last week, I saw this post about a new product that promises fast weight loss. It had thousands of likes and comments, but when I looked into it, it turned out to be a complete scam.&nbsp;</p><p>Man: That's a perfect example. I really believe there should be stricter control. Authorities need to take legal action and provide clearer guidelines. The internet has a huge impact on the way people think and behave.&nbsp;</p><p>Woman: I'm not sure I agree with that part. I think we just need to be more careful when using the internet. People should take responsibility to double-check things before buying or sharing. If we bring in too many laws, we might limit people's freedom to express their opinions.&nbsp;</p><p>Man: I get your point, but still, we can't ignore the damage some of this content causes. There's so much being created every second - especially short-form content. It's fast and addictive. And honestly, I think it's making young people more impatient.&nbsp;</p><p>Woman: I completely agree. My younger cousin can't even sit through a one-minute video without skipping ahead. It's like no one wants to wait anymore.&nbsp;</p><p>Man: Exactly. That's why I think some sort of regulation is necessary - not to control people's voices, but to help improve the quality of what we see online. That might help, as long as we don't go too far with these restrictions.</p>"
         },
-        "title": "The Internet - Lên mạng để Wen Bạn Miền Bắc"
+        "title": "The Internet (Lên mạng để Wen Bạn Miền Bắc (WBMB))",
+        "mnemonic_tip": "Lên mạng để Wen Bạn Miền Bắc (WBMB)"
       },
       {
         "id": 767,
@@ -6298,7 +6303,8 @@
           ],
           "explanation": "<p>WMBM : Wào Mỗi Bình Minh</p>"
         },
-        "title": "Art - Sáng tác nghệ thuật Wào Mỗi Bình Minh"
+        "title": "Art (Sáng tác nghệ thuật: Wào Mỗi Bình Minh (WMBM))",
+        "mnemonic_tip": "Sáng tác nghệ thuật: Wào Mỗi Bình Minh (WMBM)"
       },
       {
         "id": 769,
@@ -6333,7 +6339,8 @@
           ],
           "explanation": "<p>Wiết Bài Mưa Bay</p>"
         },
-        "title": "Singers and Music - nhạc sĩ Wiết Bài Mưa Bay"
+        "title": "Singers and Music (Nhạc sĩ Wiết Bài Mưa Bay (WBMB))",
+        "mnemonic_tip": "Nhạc sĩ Wiết Bài Mưa Bay (WBMB)"
       },
       {
         "id": 300,
@@ -6368,7 +6375,8 @@
           ],
           "explanation": "<p>Biết Wề Mọi Wiệc BWMW&nbsp;</p><p>&nbsp;</p><p>M: What course are you taking these days?</p><p>W: I'm currently pursuing an online university degree. It's really suitable and convenient because I can study while working. Technology has truly made education much more accessible.&nbsp;</p><p>M: That's amazing. I still remember the old days when you had to stand in long lines to borrow a book from the library, which took a lot of time. And by the time it was your turn, the book was often already gone. Now, when we want to read a book, we just type the title online and have it immediately.&nbsp;</p><p>W: Exactly, study materials were really scarce back then, unlike now. M: That’s why I’m thinking, why not make all school classes online? It would save a lot of costs.&nbsp;</p><p>W: I think attending school in person is still very necessary because meeting friends and socializing helps us gain more soft skills.&nbsp;</p><p>M: Don’t forget that young people do have a reputation for being less social. They often prefer talking on social media rather than meeting in person.&nbsp;</p><p>W: Additionally, I think the variety of courses available nowadays is also a good way to improve education.&nbsp;</p><p>M: I don't think so. Offering too many diverse courses can make traditional and core subjects seem less important and neglected.&nbsp;</p><p>W: We should also consider competition among universities. It’s essential for universities to continuously improve their programs and attract more funding, especially with the current trend of universities seeking financial autonomy.&nbsp;</p><p>M: I don’t think we should turn education into a race like competing businesses. If universities need funding, they can report it to the government and educational organizations.</p>"
         },
-        "title": "University and technology - Học ĐH để Biết Wề Mọi Wiệc"
+        "title": "University and Technology (Học ĐH để Biết Wề Mọi Wiệc (BWMW))",
+        "mnemonic_tip": "Học ĐH để Biết Wề Mọi Wiệc (BWMW)"
       },
       {
         "id": 302,
@@ -6403,7 +6411,8 @@
           ],
           "explanation": "<p>Bọn Mình Wừa Bầu (cử)</p><p>&nbsp;</p><p>M: Have you heard about the upcoming presidential election? A lot of young people have already voted, which shows that they're becoming more interested in politics.&nbsp;</p><p>W: Yes, it's very different from our time. When I was 18, I never paid attention to politics.&nbsp;</p><p>M: The technology era now gives us so many ways to engage with politics. Politicians often post their political activities on social media much more than they did in the past.&nbsp;</p><p>W: Actually, politicians still carry out traditional political activities too. They still hand out flyers and participate in volunteer work.&nbsp;</p><p>M: The development of information technology also overwhelms us with information. There’s so much news online that we don't know what to read. This makes keeping up with political news much more challenging than before.&nbsp;</p><p>W: I think that as technology advances, it becomes easier for us to stay updated on the news. Technology allows us to use advanced filters to easily sort out the news we need to know.&nbsp;</p><p>M: There are also more women involved in politics now than before. It seems society has become more open to women.&nbsp;</p><p>W: Exactly. Women have the same education and learning abilities as men. They even lead in many areas of life. In the future, more and more women will be participating in political activities.</p>"
         },
-        "title": "Politics - Làm chính trị Bọn Mình Wừa Bầu (cử)"
+        "title": "Politics (Làm chính trị: Bọn Mình Wừa Bầu (BMW B))",
+        "mnemonic_tip": "Làm chính trị: Bọn Mình Wừa Bầu (BMW B)"
       },
       {
         "id": 706,
@@ -6438,7 +6447,8 @@
           ],
           "explanation": "<p>WMMB : Wừa Mới Mua Bò</p>"
         },
-        "title": "Urban farming - Wừa Mới Mua Bò (để làm nông nghiệp)"
+        "title": "Urban Farming (Urban farming: Wừa Mới Mua Bò (WMMB))",
+        "mnemonic_tip": "Urban farming: Wừa Mới Mua Bò (WMMB)"
       },
       {
         "id": 223,
@@ -6473,7 +6483,8 @@
           ],
           "explanation": "<p>Mệt Với Bố Mẹ : MWBM&nbsp;</p><p>&nbsp;</p><p>Man: It seems like every workplace is going through so many changes lately. But honestly, I think Continuity is still very important. When things remain steady, it gives people a sense of security. If everything changes too fast, it’s hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused.&nbsp;</p><p>&nbsp;</p><p>Woman: I get where you're coming from, but I feel like these days, nothing is certain. Job security isn't something we can rely on anymore. There’s always the risk of layoffs, especially with the economy being unpredictable. People are moving from job to job more than ever before, and you can’t always count on staying in one place for long.&nbsp;</p><p>&nbsp;</p><p>Man: That’s definitely a concern. But regardless of job security or stability, one thing we both can agree on is that job satisfaction is a huge motivator. When people love what they do, they’re more likely to stay, even when times get tough. It’s the main reason many of us keep pushing through the challenges.&nbsp;</p><p>&nbsp;</p><p>Woman: Absolutely! I think when people are satisfied with their work, they’re willing to go the extra mile. It’s not just about the paycheck; it’s about feeling fulfilled. That’s what really makes the difference in the workplace.&nbsp;</p><p>&nbsp;</p><p>Man: You’re right. And another thing that’s making a difference is technology. It’s been a game-changer for the economy, making things faster and more efficient. The growth we’ve seen in so many industries is because of how we’ve embraced new technologies. It’s definitely helping businesses thrive.</p>"
         },
-        "title": "Changes in the workplace : thay đổi nơi làm việc Mệt Wới Bố Mẹ"
+        "title": "Changes in the Workplace (Thay đổi nơi làm việc: Mệt Với Bố Mẹ (MWBM))",
+        "mnemonic_tip": "Thay đổi nơi làm việc: Mệt Với Bố Mẹ (MWBM)"
       },
       {
         "id": 768,
@@ -6508,7 +6519,8 @@
           ],
           "explanation": "<p>Văn hóa - <strong>Wiệt Bắc Muôn Màu</strong></p>"
         },
-        "title": "Local cultural center - Văn hóa - Wiệt Bắc Muôn Màu"
+        "title": "Local Cultural Center (Văn hóa: Wiệt Bắc Muôn Màu (WBMM))",
+        "mnemonic_tip": "Văn hóa: Wiệt Bắc Muôn Màu (WBMM)"
       },
       {
         "id": 709,
@@ -6543,7 +6555,8 @@
           ],
           "explanation": "<p>MBWM : ở trường học <strong>Mạnh Buộc Wua Môn</strong></p>"
         },
-        "title": "Homeschooling ở trường học Mạnh Buộc Wua Môn"
+        "title": "Homeschooling (Homeschooling: Ở trường học Mạnh Buộc Wua Môn (MBWM))",
+        "mnemonic_tip": "Homeschooling: Ở trường học Mạnh Buộc Wua Môn (MBWM)"
       },
       {
         "id": 710,
@@ -6578,7 +6591,8 @@
           ],
           "explanation": "<p>BBMW : Bé Bin Muốn Wuà (về công nghệ)</p><p><strong>Man:</strong> I've been thinking about how children and young people use technology nowadays. They seem very interested in learning through computers, tablets, and educational apps.<br><br><strong>Woman:</strong> I agree. Technology-based lessons can make learning more enjoyable, and many children are excited to use digital tools in class.<br><br><strong>Man:</strong> However, I think technology can also affect their communication skills. Some children spend so much time online that they find it difficult to communicate with people face to face.<br><br><strong>Woman:</strong> Yes, I've noticed that too. They may feel confident when sending messages, but they sometimes struggle to have conversations without using a device.<br><br><strong>Man:</strong> Another problem is that many families don't know how to manage their children's use of technology. I think parents need more support and guidance to set appropriate rules at home.<br><br><strong>Woman:</strong> That may be true, but I also believe children can learn to control their own online behaviour. With proper education, they can understand when to stop using technology and how to interact responsibly online.</p>"
         },
-        "title": "Children and young People with Technology - Bé Bin Muốn Wuà (về công nghệ)"
+        "title": "Children, Young People and Technology (Công nghệ: Bé Bin Muốn Wuà (BBMW))",
+        "mnemonic_tip": "Công nghệ: Bé Bin Muốn Wuà (BBMW)"
       },
       {
         "id": 711,
@@ -6613,7 +6627,8 @@
           ],
           "explanation": "<p><strong>BMWM&nbsp;</strong></p><p>Đi làm tình nguyện bằng xe <strong>BMW Mới&nbsp;</strong></p><p><strong>Man:</strong> I watched a news report about the clean-up program yesterday. To be honest, I think the media made it sound much more successful than it really was.<br><br><strong>Woman:</strong> I agree. They only showed the best parts and ignored many problems. The benefits of the program were clearly exaggerated.<br><br><strong>Man:</strong> Exactly. And even with programs like this, I still think littering will always be a problem. Some people just do not care enough about public places.<br><br><strong>Woman:</strong> Maybe, but I don't think we should give up. Volunteers can still make a difference.<br><br><strong>Man:</strong> That's true, but the problem will never completely disappear.<br><br><strong>Woman:</strong> For me, the reason why volunteers join is not very important. Whether they do it because they care about the environment or because they want experience, the result can still be the same if they work hard.<br><br><strong>Man:</strong> I see your point. But I think we need stricter rules too. In my opinion, punishment is the most effective way to stop people from littering.<br><br><strong>Woman:</strong> I'm not sure it is the best way. Education is also important.<br><br><strong>Man:</strong> Education helps, but without fines or punishment, many people will not change their behavior.</p>"
         },
-        "title": "New Environment Volunteer Programme - : Đi làm tình nguyện bằng xe BMW Mới ( BMWM)"
+        "title": "New Environment Volunteer Programme (Đi làm tình nguyện bằng xe BMW Mới (BMWM))",
+        "mnemonic_tip": "Đi làm tình nguyện bằng xe BMW Mới (BMWM)"
       },
       {
         "id": 226,
@@ -6648,7 +6663,8 @@
           ],
           "explanation": "<p>Mà Vẫn Vô Bổ MWWB</p><p>&nbsp;</p><p>Man: I’ve been thinking about how future generations might really struggle with all the information technology throws at them. With the sheer volume of data available, it’s easy to see how they could feel overwhelmed and unsure of what to trust.&nbsp;</p><p>Woman: I get that, but I actually think this technological revolution is beneficial for our economy. It’s opened up new job opportunities and streamlined many industries, driving growth in ways we haven’t seen before.&nbsp;</p><p>Man: I understand your point, but we also need to consider the potential downsides. As automation increases, many traditional jobs could disappear, and not everyone will be able to transition to new roles. We have to ensure that the workforce is prepared for these changes.&nbsp;</p><p>Woman: Still, we should recognize that no matter how advanced they get, computers can’t replicate the complexity of the human brain. Our ability to think critically and empathize is irreplaceable, and we need to nurture those qualities even as we embrace new technologies.&nbsp;</p><p>Man: I see. However, while we’re advancing, I believe we both see the need for stronger protections around individual privacy. As we rely more on the internet, safeguarding personal information becomes increasingly important.&nbsp;</p><p>Woman: Exactly! Protecting privacy is essential in this digital age. We have to ensure that people maintain control over their data, balancing innovation with the right to privacy.</p>"
         },
-        "title": "Information and technology - học ngành CN TT Mà Wẫn Wô Bổ"
+        "title": "Information and Technology (Học ngành CNTT: Mà Vẫn Vô Bổ (MWWB))",
+        "mnemonic_tip": "Học ngành CNTT: Mà Vẫn Vô Bổ (MWWB)"
       }
     ],
     "listening_4": [
@@ -8900,7 +8916,8 @@
           ],
           "explanation": "<p>Linh (Life) - Buộc (Benefits) - Phải (finance ) - Có ( Challenges) - Được ( Difficult) - Phúc (People) - &nbsp;Sao ( Solution)</p>"
         },
-        "title": "The Arrival of the Four-Day Work Week"
+        "title": "The Arrival of the Four-Day Work Week",
+        "mnemonic_tip": "Linh (Life) - Buộc (Benefits) - Phải (Finance) - Có (Challenges) - Được (Difficult) - Phúc (People) - Sao (Solution)"
       },
       {
         "id": 58,
