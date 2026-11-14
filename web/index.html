@@ -1595,7 +1595,7 @@
         renderMatchingHeadings(container, q, idx);
         return;
       }
-      if (m.vocab_type === 'collocation_match' || m.pairs) {
+      if (type === 'synonym_match' || type === 'definition_match' || type === 'sentence_completion' || type === 'collocation_match' || m.pairs || m.vocab_type) {
         renderCollocationMatch(container, q, idx);
         return;
       }
@@ -1720,48 +1720,54 @@
 
     function renderSpeakerMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const speakers = m.speakers || ['Speaker A', 'Speaker B', 'Speaker C', 'Speaker D'];
-      const opinions = m.opinions || [];
+      const speakers = m.items || ['Speaker A', 'Speaker B', 'Speaker C', 'Speaker D'];
+      const choices = m.choices || [];
       const audios = m.audio_files || [];
+      const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
 
       if (!userAnswers[idx]) userAnswers[idx] = {};
       const currentMap = userAnswers[idx];
 
       const guide = document.createElement('div');
-      guide.className = "text-xs font-semibold text-slate-500 mb-2";
-      guide.innerText = "Nghe từng người nói và chọn ý kiến phù hợp nhất tương ứng:";
+      guide.className = "text-xs font-semibold text-slate-500 mb-3 flex items-center gap-1.5";
+      guide.innerHTML = '<i data-lucide="info" class="w-4 h-4 text-blue-600"></i> Nghe từng người nói và chọn ý kiến phù hợp nhất tương ứng:';
       container.appendChild(guide);
 
       speakers.forEach((spk, sIdx) => {
-        const audioFile = audios[sIdx];
+        let audioFile = audios[sIdx] || '';
+        if (audioFile && audioFile.includes('/')) {
+          audioFile = audioFile.split('/').pop();
+        }
         const spkRow = document.createElement('div');
-        spkRow.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3";
+        spkRow.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3 shadow-sm";
 
         let audioButtonHtml = '';
         if (audioFile) {
           audioButtonHtml = `
-            <button onclick="playSpecificAudio('${audioFile}')" class="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-100 text-xs font-semibold flex items-center gap-1.5 transition-colors">
-              <i data-lucide="volume-2" class="w-3.5 h-3.5"></i> Nghe Audio ${spk}
+            <button type="button" onclick="playSpecificAudio('${audioFile}')" class="px-3 py-1.5 rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-100 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-blue-200">
+              <i data-lucide="volume-2" class="w-3.5 h-3.5"></i> Nghe ${spk}
             </button>
           `;
         }
 
+        const curVal = currentMap[sIdx] !== undefined ? currentMap[sIdx] : '';
         let selectHtml = `
-          <select onchange="onSpeakerMatchChange(${idx}, '${spk}', this.value)" class="w-full mt-1.5 p-2.5 rounded-lg border border-slate-300 text-sm font-medium bg-white focus:ring-2 focus:ring-blue-500 outline-none">
+          <select onchange="onSpeakerMatchChange(${idx}, ${sIdx}, this.value)" class="w-full mt-2 p-2.5 rounded-lg border border-slate-300 text-xs sm:text-sm font-medium bg-white focus:ring-2 focus:ring-blue-500 outline-none">
             <option value="">-- Chọn ý kiến của ${spk} --</option>
-            ${opinions.map(op => `
-              <option value="${op}" ${currentMap[spk] === op ? 'selected' : ''}>${op}</option>
+            ${choices.map((c, cIdx) => `
+              <option value="${cIdx}" ${String(curVal) === String(cIdx) ? 'selected' : ''}>${c}</option>
             `).join('')}
           </select>
         `;
 
         if (checked) {
-          const correctOp = m.correct_matches ? m.correct_matches[spk] : null;
-          const isUserRight = currentMap[spk] === correctOp;
+          const correctIdx = correctAnswers[sIdx];
+          const isRight = String(curVal) === String(correctIdx);
+          const correctText = choices[parseInt(correctIdx)] || '';
           selectHtml += `
-            <div class="text-xs font-semibold mt-1.5 ${isUserRight ? 'text-emerald-600' : 'text-red-500'}">
-              ${isUserRight ? '✓ Đúng' : `✗ Đáp án đúng: ${correctOp}`}
+            <div class="text-xs font-semibold mt-1.5 ${isRight ? 'text-emerald-600' : 'text-red-500'}">
+              ${isRight ? '✓ Chính xác' : `✗ Đáp án đúng: ${correctText}`}
             </div>
           `;
         }
@@ -1777,9 +1783,9 @@
       });
     }
 
-    function onSpeakerMatchChange(qIdx, spk, val) {
+    function onSpeakerMatchChange(qIdx, spkIdx, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][spk] = val;
+      userAnswers[qIdx][spkIdx] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
@@ -1788,7 +1794,8 @@
 
     function playSpecificAudio(file) {
       const audioEl = document.getElementById('main-audio-element');
-      audioEl.src = `/data/audio/${encodeURIComponent(file)}`;
+      const filename = file ? file.split('/').pop() : '';
+      audioEl.src = `/data/audio/${encodeURIComponent(filename)}`;
       audioEl.play();
       document.getElementById('icon-play-audio').setAttribute('data-lucide', 'pause');
       lucide.createIcons();
@@ -1796,34 +1803,42 @@
 
     function renderConversationMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const questionsList = m.questions || [];
+      const statements = m.statements || [];
+      const options = m.shared_choices || ['Man', 'Woman', 'Both'];
+      const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
-      questionsList.forEach((subQ, sIdx) => {
+      const guide = document.createElement('div');
+      guide.className = "text-xs font-semibold text-slate-500 mb-3 flex items-center gap-1.5";
+      guide.innerHTML = '<i data-lucide="info" class="w-4 h-4 text-blue-600"></i> Nghe cuộc đối thoại và chọn người đồng ý với từng nhận định sau:';
+      container.appendChild(guide);
+
+      statements.forEach((stmt, sIdx) => {
         const row = document.createElement('div');
-        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2";
+        row.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3 shadow-sm";
 
         const selectedOpt = userAnswers[idx][sIdx];
-        const options = ['Người nam (Man)', 'Người nữ (Woman)', 'Cả hai (Both)'];
 
         row.innerHTML = `
-          <div class="text-sm font-bold text-slate-900">${sIdx + 1}. ${subQ.text || subQ}</div>
+          <div class="text-sm font-semibold text-slate-900 leading-snug">${sIdx + 1}. ${stmt}</div>
           <div class="grid grid-cols-3 gap-2 pt-1">
             ${options.map((opt, oIdx) => {
-              const optVal = ['Man', 'Woman', 'Both'][oIdx];
+              const optLabel = opt === 'Man' ? 'Người nam (Man)' : (opt === 'Woman' ? 'Người nữ (Woman)' : 'Cả hai (Both)');
+              const isSel = String(selectedOpt) === String(oIdx) || selectedOpt === opt;
               let btnStyle = "bg-slate-50 text-slate-700 border-slate-200 hover:bg-blue-50";
-              if (selectedOpt === optVal) {
-                btnStyle = "bg-blue-600 text-white border-blue-600 font-bold";
+              if (isSel) {
+                btnStyle = "bg-blue-600 text-white border-blue-600 font-bold shadow-sm";
               }
               if (checked) {
-                const correctOpt = subQ.correct_answer || ['Man', 'Woman', 'Both'][0];
-                if (optVal === correctOpt) btnStyle = "bg-emerald-600 text-white border-emerald-600 font-bold";
-                else if (selectedOpt === optVal) btnStyle = "bg-red-500 text-white border-red-500 line-through";
+                const correctOIdx = correctAnswers[sIdx];
+                const isCorrectChoice = String(oIdx) === String(correctOIdx) || opt === options[parseInt(correctOIdx)];
+                if (isCorrectChoice) btnStyle = "bg-emerald-600 text-white border-emerald-600 font-bold";
+                else if (isSel) btnStyle = "bg-red-500 text-white border-red-500 line-through";
               }
               return `
-                <button onclick="selectConversationOpt(${idx}, ${sIdx}, '${optVal}')" class="py-2 px-3 rounded-lg border text-xs text-center transition-all ${btnStyle}">
-                  ${opt}
+                <button type="button" onclick="selectConversationOpt(${idx}, ${sIdx}, '${oIdx}')" class="py-2 px-3 rounded-lg border text-xs text-center transition-all ${btnStyle}">
+                  ${optLabel}
                 </button>
               `;
             }).join('')}
@@ -1844,32 +1859,35 @@
 
     function renderListeningMonologue(container, q, idx) {
       const m = q.raw_metadata || {};
-      const subQs = m.sub_questions || [];
+      const questionsList = m.questions || [];
+      const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
-      subQs.forEach((sub, sIdx) => {
+      questionsList.forEach((sub, sIdx) => {
         const item = document.createElement('div');
-        item.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3";
+        item.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-3 shadow-sm";
         item.innerHTML = `<div class="font-bold text-sm text-slate-900">${sIdx + 1}. ${sub.question}</div>`;
 
         const choicesDiv = document.createElement('div');
         choicesDiv.className = "space-y-2";
 
-        (sub.choices || []).forEach(ch => {
-          const isSel = userAnswers[idx][sIdx] === ch;
+        (sub.choices || []).forEach((ch, cIdx) => {
+          const isSel = String(userAnswers[idx][sIdx]) === String(cIdx) || userAnswers[idx][sIdx] === ch;
           let style = "border-slate-200 bg-white hover:bg-blue-50 text-slate-800";
-          if (isSel) style = "border-blue-600 bg-blue-50 text-blue-900 font-semibold";
+          if (isSel) style = "border-blue-600 bg-blue-50 text-blue-900 font-semibold shadow-sm";
           if (checked) {
-            if (ch === sub.correct_answer) style = "border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold";
+            const correctCIdx = correctAnswers[sIdx];
+            const isCorrectChoice = String(cIdx) === String(correctCIdx) || ch === sub.choices[parseInt(correctCIdx)];
+            if (isCorrectChoice) style = "border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold";
             else if (isSel) style = "border-red-400 bg-red-50 text-red-900 line-through";
           }
 
           const chBtn = document.createElement('div');
-          chBtn.className = `p-3 rounded-lg border text-xs cursor-pointer transition-all ${style}`;
+          chBtn.className = `p-3 rounded-lg border text-xs sm:text-sm cursor-pointer transition-all ${style}`;
           chBtn.innerText = ch;
           chBtn.onclick = () => {
-            userAnswers[idx][sIdx] = ch;
+            userAnswers[idx][sIdx] = cIdx;
             const key = `${currentSection.id}_${idx}`;
             progressData.answered[key] = userAnswers[idx];
             saveProgress();
@@ -1885,33 +1903,58 @@
 
     function renderFillInBlanks(container, q, idx) {
       const m = q.raw_metadata || {};
-      const textHtml = m.text_with_blanks || q.stem;
-      const blanks = m.blanks || [];
+      const paragraphs = m.paragraphs || [];
+      const choicesList = m.choices || q.choices || [];
+      const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
       const wrap = document.createElement('div');
-      wrap.className = "p-6 rounded-xl border border-slate-200 bg-white text-sm sm:text-base leading-loose text-slate-800 space-y-4";
-      
-      let rendered = textHtml;
-      blanks.forEach((b, bIdx) => {
-        const sel = userAnswers[idx][bIdx] || '';
-        let selHtml = `
-          <select onchange="onBlankChange(${idx}, ${bIdx}, this.value)" class="inline-block mx-1.5 px-3 py-1 rounded-lg border border-slate-300 text-xs font-bold bg-blue-50 text-blue-900 focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer">
-            <option value="">[ Chỗ trống ${bIdx + 1} ]</option>
-            ${(b.options || []).map(opt => `
-              <option value="${opt}" ${sel === opt ? 'selected' : ''}>${opt}</option>
+      wrap.className = "p-6 rounded-2xl border border-slate-200 bg-white text-sm sm:text-base leading-relaxed text-slate-800 space-y-4 shadow-sm";
+
+      const intro = document.createElement('div');
+      intro.className = "p-3 rounded-xl bg-blue-50/60 border border-blue-100 text-xs sm:text-sm text-blue-900 font-medium mb-3 flex items-center gap-2";
+      intro.innerHTML = '<i data-lucide="mail" class="w-4 h-4 text-blue-600 shrink-0"></i> Đọc đoạn văn/email bên dưới và chọn từ thích hợp nhất để điền vào từng chỗ trống:';
+      wrap.appendChild(intro);
+
+      const emailBody = document.createElement('div');
+      emailBody.className = "space-y-4 leading-loose";
+
+      paragraphs.forEach((pText, pIdx) => {
+        const choices = choicesList[pIdx] || [];
+        const curVal = userAnswers[idx][pIdx] !== undefined ? userAnswers[idx][pIdx] : '';
+
+        let selectHtml = `
+          <select onchange="onBlankChange(${idx}, ${pIdx}, this.value)" class="inline-block mx-1.5 px-3 py-1.5 rounded-lg border border-slate-300 text-xs sm:text-sm font-bold bg-blue-50 text-blue-900 focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer">
+            <option value="">[ Chỗ trống ${pIdx + 1} ]</option>
+            ${choices.map((opt, oIdx) => `
+              <option value="${oIdx}" ${String(curVal) === String(oIdx) || curVal === opt ? 'selected' : ''}>${opt}</option>
             `).join('')}
           </select>
         `;
+
         if (checked) {
-          const isRight = sel === b.correct_answer;
-          selHtml += `<span class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">(${b.correct_answer})</span>`;
+          const correctIdx = correctAnswers[pIdx];
+          const isRight = String(curVal) === String(correctIdx) || curVal === choices[parseInt(correctIdx)];
+          const correctWord = choices[parseInt(correctIdx)] || '';
+          selectHtml += `<span class="inline-block ml-1 text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">(${isRight ? '✓' : correctWord})</span>`;
         }
-        rendered = rendered.replace(`[BLANK_${bIdx + 1}]`, selHtml).replace(`___`, selHtml);
+
+        let renderedP = pText;
+        if (renderedP.includes('[BLANK]')) {
+          renderedP = renderedP.replace('[BLANK]', selectHtml);
+        } else if (renderedP.includes('___')) {
+          renderedP = renderedP.replace('___', selectHtml);
+        } else {
+          renderedP += ' ' + selectHtml;
+        }
+
+        const pEl = document.createElement('div');
+        pEl.innerHTML = renderedP;
+        emailBody.appendChild(pEl);
       });
 
-      wrap.innerHTML = rendered;
+      wrap.appendChild(emailBody);
       container.appendChild(wrap);
     }
 
@@ -1926,44 +1969,72 @@
 
     function renderTextQuestionMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const texts = m.texts || [];
+      const options = m.options || [];
+      const names = m.names || ['Person A', 'Person B', 'Person C', 'Person D'];
       const questionsList = m.questions || [];
+      const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
+      // 1. Text passages cards
       const textsBox = document.createElement('div');
       textsBox.className = "grid grid-cols-1 md:grid-cols-2 gap-4 mb-6";
-      texts.forEach(t => {
+      options.forEach((optText, oIdx) => {
+        const personName = names[oIdx] || `Người ${oIdx + 1}`;
+        const letter = ['A', 'B', 'C', 'D'][oIdx] || String(oIdx + 1);
         const tDiv = document.createElement('div');
-        tDiv.className = "p-4 rounded-xl border border-slate-200 bg-slate-50 text-xs sm:text-sm leading-relaxed";
-        tDiv.innerHTML = `<span class="font-bold text-blue-700 block mb-1">${t.label || t.title}:</span> ${t.content}`;
+        tDiv.className = "p-4 rounded-xl border border-slate-200 bg-slate-50 text-xs sm:text-sm leading-relaxed space-y-1.5 shadow-sm";
+        tDiv.innerHTML = `
+          <div class="flex items-center gap-2">
+            <span class="w-6 h-6 rounded-md bg-blue-600 text-white font-bold text-xs flex items-center justify-center shrink-0">${letter}</span>
+            <span class="font-bold text-slate-900">${personName}</span>
+          </div>
+          <p class="text-slate-700 leading-relaxed pt-1">${optText}</p>
+        `;
         textsBox.appendChild(tDiv);
       });
       container.appendChild(textsBox);
 
+      // 2. Questions list
       const qsBox = document.createElement('div');
       qsBox.className = "space-y-3";
+      const qsHeader = document.createElement('div');
+      qsHeader.className = "text-xs font-bold text-slate-500 uppercase tracking-wider mb-2";
+      qsHeader.innerText = `Danh sách câu hỏi (${questionsList.length} câu) - Chọn người phù hợp với từng nhận định:`;
+      qsBox.appendChild(qsHeader);
+
       questionsList.forEach((ques, qsubIdx) => {
         const qRow = document.createElement('div');
-        qRow.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3";
+        qRow.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm";
         const curAns = userAnswers[idx][qsubIdx];
-        
+
         let selHtml = `
-          <select onchange="onTextMatchChange(${idx}, ${qsubIdx}, this.value)" class="p-2 rounded-lg border border-slate-300 text-xs font-bold bg-white outline-none">
-            <option value="">-- Chọn đoạn văn --</option>
-            ${texts.map(t => `
-              <option value="${t.label}" ${curAns === t.label ? 'selected' : ''}>${t.label}</option>
-            `).join('')}
+          <select onchange="onTextMatchChange(${idx}, ${qsubIdx}, this.value)" class="p-2 sm:p-2.5 rounded-lg border border-slate-300 text-xs font-bold bg-white outline-none cursor-pointer focus:ring-2 focus:ring-blue-500">
+            <option value="">-- Chọn người (A - D) --</option>
+            ${names.map((name, nIdx) => {
+              const letter = ['A', 'B', 'C', 'D'][nIdx] || String(nIdx + 1);
+              return `
+                <option value="${nIdx}" ${String(curAns) === String(nIdx) ? 'selected' : ''}>${letter}. ${name}</option>
+              `;
+            }).join('')}
           </select>
         `;
+
         if (checked) {
-          const isRight = curAns === ques.correct_label;
-          selHtml += `<span class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">Đúng: ${ques.correct_label}</span>`;
+          const correctNIdx = correctAnswers[qsubIdx];
+          const isRight = String(curAns) === String(correctNIdx);
+          const corrLetter = ['A', 'B', 'C', 'D'][parseInt(correctNIdx)];
+          const corrName = names[parseInt(correctNIdx)] || '';
+          selHtml += `
+            <div class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">
+              ${isRight ? '✓ Đúng' : `✗ Đáp án đúng: ${corrLetter}. ${corrName}`}
+            </div>
+          `;
         }
 
         qRow.innerHTML = `
-          <div class="text-xs sm:text-sm font-semibold text-slate-900">${qsubIdx + 1}. ${ques.question}</div>
-          ${selHtml}
+          <div class="text-xs sm:text-sm font-semibold text-slate-900 leading-snug flex-1">${qsubIdx + 1}. ${ques}</div>
+          <div class="flex flex-col sm:items-end gap-1 shrink-0">${selHtml}</div>
         `;
         qsBox.appendChild(qRow);
       });
@@ -1983,29 +2054,45 @@
       const m = q.raw_metadata || {};
       const headings = m.headings || [];
       const paragraphs = m.paragraphs || [];
+      const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
-      paragraphs.forEach((p, pIdx) => {
+      const guide = document.createElement('div');
+      guide.className = "text-xs font-semibold text-slate-500 mb-3 flex items-center gap-1.5";
+      guide.innerHTML = '<i data-lucide="info" class="w-4 h-4 text-blue-600"></i> Đọc từng đoạn văn và chọn tiêu đề phù hợp nhất từ danh sách bên dưới:';
+      container.appendChild(guide);
+
+      paragraphs.forEach((pText, pIdx) => {
         const pBox = document.createElement('div');
-        pBox.className = "p-4 rounded-xl border border-slate-200 bg-white space-y-2";
+        pBox.className = "p-4 sm:p-5 rounded-xl border border-slate-200 bg-white space-y-3 shadow-sm";
         const curSel = userAnswers[idx][pIdx];
 
         let selHtml = `
-          <select onchange="onHeadingChange(${idx}, ${pIdx}, this.value)" class="w-full p-2.5 rounded-lg border border-slate-300 text-xs sm:text-sm font-bold bg-white focus:ring-2 focus:ring-blue-500 outline-none">
-            <option value="">-- Chọn tiêu đề phù hợp nhất --</option>
-            ${headings.map(h => `
-              <option value="${h}" ${curSel === h ? 'selected' : ''}>${h}</option>
+          <select onchange="onHeadingChange(${idx}, ${pIdx}, this.value)" class="w-full p-2.5 rounded-lg border border-slate-300 text-xs sm:text-sm font-bold bg-white focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer">
+            <option value="">-- Chọn tiêu đề phù hợp nhất cho Đoạn ${pIdx + 1} --</option>
+            ${headings.map((h, hIdx) => `
+              <option value="${hIdx}" ${String(curSel) === String(hIdx) || curSel === h ? 'selected' : ''}>${h}</option>
             `).join('')}
           </select>
         `;
+
         if (checked) {
-          const isRight = curSel === p.correct_heading;
-          selHtml += `<div class="text-xs font-semibold ${isRight ? 'text-emerald-600' : 'text-red-500'}">Đáp án đúng: ${p.correct_heading}</div>`;
+          const correctHIdx = correctAnswers[pIdx];
+          const isRight = String(curSel) === String(correctHIdx) || curSel === headings[parseInt(correctHIdx)];
+          const corrHeading = headings[parseInt(correctHIdx)] || '';
+          selHtml += `
+            <div class="text-xs font-semibold ${isRight ? 'text-emerald-600' : 'text-red-500'}">
+              ${isRight ? '✓ Chính xác' : `✗ Đáp án đúng: ${corrHeading}`}
+            </div>
+          `;
         }
 
         pBox.innerHTML = `
-          <p class="text-xs sm:text-sm text-slate-800 leading-relaxed italic border-l-2 border-slate-200 pl-3">${p.text}</p>
+          <div class="flex items-center gap-2">
+            <span class="px-2.5 py-0.5 rounded bg-blue-100 text-blue-800 font-bold text-xs">Đoạn ${pIdx + 1}</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-800 leading-relaxed italic border-l-2 border-blue-400 pl-3">${pText}</p>
           ${selHtml}
         `;
         container.appendChild(pBox);
@@ -2024,38 +2111,52 @@
     function renderCollocationMatch(container, q, idx) {
       const m = q.raw_metadata || {};
       const pairs = m.pairs || [];
+      const pool = m.dropdown_pool || [];
+      const correctMap = m.correct_answers || {};
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
+      const guide = document.createElement('div');
+      guide.className = "text-xs font-semibold text-slate-500 mb-3";
+      guide.innerText = m.instruction || "Chọn từ thích hợp từ danh sách thả xuống để hoàn thành:";
+      container.appendChild(guide);
+
       pairs.forEach((pair, pIdx) => {
         const row = document.createElement('div');
-        row.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3";
-        const cur = userAnswers[idx][pIdx];
+        row.className = "p-3.5 rounded-xl border border-slate-200 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm";
+        const pairId = pair.id || String(pIdx + 1);
+        const cur = userAnswers[idx][pairId];
 
         let selHtml = `
-          <select onchange="onCollocationChange(${idx}, ${pIdx}, this.value)" class="p-2 rounded-lg border border-slate-300 text-xs font-bold bg-white outline-none">
-            <option value="">-- Ghép từ --</option>
-            ${(pair.options || []).map(opt => `
+          <select onchange="onCollocationChange(${idx}, '${pairId}', this.value)" class="p-2 sm:p-2.5 rounded-lg border border-slate-300 text-xs sm:text-sm font-bold bg-white outline-none cursor-pointer focus:ring-2 focus:ring-blue-500">
+            <option value="">-- Chọn từ ghép --</option>
+            ${pool.map(opt => `
               <option value="${opt}" ${cur === opt ? 'selected' : ''}>${opt}</option>
             `).join('')}
           </select>
         `;
+
         if (checked) {
-          const isRight = cur === pair.correct;
-          selHtml += `<span class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">${pair.correct}</span>`;
+          const correctWord = correctMap[pairId] || correctMap[pIdx] || '';
+          const isRight = cur === correctWord;
+          selHtml += `
+            <div class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">
+              ${isRight ? '✓ Đúng' : `✗ Đáp án đúng: ${correctWord}`}
+            </div>
+          `;
         }
 
         row.innerHTML = `
-          <span class="text-sm font-bold text-slate-900">${pIdx + 1}. ${pair.word} ...</span>
-          ${selHtml}
+          <div class="text-xs sm:text-sm font-bold text-slate-900">${pIdx + 1}. ${pair.prompt || pair.word || ''}</div>
+          <div class="flex flex-col sm:items-end gap-1">${selHtml}</div>
         `;
         container.appendChild(row);
       });
     }
 
-    function onCollocationChange(qIdx, pIdx, val) {
+    function onCollocationChange(qIdx, pairId, val) {
       if (!userAnswers[qIdx]) userAnswers[qIdx] = {};
-      userAnswers[qIdx][pIdx] = val;
+      userAnswers[qIdx][pairId] = val;
       const key = `${currentSection.id}_${qIdx}`;
       progressData.answered[key] = userAnswers[qIdx];
       saveProgress();
@@ -2077,20 +2178,61 @@
           isCorrect = JSON.stringify(userAns) === JSON.stringify(correctOrder);
         }
       } else if (q.type === 'listening_speaker_match') {
-        if (userAns && m.correct_matches) {
-          isCorrect = Object.keys(m.correct_matches).every(k => userAns[k] === m.correct_matches[k]);
+        const correctAnswers = m.correct_answers || [];
+        if (userAns && correctAnswers.length > 0) {
+          isCorrect = correctAnswers.every((ans, sIdx) => String(userAns[sIdx]) === String(ans));
+        }
+      } else if (q.type === 'listening_conversation') {
+        const correctAnswers = m.correct_answers || [];
+        const options = m.shared_choices || ['Man', 'Woman', 'Both'];
+        if (userAns && correctAnswers.length > 0) {
+          isCorrect = correctAnswers.every((ans, sIdx) => {
+            const u = userAns[sIdx];
+            return String(u) === String(ans) || u === options[parseInt(ans)];
+          });
+        }
+      } else if (q.type === 'listening_monologue') {
+        const correctAnswers = m.correct_answers || [];
+        const questionsList = m.questions || [];
+        if (userAns && correctAnswers.length > 0) {
+          isCorrect = correctAnswers.every((ans, sIdx) => {
+            const u = userAns[sIdx];
+            const choices = questionsList[sIdx] ? questionsList[sIdx].choices : [];
+            return String(u) === String(ans) || u === choices[parseInt(ans)];
+          });
         }
       } else if (q.type === 'fill_in_blanks_mc') {
-        if (userAns && m.blanks) {
-          isCorrect = m.blanks.every((b, i) => userAns[i] === b.correct_answer);
+        const correctAnswers = m.correct_answers || [];
+        const choicesList = m.choices || q.choices || [];
+        if (userAns && correctAnswers.length > 0) {
+          isCorrect = correctAnswers.every((ans, pIdx) => {
+            const u = userAns[pIdx];
+            const choices = choicesList[pIdx] || [];
+            return String(u) === String(ans) || u === choices[parseInt(ans)];
+          });
         }
       } else if (q.type === 'text_question_match') {
-        if (userAns && m.questions) {
-          isCorrect = m.questions.every((ques, i) => userAns[i] === ques.correct_label);
+        const correctAnswers = m.correct_answers || [];
+        if (userAns && correctAnswers.length > 0) {
+          isCorrect = correctAnswers.every((ans, qIdx) => String(userAns[qIdx]) === String(ans));
         }
       } else if (q.type === 'matching_headings') {
-        if (userAns && m.paragraphs) {
-          isCorrect = m.paragraphs.every((p, i) => userAns[i] === p.correct_heading);
+        const correctAnswers = m.correct_answers || [];
+        const headings = m.headings || [];
+        if (userAns && correctAnswers.length > 0) {
+          isCorrect = correctAnswers.every((ans, pIdx) => {
+            const u = userAns[pIdx];
+            return String(u) === String(ans) || u === headings[parseInt(ans)];
+          });
+        }
+      } else if (m.vocab_type || m.pairs) {
+        const pairs = m.pairs || [];
+        const correctMap = m.correct_answers || {};
+        if (userAns && pairs.length > 0) {
+          isCorrect = pairs.every((p, pIdx) => {
+            const pairId = p.id || String(pIdx + 1);
+            return userAns[pairId] === (correctMap[pairId] || correctMap[pIdx]);
+          });
         }
       } else {
         // Standard MCQ
