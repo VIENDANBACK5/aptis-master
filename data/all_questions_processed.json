@@ -108,7 +108,7 @@
         "skill": "listening",
         "part": 1,
         "type": "listening_mcq",
-        "stem": "What does the customer complain about? (xem phần mô tả để biết đáp án đúng)",
+        "stem": "What does the customer complain about?",
         "choices": [
           "The coffee was cold",
           "The Wi-Fi was too slow",
