@@ -60,20 +60,33 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <div class="flex items-center h-16 gap-4">
         <!-- Logo -->
         <a href="javascript:void(0)" onclick="showDashboard()" class="flex items-center gap-2 shrink-0">
-          <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">M</span>
+          <span class="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">A</span>
           <span class="text-lg font-bold text-gray-900 whitespace-nowrap">Aptis<span class="text-blue-600"> Master</span></span>
+          <span class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">Trọn Bộ 4 Kỹ Năng</span>
         </a>
 
         <!-- Main Links -->
-        <div class="hidden md:flex items-center gap-1 ml-4">
+        <div class="hidden lg:flex items-center gap-1 ml-4">
           <a href="javascript:void(0)" onclick="showDashboard()" id="nav-link-practice" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors bg-blue-50 text-blue-700">
             Luyện tập
+          </a>
+          <a href="javascript:void(0)" onclick="scrollToExamHub()" id="nav-link-examhub" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+            <svg class="w-4 h-4 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+            Kho Đề Thi
+          </a>
+          <a href="javascript:void(0)" onclick="openSkillHub('speaking')" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+            <svg class="w-4 h-4 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+            Speaking (20 Đề)
+          </a>
+          <a href="javascript:void(0)" onclick="openSkillHub('writing')" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:text-gray-900 hover:bg-gray-50">
+            <svg class="w-4 h-4 text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+            Writing (30 Đề)
           </a>
           <a href="javascript:void(0)" onclick="showVocab()" id="nav-link-vocab" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:text-gray-900 hover:bg-gray-50">
             Từ vựng
           </a>
           <a href="javascript:void(0)" onclick="showInstructions()" id="nav-link-instructions" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:text-gray-900 hover:bg-gray-50">
-            Hướng dẫn
+            Cẩm Nang
           </a>
         </div>
 
@@ -264,6 +277,46 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           <a href="javascript:void(0)" onclick="openSkillHub('writing')" class="text-gray-600 hover:text-blue-600">Writing</a>
           <a href="javascript:void(0)" onclick="openSkillHub('speaking')" class="text-gray-600 hover:text-blue-600">Speaking</a>
           <a href="javascript:void(0)" onclick="openFullTest()" class="text-gray-600 hover:text-blue-600">Bảng xếp hạng</a>
+        </div>
+      </div>
+
+      <!-- KHO ĐỀ THI & BỘ ĐỀ TRẮC NGHIỆM TỔNG HỢP -->
+      <div id="section-exam-hub" class="space-y-4 pt-4">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div>
+            <h2 class="text-xl font-bold text-gray-900 flex items-center gap-2">
+              <svg class="w-5 h-5 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+              Kho Đề Thi & Luyện Tập Chi Tiết
+            </h2>
+            <p class="text-xs text-gray-500 mt-0.5">Chọn kỹ năng để lọc đề thi hoặc xem toàn bộ danh mục bài tập chuẩn format Aptis</p>
+          </div>
+        </div>
+
+        <!-- Filter Tabs Bar (Image 1 replica) -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 border-b border-gray-200">
+          <button type="button" onclick="filterExamHub('all')" id="exam-tab-all" class="px-4 py-2 rounded-full text-xs sm:text-sm font-bold transition bg-gray-900 text-white shrink-0 shadow-sm">
+            Tất cả đề thi
+          </button>
+          <button type="button" onclick="filterExamHub('listening')" id="exam-tab-listening" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">
+            Listening (Nghe)
+          </button>
+          <button type="button" onclick="filterExamHub('reading')" id="exam-tab-reading" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">
+            Reading (Đọc)
+          </button>
+          <button type="button" onclick="filterExamHub('grammar')" id="exam-tab-grammar" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">
+            Grammar & Vocab
+          </button>
+          <button type="button" onclick="filterExamHub('speaking')" id="exam-tab-speaking" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">
+            Speaking (20 Đề)
+          </button>
+          <button type="button" onclick="filterExamHub('writing')" id="exam-tab-writing" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0">
+            Writing (30 Đề)
+          </button>
+        </div>
+
+        <!-- Exam Items Grid -->
+        <div id="exam-hub-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Populated by renderExamHubGrid() -->
         </div>
       </div>
     </div>
@@ -701,11 +754,127 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    let currentExamFilter = 'all';
+
+    function scrollToExamHub() {
+      showDashboard();
+      setTimeout(() => {
+        const el = document.getElementById('section-exam-hub');
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }, 50);
+    }
+
+    function filterExamHub(filter) {
+      currentExamFilter = filter;
+      const tabs = ['all', 'listening', 'reading', 'grammar', 'speaking', 'writing'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`exam-tab-${t}`);
+        if (!btn) return;
+        if (t === filter) {
+          btn.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-bold transition bg-gray-900 text-white shrink-0 shadow-sm";
+        } else {
+          btn.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition bg-gray-100 text-gray-700 hover:bg-gray-200 shrink-0";
+        }
+      });
+      renderExamHubGrid();
+    }
+
+    function renderExamHubGrid() {
+      const grid = document.getElementById('exam-hub-grid');
+      if (!grid) return;
+      grid.innerHTML = '';
+
+      if (currentExamFilter === 'speaking') {
+        speakingSets.forEach(set => {
+          const card = document.createElement('div');
+          card.className = "bg-white p-5 rounded-2xl border border-gray-200 hover:border-orange-300 hover:shadow-md transition flex flex-col justify-between";
+          card.innerHTML = `
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-orange-50 text-orange-700 border border-orange-200">Speaking · 4 Parts</span>
+                <span class="text-xs text-gray-400">12 phút</span>
+              </div>
+              <h3 class="font-bold text-gray-900 text-base mb-1.5 leading-snug">${set.title}</h3>
+              <p class="text-xs text-gray-500 mb-4">Luyện nói chuẩn format Aptis với 4 phần câu hỏi mô tả tranh & thuyết trình.</p>
+            </div>
+            <button onclick="startSpeakingTest(${set.set_id})" class="w-full py-2.5 px-4 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-semibold text-xs transition flex items-center justify-center gap-1.5 shadow-sm">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+              Luyện nói đề này →
+            </button>
+          `;
+          grid.appendChild(card);
+        });
+        return;
+      }
+
+      if (currentExamFilter === 'writing') {
+        writingSets.forEach(set => {
+          const card = document.createElement('div');
+          card.className = "bg-white p-5 rounded-2xl border border-gray-200 hover:border-pink-300 hover:shadow-md transition flex flex-col justify-between";
+          card.innerHTML = `
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-pink-50 text-pink-700 border border-pink-200">Writing · 4 Parts</span>
+                <span class="text-xs text-gray-400">50 phút</span>
+              </div>
+              <h3 class="font-bold text-gray-900 text-base mb-1.5 leading-snug">${set.title}</h3>
+              <p class="text-xs text-gray-500 mb-4">Luyện viết 4 phần: chat ngắn, điền đơn, viết trong câu lạc bộ và viết email trang trọng.</p>
+            </div>
+            <button onclick="startWritingTest(${set.set_id})" class="w-full py-2.5 px-4 rounded-xl bg-pink-600 hover:bg-pink-700 text-white font-semibold text-xs transition flex items-center justify-center gap-1.5 shadow-sm">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+              Luyện viết đề này →
+            </button>
+          `;
+          grid.appendChild(card);
+        });
+        return;
+      }
+
+      // Filter sections (listening, reading, grammar, or all)
+      let filtered = sections;
+      if (currentExamFilter !== 'all') {
+        filtered = sections.filter(s => s.skill === currentExamFilter);
+      }
+
+      filtered.forEach(sec => {
+        const badgeColors = {
+          listening: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+          reading: 'bg-sky-50 text-sky-700 border-sky-200',
+          grammar: 'bg-indigo-50 text-indigo-700 border-indigo-200'
+        };
+        const btnColors = {
+          listening: 'bg-emerald-600 hover:bg-emerald-700 text-white',
+          reading: 'bg-sky-600 hover:bg-sky-700 text-white',
+          grammar: 'bg-indigo-600 hover:bg-indigo-700 text-white'
+        };
+
+        const card = document.createElement('div');
+        card.className = "bg-white p-5 rounded-2xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition flex flex-col justify-between";
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-1 rounded-full text-xs font-bold border ${badgeColors[sec.skill] || 'bg-gray-50 text-gray-700 border-gray-200'}">
+                ${sec.skill.toUpperCase()} · ${sec.part ? 'Part ' + sec.part : 'Đề thi'}
+              </span>
+              <span class="text-xs text-gray-500 font-medium">${sec.total_questions || 30} câu hỏi</span>
+            </div>
+            <h3 class="font-bold text-gray-900 text-base mb-1.5 leading-snug">${sec.title}</h3>
+            <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed mb-4">${sec.desc || 'Bộ câu hỏi luyện thi Aptis chuẩn format kèm đáp án chi tiết.'}</p>
+          </div>
+          <button onclick="startPractice('${sec.id}')" class="w-full py-2.5 px-4 rounded-xl font-semibold text-xs transition flex items-center justify-center gap-1.5 shadow-sm ${btnColors[sec.skill] || 'bg-blue-600 text-white'}">
+            Làm bài ngay →
+          </button>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
     function showDashboard() {
       hideAllViews();
       document.getElementById('view-dashboard').classList.remove('hidden');
       setActiveNavLink('nav-link-practice');
       updateDashboardStats();
+      renderExamHubGrid();
     }
 
     function showInstructions() {
@@ -776,6 +945,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         fetchInstructions()
       ]);
       updateDashboardStats();
+      renderExamHubGrid();
       lucide.createIcons();
     }
 
@@ -1183,6 +1353,88 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     }
 
     // ================= QUESTION RENDERERS =================
+    // ================= HELPER FUNCTIONS FOR CHOICES & ANSWERS =================
+    function getQuestionChoices(q) {
+      const m = q.raw_metadata || {};
+      if (m.choices && Array.isArray(m.choices) && m.choices.length) return m.choices;
+      if (q.choices && Array.isArray(q.choices) && q.choices.length) return q.choices;
+      if (m.options && Array.isArray(m.options) && m.options.length) {
+        if (typeof m.options[0] === 'object' && m.options[0] !== null) {
+          return m.options.map(o => o.text || o.label || '');
+        }
+        return m.options;
+      }
+      return [];
+    }
+
+    function getCorrectMCQIndex(q) {
+      const m = q.raw_metadata || {};
+      const choices = getQuestionChoices(q);
+      if (!choices.length) return 0;
+
+      // 1. Correct Option letter (e.g. 'A', 'B', 'C', 'D')
+      const co = m.correct_option;
+      if (typeof co === 'string' && co.trim().length === 1) {
+        const code = co.trim().toUpperCase().charCodeAt(0);
+        if (code >= 65 && code <= 68) {
+          const idx = code - 65;
+          if (idx >= 0 && idx < choices.length) return idx;
+        }
+      }
+
+      const raw = (m.correct_answer !== undefined && m.correct_answer !== null) ? m.correct_answer : q.correct_answer;
+      if (raw === undefined || raw === null) return 0;
+
+      const sraw = String(raw).trim();
+
+      // 2. Exact match against choice text (case-insensitive)
+      for (let i = 0; i < choices.length; i++) {
+        if (String(choices[i]).trim().toLowerCase() === sraw.toLowerCase()) {
+          return i;
+        }
+      }
+
+      // 3. Numeric string index ('0', '1', '2', '3')
+      if (/^\d+$/.test(sraw)) {
+        const num = parseInt(sraw, 10);
+        if (num >= 0 && num < choices.length) return num;
+      }
+
+      // 4. Single letter ('A'-'D')
+      if (sraw.length === 1 && /^[A-Da-d]$/.test(sraw)) {
+        const idx = sraw.toUpperCase().charCodeAt(0) - 65;
+        if (idx >= 0 && idx < choices.length) return idx;
+      }
+
+      // 5. Substring / fuzzy match
+      for (let i = 0; i < choices.length; i++) {
+        const cStr = String(choices[i]).trim().toLowerCase();
+        if (cStr.includes(sraw.toLowerCase()) || sraw.toLowerCase().includes(cStr)) {
+          return i;
+        }
+      }
+
+      return 0;
+    }
+
+    function showFeedbackExplanation(expl, isRight) {
+      const fbArea = document.getElementById('q-feedback-area');
+      if (!fbArea || !expl) return;
+      fbArea.classList.remove('hidden');
+      fbArea.innerHTML = `
+        <div class="space-y-3">
+          <div class="p-4 rounded-xl flex items-start gap-3 ${isRight ? 'bg-emerald-50 border border-emerald-200 text-emerald-900' : 'bg-amber-50 border border-amber-200 text-amber-900'}">
+            <span class="text-lg font-bold">${isRight ? '✓' : 'ℹ'}</span>
+            <div>
+              <div class="font-bold text-sm sm:text-base">${isRight ? 'Hoàn thành bài tập chính xác!' : 'Giải thích chi tiết & Đáp án chuẩn:'}</div>
+              <div class="mt-2 text-xs sm:text-sm text-gray-700 leading-relaxed">${expl}</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // ================= QUESTION RENDERERS =================
     function renderQuestionByType(q, idx) {
       const container = document.getElementById('q-interactive-area');
       const type = q.type;
@@ -1201,7 +1453,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         renderConversationMatch(container, q, idx);
       } else if (type === 'listening_monologue') {
         renderListeningMonologue(container, q, idx);
-      } else if (type === 'collocation_match') {
+      } else if (type === 'collocation_match' || type === 'synonym_match' || type === 'definition_match' || type === 'sentence_completion') {
         renderCollocationMatch(container, q, idx);
       } else {
         renderStandardMCQ(container, q, idx);
@@ -1225,10 +1477,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         const curVal = userAnswers[idx][pIdx] !== undefined ? userAnswers[idx][pIdx] : '';
 
         const row = document.createElement('div');
-        row.className = "text-base sm:text-lg leading-relaxed bg-white p-4 rounded-xl border border-gray-100 shadow-sm flex items-center flex-wrap gap-2";
+        row.className = "text-base sm:text-lg leading-relaxed bg-white p-4 sm:p-5 rounded-xl border border-gray-200 shadow-sm flex items-center flex-wrap gap-2";
 
         let selectHtml = `
-          <select onchange="onBlankChange(${idx}, ${pIdx}, this.value)" class="mx-1 py-1 px-3 border rounded-lg text-sm font-semibold cursor-pointer ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400'}">
+          <select onchange="onBlankChange(${idx}, ${pIdx}, this.value)" class="mx-1 py-1.5 px-3 border rounded-lg text-sm font-semibold cursor-pointer ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400'}">
             <option value="" disabled ${curVal === '' ? 'selected' : ''}>-- Chọn từ --</option>
             ${choices.map((opt, oIdx) => `
               <option value="${oIdx}" ${String(curVal) === String(oIdx) || curVal === opt ? 'selected' : ''}>${opt}</option>
@@ -1246,15 +1498,15 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
             feedbackHtml = `
               <div class="ml-auto flex items-center gap-1.5 font-semibold text-emerald-600 text-sm">
                 <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                Correct
+                Đúng
               </div>
             `;
           } else {
             feedbackHtml = `
               <div class="ml-auto flex items-center gap-1 text-red-600 text-sm">
                 <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                <span class="font-semibold">Incorrect.</span>
-                <span class="text-gray-500">Answer:</span>
+                <span class="font-semibold">Sai.</span>
+                <span class="text-gray-500">Đáp án:</span>
                 <span class="font-bold text-emerald-700">${correctWord}</span>
               </div>
             `;
@@ -1275,6 +1527,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       });
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onBlankChange(qIdx, pIdx, val) {
@@ -1288,14 +1544,14 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     // 2. Reading Part 2: Sentence Ordering
     function renderSentenceOrdering(container, q, idx) {
       const m = q.raw_metadata || {};
-      const sentences = m.sentences || [];
-      const correctOrder = m.correct_order || sentences;
+      const sentences = (m.sentences || []).filter(Boolean);
+      const correctOrder = (m.correct_order || sentences).filter(Boolean);
       const checked = checkedState[idx];
 
       if (!userAnswers[idx]) {
         userAnswers[idx] = [...sentences];
       }
-      const curList = userAnswers[idx];
+      const curList = userAnswers[idx].filter(Boolean);
 
       const wrap = document.createElement('div');
       wrap.className = "space-y-3";
@@ -1329,7 +1585,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
             </div>
           ` : `
             <div class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">
-              ${isRight ? '✓' : `✗ Đúng: #${correctOrder.indexOf(text) + 1}`}
+              ${isRight ? '✓ Đúng vị trí' : `✗ Vị trí đúng: #${correctOrder.indexOf(text) + 1}`}
             </div>
           `}
         `;
@@ -1337,6 +1593,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       });
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function moveSentence(qIdx, fromIdx, dir) {
@@ -1355,8 +1615,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     // 3. Reading Part 3: Text / Person Match (2-Column Grid)
     function renderTextQuestionMatch(container, q, idx) {
       const m = q.raw_metadata || {};
-      const options = m.options || [];
-      const names = m.names || ['Person A', 'Person B', 'Person C', 'Person D'];
+      const options = m.options || q.choices || [];
+      const names = m.names || ['James', 'Lisa', 'Robert', 'Christina'];
       const questionsList = m.questions || [];
       const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
@@ -1371,14 +1631,14 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       const headerColors = ['bg-blue-600', 'bg-emerald-600', 'bg-amber-600', 'bg-purple-600', 'bg-pink-600'];
 
       options.forEach((optText, oIdx) => {
-        const personName = names[oIdx] || `Person ${String.fromCharCode(65 + oIdx)}`;
+        const personName = names[oIdx] || `Người ${String.fromCharCode(65 + oIdx)}`;
         const card = document.createElement('div');
         card.className = "rounded-xl border border-gray-200 bg-white overflow-hidden shadow-sm";
         card.innerHTML = `
           <div class="px-4 py-2.5 text-white font-bold text-sm ${headerColors[oIdx] || 'bg-gray-700'}">
             ${personName}
           </div>
-          <div class="p-4 text-sm text-gray-700 leading-relaxed">
+          <div class="p-4 text-sm text-gray-700 leading-relaxed whitespace-pre-line">
             ${optText}
           </div>
         `;
@@ -1397,7 +1657,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
         let selectHtml = `
           <select onchange="onTextMatchChange(${idx}, ${qsubIdx}, this.value)" class="w-full text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-            <option value="" disabled ${curAns === undefined ? 'selected' : ''}>- Select person -</option>
+            <option value="" disabled ${curAns === undefined ? 'selected' : ''}>-- Chọn người phát biểu --</option>
             ${names.map((name, nIdx) => `
               <option value="${nIdx}" ${String(curAns) === String(nIdx) ? 'selected' : ''}>${name}</option>
             `).join('')}
@@ -1411,7 +1671,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           const correctName = names[parseInt(correctIdx)] || '';
           fb = `
             <div class="mt-2 text-sm flex items-center gap-1.5 font-semibold ${isRight ? 'text-emerald-600' : 'text-red-600'}">
-              ${isRight ? '✓ Correct' : `✗ Incorrect. Answer: ${correctName}`}
+              ${isRight ? '✓ Chính xác' : `✗ Chưa chính xác. Đáp án đúng: ${correctName}`}
             </div>
           `;
         }
@@ -1429,6 +1689,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       wrap.appendChild(rightCol);
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onTextMatchChange(qIdx, subIdx, val) {
@@ -1458,9 +1722,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
         let selectHtml = `
           <div class="flex items-center gap-3">
-            <span class="font-bold text-gray-500 text-sm">${pIdx + 1}.</span>
+            <span class="font-bold text-gray-500 text-sm">Đoạn ${pIdx + 1}:</span>
             <select onchange="onHeadingChange(${idx}, ${pIdx}, this.value)" class="flex-1 text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-              <option value="" disabled ${curSel === undefined ? 'selected' : ''}>-- Chọn tiêu đề phù hợp nhất --</option>
+              <option value="" disabled ${curSel === undefined ? 'selected' : ''}>-- Chọn tiêu đề phù hợp nhất cho đoạn này --</option>
               ${headings.map((h, hIdx) => `
                 <option value="${hIdx}" ${String(curSel) === String(hIdx) || curSel === h ? 'selected' : ''}>${h}</option>
               `).join('')}
@@ -1475,20 +1739,24 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           const correctHeading = headings[parseInt(correctHIdx)] || '';
           fb = `
             <div class="mt-2 text-sm flex items-center gap-1.5 font-semibold ${isRight ? 'text-emerald-600' : 'text-red-600'}">
-              ${isRight ? '✓ Correct' : `✗ Incorrect. Answer: ${correctHeading}`}
+              ${isRight ? '✓ Chính xác' : `✗ Chưa chính xác. Tiêu đề đúng: ${correctHeading}`}
             </div>
           `;
         }
 
         row.innerHTML = `
           ${selectHtml}
-          <div class="text-gray-700 leading-relaxed text-sm bg-gray-50 p-4 rounded-xl border border-gray-100">${pText}</div>
+          <div class="text-gray-800 leading-relaxed text-sm bg-white p-4 sm:p-5 rounded-xl border border-gray-200 shadow-sm">${pText}</div>
           ${fb}
         `;
         wrap.appendChild(row);
       });
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onHeadingChange(qIdx, pIdx, val) {
@@ -1499,7 +1767,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       saveProgress();
     }
 
-    // 5. Listening Part 2: Speaker Match
+    // 5. Listening Part 2: Speaker Match (4 Audio clips)
     function renderSpeakerMatch(container, q, idx) {
       const m = q.raw_metadata || {};
       const items = m.items || ['Speaker A', 'Speaker B', 'Speaker C', 'Speaker D'];
@@ -1535,17 +1803,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
       // Statements Selects
       const selBox = document.createElement('div');
-      selBox.className = "space-y-4 pt-4 border-t border-gray-100";
+      selBox.className = "space-y-3 pt-4 border-t border-gray-100";
 
       items.forEach((spk, sIdx) => {
         const cur = userAnswers[idx][sIdx];
         const row = document.createElement('div');
-        row.className = "border-b border-gray-200 pb-4 last:border-b-0 space-y-2";
+        row.className = "p-4 rounded-xl border border-gray-200 bg-white space-y-2 shadow-sm";
 
         let selHtml = `
-          <p class="font-semibold text-gray-700 text-sm mb-1">${spk || 'Speaker ' + String.fromCharCode(65 + sIdx)}:</p>
           <select onchange="onSpeakerMatchChange(${idx}, ${sIdx}, this.value)" class="w-full text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-            <option value="" disabled ${cur === undefined ? 'selected' : ''}>- Chọn câu mô tả -</option>
+            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn nhận định cho người nói ${sIdx + 1} --</option>
             ${choices.map((c, cIdx) => `
               <option value="${cIdx}" ${String(cur) === String(cIdx) ? 'selected' : ''}>${c}</option>
             `).join('')}
@@ -1559,17 +1826,25 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           const correctText = choices[parseInt(correctIdx)] || '';
           fb = `
             <div class="mt-2 text-sm flex items-center gap-1.5 font-semibold ${isRight ? 'text-emerald-600' : 'text-red-600'}">
-              ${isRight ? '✓ Correct' : `✗ Incorrect. Answer: ${correctText}`}
+              ${isRight ? '✓ Chính xác' : `✗ Chưa chính xác. Đáp án đúng: ${correctText}`}
             </div>
           `;
         }
 
-        row.innerHTML = `${selHtml}${fb}`;
+        row.innerHTML = `
+          <div class="text-sm font-bold text-gray-800">${spk || 'Speaker ' + String.fromCharCode(65 + sIdx)}:</div>
+          ${selHtml}
+          ${fb}
+        `;
         selBox.appendChild(row);
       });
       wrap.appendChild(selBox);
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onSpeakerMatchChange(qIdx, sIdx, val) {
@@ -1599,7 +1874,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
         let selHtml = `
           <select onchange="onConversationChange(${idx}, ${sIdx}, this.value)" class="w-full text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn --</option>
+            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn quan điểm --</option>
             ${choices.map((c, cIdx) => `
               <option value="${cIdx}" ${String(cur) === String(cIdx) ? 'selected' : ''}>${c}</option>
             `).join('')}
@@ -1613,15 +1888,13 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           const correctText = choices[parseInt(correctIdx)] || '';
           fb = `
             <div class="mt-2 text-sm flex items-center gap-1.5 font-semibold ${isRight ? 'text-emerald-600' : 'text-red-600'}">
-              ${isRight ? '✓ Correct' : `✗ Incorrect. Answer: ${correctText}`}
+              ${isRight ? '✓ Chính xác' : `✗ Chưa chính xác. Đáp án đúng: ${correctText}`}
             </div>
           `;
         }
 
         card.innerHTML = `
-          <p class="font-medium text-gray-800 text-sm">
-            <span class="text-blue-600 font-bold">${sIdx + 1}.</span> ${stmt}
-          </p>
+          <p class="text-sm font-medium text-gray-800 leading-snug">${sIdx + 1}. ${stmt}</p>
           ${selHtml}
           ${fb}
         `;
@@ -1629,6 +1902,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       });
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onConversationChange(qIdx, sIdx, val) {
@@ -1663,24 +1940,43 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         const choicesBox = document.createElement('div');
         choicesBox.className = "space-y-2.5";
 
-        (sub.choices || []).forEach((choice, cIdx) => {
+        const subChoices = sub.choices || [];
+        const correctIdx = correctAnswers[sIdx];
+
+        subChoices.forEach((choice, cIdx) => {
+          const isSelected = curAns !== undefined && Number(curAns) === cIdx;
           const label = document.createElement('label');
-          label.className = `flex items-center gap-3 p-3.5 rounded-xl border transition-all cursor-pointer ${curAns === cIdx ? 'border-blue-500 bg-blue-50/50' : 'border-gray-200 hover:border-gray-300'}`;
+
+          let borderCls = 'border-gray-200 bg-white hover:border-blue-300';
+          if (isSelected) borderCls = 'border-blue-500 bg-blue-50/50';
+
+          let fbIcon = '';
+          if (checked) {
+            if (String(cIdx) === String(correctIdx)) {
+              borderCls = 'border-emerald-500 bg-emerald-50 font-semibold';
+              fbIcon = '<span class="ml-auto text-emerald-600 font-bold">✓</span>';
+            } else if (isSelected && String(cIdx) !== String(correctIdx)) {
+              borderCls = 'border-red-400 bg-red-50/60 line-through text-red-500';
+              fbIcon = '<span class="ml-auto text-red-500 font-bold">✗</span>';
+            }
+          }
+
+          label.className = `flex items-center gap-3 p-3.5 rounded-xl border transition-all cursor-pointer ${borderCls} ${checked ? 'pointer-events-none' : ''}`;
           label.innerHTML = `
-            <input type="radio" name="monologue_${idx}_${sIdx}" value="${cIdx}" ${curAns === cIdx ? 'checked' : ''} onchange="onMonologueChange(${idx}, ${sIdx}, ${cIdx})" class="w-4 h-4 text-blue-600">
-            <span class="text-sm text-gray-800">${choice}</span>
+            <input type="radio" name="monologue_${idx}_${sIdx}" value="${cIdx}" ${isSelected ? 'checked' : ''} onchange="onMonologueChange(${idx}, ${sIdx}, ${cIdx})" class="w-4 h-4 text-blue-600" ${checked ? 'disabled' : ''}>
+            <span class="text-sm text-gray-800 flex-1">${choice}</span>
+            ${fbIcon}
           `;
           choicesBox.appendChild(label);
         });
         card.appendChild(choicesBox);
 
         if (checked) {
-          const correctIdx = correctAnswers[sIdx];
-          const isRight = curAns === correctIdx;
-          const correctText = (sub.choices || [])[correctIdx] || '';
+          const isRight = curAns !== undefined && String(curAns) === String(correctIdx);
+          const correctText = subChoices[parseInt(correctIdx)] || '';
           const fb = document.createElement('div');
           fb.className = `mt-2 text-sm font-semibold flex items-center gap-1.5 ${isRight ? 'text-emerald-600' : 'text-red-600'}`;
-          fb.innerHTML = isRight ? '✓ Correct' : `✗ Incorrect. Answer: ${correctText}`;
+          fb.innerHTML = isRight ? '✓ Chính xác' : `✗ Chưa chính xác. Đáp án đúng: ${correctText}`;
           card.appendChild(fb);
         }
 
@@ -1688,6 +1984,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       });
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onMonologueChange(qIdx, sIdx, choiceIdx) {
@@ -1698,7 +1998,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       saveProgress();
     }
 
-    // 8. Grammar / Vocabulary: Matching Pairs
+    // 8. Grammar / Vocabulary: Matching Pairs (synonym, definition, completion, collocation)
     function renderCollocationMatch(container, q, idx) {
       const m = q.raw_metadata || {};
       const pairs = m.pairs || [];
@@ -1710,6 +2010,13 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       const wrap = document.createElement('div');
       wrap.className = "space-y-4";
 
+      if (m.instruction) {
+        const instr = document.createElement('p');
+        instr.className = "text-sm text-gray-600 italic bg-gray-50 p-3 rounded-xl border border-gray-100";
+        instr.innerText = m.instruction;
+        wrap.appendChild(instr);
+      }
+
       pairs.forEach((pair, pIdx) => {
         const pairId = pair.id || String(pIdx + 1);
         const cur = userAnswers[idx][pairId];
@@ -1718,7 +2025,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
         let selHtml = `
           <select onchange="onCollocationChange(${idx}, '${pairId}', this.value)" class="text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn từ ghép --</option>
+            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn từ phù hợp --</option>
             ${pool.map(opt => `
               <option value="${opt}" ${cur === opt ? 'selected' : ''}>${opt}</option>
             `).join('')}
@@ -1728,10 +2035,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         let fb = '';
         if (checked) {
           const correctWord = correctMap[pairId] || correctMap[pIdx] || '';
-          const isRight = cur === correctWord;
+          const isRight = cur !== undefined && String(cur).trim().toLowerCase() === String(correctWord).trim().toLowerCase();
           fb = `
             <div class="text-xs font-bold ${isRight ? 'text-emerald-600' : 'text-red-500'}">
-              ${isRight ? '✓ Đúng' : `✗ Đáp án đúng: ${correctWord}`}
+              ${isRight ? '✓ Đúng' : `✗ Đáp án: ${correctWord}`}
             </div>
           `;
         }
@@ -1744,6 +2051,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       });
 
       container.appendChild(wrap);
+
+      if (checked && m.explanation) {
+        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      }
     }
 
     function onCollocationChange(qIdx, pairId, val) {
@@ -1757,15 +2068,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     // 9. Standard Multiple Choice Question (Grammar / Listening Part 1)
     function renderStandardMCQ(container, q, idx) {
       const m = q.raw_metadata || {};
-      const choices = m.choices || q.choices || (m.options ? m.options.map(o => o.text) : []);
+      const choices = getQuestionChoices(q);
       const curAns = userAnswers[idx];
       const checked = checkedState[idx];
+      const correctIdx = getCorrectMCQIndex(q);
 
       const wrap = document.createElement('div');
       wrap.className = "space-y-3";
 
       choices.forEach((choice, cIdx) => {
-        const isSelected = curAns === cIdx;
+        const isSelected = curAns !== undefined && Number(curAns) === cIdx;
         const label = document.createElement('label');
 
         let borderCls = 'border-gray-200 bg-white hover:border-blue-300';
@@ -1776,31 +2088,64 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
         let fbIcon = '';
         if (checked) {
-          const correctIdx = m.correct_answer !== undefined ? m.correct_answer : (m.correct_option ? m.correct_option.charCodeAt(0) - 65 : 0);
           if (cIdx === correctIdx) {
-            borderCls = 'border-emerald-500 bg-emerald-50/60 font-semibold';
+            borderCls = 'border-emerald-500 bg-emerald-50 font-semibold';
             badgeCls = 'bg-emerald-600 text-white';
             fbIcon = '<span class="ml-auto text-emerald-600 font-bold">✓</span>';
           } else if (isSelected && cIdx !== correctIdx) {
-            borderCls = 'border-red-400 bg-red-50/60';
+            borderCls = 'border-red-400 bg-red-50/60 line-through text-red-500';
             badgeCls = 'bg-red-500 text-white';
             fbIcon = '<span class="ml-auto text-red-500 font-bold">✗</span>';
           }
         }
 
-        label.className = `flex items-center gap-3.5 p-4 rounded-xl border-2 transition-all cursor-pointer ${borderCls}`;
+        label.className = `flex items-center gap-3.5 p-4 rounded-xl border-2 transition-all cursor-pointer ${borderCls} ${checked ? 'pointer-events-none' : ''}`;
         label.innerHTML = `
           <span class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0 ${badgeCls}">
             ${String.fromCharCode(65 + cIdx)}
           </span>
           <span class="text-sm text-gray-800 flex-1">${choice}</span>
           ${fbIcon}
-          <input type="radio" name="mcq_${idx}" value="${cIdx}" ${isSelected ? 'checked' : ''} onchange="onMCQChange(${idx}, ${cIdx})" class="sr-only">
+          <input type="radio" name="mcq_${idx}" value="${cIdx}" ${isSelected ? 'checked' : ''} onchange="onMCQChange(${idx}, ${cIdx})" class="sr-only" ${checked ? 'disabled' : ''}>
         `;
         wrap.appendChild(label);
       });
 
       container.appendChild(wrap);
+
+      // Render Explanation & Feedback Banner if checked
+      if (checked) {
+        const fbArea = document.getElementById('q-feedback-area');
+        if (fbArea) {
+          fbArea.classList.remove('hidden');
+          const isRight = checked.isCorrect;
+          const correctText = choices[correctIdx] || '';
+          const expl = m.explanation || q.description || '';
+
+          fbArea.innerHTML = `
+            <div class="space-y-3">
+              <div class="p-4 rounded-xl flex items-start gap-3 ${isRight ? 'bg-emerald-50 border border-emerald-200 text-emerald-900' : 'bg-red-50 border border-red-200 text-red-900'}">
+                <span class="text-lg font-bold">${isRight ? '✓' : '✗'}</span>
+                <div>
+                  <div class="font-bold text-sm sm:text-base">${isRight ? 'Chính xác!' : 'Chưa chính xác!'}</div>
+                  <div class="text-xs sm:text-sm mt-0.5 ${isRight ? 'text-emerald-700' : 'text-red-700'}">
+                    Đáp án đúng: <strong class="font-bold underline">${String.fromCharCode(65 + correctIdx)}. ${correctText}</strong>
+                  </div>
+                </div>
+              </div>
+              ${expl ? `
+                <div class="p-4 rounded-xl bg-amber-50/80 border border-amber-200/80 text-gray-800 text-sm space-y-2">
+                  <div class="flex items-center gap-2 font-bold text-amber-900 text-xs uppercase tracking-wider">
+                    <svg class="w-4 h-4 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    Giải thích đáp án
+                  </div>
+                  <div class="leading-relaxed text-xs sm:text-sm text-gray-700 space-y-1">${expl}</div>
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }
+      }
     }
 
     function onMCQChange(qIdx, cIdx) {
@@ -1821,75 +2166,81 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       const m = q.raw_metadata || {};
 
       if (q.type === 'sentence_ordering') {
-        const correctOrder = m.correct_order || m.sentences || [];
+        const correctOrder = (m.correct_order || m.sentences || []).filter(Boolean);
         if (Array.isArray(userAns)) {
-          isCorrect = JSON.stringify(userAns) === JSON.stringify(correctOrder);
+          const cleanUserAns = userAns.filter(Boolean);
+          isCorrect = (cleanUserAns.length === correctOrder.length && cleanUserAns.every((s, i) => s === correctOrder[i]));
         }
       } else if (q.type === 'fill_in_blanks_mc') {
         const correctAnswers = m.correct_answers || [];
+        const choicesList = m.choices || q.choices || [];
         if (userAns && typeof userAns === 'object') {
           let rightCount = 0;
           correctAnswers.forEach((corr, pIdx) => {
             const cur = userAns[pIdx];
-            const choices = (m.choices || [])[pIdx] || [];
-            if (String(cur) === String(corr) || cur === choices[parseInt(corr)]) {
+            const choices = choicesList[pIdx] || [];
+            if (cur !== undefined && (String(cur) === String(corr) || (choices[parseInt(corr)] && String(cur).trim().toLowerCase() === String(choices[parseInt(corr)]).trim().toLowerCase()))) {
               rightCount++;
             }
           });
-          isCorrect = (rightCount === correctAnswers.length);
+          isCorrect = (correctAnswers.length > 0 && rightCount === correctAnswers.length);
         }
       } else if (q.type === 'text_question_match') {
         const correctAnswers = m.correct_answers || [];
         if (userAns && typeof userAns === 'object') {
           let rightCount = 0;
           correctAnswers.forEach((corr, sIdx) => {
-            if (String(userAns[sIdx]) === String(corr)) rightCount++;
+            if (userAns[sIdx] !== undefined && String(userAns[sIdx]) === String(corr)) rightCount++;
           });
-          isCorrect = (rightCount === correctAnswers.length);
+          isCorrect = (correctAnswers.length > 0 && rightCount === correctAnswers.length);
         }
       } else if (q.type === 'matching_headings') {
         const correctAnswers = m.correct_answers || [];
+        const headings = m.headings || [];
         if (userAns && typeof userAns === 'object') {
           let rightCount = 0;
           correctAnswers.forEach((corr, pIdx) => {
-            const headings = m.headings || [];
-            if (String(userAns[pIdx]) === String(corr) || userAns[pIdx] === headings[parseInt(corr)]) {
+            const cur = userAns[pIdx];
+            if (cur !== undefined && (String(cur) === String(corr) || cur === headings[parseInt(corr)])) {
               rightCount++;
             }
           });
-          isCorrect = (rightCount === correctAnswers.length);
+          isCorrect = (correctAnswers.length > 0 && rightCount === correctAnswers.length);
         }
       } else if (q.type === 'listening_speaker_match' || q.type === 'listening_conversation') {
         const correctAnswers = m.correct_answers || [];
         if (userAns && typeof userAns === 'object') {
           let rightCount = 0;
           correctAnswers.forEach((corr, sIdx) => {
-            if (String(userAns[sIdx]) === String(corr)) rightCount++;
+            if (userAns[sIdx] !== undefined && String(userAns[sIdx]) === String(corr)) rightCount++;
           });
-          isCorrect = (rightCount === correctAnswers.length);
+          isCorrect = (correctAnswers.length > 0 && rightCount === correctAnswers.length);
         }
       } else if (q.type === 'listening_monologue') {
         const correctAnswers = m.correct_answers || [];
         if (userAns && typeof userAns === 'object') {
           let rightCount = 0;
           correctAnswers.forEach((corr, sIdx) => {
-            if (userAns[sIdx] === corr) rightCount++;
+            if (userAns[sIdx] !== undefined && String(userAns[sIdx]) === String(corr)) rightCount++;
           });
-          isCorrect = (rightCount === correctAnswers.length);
+          isCorrect = (correctAnswers.length > 0 && rightCount === correctAnswers.length);
         }
-      } else if (q.type === 'collocation_match') {
+      } else if (q.type === 'collocation_match' || q.type === 'synonym_match' || q.type === 'definition_match' || q.type === 'sentence_completion') {
         const correctMap = m.correct_answers || {};
         if (userAns && typeof userAns === 'object') {
-          let totalPairs = Object.keys(correctMap).length;
+          const keys = Object.keys(correctMap);
           let rightCount = 0;
-          Object.keys(correctMap).forEach(k => {
-            if (userAns[k] === correctMap[k]) rightCount++;
+          keys.forEach(k => {
+            if (userAns[k] !== undefined && String(userAns[k]).trim().toLowerCase() === String(correctMap[k]).trim().toLowerCase()) {
+              rightCount++;
+            }
           });
-          isCorrect = (rightCount === totalPairs);
+          isCorrect = (keys.length > 0 && rightCount === keys.length);
         }
       } else {
-        const correctIdx = m.correct_answer !== undefined ? m.correct_answer : (m.correct_option ? m.correct_option.charCodeAt(0) - 65 : 0);
-        isCorrect = (userAns === correctIdx);
+        // Standard MCQ (listening_mcq, mcq3, etc.)
+        const correctIdx = getCorrectMCQIndex(q);
+        isCorrect = (userAns !== undefined && Number(userAns) === Number(correctIdx));
       }
 
       checkedState[currentIdx] = { isCorrect };
