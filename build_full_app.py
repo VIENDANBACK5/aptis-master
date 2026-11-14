@@ -411,36 +411,26 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         <!-- Tip & Mnemonic Box (Mẹo thi & Ghi nhớ Aptis) -->
         <div id="q-tip-box" class="hidden px-5 sm:px-6 pt-5"></div>
 
-        <!-- Audio Player (MilaEdu Custom Styled Bar) -->
-        <div id="q-audio-box" class="hidden p-4 sm:p-5 border-b border-gray-100 bg-slate-50">
-          <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="flex items-center gap-3 w-full sm:w-auto">
-              <!-- Play / Pause Button -->
-              <button type="button" onclick="toggleAudio()" id="btn-audio-play" class="w-11 h-11 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center shadow-md shrink-0 transition" aria-label="Phát / Dừng">
-                <svg id="icon-play-audio" class="w-5 h-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-              </button>
-              <div>
-                <div class="text-xs font-bold text-gray-800 flex items-center gap-1.5">
-                  <span>File âm thanh bài thi</span>
-                  <span id="listen-count-badge" class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-100 text-blue-700">Đã nghe: 0 lần</span>
-                </div>
-                <div class="text-[11px] text-gray-500 font-mono mt-0.5" id="audio-time-display">00:00 / 00:00</div>
-              </div>
-            </div>
-
-            <!-- Custom Seekbar -->
-            <div class="w-full sm:flex-1 max-w-md flex items-center gap-3">
-              <input type="range" id="audio-seekbar" value="0" min="0" max="100" oninput="seekAudio(this.value)" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600">
+        <!-- Audio Player (MilaEdu Official Audio Player) -->
+        <div id="q-audio-box" class="hidden p-4 sm:p-5 border-b border-gray-100 bg-slate-50 space-y-3">
+          <div class="flex items-center justify-between gap-4 flex-wrap">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
+              <span class="text-xs sm:text-sm font-bold text-gray-800">File âm thanh bài thi chính thức (MilaEdu)</span>
+              <span id="listen-count-badge" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-100 text-blue-700 border border-blue-200">Đã nghe: 0 lần</span>
             </div>
 
             <!-- Speed selector -->
             <div class="flex items-center gap-1.5 shrink-0">
+              <span class="text-xs text-gray-500 font-medium mr-1">Tốc độ:</span>
               <button type="button" onclick="setAudioSpeed(0.8)" id="speed-btn-08" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium">0.8x</button>
-              <button type="button" onclick="setAudioSpeed(1.0)" id="speed-btn-10" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 bg-blue-50 text-blue-700 font-bold">1.0x</button>
+              <button type="button" onclick="setAudioSpeed(1.0)" id="speed-btn-10" class="px-2.5 py-1 text-xs rounded-lg border border-blue-300 bg-blue-50 text-blue-700 font-bold">1.0x</button>
               <button type="button" onclick="setAudioSpeed(1.2)" id="speed-btn-12" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium">1.2x</button>
             </div>
           </div>
-          <audio id="main-audio-element" preload="auto" class="hidden" ontimeupdate="onAudioTimeUpdate()" onended="onAudioEnded()"></audio>
+
+          <!-- Native HTML5 Audio Player (Chuẩn 100% mọi trình duyệt) -->
+          <audio id="main-audio-element" preload="auto" controls controlslist="nodownload" class="w-full h-11 rounded-xl shadow-sm border border-gray-200 bg-white" onplay="onAudioPlay()" onpause="onAudioPause()" onended="onAudioEnded()"></audio>
         </div>
 
         <!-- Question Interactive Area -->
@@ -1336,68 +1326,22 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       return '/data/audio/' + filename;
     }
 
-    function toggleAudio() {
-      const audio = document.getElementById('main-audio-element');
-      const icon = document.getElementById('icon-play-audio');
-      if (!audio) return;
-      if (audio.paused) {
-        audio.play().then(() => {
-          if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
-          const q = questions[currentIdx];
-          const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + currentIdx : 'q');
-          audioListenCounts[srcKey] = (audioListenCounts[srcKey] || 0) + 1;
-          const badge = document.getElementById('listen-count-badge');
-          if (badge) badge.innerText = `Đã nghe: ${audioListenCounts[srcKey]} lần`;
-        }).catch(err => {
-          console.warn('Audio play error:', err);
-        });
-      } else {
-        audio.pause();
-        if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
+    function onAudioPlay() {
+      const q = questions[currentIdx];
+      if (q) {
+        const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + currentIdx : 'q');
+        audioListenCounts[srcKey] = (audioListenCounts[srcKey] || 0) + 1;
+        const badge = document.getElementById('listen-count-badge');
+        if (badge) badge.innerText = `Đã nghe: ${audioListenCounts[srcKey]} lần`;
       }
     }
 
-    function onAudioTimeUpdate() {
-      if (isSeeking) return;
-      const audio = document.getElementById('main-audio-element');
-      if (!audio || !audio.duration) return;
-
-      const pct = (audio.currentTime / audio.duration) * 100;
-      const seekbar = document.getElementById('audio-seekbar');
-      if (seekbar) seekbar.value = pct;
-
-      const curM = String(Math.floor(audio.currentTime / 60)).padStart(2, '0');
-      const curS = String(Math.floor(audio.currentTime % 60)).padStart(2, '0');
-      const durM = String(Math.floor(audio.duration / 60)).padStart(2, '0');
-      const durS = String(Math.floor(audio.duration % 60)).padStart(2, '0');
-      const display = document.getElementById('audio-time-display');
-      if (display) display.innerText = `${curM}:${curS} / ${durM}:${durS}`;
-    }
-
-    function seekAudio(val) {
-      const audio = document.getElementById('main-audio-element');
-      if (!audio || !audio.duration) return;
-      audio.currentTime = (val / 100) * audio.duration;
-    }
-
-    function setAudioSpeed(speed) {
-      const audio = document.getElementById('main-audio-element');
-      if (audio) audio.playbackRate = speed;
-      [0.8, 1.0, 1.2].forEach(s => {
-        const id = s === 0.8 ? 'speed-btn-08' : (s === 1.0 ? 'speed-btn-10' : 'speed-btn-12');
-        const btn = document.getElementById(id);
-        if (!btn) return;
-        if (s === speed) {
-          btn.className = "px-2.5 py-1 text-xs rounded-lg border border-gray-200 bg-blue-50 text-blue-700 font-bold";
-        } else {
-          btn.className = "px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium";
-        }
-      });
+    function onAudioPause() {
+      // Pause callback
     }
 
     function onAudioEnded() {
-      const icon = document.getElementById('icon-play-audio');
-      if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
+      // Ended callback
     }
 
     function renderQuestion(idx) {
@@ -1480,37 +1424,18 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
       if (audioEl) {
         audioEl.pause();
-        const icon = document.getElementById('icon-play-audio');
-        if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
       }
 
       if (audioSrc && currentSection.skill === 'listening' && q.type !== 'listening_speaker_match') {
         audioBox.classList.remove('hidden');
-        audioEl.preload = 'auto';
         audioEl.src = audioSrc;
-
-        const updateDurationUI = () => {
-          if (audioEl.duration && !isNaN(audioEl.duration) && isFinite(audioEl.duration)) {
-            const durM = String(Math.floor(audioEl.duration / 60)).padStart(2, '0');
-            const durS = String(Math.floor(audioEl.duration % 60)).padStart(2, '0');
-            const curM = String(Math.floor((audioEl.currentTime || 0) / 60)).padStart(2, '0');
-            const curS = String(Math.floor((audioEl.currentTime || 0) % 60)).padStart(2, '0');
-            document.getElementById('audio-time-display').innerText = `${curM}:${curS} / ${durM}:${durS}`;
-          } else {
-            document.getElementById('audio-time-display').innerText = '00:00 / Sẵn sàng phát';
-          }
-        };
-
-        audioEl.onloadedmetadata = updateDurationUI;
-        audioEl.ondurationchange = updateDurationUI;
-        audioEl.oncanplay = updateDurationUI;
+        audioEl.preload = 'auto';
         audioEl.load();
 
         const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + idx : 'q');
         const count = audioListenCounts[srcKey] || 0;
-        document.getElementById('listen-count-badge').innerText = `Đã nghe: ${count} lần`;
-        document.getElementById('audio-seekbar').value = 0;
-        updateDurationUI();
+        const badge = document.getElementById('listen-count-badge');
+        if (badge) badge.innerText = `Đã nghe: ${count} lần`;
       } else {
         audioBox.classList.add('hidden');
         if (audioEl) audioEl.pause();
