@@ -92,6 +92,12 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
         <!-- Right User Actions -->
         <div class="ml-auto flex items-center gap-2">
+          <!-- Reset Progress Button (Header) -->
+          <button type="button" onclick="openResetModal('global')" class="relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold text-red-600 bg-red-50 hover:bg-red-100 border border-red-200 transition-colors shadow-sm cursor-pointer" title="Đặt lại tiến trình làm bài">
+            <svg class="w-4 h-4 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+            <span class="hidden sm:inline">Reset tiến trình</span>
+          </button>
+
           <!-- Notification Bell -->
           <div class="relative">
             <button type="button" onclick="toggleNotifications()" aria-label="Thông báo" class="relative w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-800 hover:bg-gray-100 transition-colors">
@@ -118,7 +124,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
               <div class="py-1">
                 <a href="javascript:void(0)" onclick="openFullTest(); toggleUserMenu();" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Full Test Aptis</a>
                 <a href="javascript:void(0)" onclick="showDashboard(); toggleUserMenu();" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Lịch sử làm bài</a>
-                <button type="button" onclick="resetAllProgress(); toggleUserMenu();" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Đặt lại tiến độ làm bài</button>
+                <button type="button" onclick="openResetModal('global'); toggleUserMenu();" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50 flex items-center gap-2">
+                  <svg class="w-4 h-4 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                  <span>Đặt lại tiến trình làm bài</span>
+                </button>
               </div>
             </div>
           </div>
@@ -132,10 +141,16 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
 
     <!-- Mobile Nav Menu -->
-    <div id="mobile-nav" class="hidden md:hidden border-t border-gray-100 bg-white px-4 py-2">
+    <div id="mobile-nav" class="hidden md:hidden border-t border-gray-100 bg-white px-4 py-2 space-y-1">
       <a href="javascript:void(0)" onclick="showDashboard(); toggleMobileNav();" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium bg-blue-50 text-blue-700">Luyện tập</a>
       <a href="javascript:void(0)" onclick="showVocab(); toggleMobileNav();" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">Từ vựng</a>
       <a href="javascript:void(0)" onclick="showInstructions(); toggleMobileNav();" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">Hướng dẫn</a>
+      <a href="javascript:void(0)" onclick="openResetModal('global'); toggleMobileNav();" class="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-semibold text-red-600 hover:bg-red-50">
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+          Reset tiến trình làm
+        </span>
+      </a>
     </div>
   </nav>
 
@@ -165,6 +180,10 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
           <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-sm bg-white border-gray-200 text-gray-600">
             Còn <span class="font-semibold">47 ngày</span> · 31/12/2026
           </span>
+          <button type="button" onclick="openResetModal('global')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs sm:text-sm bg-white hover:bg-red-50 border-gray-200 hover:border-red-300 text-gray-700 hover:text-red-600 font-semibold transition-colors shadow-sm cursor-pointer" title="Đặt lại tiến trình làm bài">
+            <svg class="w-3.5 h-3.5 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+            <span>Reset tiến trình</span>
+          </button>
         </div>
       </div>
 
@@ -395,9 +414,15 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
             <h1 id="practice-sec-title" class="text-base font-semibold text-gray-900 truncate">Reading · Part 1</h1>
             <p id="practice-subtitle" class="text-xs text-gray-500 truncate">Choose the word that fits in the gap 01</p>
           </div>
-          <span class="shrink-0 px-3 py-1.5 rounded-lg bg-blue-50 text-blue-700 text-sm font-semibold">
-            Câu <span id="current-q-num">1</span>/<span id="total-q-num">4</span>
-          </span>
+          <div class="flex items-center gap-2 shrink-0">
+            <button type="button" onclick="openResetModal('practice')" class="inline-flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-lg border border-red-200 bg-red-50 hover:bg-red-100 text-red-600 text-xs sm:text-sm font-semibold transition-colors shadow-sm cursor-pointer" title="Đặt lại tiến trình làm bài">
+              <svg class="w-3.5 h-3.5 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+              <span>Reset tiến trình</span>
+            </button>
+            <span class="shrink-0 px-3 py-1.5 rounded-lg bg-blue-50 text-blue-700 text-sm font-semibold">
+              Câu <span id="current-q-num">1</span>/<span id="total-q-num">4</span>
+            </span>
+          </div>
         </div>
       </header>
 
@@ -467,8 +492,22 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
                 <div id="palette-popover-grid" class="flex-1 overflow-y-auto p-3 flex flex-wrap gap-2">
                   <!-- Popover numbers -->
                 </div>
+                <div class="p-2.5 border-t border-gray-100 bg-gray-50 flex items-center justify-between">
+                  <button type="button" onclick="executeResetSection(); togglePalettePopover();" class="text-xs font-semibold text-red-600 hover:text-red-700 hover:underline flex items-center gap-1">
+                    <svg class="w-3.5 h-3.5 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                    <span>Làm lại phần này</span>
+                  </button>
+                  <button type="button" onclick="openResetModal('global'); togglePalettePopover();" class="text-xs font-semibold text-gray-500 hover:text-red-600">
+                    Reset tất cả
+                  </button>
+                </div>
               </div>
             </div>
+
+            <button type="button" onclick="openResetModal('practice')" class="inline-flex items-center gap-1.5 text-xs font-semibold text-red-600 hover:text-red-700 px-3 py-2 rounded-xl border border-red-200 bg-red-50 hover:bg-red-100 transition-colors cursor-pointer" title="Làm lại hoặc đặt lại tiến trình">
+              <svg class="w-3.5 h-3.5 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+              <span class="hidden sm:inline">Làm lại bài</span>
+            </button>
 
             <button type="button" onclick="showVocab()" class="hidden md:inline-flex items-center gap-1.5 text-xs text-gray-500 hover:text-blue-600 px-3 py-2 rounded-lg hover:bg-gray-50 transition-colors">
               <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
@@ -686,6 +725,50 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
   </div>
 
+  <!-- ================= RESET PROGRESS MODAL ================= -->
+  <div id="reset-modal" onclick="if (event.target === this) closeResetModal()" class="hidden fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-gray-100 space-y-5 animate-fade-in">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-2xl bg-red-100 text-red-600 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-gray-900">Đặt Lại Tiến Trình Làm Bài</h3>
+          <p class="text-xs text-gray-500">Lựa chọn chế độ làm mới dữ liệu luyện tập</p>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <!-- Option 1: Reset Section hien tai -->
+        <button id="modal-opt-section" type="button" onclick="executeResetSection()" class="w-full text-left p-4 rounded-xl border-2 border-blue-200 hover:border-blue-500 hover:bg-blue-50/50 transition-all flex items-start gap-3 cursor-pointer">
+          <span class="text-xl shrink-0 mt-0.5">🔄</span>
+          <div class="flex-1">
+            <div class="text-sm font-bold text-gray-900">Làm lại bài thi này (<span id="modal-reset-sec-title">Phần đang làm</span>)</div>
+            <div class="text-xs text-gray-500 mt-1 leading-relaxed">Xóa đáp án đã chọn &amp; giải thích của phần thi đang mở để bạn làm lại từ đầu.</div>
+          </div>
+        </button>
+
+        <!-- Option 2: Reset Toan Bo -->
+        <button type="button" onclick="executeResetAll()" class="w-full text-left p-4 rounded-xl border-2 border-red-200 hover:border-red-500 hover:bg-red-50/50 transition-all flex items-start gap-3 cursor-pointer">
+          <span class="text-xl shrink-0 mt-0.5">⚠️</span>
+          <div class="flex-1">
+            <div class="text-sm font-bold text-red-700">Đặt lại TOÀN BỘ tiến trình (Tất cả kỹ năng)</div>
+            <div class="text-xs text-gray-500 mt-1 leading-relaxed">Xóa sạch toàn bộ lịch sử câu hỏi, điểm số và số lần nghe của tất cả các bài thi trên hệ thống.</div>
+          </div>
+        </button>
+      </div>
+
+      <div class="flex items-center justify-end gap-2 pt-2 border-t border-gray-100">
+        <button type="button" onclick="closeResetModal()" class="px-4 py-2 rounded-xl text-sm font-semibold text-gray-600 hover:bg-gray-100 transition-colors cursor-pointer">
+          Hủy bỏ
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="app-toast" class="fixed top-5 right-5 z-[9999] max-w-md px-4 py-3 rounded-2xl shadow-xl border flex items-center gap-3 transition-all duration-300 transform -translate-y-12 opacity-0 pointer-events-none"></div>
+
   <!-- ================= FOOTER ================= -->
   <footer class="bg-white border-t border-gray-200 py-6 mt-auto">
     <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-gray-400 flex flex-col sm:flex-row items-center justify-between gap-2">
@@ -748,13 +831,156 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       }
     }
 
-    function resetAllProgress() {
-      if (confirm('Bạn có chắc chắn muốn đặt lại toàn bộ tiến độ làm bài không?')) {
-        progressData = { answered: {}, correct: {}, writingDrafts: {} };
-        saveProgress();
+    // ================= RESET PROGRESS SYSTEM =================
+    function openResetModal(context) {
+      const modal = document.getElementById('reset-modal');
+      const optSec = document.getElementById('modal-opt-section');
+      const titleSec = document.getElementById('modal-reset-sec-title');
+
+      const isPractice = currentSection && !document.getElementById('view-practice').classList.contains('hidden');
+      if (isPractice) {
+        optSec.classList.remove('hidden');
+        titleSec.innerText = currentSection.title || 'Phần đang làm';
+      } else {
+        optSec.classList.add('hidden');
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeResetModal() {
+      const modal = document.getElementById('reset-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function executeResetSection() {
+      if (!currentSection) {
+        closeResetModal();
+        return;
+      }
+      const secId = currentSection.id;
+
+      // Xóa tiến trình đã lưu của section này
+      Object.keys(progressData.answered).forEach(k => {
+        if (k.startsWith(secId + '_')) {
+          delete progressData.answered[k];
+        }
+      });
+      Object.keys(progressData.correct).forEach(k => {
+        if (k.startsWith(secId + '_')) {
+          delete progressData.correct[k];
+        }
+      });
+      Object.keys(audioListenCounts).forEach(k => {
+        if (k.startsWith(secId + '_')) {
+          delete audioListenCounts[k];
+        }
+      });
+
+      // Xóa state trong bộ nhớ
+      userAnswers = {};
+      checkedState = {};
+
+      saveProgress();
+
+      // Dừng audio nếu đang chạy
+      const audioEl = document.getElementById('main-audio-element');
+      if (audioEl) {
+        audioEl.pause();
+        audioEl.currentTime = 0;
+      }
+
+      closeResetModal();
+
+      // Vẽ lại câu 1 và cập nhật danh sách câu hỏi
+      renderQuestion(0);
+      renderPalettePopover();
+
+      showToast(`Đã làm mới bài thi "${currentSection.title}"! Bạn có thể bắt đầu làm lại.`, 'success');
+    }
+
+    function executeResetAll() {
+      // 1. Reset progressData
+      progressData = {
+        answered: {},
+        correct: {},
+        writingDrafts: {}
+      };
+
+      // 2. Clear localStorage
+      try {
+        localStorage.removeItem('aptis_progress_v2');
+        localStorage.removeItem('aptis_progress');
+        localStorage.removeItem('aptis_audio_listens');
+      } catch (e) {
+        console.warn('Cannot clear localStorage', e);
+      }
+
+      // 3. Clear memory
+      userAnswers = {};
+      checkedState = {};
+      audioListenCounts = {};
+
+      // 4. Dừng audio
+      const audioEl = document.getElementById('main-audio-element');
+      if (audioEl) {
+        audioEl.pause();
+        audioEl.currentTime = 0;
+      }
+
+      saveProgress();
+      updateDashboardStats();
+
+      closeResetModal();
+
+      // Refresh view
+      const practiceView = document.getElementById('view-practice');
+      const hubView = document.getElementById('view-skill-hub');
+
+      if (practiceView && !practiceView.classList.contains('hidden') && currentSection) {
+        renderQuestion(0);
+        renderPalettePopover();
+      } else if (hubView && !hubView.classList.contains('hidden') && currentSkill) {
+        openSkillHub(currentSkill);
+      } else {
         showDashboard();
       }
+
+      showToast('Đã đặt lại toàn bộ tiến trình học tập thành công! Tất cả đáp án đã được làm mới.', 'success');
     }
+
+    function resetAllProgress() {
+      // Backward compatible for old callers
+      openResetModal('global');
+    }
+
+    function showToast(message, type = 'success') {
+      const toast = document.getElementById('app-toast');
+      if (!toast) return;
+
+      const isSuccess = type === 'success';
+      toast.className = `fixed top-5 right-5 z-[9999] max-w-md px-4 py-3 rounded-2xl shadow-xl border flex items-center gap-3 transition-all duration-300 transform translate-y-0 opacity-100 pointer-events-none ${
+        isSuccess ? 'bg-emerald-50 border-emerald-200 text-emerald-900' : 'bg-red-50 border-red-200 text-red-900'
+      }`;
+      toast.innerHTML = `
+        <span class="text-xl shrink-0">${isSuccess ? '✅' : 'ℹ️'}</span>
+        <span class="text-sm font-semibold">${message}</span>
+      `;
+
+      if (window._toastTimeout) clearTimeout(window._toastTimeout);
+      window._toastTimeout = setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', '-translate-y-12');
+      }, 3200);
+    }
+
+    // Keyboard listener for ESC to close modals
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeResetModal();
+        if (typeof closeInstructionModal === 'function') closeInstructionModal();
+      }
+    });
 
     // Navigation View Switcher
     function hideAllViews() {
@@ -1359,6 +1585,21 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     function renderQuestion(idx) {
       if (idx < 0 || idx >= questions.length) return;
       currentIdx = idx;
+
+      // Khôi phục câu trả lời và trạng thái đã kiểm tra từ progressData nếu có
+      if (currentSection) {
+        const pKey = `${currentSection.id}_${idx}`;
+        if (userAnswers[idx] === undefined && progressData.answered && progressData.answered[pKey] !== undefined) {
+          try {
+            userAnswers[idx] = JSON.parse(JSON.stringify(progressData.answered[pKey]));
+          } catch (_) {
+            userAnswers[idx] = progressData.answered[pKey];
+          }
+        }
+        if (checkedState[idx] === undefined && progressData.correct && progressData.correct[pKey] !== undefined) {
+          checkedState[idx] = { isCorrect: progressData.correct[pKey] };
+        }
+      }
 
       const q = questions[idx];
       document.getElementById('current-q-num').innerText = idx + 1;
