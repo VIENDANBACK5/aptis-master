@@ -398,9 +398,39 @@
           <div class="text-base font-medium text-gray-900" id="q-stem-text">Question stem goes here</div>
         </div>
 
-        <!-- Audio Player (if Listening) -->
-        <div id="q-audio-box" class="hidden p-5 sm:p-6 border-b border-gray-100 bg-slate-50">
-          <audio id="main-audio-element" controls controlslist="nodownload nofullscreen noremoteplayback" class="w-full"></audio>
+        <!-- Tip & Mnemonic Box (Mẹo thi & Ghi nhớ Aptis) -->
+        <div id="q-tip-box" class="hidden px-5 sm:px-6 pt-5"></div>
+
+        <!-- Audio Player (MilaEdu Custom Styled Bar) -->
+        <div id="q-audio-box" class="hidden p-4 sm:p-5 border-b border-gray-100 bg-slate-50">
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3 w-full sm:w-auto">
+              <!-- Play / Pause Button -->
+              <button type="button" onclick="toggleAudio()" id="btn-audio-play" class="w-11 h-11 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center shadow-md shrink-0 transition" aria-label="Phát / Dừng">
+                <svg id="icon-play-audio" class="w-5 h-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              </button>
+              <div>
+                <div class="text-xs font-bold text-gray-800 flex items-center gap-1.5">
+                  <span>File âm thanh bài thi</span>
+                  <span id="listen-count-badge" class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-100 text-blue-700">Đã nghe: 0 lần</span>
+                </div>
+                <div class="text-[11px] text-gray-500 font-mono mt-0.5" id="audio-time-display">00:00 / 00:00</div>
+              </div>
+            </div>
+
+            <!-- Custom Seekbar -->
+            <div class="w-full sm:flex-1 max-w-md flex items-center gap-3">
+              <input type="range" id="audio-seekbar" value="0" min="0" max="100" oninput="seekAudio(this.value)" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600">
+            </div>
+
+            <!-- Speed selector -->
+            <div class="flex items-center gap-1.5 shrink-0">
+              <button type="button" onclick="setAudioSpeed(0.8)" id="speed-btn-08" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium">0.8x</button>
+              <button type="button" onclick="setAudioSpeed(1.0)" id="speed-btn-10" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 bg-blue-50 text-blue-700 font-bold">1.0x</button>
+              <button type="button" onclick="setAudioSpeed(1.2)" id="speed-btn-12" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium">1.2x</button>
+            </div>
+          </div>
+          <audio id="main-audio-element" class="hidden" ontimeupdate="onAudioTimeUpdate()" onended="onAudioEnded()"></audio>
         </div>
 
         <!-- Question Interactive Area -->
@@ -1275,6 +1305,89 @@
       });
     }
 
+    // ================= AUDIO PLAYER CONTROLS =================
+    let audioListenCounts = {};
+    let isSeeking = false;
+
+    function getAudioSrc(q) {
+      if (!q) return '';
+      const m = q.raw_metadata || {};
+      let src = q.audio_file || q.audio_path || q.audio_url || m.audio_file || m.audio_url;
+      if (!src) return '';
+      src = String(src).trim();
+      if (src.startsWith('http://') || src.startsWith('https://')) return src;
+      if (src.startsWith('/data/audio/')) return src;
+      if (src.startsWith('data/audio/')) return '/' + src;
+      if (src.startsWith('/audio/')) return '/data' + src;
+      if (src.startsWith('audio/')) return '/data/' + src;
+      const filename = src.split('/').pop().split('\\').pop();
+      return '/data/audio/' + filename;
+    }
+
+    function toggleAudio() {
+      const audio = document.getElementById('main-audio-element');
+      const icon = document.getElementById('icon-play-audio');
+      if (!audio) return;
+      if (audio.paused) {
+        audio.play().then(() => {
+          if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
+          const q = questions[currentIdx];
+          const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + currentIdx : 'q');
+          audioListenCounts[srcKey] = (audioListenCounts[srcKey] || 0) + 1;
+          const badge = document.getElementById('listen-count-badge');
+          if (badge) badge.innerText = `Đã nghe: ${audioListenCounts[srcKey]} lần`;
+        }).catch(err => {
+          console.warn('Audio play error:', err);
+        });
+      } else {
+        audio.pause();
+        if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
+      }
+    }
+
+    function onAudioTimeUpdate() {
+      if (isSeeking) return;
+      const audio = document.getElementById('main-audio-element');
+      if (!audio || !audio.duration) return;
+
+      const pct = (audio.currentTime / audio.duration) * 100;
+      const seekbar = document.getElementById('audio-seekbar');
+      if (seekbar) seekbar.value = pct;
+
+      const curM = String(Math.floor(audio.currentTime / 60)).padStart(2, '0');
+      const curS = String(Math.floor(audio.currentTime % 60)).padStart(2, '0');
+      const durM = String(Math.floor(audio.duration / 60)).padStart(2, '0');
+      const durS = String(Math.floor(audio.duration % 60)).padStart(2, '0');
+      const display = document.getElementById('audio-time-display');
+      if (display) display.innerText = `${curM}:${curS} / ${durM}:${durS}`;
+    }
+
+    function seekAudio(val) {
+      const audio = document.getElementById('main-audio-element');
+      if (!audio || !audio.duration) return;
+      audio.currentTime = (val / 100) * audio.duration;
+    }
+
+    function setAudioSpeed(speed) {
+      const audio = document.getElementById('main-audio-element');
+      if (audio) audio.playbackRate = speed;
+      [0.8, 1.0, 1.2].forEach(s => {
+        const id = s === 0.8 ? 'speed-btn-08' : (s === 1.0 ? 'speed-btn-10' : 'speed-btn-12');
+        const btn = document.getElementById(id);
+        if (!btn) return;
+        if (s === speed) {
+          btn.className = "px-2.5 py-1 text-xs rounded-lg border border-gray-200 bg-blue-50 text-blue-700 font-bold";
+        } else {
+          btn.className = "px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium";
+        }
+      });
+    }
+
+    function onAudioEnded() {
+      const icon = document.getElementById('icon-play-audio');
+      if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
+    }
+
     function renderQuestion(idx) {
       if (idx < 0 || idx >= questions.length) return;
       currentIdx = idx;
@@ -1287,6 +1400,42 @@
       const pct = Math.round(((idx + 1) / questions.length) * 100);
       document.getElementById('practice-progress-bar').style.width = `${pct}%`;
 
+      // Tip & Mnemonic Box (Mẹo thi & Ghi nhớ Aptis)
+      const tipBox = document.getElementById('q-tip-box');
+      const m = q.raw_metadata || {};
+      const expl = m.explanation || q.explanation || '';
+      const title = q.title || '';
+
+      let tipText = '';
+      if (expl && expl.trim().length) {
+        tipText = expl;
+      } else if (title && (title.includes(' - ') || title.includes('. ') || title.includes(':'))) {
+        tipText = `<p class="font-bold text-amber-900">${title}</p>`;
+      }
+
+      if (tipBox) {
+        if (tipText) {
+          tipBox.classList.remove('hidden');
+          tipBox.innerHTML = `
+            <div class="p-4 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 text-amber-950 shadow-sm flex items-start gap-3">
+              <span class="text-2xl shrink-0 mt-0.5">💡</span>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center justify-between gap-2 mb-1">
+                  <div class="flex items-center gap-2">
+                    <span class="font-bold text-xs uppercase tracking-wider text-amber-900">Mẹo thi & Ghi nhớ độc quyền:</span>
+                    <span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-amber-200 text-amber-900">Aptis Master Tip</span>
+                  </div>
+                </div>
+                <div class="text-sm font-semibold text-amber-900 leading-relaxed">${tipText}</div>
+              </div>
+            </div>
+          `;
+        } else {
+          tipBox.classList.add('hidden');
+          tipBox.innerHTML = '';
+        }
+      }
+
       // Stem text
       const stemContainer = document.getElementById('q-stem-container');
       const stemText = document.getElementById('q-stem-text');
@@ -1297,17 +1446,33 @@
         stemContainer.classList.add('hidden');
       }
 
-      // Audio box (if question has audio_path or audio_url)
+      // Audio setup (using robust getAudioSrc)
       const audioBox = document.getElementById('q-audio-box');
       const audioEl = document.getElementById('main-audio-element');
-      const audioSrc = q.audio_path || q.audio_url;
+      const audioSrc = getAudioSrc(q);
+
+      if (audioEl) {
+        audioEl.pause();
+        const icon = document.getElementById('icon-play-audio');
+        if (icon) icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>';
+      }
+
       if (audioSrc && currentSection.skill === 'listening' && q.type !== 'listening_speaker_match') {
         audioBox.classList.remove('hidden');
-        let finalSrc = audioSrc;
-        if (!finalSrc.startsWith('/') && !finalSrc.startsWith('http')) {
-          finalSrc = '/' + finalSrc;
-        }
-        audioEl.src = finalSrc;
+        audioEl.src = audioSrc;
+        audioEl.load();
+
+        audioEl.onloadedmetadata = () => {
+          const durM = String(Math.floor(audioEl.duration / 60)).padStart(2, '0');
+          const durS = String(Math.floor(audioEl.duration % 60)).padStart(2, '0');
+          document.getElementById('audio-time-display').innerText = `00:00 / ${durM}:${durS}`;
+        };
+
+        const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + idx : 'q');
+        const count = audioListenCounts[srcKey] || 0;
+        document.getElementById('listen-count-badge').innerText = `Đã nghe: ${count} lần`;
+        document.getElementById('audio-seekbar').value = 0;
+        document.getElementById('audio-time-display').innerText = '00:00 / 00:00';
       } else {
         audioBox.classList.add('hidden');
         if (audioEl) audioEl.pause();
@@ -1849,52 +2014,78 @@
     function renderConversationMatch(container, q, idx) {
       const m = q.raw_metadata || {};
       const statements = m.statements || [];
-      const choices = m.shared_choices || ['Man', 'Woman', 'Both'];
+      const choices = [
+        { label: 'Người nam (Man)', val: 0 },
+        { label: 'Người nữ (Woman)', val: 1 },
+        { label: 'Cả hai (Both)', val: 2 }
+      ];
       const correctAnswers = m.correct_answers || [];
       const checked = checkedState[idx];
       if (!userAnswers[idx]) userAnswers[idx] = {};
 
       const wrap = document.createElement('div');
-      wrap.className = "space-y-4";
+      wrap.className = 'space-y-4';
+
+      const guide = document.createElement('div');
+      guide.className = 'text-xs font-semibold text-gray-500 mb-2 flex items-center gap-1.5';
+      guide.innerHTML = '<span class="text-blue-600 font-bold">ⓘ</span> Nghe cuộc đối thoại và chọn người đồng ý với từng nhận định sau:';
+      wrap.appendChild(guide);
 
       statements.forEach((stmt, sIdx) => {
         const cur = userAnswers[idx][sIdx];
         const card = document.createElement('div');
-        card.className = "border-l-4 border-blue-400 bg-white rounded-r-xl p-4 shadow-sm space-y-3";
+        card.className = 'p-4 sm:p-5 rounded-2xl border border-gray-200 bg-white shadow-sm space-y-3';
 
-        let selHtml = `
-          <select onchange="onConversationChange(${idx}, ${sIdx}, this.value)" class="w-full text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn quan điểm --</option>
-            ${choices.map((c, cIdx) => `
-              <option value="${cIdx}" ${String(cur) === String(cIdx) ? 'selected' : ''}>${c}</option>
-            `).join('')}
-          </select>
+        const correctIdx = correctAnswers[sIdx];
+
+        let buttonsHtml = `
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1">
+            ${choices.map((c) => {
+              const isSelected = cur !== undefined && Number(cur) === c.val;
+              let btnCls = 'border border-gray-200 bg-gray-50/50 text-gray-700 hover:bg-gray-100';
+              let icon = '';
+
+              if (checked) {
+                if (String(c.val) === String(correctIdx)) {
+                  btnCls = 'border-2 border-emerald-500 bg-emerald-50 text-emerald-800 font-bold shadow-sm';
+                  icon = '<span class="ml-1.5 text-emerald-600 font-bold">✓</span>';
+                } else if (isSelected && String(c.val) !== String(correctIdx)) {
+                  btnCls = 'border-2 border-red-400 bg-red-50 text-red-600 line-through font-semibold';
+                  icon = '<span class="ml-1.5 text-red-500 font-bold">✗</span>';
+                }
+              } else if (isSelected) {
+                btnCls = 'border-2 border-blue-600 bg-blue-50 text-blue-700 font-bold shadow-sm';
+              }
+
+              return `
+                <button type="button" onclick="onConversationChange(${idx}, ${sIdx}, ${c.val})" ${checked ? 'disabled' : ''} class="w-full py-2.5 px-3 rounded-xl text-xs sm:text-sm font-medium transition flex items-center justify-center gap-1 ${btnCls}">
+                  <span>${c.label}</span>
+                  ${icon}
+                </button>
+              `;
+            }).join('')}
+          </div>
         `;
 
-        let fb = '';
-        if (checked) {
-          const correctIdx = correctAnswers[sIdx];
-          const isRight = String(cur) === String(correctIdx);
-          const correctText = choices[parseInt(correctIdx)] || '';
-          fb = `
-            <div class="mt-2 text-sm flex items-center gap-1.5 font-semibold ${isRight ? 'text-emerald-600' : 'text-red-600'}">
-              ${isRight ? '✓ Chính xác' : `✗ Chưa chính xác. Đáp án đúng: ${correctText}`}
-            </div>
-          `;
-        }
-
         card.innerHTML = `
-          <p class="text-sm font-medium text-gray-800 leading-snug">${sIdx + 1}. ${stmt}</p>
-          ${selHtml}
-          ${fb}
+          <div class="text-sm font-semibold text-gray-900 leading-snug">
+            ${sIdx + 1}. ${stmt}
+          </div>
+          ${buttonsHtml}
         `;
         wrap.appendChild(card);
       });
 
       container.appendChild(wrap);
 
-      if (checked && m.explanation) {
-        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      if (checked) {
+        const expl = m.explanation || q.title || '';
+        const desc = m.description || '';
+        showFeedbackExplanation(
+          (expl ? `<div class="mb-3 font-bold text-amber-900 text-sm">💡 Mẹo ghi nhớ: ${expl}</div>` : '') +
+          (desc ? `<div class="border-t border-gray-200/60 pt-2"><div class="font-bold text-gray-700 text-xs uppercase mb-1">📜 Toàn bộ đoạn hội thoại:</div><div class="text-xs text-gray-600 leading-relaxed">${desc}</div></div>` : ''),
+          checked.isCorrect
+        );
       }
     }
 

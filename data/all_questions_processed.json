@@ -287,7 +287,8 @@
             "8 o'clock",
             "9 o'clock"
           ]
-        }
+        },
+        "title": "What time is she going home?"
       },
       {
         "id": 118,
@@ -3429,7 +3430,8 @@
             "black",
             "brown"
           ]
-        }
+        },
+        "title": "What color shoes did he buy?/what color bag is does the man buy?"
       },
       {
         "id": 71,
@@ -3715,7 +3717,8 @@
             "Geography.",
             "Science."
           ]
-        }
+        },
+        "title": "Which subject will the man choose?"
       },
       {
         "id": 85,
@@ -3897,7 +3900,8 @@
             "Three bedrooms.",
             "Five bedrooms."
           ]
-        }
+        },
+        "title": "How many bedrooms does the new house have?"
       },
       {
         "id": 93,
@@ -4080,7 +4084,8 @@
             "A photo."
           ],
           "correct_option": "A photo."
-        }
+        },
+        "title": "What does the sign language course require?"
       },
       {
         "id": 108,
@@ -4523,7 +4528,8 @@
             "Tuesday.",
             "Thursday."
           ]
-        }
+        },
+        "title": "When is the shop going to open again?/ talking about a report when do they meet?"
       },
       {
         "id": 729,
@@ -5255,7 +5261,8 @@
             "questions/audio/speakers/ou7kvUD1I5Ui8hc8pIri4YRC7RLq0VjXeEYLv8na.mp3",
             "questions/audio/speakers/xExbjav9tiRLuyJZ0dmx9HQyne48YghRVL9LbQki.mp3"
           ]
-        }
+        },
+        "title": "Reading"
       },
       {
         "id": 801,
@@ -5309,7 +5316,8 @@
             "questions/audio/speakers/3qsRYD9UAVs4dNmKIky1JIsvg53ADd3V8qYNEe3g.mp3",
             "questions/audio/speakers/iMESxtf8IOAEz8MwGhTVrxqAxtuSnrlFttppBjSV.mp3"
           ]
-        }
+        },
+        "title": "Doing Arts"
       },
       {
         "id": 802,
@@ -5363,7 +5371,8 @@
             "questions/audio/speakers/0TN7L1pW4FlzHwxzOJ1oVFNVubeVdaZz16z76C7F.mp3",
             "questions/audio/speakers/5HIFuRCwvozYFY9NZBnpbQ555qOo8Co9DsgmG20K.mp3"
           ]
-        }
+        },
+        "title": "A museum in town"
       },
       {
         "id": 803,
@@ -5417,7 +5426,8 @@
             "questions/audio/speakers/K5aqM3wwcaGxXAMGW5d1YYJDE2171whTQT9kl2EH.mp3",
             "questions/audio/speakers/3COO7x43E88KaGqfCWmBFx7tmWDHCo7RnotWODsA.mp3"
           ]
-        }
+        },
+        "title": "Listening to music"
       },
       {
         "id": 804,
@@ -5471,7 +5481,8 @@
             "questions/audio/speakers/z8Fr9gzaSPwQbQjNFh901b3vhH64ESbRRaOypr7M.mp3",
             "questions/audio/speakers/EnwYv77ZtivBBFrXG3xBP9GZjxueQ2k5q8QNIi7L.mp3"
           ]
-        }
+        },
+        "title": "Protect the environment (1)"
       },
       {
         "id": 805,
@@ -5525,7 +5536,8 @@
             "questions/audio/speakers/BkaOhCg2K76GTeSspbKxiqnu2CuQHJu51BhKYFMC.mp3",
             "questions/audio/speakers/S2iv0fdeUd8F6NcY3a8BCrnZMu2YU4OtmjXNyqFF.mp3"
           ]
-        }
+        },
+        "title": "Protect the environment (2)"
       },
       {
         "id": 806,
@@ -5579,7 +5591,8 @@
             "questions/audio/speakers/x4LNcSt94LpxRt8frZLns0H8xZU13CVb7J6hv13G.mp3",
             "questions/audio/speakers/5fWdjHhjpDS8e055fbWbl1Bh2OIU98dVodbitzN3.mp3"
           ]
-        }
+        },
+        "title": "Running"
       },
       {
         "id": 807,
@@ -5633,7 +5646,8 @@
             "questions/audio/speakers/jxFgl7IJuVuT65I8nPvzMZ1lwhecZvpSpZ6WpobM.mp3",
             "questions/audio/speakers/bJCFL7WHgZDpCiJQhFUdpRkb5fJDkYANRzq7u8kV.mp3"
           ]
-        }
+        },
+        "title": "Study (1)"
       },
       {
         "id": 808,
@@ -5687,7 +5701,8 @@
             "questions/audio/speakers/it9NRK3tu0VWmrAQyzCnVHxKuWGRYgBaklqHfZ2q.mp3",
             "questions/audio/speakers/gTpqS2W9zOqicYnYXU7TmEjC6UqvXO359zbjQJCy.mp3"
           ]
-        }
+        },
+        "title": "study (2)"
       },
       {
         "id": 809,
@@ -5741,7 +5756,8 @@
             "questions/audio/speakers/Mibn867kq4wAPvjPGefMNFniumXVli5CQvzDkHM7.mp3",
             "questions/audio/speakers/wMAcK5HGMcYc4dqCMg1NaJTIxQTeFJ61ecGCriVU.mp3"
           ]
-        }
+        },
+        "title": "Outdoor activities"
       },
       {
         "id": 810,
@@ -5795,7 +5811,8 @@
             "questions/audio/speakers/9Y9VNQZq93CUlHTuKU6dH6Bqioi1ub8l5j9JdTrt.mp3",
             "questions/audio/speakers/ZsEnWp1phHjxGyw7nr6yr2QF79KklQOPvPM4vH3s.mp3"
           ]
-        }
+        },
+        "title": "Use of the Internet"
       },
       {
         "id": 811,
@@ -5849,7 +5866,8 @@
             "questions/audio/speakers/b5c58im3B5L6kDdBwWO3Rwh6fFjiUQ0ImE9Z5omt.mp3",
             "questions/audio/speakers/a3tuHLFM6by9mtKhM6ZU96Bw4Aim6Gzu7tOpk4mi.mp3"
           ]
-        }
+        },
+        "title": "Journey to work"
       },
       {
         "id": 812,
@@ -5903,7 +5921,8 @@
             "questions/audio/speakers/NoHb0RCjM3dLjBuNqbr6czUPfRvWtr1Lhm1esWyB.mp3",
             "questions/audio/speakers/yvFaDrWD43j1fLc2SytKcXYu3V60igNGUjGZgMYJ.mp3"
           ]
-        }
+        },
+        "title": "Doing Exercise (1)"
       },
       {
         "id": 770,
@@ -5957,7 +5976,8 @@
             "questions/audio/speakers/5iGIIYi0TNW0zu4VkEZJKToQRfGGOyHEFFhV4JTB.mp3",
             "questions/audio/speakers/P5BGuunhmUvRUqdbXEzCfKigM08yAW9123MLY9QV.mp3"
           ]
-        }
+        },
+        "title": "Exercise (2)"
       },
       {
         "id": 813,
@@ -6011,7 +6031,8 @@
             "questions/audio/speakers/Sa8vkOjczeSJAR9WccZzfpf9QCyKj4VUTJD4euV0.mp3",
             "questions/audio/speakers/98XC87iDZdcYJQxu05oQnIZ5D01VE12Aq0AGuflb.mp3"
           ]
-        }
+        },
+        "title": "Shopping online"
       },
       {
         "id": 712,
@@ -6065,7 +6086,8 @@
             "questions/audio/speakers/kujj8bF5YrBueRRTB2hnd8bpQpLfjGYAZsVZfKCY.mp3",
             "questions/audio/speakers/GH6B3pqrgacHqdYy7WpjYTHeScIFI7gtg6kmBu92.mp3"
           ]
-        }
+        },
+        "title": "A new restaurant"
       }
     ],
     "listening_3": [
@@ -6101,7 +6123,8 @@
             "2"
           ],
           "explanation": "<p>Bàn Wề Mưa Bão - BWMB</p><p><strong>Man:</strong> You know, I believe building design can shape people’s behaviors and interactions from the start. When spaces are designed well, people feel comfortable and naturally start connecting.<br><br><strong>Woman:</strong> Of course, design matters, but there’s no shortcut to building real community connections. Creating community takes time and consistency, even in spaces that encourage interaction.<br><br><strong>Man:</strong> Really? But I also feel that work communities and social communities aren’t as different as we might think. Both require spaces that help people feel connected and valued, whether it’s at work or in social settings.<br><br><strong>Woman:</strong> I’m not sure I agree with that. Work communities and social communities serve very different purposes. In a social community, people gather out of personal interest and shared hobbies, but in work communities, people connect because of their job roles. That can affect how close they feel and how they interact with one another.<br><br><strong>Man:</strong> I see your point, but even in work communities, people still find ways to connect on a personal level. A good work environment encourages friendships that might go beyond work topics.<br><br><strong>Woman:</strong> That’s a good point. And with technology, people can now connect for both work and social reasons, even if they’re not physically together. But I still think it’s important to build spaces where people can gather in person.<br><br><strong>Man:</strong> Yes, I agree, but I think technology has really changed how communities form. It makes connecting so much easier, and people don’t always need to meet face-to-face to feel a sense of community.<br><br><strong>Woman:</strong> I see that, but I don’t think online connections can fully replace in-person gatherings. There’s a different energy when people come together in real spaces—something technology just can’t replicate.<br><br><strong>Man:</strong> I understand, but I feel that virtual spaces can be just as meaningful. Technology adds a new layer, making it possible for communities to thrive even across distances, and that’s valuable in its own way.</p>"
-        }
+        },
+        "title": "Community design - Bàn Wề Mưa Bão (BWMB - nam), nữ nói trước đổi thành BMWB"
       },
       {
         "id": 766,
@@ -6135,7 +6158,8 @@
             "0"
           ],
           "explanation": "<p>Wừa Mới Bôi Môi</p>"
-        }
+        },
+        "title": "The subject of beauty. Wừa Mới Bôi Môi"
       },
       {
         "id": 225,
@@ -6169,7 +6193,8 @@
             "2"
           ],
           "explanation": "<p>Mới Vừa Bị Bắt MWBB</p><p>&nbsp;</p><p>Man: You know, I’ve always believed that auditions are the most important part of an actor’s career. I mean, that’s where the magic happens. It doesn’t matter how great you are in rehearsals or even in the final performance; if you can’t nail that audition, you’re not getting anywhere.&nbsp;</p><p>Woman: Yeah, but it’s not just about the audition. I’ve seen actors who can absolutely shine when they’re given the right material to work with. Strong scripts really bring out the best in them. If the writing’s weak, even a talented actor might struggle to connect. I think actors respond best when they feel inspired by what’s on the page.&nbsp;</p><p>Man: That’s true, but whether it’s a strong script or a weak one, they still have to nail that first audition to even get the chance to perform, right?&nbsp;</p><p>Woman: Sure, the audition is key, but once they’re in, the script can make or break their performance. It’s kind of a balance between both.&nbsp;</p><p>Man: I agree with that. But I also think there’s a huge difference between theater acting and screen acting. The two require completely different skill sets. In theater, you’ve got to project and be larger than life, whereas on screen, it’s all about subtlety, keeping everything smaller and more contained. Woman: Absolutely! They’re such different worlds. The way you use your body, your voice, even how you interact with your fellow actors—it’s all completely different depending on whether you’re on stage or in front of a camera.&nbsp;</p><p>Man: Right, and that’s why actors deserve as much praise as possible. They’re constantly shifting between styles and adapting to new roles. It’s tough! Woman: Couldn’t agree more. I mean, whether it’s theater or film, acting is such an emotional and demanding job. Encouragement and praise go a long way. They need to feel appreciated for all the work they put in.</p>"
-        }
+        },
+        "title": "Audition - Actor - Diễn viên Mới Wừa Bị Bắt"
       },
       {
         "id": 799,
@@ -6202,7 +6227,8 @@
             "0",
             "0"
           ]
-        }
+        },
+        "title": "Culture differences at work ( Làm việc phải \" Bàn Việc Miệt Mài))"
       },
       {
         "id": 227,
@@ -6236,7 +6262,8 @@
             "2"
           ],
           "explanation": "<p>Wen Bạn Miền Bắc WBMB</p><p>&nbsp;</p><p>Man: Hi, Emma. You know, I've been thinking a lot about how much the internet has improved lately. It's really starting to shape the way our lives develop.&nbsp;</p><p>Woman: Really? In what way? Man: Well, take a look at this article I found. It talks about how the internet influences everything - from how we learn to how we make decisions.&nbsp;</p><p>Woman: Ah, so you're saying the internet gives us access to a lot of information? That's true in my opinion.&nbsp;</p><p>Man: Hmm... not exactly. Not exactly. I think the information is helpful, but you actually need strong searching skills to find what's useful. And the problem is, too many people fall for fake news.&nbsp;</p><p>Woman: That's a fair point. Just last week, I saw this post about a new product that promises fast weight loss. It had thousands of likes and comments, but when I looked into it, it turned out to be a complete scam.&nbsp;</p><p>Man: That's a perfect example. I really believe there should be stricter control. Authorities need to take legal action and provide clearer guidelines. The internet has a huge impact on the way people think and behave.&nbsp;</p><p>Woman: I'm not sure I agree with that part. I think we just need to be more careful when using the internet. People should take responsibility to double-check things before buying or sharing. If we bring in too many laws, we might limit people's freedom to express their opinions.&nbsp;</p><p>Man: I get your point, but still, we can't ignore the damage some of this content causes. There's so much being created every second - especially short-form content. It's fast and addictive. And honestly, I think it's making young people more impatient.&nbsp;</p><p>Woman: I completely agree. My younger cousin can't even sit through a one-minute video without skipping ahead. It's like no one wants to wait anymore.&nbsp;</p><p>Man: Exactly. That's why I think some sort of regulation is necessary - not to control people's voices, but to help improve the quality of what we see online. That might help, as long as we don't go too far with these restrictions.</p>"
-        }
+        },
+        "title": "The Internet - Lên mạng để Wen Bạn Miền Bắc"
       },
       {
         "id": 767,
@@ -6270,7 +6297,8 @@
             "0"
           ],
           "explanation": "<p>WMBM : Wào Mỗi Bình Minh</p>"
-        }
+        },
+        "title": "Art - Sáng tác nghệ thuật Wào Mỗi Bình Minh"
       },
       {
         "id": 769,
@@ -6304,7 +6332,8 @@
             "2"
           ],
           "explanation": "<p>Wiết Bài Mưa Bay</p>"
-        }
+        },
+        "title": "Singers and Music - nhạc sĩ Wiết Bài Mưa Bay"
       },
       {
         "id": 300,
@@ -6338,7 +6367,8 @@
             "1"
           ],
           "explanation": "<p>Biết Wề Mọi Wiệc BWMW&nbsp;</p><p>&nbsp;</p><p>M: What course are you taking these days?</p><p>W: I'm currently pursuing an online university degree. It's really suitable and convenient because I can study while working. Technology has truly made education much more accessible.&nbsp;</p><p>M: That's amazing. I still remember the old days when you had to stand in long lines to borrow a book from the library, which took a lot of time. And by the time it was your turn, the book was often already gone. Now, when we want to read a book, we just type the title online and have it immediately.&nbsp;</p><p>W: Exactly, study materials were really scarce back then, unlike now. M: That’s why I’m thinking, why not make all school classes online? It would save a lot of costs.&nbsp;</p><p>W: I think attending school in person is still very necessary because meeting friends and socializing helps us gain more soft skills.&nbsp;</p><p>M: Don’t forget that young people do have a reputation for being less social. They often prefer talking on social media rather than meeting in person.&nbsp;</p><p>W: Additionally, I think the variety of courses available nowadays is also a good way to improve education.&nbsp;</p><p>M: I don't think so. Offering too many diverse courses can make traditional and core subjects seem less important and neglected.&nbsp;</p><p>W: We should also consider competition among universities. It’s essential for universities to continuously improve their programs and attract more funding, especially with the current trend of universities seeking financial autonomy.&nbsp;</p><p>M: I don’t think we should turn education into a race like competing businesses. If universities need funding, they can report it to the government and educational organizations.</p>"
-        }
+        },
+        "title": "University and technology - Học ĐH để Biết Wề Mọi Wiệc"
       },
       {
         "id": 302,
@@ -6372,7 +6402,8 @@
             "2"
           ],
           "explanation": "<p>Bọn Mình Wừa Bầu (cử)</p><p>&nbsp;</p><p>M: Have you heard about the upcoming presidential election? A lot of young people have already voted, which shows that they're becoming more interested in politics.&nbsp;</p><p>W: Yes, it's very different from our time. When I was 18, I never paid attention to politics.&nbsp;</p><p>M: The technology era now gives us so many ways to engage with politics. Politicians often post their political activities on social media much more than they did in the past.&nbsp;</p><p>W: Actually, politicians still carry out traditional political activities too. They still hand out flyers and participate in volunteer work.&nbsp;</p><p>M: The development of information technology also overwhelms us with information. There’s so much news online that we don't know what to read. This makes keeping up with political news much more challenging than before.&nbsp;</p><p>W: I think that as technology advances, it becomes easier for us to stay updated on the news. Technology allows us to use advanced filters to easily sort out the news we need to know.&nbsp;</p><p>M: There are also more women involved in politics now than before. It seems society has become more open to women.&nbsp;</p><p>W: Exactly. Women have the same education and learning abilities as men. They even lead in many areas of life. In the future, more and more women will be participating in political activities.</p>"
-        }
+        },
+        "title": "Politics - Làm chính trị Bọn Mình Wừa Bầu (cử)"
       },
       {
         "id": 706,
@@ -6406,7 +6437,8 @@
             "2"
           ],
           "explanation": "<p>WMMB : Wừa Mới Mua Bò</p>"
-        }
+        },
+        "title": "Urban farming - Wừa Mới Mua Bò (để làm nông nghiệp)"
       },
       {
         "id": 223,
@@ -6440,7 +6472,8 @@
             "0"
           ],
           "explanation": "<p>Mệt Với Bố Mẹ : MWBM&nbsp;</p><p>&nbsp;</p><p>Man: It seems like every workplace is going through so many changes lately. But honestly, I think Continuity is still very important. When things remain steady, it gives people a sense of security. If everything changes too fast, it’s hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused.&nbsp;</p><p>&nbsp;</p><p>Woman: I get where you're coming from, but I feel like these days, nothing is certain. Job security isn't something we can rely on anymore. There’s always the risk of layoffs, especially with the economy being unpredictable. People are moving from job to job more than ever before, and you can’t always count on staying in one place for long.&nbsp;</p><p>&nbsp;</p><p>Man: That’s definitely a concern. But regardless of job security or stability, one thing we both can agree on is that job satisfaction is a huge motivator. When people love what they do, they’re more likely to stay, even when times get tough. It’s the main reason many of us keep pushing through the challenges.&nbsp;</p><p>&nbsp;</p><p>Woman: Absolutely! I think when people are satisfied with their work, they’re willing to go the extra mile. It’s not just about the paycheck; it’s about feeling fulfilled. That’s what really makes the difference in the workplace.&nbsp;</p><p>&nbsp;</p><p>Man: You’re right. And another thing that’s making a difference is technology. It’s been a game-changer for the economy, making things faster and more efficient. The growth we’ve seen in so many industries is because of how we’ve embraced new technologies. It’s definitely helping businesses thrive.</p>"
-        }
+        },
+        "title": "Changes in the workplace : thay đổi nơi làm việc Mệt Wới Bố Mẹ"
       },
       {
         "id": 768,
@@ -6474,7 +6507,8 @@
             "0"
           ],
           "explanation": "<p>Văn hóa - <strong>Wiệt Bắc Muôn Màu</strong></p>"
-        }
+        },
+        "title": "Local cultural center - Văn hóa - Wiệt Bắc Muôn Màu"
       },
       {
         "id": 709,
@@ -6508,7 +6542,8 @@
             "0"
           ],
           "explanation": "<p>MBWM : ở trường học <strong>Mạnh Buộc Wua Môn</strong></p>"
-        }
+        },
+        "title": "Homeschooling ở trường học Mạnh Buộc Wua Môn"
       },
       {
         "id": 710,
@@ -6542,7 +6577,8 @@
             "1"
           ],
           "explanation": "<p>BBMW : Bé Bin Muốn Wuà (về công nghệ)</p><p><strong>Man:</strong> I've been thinking about how children and young people use technology nowadays. They seem very interested in learning through computers, tablets, and educational apps.<br><br><strong>Woman:</strong> I agree. Technology-based lessons can make learning more enjoyable, and many children are excited to use digital tools in class.<br><br><strong>Man:</strong> However, I think technology can also affect their communication skills. Some children spend so much time online that they find it difficult to communicate with people face to face.<br><br><strong>Woman:</strong> Yes, I've noticed that too. They may feel confident when sending messages, but they sometimes struggle to have conversations without using a device.<br><br><strong>Man:</strong> Another problem is that many families don't know how to manage their children's use of technology. I think parents need more support and guidance to set appropriate rules at home.<br><br><strong>Woman:</strong> That may be true, but I also believe children can learn to control their own online behaviour. With proper education, they can understand when to stop using technology and how to interact responsibly online.</p>"
-        }
+        },
+        "title": "Children and young People with Technology - Bé Bin Muốn Wuà (về công nghệ)"
       },
       {
         "id": 711,
@@ -6576,7 +6612,8 @@
             "0"
           ],
           "explanation": "<p><strong>BMWM&nbsp;</strong></p><p>Đi làm tình nguyện bằng xe <strong>BMW Mới&nbsp;</strong></p><p><strong>Man:</strong> I watched a news report about the clean-up program yesterday. To be honest, I think the media made it sound much more successful than it really was.<br><br><strong>Woman:</strong> I agree. They only showed the best parts and ignored many problems. The benefits of the program were clearly exaggerated.<br><br><strong>Man:</strong> Exactly. And even with programs like this, I still think littering will always be a problem. Some people just do not care enough about public places.<br><br><strong>Woman:</strong> Maybe, but I don't think we should give up. Volunteers can still make a difference.<br><br><strong>Man:</strong> That's true, but the problem will never completely disappear.<br><br><strong>Woman:</strong> For me, the reason why volunteers join is not very important. Whether they do it because they care about the environment or because they want experience, the result can still be the same if they work hard.<br><br><strong>Man:</strong> I see your point. But I think we need stricter rules too. In my opinion, punishment is the most effective way to stop people from littering.<br><br><strong>Woman:</strong> I'm not sure it is the best way. Education is also important.<br><br><strong>Man:</strong> Education helps, but without fines or punishment, many people will not change their behavior.</p>"
-        }
+        },
+        "title": "New Environment Volunteer Programme - : Đi làm tình nguyện bằng xe BMW Mới ( BMWM)"
       },
       {
         "id": 226,
@@ -6610,7 +6647,8 @@
             "2"
           ],
           "explanation": "<p>Mà Vẫn Vô Bổ MWWB</p><p>&nbsp;</p><p>Man: I’ve been thinking about how future generations might really struggle with all the information technology throws at them. With the sheer volume of data available, it’s easy to see how they could feel overwhelmed and unsure of what to trust.&nbsp;</p><p>Woman: I get that, but I actually think this technological revolution is beneficial for our economy. It’s opened up new job opportunities and streamlined many industries, driving growth in ways we haven’t seen before.&nbsp;</p><p>Man: I understand your point, but we also need to consider the potential downsides. As automation increases, many traditional jobs could disappear, and not everyone will be able to transition to new roles. We have to ensure that the workforce is prepared for these changes.&nbsp;</p><p>Woman: Still, we should recognize that no matter how advanced they get, computers can’t replicate the complexity of the human brain. Our ability to think critically and empathize is irreplaceable, and we need to nurture those qualities even as we embrace new technologies.&nbsp;</p><p>Man: I see. However, while we’re advancing, I believe we both see the need for stronger protections around individual privacy. As we rely more on the internet, safeguarding personal information becomes increasingly important.&nbsp;</p><p>Woman: Exactly! Protecting privacy is essential in this digital age. We have to ensure that people maintain control over their data, balancing innovation with the right to privacy.</p>"
-        }
+        },
+        "title": "Information and technology - học ngành CN TT Mà Wẫn Wô Bổ"
       }
     ],
     "listening_4": [
@@ -6652,7 +6690,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><p>1/ Chúng có tác động<strong> tiêu cực</strong></p><p>2/ Mang lại cho họ sự <strong>cân bằng</strong> trong cuộc sống</p><p><strong>Mẹo: </strong>Thể thao có cả tác động tiêu cực và cung cấp cân bằng</p><p>&nbsp;</p><p><strong>Chủ đề: Thi đấu thể thao</strong></p><p>Nhiều người đặt câu hỏi liệu thể thao có mang lại lợi ích hay gây ảnh hưởng tiêu cực đến sự phát triển của trẻ em. Đây không phải là một câu hỏi dễ trả lời.</p><p>Thể thao thường được hiểu là một hoạt động mang tính cạnh tranh, vì vậy việc chúng tốt hay xấu đối với trẻ em vẫn còn gây tranh luận. Tuy nhiên, khi yếu tố cạnh tranh được loại bỏ, thể thao đóng vai trò rất quan trọng trong sự phát triển của trẻ. Thể thao tạo cơ hội cho trẻ giao lưu và học những kỹ năng sống thiết yếu mà thường không được dạy trong lớp học, chẳng hạn như làm việc nhóm, giao tiếp và khả năng vượt qua khó khăn.</p><p>Mặt khác,<strong> các môn thể thao mang tính cạnh tranh có thể gây ra những tác động tiêu cực.</strong> Ở đây, tôi muốn nói đến việc liên tục so sánh trẻ này với trẻ khác để xác định ai giỏi hơn hoặc kém hơn, điều này có thể gây hại cho trẻ. Nhiều học sinh phát triển tốt trong những môi trường tích cực, không đặt nặng cạnh tranh, nơi sự hợp tác được khuyến khích thay vì cạnh tranh.</p><p>Điều vô cùng quan trọng là phải nhận ra rằng<strong> thể thao rất cần thiết cho sự phát triển của trẻ, bởi nó tạo ra sự cân bằng với việc tập trung quá nhiều vào học tập trong lớp học. </strong>Nhà trường nên xem thể thao không phải là một phương tiện để thúc đẩy cạnh tranh, mà là cách để khuyến khích sự hợp tác, nâng cao sức khỏe thể chất và phát triển trẻ một cách toàn diện.</p>"
-        }
+        },
+        "title": "Phần này chỉ cần nhớ 2 đáp án đúng. Click vào mô tả để xem 2 đáp án đúng"
       },
       {
         "id": 237,
@@ -6692,7 +6731,8 @@
             "2"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><p><strong>Đáp án:</strong></p><p>1. Nó <strong>khá khác so với những tác phẩm trước đây của anh ấy</strong>.</p><ul><li>2. Anh ấy <strong>nên lắng nghe các nhà phê bình </strong>trước khi viết tác phẩm tiếp theo.</li></ul><p>&nbsp;</p><p><strong>Mẹo:</strong>Cuốn tiểu thuyết mới <strong>khác biệt</strong>, cần<strong> lắng nghe&nbsp;</strong></p><p>&nbsp;</p><p><strong>Chủ đề: Cuốn tiểu thuyết mới được phát hành</strong><br>&nbsp;</p><p>Chào buổi tối mọi người! Hôm nay, chúng ta rất hào hứng được nói về cuốn tiểu thuyết mới nhất của nhà văn nổi tiếng James Parker. Ông được biết đến với những câu chuyện nhẹ nhàng, lãng mạn như <i>Whispers of the Heart</i>, những tác phẩm đã chạm đến trái tim của nhiều độc giả.</p><p>Tuy nhiên, <strong>cuốn tiểu thuyết mới của ông, </strong><i><strong>Shadow in the Night</strong></i><strong>,</strong> <strong>khá khác biệt so với những tác phẩm trước đây</strong>. Trong <i>Shadow in the Night</i>, Parker khám phá một thế giới đầy kịch tính, hồi hộp và bí ẩn. Ông rời xa những câu chuyện tình yêu nhẹ nhàng để mang đến một cốt truyện hấp dẫn với nhiều tình tiết bất ngờ. Mức độ căng thẳng trong cuốn sách này cao hơn nhiều, cho thấy ông có thể viết theo nhiều phong cách khác nhau.</p><p>Mặc dù nhiều độc giả hào hứng với hướng đi mới này, tôi cho rằng Parker <strong>nên chú ý đến những lời khuyên của các nhà phê bình khi viết cuốn sách tiếp theo</strong>. Những phản hồi của họ có thể giúp ông cải thiện khả năng viết và tìm được sự cân bằng phù hợp giữa yếu tố lãng mạn và hồi hộp mà người hâm mộ yêu thích.</p><p>Hãy tiếp tục theo dõi để cập nhật thêm thông tin về nhà văn tài năng này!</p>"
-        }
+        },
+        "title": "A newly released novel"
       },
       {
         "id": 309,
@@ -6731,7 +6771,8 @@
             "0",
             "2"
           ]
-        }
+        },
+        "title": "Two big writers of history, which are Shakespares William and Louis Michael."
       },
       {
         "id": 239,
@@ -6771,7 +6812,8 @@
             "2"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><p><strong>Đáp án</strong></p><ul><li>1. Anh ấy sẽ <strong>nghỉ hưu</strong> và không còn ca hát chuyên nghiệp nữa.</li><li>2. Anh ấy <strong>có thể đã thành công hơn</strong></li><li><br>&nbsp;</li></ul><p><strong>Mẹo: </strong>Nhạc sĩ sẽ <strong>nghỉ hưu </strong>sau khi <strong>thành công</strong></p><p>&nbsp;</p><p><strong>Chủ đề: Sự nghiệp của một nhạc sĩ và những album mới nhất</strong></p><p>&nbsp;</p><p>Chào buổi chiều mọi người! Hôm nay, chúng ta sẽ tìm hiểu về cuộc đời của một nhạc sĩ được nhiều người yêu mến, <strong>người đã quyết định</strong> <strong>nghỉ hát chuyên nghiệp</strong>.</p><p>Không giống như trước đây, khi anh ấy thường thông báo với người hâm mộ rồi sau đó quay trở lại ca hát, lần này anh ấy thực sự nghiêm túc về việc rời khỏi nghề mãi mãi.</p><p>Tài năng của anh ấy luôn được thể hiện rõ, và <strong>nhiều người tin rằng</strong> <strong>anh ấy có thể đã đạt được thành công lớn hơn</strong> với những album gần đây. Tuy nhiên, khoảng thời gian dài anh ấy tạm dừng giữa các dự án khiến anh ấy khó lấy lại được phong độ trước đây.</p><p>Người hâm mộ rất vui khi thấy anh ấy trở lại, nhưng khoảng thời gian gián đoạn đó khiến một số người tự hỏi liệu anh ấy có còn tạo ra được sức hút đặc biệt như trước đây hay không.</p><p>Khi anh ấy chuẩn bị bước sang một chương mới trong cuộc đời, chúng ta chỉ có thể nhìn lại những âm nhạc tuyệt vời mà anh ấy đã mang đến trong nhiều năm qua. Anh ấy để lại một di sản âm nhạc phong phú, truyền cảm hứng cho các thế hệ nghệ sĩ tương lai.</p>"
-        }
+        },
+        "title": "A musician’s career and latest albums."
       },
       {
         "id": 313,
@@ -6810,7 +6852,8 @@
             "2",
             "1"
           ]
-        }
+        },
+        "title": "Topic: Criticism of the new novel"
       },
       {
         "id": 314,
@@ -6850,7 +6893,8 @@
             "2"
           ],
           "explanation": "<p>Đề này chưa có transcript và audio, các bạn chỉ cần chọn ra đáp án đúng là được</p>"
-        }
+        },
+        "title": "A break from studying/gap year"
       },
       {
         "id": 240,
@@ -6890,7 +6934,8 @@
             "2"
           ],
           "explanation": "<p><strong>Đáp án:</strong></p><p>1. Blocking out noise and light is a key<br>2. The media overemphasize the subject<br><br><strong>Mẹo:</strong> Giấc ngủ cần tránh ồn và xa rời xa truyền thông</p><p><br>&nbsp;</p><p><strong>Dịch:</strong></p><ul><li>1. Việc ngăn <strong>tiếng ồn</strong> và ánh sáng là điều quan trọng.</li><li>2. <strong>Truyền thông</strong> phóng đại quá mức vấn đề này.</li></ul>"
-        }
+        },
+        "title": "The important of sleep"
       },
       {
         "id": 242,
@@ -6930,7 +6975,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><ul><li>1. Nó rất <strong>hấp dẫn</strong> khi đọc.</li><li>2. Nó được viết dành cho <strong>độc giả nói chung</strong></li><li><p><strong>Mẹo:</strong></p><p>Quyển sách về nhà khoa học hay và có nhiều khán giả</p></li><li><br>&nbsp;</li></ul><p><strong>Chủ đề: Cuốn sách về cuộc đời của một nhà khoa học</strong></p><p><br>&nbsp;</p><p>Người đánh giá: Hôm nay, tôi muốn chia sẻ suy nghĩ của mình về một cuốn sách thú vị viết về cuộc đời của nhà khoa học nổi tiếng, Tiến sĩ Emily Carter.</p><p>Một trong những điểm nổi bật của cuốn sách là <strong>cách viết rất hấp dẫn đối với người đọc</strong>. Tác giả có khả năng biến những khái niệm khoa học phức tạp trở nên dễ hiểu và sinh động, khiến việc đọc sách trở nên thú vị.</p><p>Mặc dù một số người có thể mong đợi cuốn sách tập trung nhiều vào các chi tiết kỹ thuật, nhưng cuốn sách này khéo léo cân bằng giữa khoa học và cách kể chuyện, giúp nội dung vẫn dễ tiếp cận.</p><p>Cuốn sách chắc chắn không giống một cuốn giáo trình hơn là một cuốn tiểu sử; thay vào đó, nó đưa người đọc bước vào thế giới của nhà khoa học theo một cách gần gũi, dễ hiểu.</p><p>Nhìn chung, tôi cho rằng <strong>cuốn sách được viết dành cho độc giả nói chung</strong>. Mục đích của tác giả dường như là khơi dậy sự tò mò về khoa học và khuyến khích độc giả thuộc mọi hoàn cảnh trân trọng những đóng góp của Tiến sĩ Carter.</p><p>Không giống những tác phẩm khác chỉ phù hợp với các chuyên gia trong lĩnh vực này, cuốn sách thực sự chào đón tất cả mọi người cùng khám phá cuộc đời của một nhà khoa học phi thường.</p>"
-        }
+        },
+        "title": "A book about the life of a scientist"
       },
       {
         "id": 243,
@@ -6970,7 +7016,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch</strong></p><p><strong>Đáp án&nbsp;</strong></p><p><strong>1.&nbsp;</strong>Nó không tốt như cô ấy đã <strong>kỳ vọng</strong></p><ul><li>2.&nbsp; Điều đó phụ thuộc vào<strong> hoàn cảnh </strong>và tính cách của bạn.</li><li>&nbsp;</li></ul><p><strong>Mẹo:</strong> Làm việc ở nhà không tốt như mong đợi vì tùy trường hợp<br><br>&nbsp;</p><p><strong>Chủ đề: Làm việc tại nhà</strong></p><p>&nbsp;</p><p>Làm việc tại nhà có cả ưu điểm và nhược điểm, và tôi có những cảm nhận trái chiều về điều đó. Một mặt, tôi thấy mình làm việc hiệu quả khi không bị đồng nghiệp trò chuyện làm mất tập trung. Tuy nhiên, sau đó, tôi lại bị phân tâm bởi những thứ khác trong nhà, chẳng hạn như quần áo bẩn hoặc bát đĩa chưa rửa.</p><p>Tôi có thể tập trung vào công việc và hoàn thành chúng nhanh hơn nhiều. Thật thoải mái khi tôi có thể tự sắp xếp lịch làm việc và nghỉ giải lao bất cứ khi nào mình muốn. <strong>Tuy nhiên, làm việc tại nhà không tốt như tôi đã kỳ vọng.</strong> Tôi đôi khi cảm thấy cô đơn vì thiếu sự tương tác xã hội ở văn phòng. Các cuộc gọi video rất hữu ích, nhưng không thể thay thế những cuộc trò chuyện trực tiếp.</p><p>Bạn không cần một phòng làm việc tại nhà thật lớn để làm việc hiệu quả; một góc nhỏ trong phòng cũng hoàn toàn có thể phù hợp. Tuy vậy, điều quan trọng là phải duy trì động lực làm việc, và đôi khi điều này khá khó khăn.</p><p>Sau cùng, <strong>việc bạn làm việc tại nhà hiệu quả đến đâu thực sự phụ thuộc vào hoàn cảnh và tính cách của bạn.</strong> Một số người phát huy tốt trong môi trường này, trong khi những người khác lại gặp khó khăn.</p><p>Nhìn chung, tôi đang học cách cân bằng công việc và cuộc sống cá nhân tốt hơn khi thích nghi với cách làm việc mới này.</p>"
-        }
+        },
+        "title": "Working from home"
       },
       {
         "id": 244,
@@ -7010,7 +7057,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch:&nbsp;</strong></p><ul><li>1. Họ có khả năng sẽ <strong>linh hoạt và cởi mở hơn</strong>.</li><li>2. Họ đang trở nên <strong>cạnh tranh hơn</strong>.</li></ul><p>&nbsp;</p><ul><li><strong>Mẹo: </strong>Học đại học xong mở mang nhưng cũng cạnh tranh.</li></ul><p>&nbsp;</p><ul><li><strong>Chủ đề: Cuộc sống sau khi tốt nghiệp đại học</strong></li></ul><p>&nbsp;</p><p>Cuộc sống sau khi tốt nghiệp đại học giống như một cuộc phiêu lưu, và tôi đã học được rất nhiều điều kể từ khi tốt nghiệp vào năm ngoái.</p><p>Thay đổi lớn nhất mà tôi nhận thấy là lịch sinh hoạt hằng ngày của tôi bây giờ khác rất nhiều. Không giống như thời đại học, tôi không còn có thời gian biểu cố định cho các buổi học và thời gian học tập nữa. <strong>Điều này thực sự khiến tôi</strong> <strong>dễ thích nghi hơn và cởi mở hơn</strong>, đồng thời sẵn sàng thử những điều mới.</p><p>Tôi nhận thấy mình thường nói “có” với những cơ hội mà trước đây có thể tôi đã bỏ qua, chẳng hạn như tham gia một câu lạc bộ mới hoặc học một kỹ năng mới phục vụ công việc.</p><p>Nói về công việc, thị trường lao động thực sự khiến tôi mở mang tầm mắt. Tôi luôn nghe nói rằng tìm việc sẽ rất khó, nhưng <strong>tôi không nhận ra rằng sự cạnh tranh lại gay gắt đến vậy</strong>. Có vẻ như mỗi vị trí đều có hàng chục, thậm chí hàng trăm ứng viên. Điều này có nghĩa là bạn thực sự phải tạo được sự khác biệt để được chú ý.</p><p>Mặt tích cực là môi trường cạnh tranh &nbsp;này đã thúc đẩy tôi cải thiện kỹ năng và mở rộng mạng lưới quan hệ. Trong năm qua, tôi đã tham gia nhiều sự kiện kết nối hơn cả thời còn học đại học.</p><p>Mặc dù quá trình tìm việc đôi khi có thể gây căng thẳng, tôi nhận thấy rằng duy trì thái độ tích cực và cởi mở với những khả năng khác nhau đã giúp tôi vượt qua chương mới này của cuộc đời.</p>"
-        }
+        },
+        "title": "Life after university"
       },
       {
         "id": 310,
@@ -7049,7 +7097,8 @@
             "0",
             "0"
           ]
-        }
+        },
+        "title": "Regional Development Planning"
       },
       {
         "id": 308,
@@ -7088,7 +7137,8 @@
             "2",
             "2"
           ]
-        }
+        },
+        "title": "A promotion campaign for a product"
       },
       {
         "id": 247,
@@ -7128,7 +7178,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch:&nbsp;</strong></p><ul><li>1. Nó đã không được truyền thông đưa tin một cách <strong>chính xác</strong>.</li><li>2. Nghiên cứu khó có khả năng tìm ra một <strong>câu trả lời</strong> chắc chắn.</li><li>&nbsp;</li><li><strong>Mẹo: </strong>Nghiên cứu về hạnh phúc không chính xác để tìm được câu trả lời</li></ul><p>&nbsp;</p><p><strong>Chủ đề: Nghiên cứu về hạnh phúc</strong></p><p>&nbsp;</p><p>Chào buổi sáng, thính giả! Hôm nay, chúng ta sẽ tìm hiểu về một nghiên cứu gần đây về hạnh phúc, nghiên cứu này đã gây ra khá nhiều tranh luận.</p><p>Đáng tiếc là có vẻ như <strong>truyền thông tập trung nhiều hơn vào những tiêu đề giật gân thay vì đưa tin chính xác về những phát hiện cốt lõi của nghiên cứu</strong>. Vì vậy, nhiều người có một cách hiểu sai lệch về những yếu tố thực sự góp phần tạo nên hạnh phúc.</p><p>Mặc dù nhiều nghiên cứu đã cố gắng khám phá bí quyết để có một cuộc sống hạnh phúc, điều quan trọng cần nhận ra là <strong>có lẽ sẽ không bao giờ có một câu trả lời rõ ràng và chắc chắn</strong>.</p><p>Hạnh phúc là một trải nghiệm phức tạp và mang tính cá nhân, chịu ảnh hưởng bởi nhiều yếu tố khác nhau và riêng biệt đối với mỗi người.</p><p>Thay vì tìm kiếm một giải pháp phù hợp với tất cả mọi người, chúng ta nên tập trung vào việc hiểu nhu cầu và giá trị của chính mình.</p><p>Hãy nhớ rằng, hạnh phúc không phải là một đích đến mà là một hành trình, và điều quan trọng là chúng ta cần tiếp cận nó với một tâm thế cởi mở.</p>"
-        }
+        },
+        "title": "A research in happiness"
       },
       {
         "id": 248,
@@ -7168,7 +7219,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch:&nbsp;</strong></p><p><strong>1. </strong>Tạo những <strong>khoảng thời gian riêng</strong> dành cho việc viết.</p><p>2. Từ chối <strong>tìm kiếm lời khuyên</strong> từ người khác.</p><p><strong>Mẹo: </strong>Kinh nghiệm viết văn là cần có giai đoạn cống hiến và xin lời khuyên</p><p><br>&nbsp;</p><p><strong>Chủ đề: Kinh nghiệm viết</strong></p><p>Xin chào mọi người! Tôi muốn chia sẻ kinh nghiệm của mình về tình trạng bí ý tưởng khi viết trong quá trình viết cuốn sách bán chạy mới của mình.</p><p>Nhiều người nghĩ rằng để viết tốt, bạn cần ngồi xuống viết mỗi ngày trong 15 đến 20 phút hoặc tìm một không gian yên tĩnh. Mặc dù những cách này có hiệu quả với một số người, tôi nhận thấy rằng <strong>việc thiết lập những khoảng thời gian cụ thể dành cho việc viết, thực sự phù hợp với phong cách của mình</strong>, là điều giúp tôi nhiều nhất.</p><p>Tuy nhiên, đã có lúc tôi thực sự gặp phải tình trạng bí ý tưởng nghiêm trọng, và nhìn lại, tôi <strong>hối tiếc vì đã không tìm đến người khác để xin lời khuyên</strong>. Tôi nghĩ mình có thể tự giải quyết mọi thứ, nhưng đôi khi việc có được một góc nhìn từ bên ngoài là vô cùng quan trọng.</p><p>Trò chuyện với những người viết khác và các cố vấn có thể đã giúp tôi vượt qua tình trạng bí ý tưởng nhanh hơn rất nhiều. Bây giờ tôi hiểu rằng việc hợp tác và chia sẻ ý tưởng có thể truyền cảm hứng cho sự sáng tạo.</p><p>&nbsp;</p><p>Vì vậy, nếu bạn từng cảm thấy bế tắc, đừng ngần ngại tìm đến người khác!</p>"
-        }
+        },
+        "title": "Experience in writing"
       },
       {
         "id": 249,
@@ -7208,7 +7260,8 @@
             "2"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><p><br>&nbsp;</p><p><strong>Đáp án:&nbsp;</strong></p><p><strong>1. </strong>Duy trì một <strong>thái độ tích cực.</strong></p><p>2. Định nghĩa của chúng ta về điều đó đang <strong>thay đổi.</strong></p><p><strong>Mẹo: </strong>Sự chuyên nghiệp ở nơi làm việc là thái độ tích cực và không thay đổi</p><p>&nbsp;</p><p><strong>Chủ đề:&nbsp; Tính chuyên nghiệp trong công việc</strong><br>&nbsp;</p><p>Chào buổi sáng mọi người! Hôm nay, tôi muốn nói về tính chuyên nghiệp và cách nó đã thay đổi qua nhiều năm.</p><p>Để được nhìn nhận là một người chuyên nghiệp, điều cần thiết là phải thân thiện, cởi mở và sẵn sàng giúp đỡ người khác. <strong>Một thái độ lạc quan không chỉ tạo ấn tượng tốt mà còn tạo ra một môi trường làm việc tốt hơn.</strong></p><p>Ngoài ra, cùng với những thay đổi nhanh chóng của công nghệ và quá trình toàn cầu hóa, <strong>định nghĩa của chúng ta về tính chuyên nghiệp không còn giống như cách đây 40 năm.</strong> Trước đây, chuyên nghiệp thường chỉ có nghĩa là ăn mặc đẹp và tuân thủ những quy tắc nghiêm ngặt.</p><p>Ngày nay, nó bao gồm khả năng thích nghi, hiểu các nền văn hóa khác nhau và sử dụng công nghệ một cách hiệu quả.</p><p>&nbsp;</p><p>Khi chúng ta tiếp tục phát triển trong sự nghiệp, chúng ta phải đón nhận những thay đổi này và định nghĩa lại thế nào là một người chuyên nghiệp. Làm như vậy sẽ giúp chúng ta đáp ứng tốt hơn nhu cầu của môi trường làm việc đa dạng và thành công trong thế giới thay đổi nhanh chóng ngày nay.</p>"
-        }
+        },
+        "title": "Professionalism at work"
       },
       {
         "id": 250,
@@ -7248,7 +7301,8 @@
             "1"
           ],
           "explanation": "<p><strong>Dịch</strong></p><ul><li>Mọi người <strong>lo lắng </strong>không cần thiết về chúng.</li><li>Mọi người nên cảm thấy yên tâm về <strong>sự hiện diện của chúng</strong>.</li><li><strong>Mẹo: </strong>Camera an ninh khiến mọi người lo lắng về sự hiện diện</li><li><br>&nbsp;</li><li><p><strong>Chủ đề: Camera an ninh</strong></p><p>Tôi nhận thấy rằng một số đồng nghiệp của tôi cảm thấy hơi lo lắng về những chiếc camera an ninh trong văn phòng. Họ thường nói những điều như: “Cảm giác như chúng ta luôn bị theo dõi” hoặc “Tôi không thích cảm giác mình không được tin tưởng.”</p><p>Nhưng thành thật mà nói, tôi nghĩ <strong>mọi người lo lắng quá mức về chuyện này.</strong> Những chiếc camera này không được lắp đặt để theo dõi chúng ta hay bắt quả tang chúng ta làm điều gì sai. Thực ra, chúng được sử dụng để giữ cho chúng ta an toàn.</p><p>Hãy thử nghĩ xem – nếu có chuyện gì xảy ra, chẳng hạn như một vụ trộm hoặc một tai nạn, chẳng phải bạn sẽ muốn có một đoạn ghi hình về sự việc đó sao? Hơn nữa, việc biết rằng có camera ở đó thực sự có thể <strong>n</strong>găn những điều xấu xảy ra ngay từ đầu.</p><p>Tôi tin rằng một khi mọi người hiểu được mục đích thực sự của những chiếc camera này, họ sẽ cảm thấy tốt hơn về chúng. <strong>Thay vì cảm thấy lo lắng, chúng ta nên cảm thấy vui vì công ty quan tâm đến sự an toàn của chúng ta.</strong> Đây chỉ là một cách khác mà công ty đang quan tâm và bảo vệ chúng ta khi chúng ta làm việc.</p><p>Tôi nhớ khi những chiếc camera lần đầu tiên được lắp đặt. Một số người thực sự rất khó chịu về điều đó. Nhưng sau một thời gian, hầu hết chúng tôi hầu như không còn để ý đến chúng nữa. Bây giờ chúng chỉ đơn giản là một phần của không gian xung quanh.</p><p>Và đã có những lúc camera thực sự rất hữu ích. Ví dụ, khi túi của một người nào đó bị mất, camera đã giúp chúng tôi tìm hiểu chuyện gì đã xảy ra.</p><p>Tôi nghĩ điều quan trọng là phải nhớ rằng những chiếc camera này được đặt ở khu vực công cộng, chứ không phải những nơi riêng tư như phòng tắm hay phòng thay đồ. Chúng không nhằm xâm phạm quyền riêng tư của chúng ta mà chỉ để đảm bảo mọi người tuân thủ các quy định và giữ an toàn.</p><p>Cuối cùng, tôi nghĩ việc có camera khiến <strong>n</strong>ơi làm việc trở nên tốt hơn cho tất cả mọi người. Đó là một điều nhỏ nhưng có thể tạo ra sự khác biệt lớn trong việc giữ cho tất cả chúng ta được an toàn.</p></li></ul>"
-        }
+        },
+        "title": "Security camera"
       },
       {
         "id": 311,
@@ -7287,7 +7341,8 @@
             "1",
             "2"
           ]
-        }
+        },
+        "title": "Advertising and sponsoring (A newly broadcasted TV series)"
       },
       {
         "id": 252,
@@ -7327,7 +7382,8 @@
             "0"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><p><strong>Đáp án:</strong></p><ul><li>Nó tạo ra một <strong>cuộc phiêu lưu</strong>.</li><li>Nó phù hợp với một số<strong> thế hệ </strong>nhất định.</li></ul><p><strong>Mẹo: </strong>Sách hướng dẫn mới tạo ra cuộc phiêu lưu phù hợp thế hệ</p><p><strong>Chủ đề: Một cuốn sách hướng dẫn mới</strong></p><p><br>&nbsp;</p><p>Gần đây, tôi quyết định mua một cuốn sách hướng dẫn du lịch mới trước chuyến đi gần đây nhất của mình, và tôi phải nói rằng nó đã hoàn toàn thay đổi trải nghiệm du lịch của tôi.</p><p>Cuốn sách hướng dẫn này được thiết kế để khơi gợi sự khám phá và tò mò. Thay vì chỉ liệt kê những địa danh nổi tiếng, nó khuyến khích người đọc rời khỏi những con đường quen thuộc và khám phá những địa điểm ít người biết đến. Ví dụ, nó cung cấp những câu chuyện địa phương, các hoạt động độc đáo và những mẹo để hòa mình vào văn hóa của những nơi mà họ đến.</p><p>Một số người có thể nghĩ rằng cuốn sách hơi khó sử dụng, nhưng thực tế, <strong>nó khiến mỗi chuyến đi giống như một cuộc phiêu lưu.</strong> Nó giúp du khách tạo ra những kỷ niệm và trải nghiệm đáng nhớ, vượt xa việc chỉ tham quan những địa điểm thông thường.</p><p><strong>Cuốn sách hướng dẫn này</strong> <strong>phù hợp với thế hệ trẻ ngày nay</strong>. Một số người cho rằng nó chỉ dành cho những người đã có nhiều kinh nghiệm khám phá, bởi vì nó tập trung vào văn hóa địa phương, điều mà người mới bắt đầu có thể thấy khó hiểu. Những người khác lại nghĩ rằng nó đã lỗi thời đối với những người thích sử dụng các ứng dụng hiện đại.</p><p>Tuy nhiên, cuốn sách khuyến khích những mối liên kết thực sự và những trải nghiệm độc đáo, giúp du khách giao lưu và kết nối với người dân địa phương.</p>"
-        }
+        },
+        "title": "A new guidebook"
       },
       {
         "id": 312,
@@ -7366,7 +7422,8 @@
             "1",
             "0"
           ]
-        }
+        },
+        "title": "Personal finances"
       },
       {
         "id": 307,
@@ -7405,7 +7462,8 @@
             "0",
             "2"
           ]
-        }
+        },
+        "title": "Script production"
       },
       {
         "id": 255,
@@ -7445,7 +7503,8 @@
             "2"
           ],
           "explanation": "<p><strong>Dịch:</strong></p><ol><li>1. Chất lượng<strong> phục vụ không tốt.</strong>&nbsp;</li><li>2. Họ cần làm cho <strong>khách hàng cảm thấy được coi trọng </strong>và được chào đón.&nbsp;</li><li>&nbsp;</li></ol><p><strong>Mẹo: </strong>Nhà hàng dịch vụ không tốt và cần trân trọng khách hàng hơn</p><p>&nbsp;</p><p><strong>Chủ đề: Nhà hàng La Bella Bistro</strong></p><p>Là một người đã đánh giá các trải nghiệm ăn uống trong nhiều năm, tôi rất mong chờ chuyến ghé thăm La Bella Bistro. Địa điểm và không gian của nhà hàng chắc chắn rất hấp dẫn; tuy nhiên, trải nghiệm tổng thể của tôi lại không được như mong đợi.</p><p>Mặc dù đồ ăn khá ổn, vấn đề thực sự nằm ở dịch vụ. Ngay từ khi tôi đến, rõ ràng là nhân viên hoặc đang bị quá tải, hoặc chưa được đào tạo đầy đủ. Tôi phải chờ quá lâu cho những yêu cầu cơ bản, và khi cuối cùng cũng được nhân viên chú ý, cách phục vụ lại rất vội vàng và thiếu sự quan tâm.</p><p><strong>Chất lượng phục vụ này thực sự làm giảm đi một buổi tối đáng lẽ phải rất dễ chịu.</strong>&nbsp;</p><p>Ngày nay, khi dịch vụ giao đồ ăn trực tuyến đã trở nên rất tiện lợi, các nhà hàng cần tập trung vào điều gì khiến họ khác biệt. Điều có thể cạnh tranh với sự tiện lợi của việc đặt đồ ăn tại nhà chính là <strong>cảm giác được thực sự coi trọng và chào đón.</strong>&nbsp;</p><p>Khách hàng không chỉ tìm kiếm đồ ăn ngon; họ muốn có một trải nghiệm. Một lời chào thân thiện, sự phục vụ chu đáo và cảm giác rằng sự hiện diện của họ được coi trọng — đó là những điều khiến khách hàng muốn quay lại.</p><p>Đáng tiếc là tại La Bella Bistro, yếu tố đó rõ ràng còn thiếu, và đây là điều họ cần cải thiện nếu muốn nổi bật trong thị trường cạnh tranh ngày nay.</p>"
-        }
+        },
+        "title": "A restaurant Baloo"
       },
       {
         "id": 256,
@@ -7484,7 +7543,8 @@
             "1",
             "2"
           ]
-        }
+        },
+        "title": "TV series"
       },
       {
         "id": 257,
@@ -7523,7 +7583,8 @@
             "2",
             "0"
           ]
-        }
+        },
+        "title": "Making plans / set up goals"
       },
       {
         "id": 744,
@@ -7562,7 +7623,8 @@
             "0",
             "1"
           ]
-        }
+        },
+        "title": "A new novel (hopeless love)"
       },
       {
         "id": 745,
@@ -7601,7 +7663,8 @@
             "1",
             "0"
           ]
-        }
+        },
+        "title": "a new book/novel"
       },
       {
         "id": 714,
@@ -7640,7 +7703,8 @@
             "2",
             "2"
           ]
-        }
+        },
+        "title": "Podcasting"
       },
       {
         "id": 715,
@@ -7679,7 +7743,8 @@
             "1",
             "2"
           ]
-        }
+        },
+        "title": "Using the time effectively"
       },
       {
         "id": 739,
@@ -7718,7 +7783,8 @@
             "1",
             "0"
           ]
-        }
+        },
+        "title": "A book critic talks about a biography."
       },
       {
         "id": 738,
@@ -7757,7 +7823,8 @@
             "1",
             "0"
           ]
-        }
+        },
+        "title": "The music industry"
       },
       {
         "id": 749,
@@ -7796,7 +7863,8 @@
             "1",
             "2"
           ]
-        }
+        },
+        "title": "An Exhibition of the Greek Artist Jim Panos"
       }
     ],
     "reading_1": [
@@ -7881,7 +7949,8 @@
             "2"
           ],
           "explanation": "<p>Dear Jane,</p><p>1. In the (sun/<strong>morning</strong>/ market), I cycle to work.</p><p>Vào<strong> buổi sáng</strong> , tớ đạp xe đi làm</p><p>&nbsp;</p><p>2. My (<strong>friends</strong>/house/car) cycle to work with me.</p><p><strong>Bạn tớ</strong> đạp xe đi làm cùng tớ</p><p>&nbsp;</p><p>3. Therefore, I (stay/burn/<strong>leave</strong> ) my car at my house.</p><p>Do vậy, tớ<i> </i><strong>để</strong> ô tô ở nhà</p><p>&nbsp;</p><p>4. I feel (big/<strong>good</strong>/beautiful) after cycling to work.</p><p>Tớ cảm thấy <strong>khỏe</strong> sau khi đạp xe đi làm</p><p>&nbsp;</p><p>5. Then, I drink water and eat healthy (sugar/ beer/<strong>food</strong>)&nbsp;</p><p>Sau đó, tớ uống nước và ăn <strong>thức ăn</strong><i> </i>tốt cho sức khỏe</p><p>&nbsp;</p>"
-        }
+        },
+        "title": "Choose the word that fits in the gap 01"
       },
       {
         "id": 32,
@@ -7964,7 +8033,8 @@
             "2"
           ],
           "explanation": "<p>Dear Tom,</p><p>1.When you are at the train (school/<strong>station</strong>/river), go to the main gate.</p><p>Khi bạn đến <strong>nhà ga</strong><i><strong> </strong></i>xe lửa, đi đến chỗ cổng chính</p><p>&nbsp;</p><p>2. The bus (<strong>stops</strong>/towns/places) are near&nbsp;</p><p><strong>Điểm dừng</strong> xe bus ở gần đó</p><p>&nbsp;</p><p>3. My house is on Parkon Street. It's (tired/color/<strong>green</strong>), so you can not miss it.</p><p>Nhà của mình ở trên phố Parkon. Nó có <strong>màu xanh</strong>, vì vậy bạn<br>dễ nhận ra nó</p><p>&nbsp;</p><p>4.After you come, we will have (<strong>dinner</strong>/food/eat)</p><p>Sau khi bạn đến, chúng ta sẽ ăn <strong>bữa tối</strong></p><p>&nbsp;</p><p>5.<strong> </strong>In the evening, we can watch some (animals/<strong>films</strong>/ bread) together.<br>Vào buổi tối chúng ta sẽ xem<strong> phim</strong> cùng nhau<br>&nbsp;</p><p>Talk to you soon!<br>Anna.<br><br>&nbsp;</p><p>&nbsp;</p><p><br>&nbsp;</p>"
-        }
+        },
+        "title": "Choose the word that fits in the gap. (02)"
       },
       {
         "id": 33,
@@ -8047,7 +8117,8 @@
             "0"
           ],
           "explanation": "<p>Hi Alex,</p><p>Our family is going on a vacation.</p><p>1.We are [<strong>staying</strong>] in a small house in the village.</p><p>Chúng tôi <strong>ở</strong> trong một ngôi nhà nhỏ trong làng.</p><p>&nbsp;</p><p>2.There are a lot of trees in the (<strong>garden</strong>).</p><p>Có rất nhiều cây ở trong <strong>vườn</strong></p><p>&nbsp;</p><p>3.We go fishing with our (<strong>children</strong>)</p><p>Chúng tôi đi câu cá cùng <strong>các con</strong></p><p>&nbsp;</p><p>4.Today, we are going to (<strong>visit</strong>) the town by bus</p><p>Hôm nay, chúng mình sẽ <strong>đi thăm</strong> thị trấn bằng xe bus</p><p>&nbsp;</p><p>5. There are some (<strong>old</strong>) buidings there</p><p>Có một số tòa nhà <strong>cổ </strong>ở đó</p><p>Love,</p><p>Anna</p><p>&nbsp;</p>"
-        }
+        },
+        "title": "Choose the word that fits in the gap 03"
       },
       {
         "id": 34,
@@ -8130,7 +8201,8 @@
             "2"
           ],
           "explanation": "<p>Hi James,&nbsp;</p><p>1.I (<strong>love</strong>/run/should) the area where I live now.&nbsp;</p><p>Tớ rất <strong>yêu</strong> nơi tớ sống</p><p>&nbsp;</p><p>2.My house has a kitchen but it is very (<strong>small</strong>/tall/short)</p><p>Nhà tớ có một căn bếp nhưng nó rất <strong>nhỏ</strong></p><p>&nbsp;</p><p>3. I work at a (car/<strong>shop</strong>/window) and I sell clothes.</p><p>Tớ làm việc ở một <strong>cửa hàng</strong>. Tớ bán quần áo.</p><p>&nbsp;</p><p>4. Everyday I talk to many (animals/trees/<strong>people</strong>)</p><p>Hàng ngày, tớ nói chuyện với nhiều <strong>người</strong></p><p>&nbsp;</p><p>5. I am on my holiday and I'm excited that I can (show/<strong>visit</strong>/play) you soon.</p><p>Tớ đang trong kì nghỉ và tớ rất háo hức được sớm <strong>đến thăm</strong> bạn</p><p>Write soon,</p><p>Lisa</p>"
-        }
+        },
+        "title": "Choose the word that fits in the gap. (04)"
       }
     ],
     "reading_2": [
@@ -8168,7 +8240,8 @@
             "These activities included football, jumping, and swimming, and they had lots of fun.",
             "They were all very hungry after all these, so they enjoyed tasty food and drinks with their parents"
           ]
-        }
+        },
+        "title": "Weekend activities/ Sporty Day"
       },
       {
         "id": 41,
@@ -8204,7 +8277,8 @@
             "This lack of money mostly affected actors, and they didn't earn much",
             "Things have changed over time, and some of them have earned millions of dollars after appearing in films"
           ]
-        }
+        },
+        "title": "Making Films"
       },
       {
         "id": 42,
@@ -8240,7 +8314,8 @@
             "Because flying with them is so fast, more people now go abroad for holiday and business.",
             "It is more convenient to travel to other part of the world due to the improvement in transports"
           ]
-        }
+        },
+        "title": "History of travel"
       },
       {
         "id": 43,
@@ -8279,7 +8354,8 @@
             "I had to choose one of those, so I decided to choose the most expensive sandwich.",
             "It was really good with cheese topping, and I would definitely go back to this place."
           ]
-        }
+        },
+        "title": "New Café in Town"
       },
       {
         "id": 44,
@@ -8315,7 +8391,8 @@
             "This comparison will understand the similarities between the two countries.",
             "There may not be many of those, but still you will see some common areas."
           ]
-        }
+        },
+        "title": "Writing about a place/ Homework next week"
       },
       {
         "id": 45,
@@ -8354,7 +8431,8 @@
             "This strange ways of dressing and his songs attracted people's attention",
             "They started to follow him on social media and he is now very famous."
           ]
-        }
+        },
+        "title": "A famous singer Jade Nobelston"
       },
       {
         "id": 49,
@@ -8393,7 +8471,8 @@
             "During this visit, you will need to stay with these students until lunch break.",
             "This meal will be provided on the second floor of the engineering building"
           ]
-        }
+        },
+        "title": "University Welcome Day"
       },
       {
         "id": 607,
@@ -8432,7 +8511,8 @@
             "The staff there had a busy day, but they were able to close early and\r\n watch the famous singer perform.",
             "He performed for two hours and everyone had great fun."
           ]
-        }
+        },
+        "title": "Music festivals"
       },
       {
         "id": 39,
@@ -8471,7 +8551,8 @@
             "As a part of this group, she traveled in space and did a lot of experiments there",
             "Some of those were about growing plants and some animals in a spaceship."
           ]
-        }
+        },
+        "title": "The first American woman in space"
       },
       {
         "id": 46,
@@ -8510,7 +8591,8 @@
             "Your presentation offer your key points and you have around 5 minutes to talk",
             "After this time, other students are able to ask questions and you need to answer them"
           ]
-        }
+        },
+        "title": "End of term project"
       }
     ],
     "reading_3": [
@@ -8563,7 +8645,8 @@
             "2"
           ],
           "explanation": "<p><strong>James:</strong> Lần đầu tiên đi xem ca nhạc <strong>(This is my first time) </strong>mà thời tiết <strong>(weather) </strong>chán đến ngày cuối cùng <strong>(final day)</strong></p><p>&nbsp;</p><p>Đây là lần đầu tiên tôi đi xem hòa nhạc, và trải nghiệm này khá là lẫn lộn. Trong hai ngày đầu, âm nhạc khá bình thường<strong>, và sự kiện chắc chắn sẽ thú vị hơn nhiều nếu có một chút nắng để làm mọi thứ tươi sáng hơn</strong>. May mắn thay,<strong> ngày cuối cùng đã hoàn toàn thay đổi ấn tượng của tô</strong>i, vì tôi cuối cùng cũng được gặp những ca sĩ yêu thích của mình. Gặp họ và thưởng thức những màn trình diễn đã khiến cả chuyến đi trở nên đáng nhớ và thật đặc biệt.</p><p>&nbsp;</p><p><strong>James</strong>: Thất vọng về <strong>thời tiết&nbsp;</strong></p><p>&nbsp;Thích <strong>ngày cuối cùng</strong> của sự kiện âm nhạc&nbsp;</p><p>&nbsp;</p><p><strong>Lisa.</strong> Tôi tham gia (<strong>I attend music festiva</strong>l) lễ hội âm nhạc mà không thấy ấn tượng gì (<strong>not impressed</strong>)</p><p>&nbsp;</p><p>Tôi tham dự các lễ hội âm nhạc hằng năm, và theo thời gian, điều đó đã trở thành một thói quen cá nhân của tôi. Tôi thực sự thích bầu không khí sôi động, nơi mọi người cùng nhau chia sẻ âm nhạc và sự hào hứng. Tuy nhiên, lễ hội lần này cảm thấy khá khác so với những gì tôi quen thuộc. Thời tiết không mấy thuận lợi, nhưng điều đó cũng không khiến tôi bận tâm lắm, vì tôi từng tận hưởng những lễ hội dưới mưa trước đây. Địa điểm tổ chức ở mức tạm được và các màn biểu diễn thì khá bình thường. <strong>Thành thật mà nói, tôi nghi ngờ về lựa chọn quay lại trong tương lai.</strong>&nbsp;</p><p>&nbsp;</p><p><strong>Lisa</strong> : <strong>Không ấn tượng</strong> với toàn bộ sự kiện&nbsp;</p><p>&nbsp;</p><p><strong>Robert. </strong>Tôi không thích (<strong>I don't like</strong> ) một thể loại âm nhạc nào mà thích tất (<strong>all the music</strong>) nhưng chúng đắt (<strong>expensive</strong>)</p><p>&nbsp;</p><p>Tôi không thích khi tại các lễ hội chỉ phát một thể loại nhạc duy nhất, vì tôi thích có sự đa dạng về thể loại để thưởng thức và nhảy theo hơn. <strong>May mắn thay, sự kiện lần này thực sự đáp ứng đúng mong đợi của tôi. </strong>Những bài hát và giai điệu thật sự ấn tượng, để lại trong tôi một ấn tượng sâu sắc. Mặc dù có một chút mưa, nhưng tôi cảm thấy điều đó khiến bầu không khí càng thêm sôi động và vui vẻ. <strong>Tuy nhiên, một điểm trừ là giá vé khá cao,</strong> khiến nhiều sinh viên, bao gồm cả tôi, cảm thấy khó có thể chi trả.&nbsp;</p><p>&nbsp;</p><p><strong>Robert</strong> : Thích <strong>tất cả các tiết mục âm nhạc</strong> tại sự kiện&nbsp;</p><p>Nghĩ rằng sự kiện này <strong>đắt</strong> đỏ&nbsp;</p><p>&nbsp;</p><p><strong>Christina.</strong> Ban nhạc (<strong>My band</strong>) gặp lại những người bạn cũ ( <strong>ex-band members</strong>) ở cùng một địa điểm (<strong>location</strong>)</p><p>&nbsp;</p><p>Ban nhạc của tôi và tôi đã được mời biểu diễn tại lễ hội này, và chúng tôi đã mang đến màn trình diễn đúng như những gì khán giả mong đợi ở chúng tôi. Buổi biểu diễn thật sự đáng nhớ, không chỉ vì năng lượng trên sân khấu mà còn vì <strong>một số thành viên cũ và những người từng hợp tác với chúng tôi cũng có mặt.</strong> Thật tuyệt khi được gặp lại họ và cùng nhau chia sẻ những câu chuyện sau buổi diễn. Bầu không khí nhìn chung rất tích cực, và khán giả dường như đã tận hưởng từng khoảnh khắc. Thử thách duy nhất là <strong>địa điểm tổ chức nằm khá xa đường chính, khiến việc di chuyển nhạc cụ và thiết bị trở nên khá bất tiện</strong>.&nbsp;</p><p>&nbsp;</p><p><strong>Christina</strong> : Thích gặp lại<strong> những người bạn cũ</strong>&nbsp;</p><p>Nghĩ rằng <strong>địa điểm tổ chức </strong>không tốt</p>"
-        }
+        },
+        "title": "The music festival"
       },
       {
         "id": 51,
@@ -8614,7 +8697,8 @@
             "1"
           ],
           "explanation": "<p><strong>Jose:</strong> Tôi không thích <strong>(I don't like</strong>) nhưng sau lần đầu nỗ lực (<strong>first attempt</strong>) tôi chú trọng tập luyện (<strong>training</strong>)&nbsp;</p><p>&nbsp;</p><p>Tôi không thích thể thao, nhưng một lần tôi thử đi lặn theo lời mời của người bạn. <strong>Tôi bắt đầu yêu môn thể thao mạo hiểm này dù mới chỉ thử lần đầu tiên.</strong> Thể thao mạo hiểm có thể gây nguy hiểm, do vậy trước khi quyết định chọn nó như một sở thích, <strong>tôi luôn chắc chắn hiểu kĩ những hướng dẫn từ các huấn luyện viên,</strong> những người có nhiều năm kinh nghiệm. Điều này giúp tôi tiến bộ và tự tin hơn.</p><p><br>→ Thấy thích thể thao mạo hiểm sau khi <strong>thử chơi một lần</strong><br>→ cho rằng <strong>việc tập luyện</strong> trước khi tham gia là quan trọng</p><p>&nbsp;</p><p><strong>Marisol:</strong> Một số người thích (<strong>some people like</strong>) tt truyền thống (<strong>traditional sports</strong>) &amp; thấy tt mạo hiểm không cần thiết (<strong>not necessary</strong>)&nbsp;</p><p>&nbsp;</p><p>Nhiều người yêu thích việc nhảy ra khỏi những chiếc máy bay hoặc khám phá biển. Tôi là một phi công,<strong> tôi chưa từng hiểu được tại sao mọi người lại đưa bản thân mình vào nguy hiểm như vậy.</strong> Tôi cũng từng thử chơi thể thao mạo hiểm và nhận ra rằng quan điểm của tôi là đúng. Công việc của tôi vốn đã căng thẳng và đủ rủi ro rồi. <strong>Bây giờ tôi ưu tiên những hoạt động thông dụng hơn như chơi bóng chày hoặc bóng chuyền.</strong></p><p><br>→Thể thao mạo hiểm là<strong> không cần thiêt</strong><br>→Ưu tiên <strong>các môn truyền thống</strong> hơn</p><p>&nbsp;</p><p><strong>Sira:</strong> Lặn tự do (<strong>doing free diving</strong>) thường xuyên (<strong>often</strong>) để tận hưởng thiên nhiên (<strong>nature</strong>)</p><p>&nbsp;</p><p>Lặn tự do đòi hỏi sự kiên nhẫn và nỗ lực để trở nên thành thạo. Tôi sống xa biển nên với tôi môn này càng khó khăn hơn. Tôi chỉ có thể làm nó vài lẫn mỗi năm, điều này chưa bao giờ đủ để thỏa mãn đam mê. Khi tôi trong làn nước, tôi cảm giác mình như ở nhà. Tôi được bao quanh bởi nhiều loài cá và gần như có thể chạm vào chúng.<br><br>→Thích tận hưởng <strong>thiên nhiên</strong> khi chơi thể thao<br>→ Ước có thể chơi thể thao mạo hiểm <strong>thường xuyên</strong> hơn.</p><p>&nbsp;</p><p><strong>Bao</strong> : Khi còn nhỏ (<strong>as a child</strong>), tôi né tránh (<strong>avoid</strong>) thể thao</p><p>&nbsp;</p><p>Khi còn là một đứa trẻ, tôi đã từng chơi thể thao vì chúng là một phần trong chương trình học. Ý tôi là, làm gì có trường nào không dạy thể thao? Tuy nhiên tôi chưa từng thích hoạt động này. &nbsp;Nhiều học sinh có năng khướu tự nhiên, và họ có thể lực tốt để chịu được những bài chạy bền, nhưng không phải ai cũng được như vậy. Đối với tôi, những bài học này khá mất thời gian. Tôi thích ở nhà và đọc sách hơn.<br>&nbsp;</p><p><strong>Né tránh </strong>chơi thể thao</p>"
-        }
+        },
+        "title": "Extreme sports"
       },
       {
         "id": 53,
@@ -8665,7 +8749,8 @@
             "2"
           ],
           "explanation": "<p><strong>Sarah:</strong> Khi còn nhỏ (<strong>As a child</strong>), thấy các trò chơi đơn giản (<strong>simpler</strong>), hiện tại chơi với con (<strong>their children</strong>)&nbsp;</p><p>&nbsp;</p><p>Khi còn nhỏ, tôi dành nhiều thời gian chơi cờ với các bạn. <strong>Quy luật trò chơi đơn giản và dễ nắm bắt</strong> khiến trò chơi thú vị và dễ chơi. Khi lớn dần tôi nhận thấy chơi cờ là cách kết nối tuyệt vời với gia đình. Tuy nhiên những trò chơi bây giờ phức tạp hơn, với nhiều quy định và đa dạng nhân vật. Mặc dù <strong>tôi rất thích chơi cùng hai con trai và chúng tôi chơi vui vẻ</strong>, nhưng tôi nhận thấy rằng cũng phải nỗ lực học hỏi mới có thể chơi được.&nbsp;</p><p>&nbsp;</p><p>→ Thích <strong>chơi cùng các con&nbsp;</strong></p><p>- Thấy các<strong> trò chơi truyền thống đơn giản hơn</strong> nhiều&nbsp;</p><p>&nbsp;</p><p><strong>William: </strong>Tôi ưu tiên (<strong>I</strong> <strong>prefer</strong>) chơi với những bạn nhỏ tuổi khác (<strong>other children</strong>)</p><p>&nbsp;</p><p>Tôi thích chơi ngoài trời<strong> cùng các bạn khi tôi còn nhỏ</strong>. Rất may mắn là thời tiết nơi tôi sống thường dễ chịu, vì vậy chúng tôi dành nhiều giờ chạy nhảy lòng vòng và đuổi bắt trên cánh đồng. Vào những lúc đó, chúng tôi muốn nằm dài trên bãi cỏ, làm những khuôn mặt hài hước, tận hưởng khoảnh khắc vô lo của tuổi thơ. Những kỉ niệm đó luôn là vô giá với tôi và hình thành mong muốn được sống giữa mọi người. Ngay cả bây giờ, tôi thấy rất khó khi ở nhà một mình lâu.</p><p>&nbsp;</p><p>&nbsp;→ Thích chơi với <strong>bạn bè</strong> khi còn nhỏ&nbsp;</p><p>&nbsp;</p><p><strong>Sophia</strong> : Tôi đã không vận động nhiều (I <strong>wasn't able to move</strong>) vì tôi thích đọc sách (<strong>books</strong>), chơi game (<strong>games</strong>)</p><p>&nbsp;</p><p>Tôi đã không vận động nhiều khi còn nhỏ và đến cả bây giờ vẫn vậy. Thay vì thế, <strong>tôi bị thu hút bởi việc đọc sách</strong> khi có thời gian rảnh. Tôi thường đến một thư viện, nơi mà tôi chìm đắm vào những câu chuyện khác nhau hàng giờ. Hiện nay, tôi không còn đọc được nhiều như trước đây nhưng tôi cũng vẫn không hay đi ra ngoài vì tôi dùng máy tính nhiều. <strong>Tôi đặc biệt thích các game tương tác</strong> vì nó giúp tôi kết nối xã hội và liên kết online với mọi người</p><p>&nbsp;</p><p>. → Thích<strong> đọc sách </strong>khi còn nhỏ - Thích chơi các <strong>games</strong> hiện đại&nbsp;</p><p>&nbsp;</p><p><strong>Jack: </strong>Tôi thích chơi ngoài trời (<strong>I enjoy playing outdoor</strong>) nên ước (<strong>wish</strong>) được ra ngoài nhiều và thích cả nghệ thuật (<strong>art</strong>) nữa</p><p>&nbsp;</p><p>Tôi thích chơi ngoài trời. Vào những hôm thời tiết âm u, có khá nhiều ngày như vậy, tôi sẽ buồn bã nhìn ra ngoài cửa sổ, <strong>mong ước mình có thể được ra ngoài</strong>. Không có nhiều thứ để làm khi ở trong nhà cho đến một ngày<strong> mẹ đưa cho tôi một hộp dụng cụ nghệ thuật.</strong> Bên trong hộp là một bảng màu sống động, cọ vẽ nhiều kích cỡ, và một xấp giấy. Đó chính là khoảnh khắc tôi tìm được một đam mê mới : vẽ tranh Tôi đã có thể dành hàng giờ chỉ đơn giản là nhìn vào những tờ giấy dầu trống trơn và tưởng tượng xem kế tiếp mình sẽ sáng tạo bức tranh nào lên đó.</p><p>&nbsp;</p><p>&nbsp;→ Thích <strong>nghệ thuật </strong>khi còn nhỏ&nbsp;</p><p>- Mong <strong>ước được ra ngoài nhiều</strong> hơn</p>"
-        }
+        },
+        "title": "Childhood activities"
       },
       {
         "id": 54,
@@ -8716,7 +8801,8 @@
             "2"
           ],
           "explanation": "<p><strong>Boyd</strong>: Tôi hiểu (<strong>I understand</strong>) về văn hóa (<strong>culture</strong>) cộng đồng địa phương (<strong>local community</strong>)</p><p>&nbsp;</p><p>Một số người thích ra nước ngoài làm tình nguyện, nhưng thực lòng mà nói, mọi người chủ yếu thích đi du lịch là chính. Tôi cho rằng chúng ta nên sử dụng thời gian ý nghĩa hơn. <strong>Mỗi thành phố đều có nhiều người cần giúp đỡ. </strong>Hoàn cảnh của họ khó khăn, và họ không có đủ phương tiện để cải thiện cuộc sống. Họ là những cá nhân đã đóng góp nhiều cho dất nước. Chia sẻ những câu chuyện cùng họ giúp chúng ta hiểu hơn sự khác biệt giữa các thế hệ.<strong> Chúng ta cũng có thể mở rộng kiến thức về lịch sử truyền thống, văn hóa địa phương</strong> thông qua những trải nghiệm của họ&nbsp;</p><p>&nbsp;</p><p>- Nghĩ rằng việc hỗ trợ <strong>cộng đồng địa phương</strong> là hữu ích</p><p>&nbsp;- Cho rằng có thể nâng cao kiến thức về <strong>văn hóa</strong></p><p>&nbsp;</p><p><strong>Chirish</strong> : Mẹ tôi <strong>(My mother</strong>) kết bạn (<strong>make friends</strong>) để phát triển công việc (<strong>career</strong>)</p><p>&nbsp;</p><p>Mẹ tôi khuyên tôi làm tình nguyện tại địa phương bởi vì bà là một phần của cộng đồng đó, nhưng tôi lại không hứng thú. Tôi thích ra nước ngoài làm tình nguyện hơn bởi vì tôi có thể phát triển được các kĩ năng mềm, là điều rất <strong>hữu ích cho nghề nghiệp tương lai của tôi.</strong> Thêm nữa gặp gỡ những người mới giúp tôi <strong>mở rộng các mối quan hệ</strong> và tạo ra những kết nối có giá trị cho công việc của mình.&nbsp;</p><p>&nbsp;</p><p>- Muốn nâng cao<strong> sự nghiệp</strong> trong tương lai&nbsp;</p><p>- Muốn <strong>kết bạn</strong> mới&nbsp;</p><p>&nbsp;</p><p><strong>Noah </strong>: Tôi bận rộn (<strong>busy</strong>) kiếm tiền (<strong>money</strong>)</p><p>&nbsp;</p><p>Tôi quá bận rộn và hiếm khi có thời gian rảnh để làm gì, vì vậy dành ra vài giờ làm tình nguyện cũng rất khó khăn Nếu làm tình nguyện tôi phải nghỉ làm nửa ngày. Tôi thấy nhiều người cần giúp đỡ và họ cần hỗ trợ tài chính. Đây là điều tôi có thể giúp vì tôi có mức lương tốt. <strong>Quyên góp đều đặn hàng tháng không thành vấn đề đối với tôi,</strong> nó cũng là cách tôi thể hiện sự ủng hộ và đóng góp của mình&nbsp;</p><p>&nbsp;</p><p>- Giúp hỗ trợ công việc từ thiện <strong>bằng tiền</strong></p><p>&nbsp;</p><p><strong>Chinua</strong>: Tôi không có nguồn lực tài chính (<strong>I don't have many financial resources) </strong>để đi du lịch<strong>( travel )</strong> và tôi chú trọng thể chất<strong> (physical benefits)</strong></p><p>&nbsp;</p><p>Tôi không có nhiều nguồn thu tài chính nhưng tôi tin rằng có nhiều cách để chúng ta thể hiện lòng tốt thông qua việc làm tình nguyện. Bây giờ tôi đã nghỉ hưu, và hiện tại tôi đang giúp xây nhà cho những người có hoàn cảnh khó khăn. Tôi làm việc với một tổ chức tình nguyện đã có sẵn các kế hoạch rõ ràng. Thông qua công việc này, tôi đã có cơ hội trải nghiệm nhiều nền văn hóa nước ngoài khác nhau. Chúng tôi thường được cử đến nhiều quốc gia để thực hiện các dự án này, vì vậy <strong>đây cũng là một cách tuyệt vời để đi du lịch</strong> trong khi làm điều ý nghĩa. Công việc này bao gồm lao động chân tay, nên <strong>chúng tôi có thể cải thiện sức khỏe thể chất,</strong> điều mà nhiều người chỉ nhận ra sau một thời gian.</p><p><br>Làm tình nguyện giúp cải thiện sức khỏe<strong> thể chất</strong>?<br>Là một cách để đi <strong>du lịch</strong></p>"
-        }
+        },
+        "title": "Topic: Volunteering"
       },
       {
         "id": 55,
@@ -8767,7 +8853,8 @@
             "2"
           ],
           "explanation": "<p><strong>Olivia</strong></p><p>Khi tôi học xong (<strong>When I finished school</strong>) tôi đi làm miễn phí (<strong>free</strong>)</p><p>&nbsp;</p><p>Khi tôi học xong, tôi thật sự không biết mình muốn làm gì. Một số người khuyên tôi nên đi làm ngay. Tuy nhiên, tôi lại muốn có thêm kinh nghiệm thực tế trước đã. Đó là lý do tôi đã nộp đơn cho nhiều công việc tình nguyện khác nhau.<strong> Mặc dù không kiếm được tiền,</strong> nhưng tôi có cơ hội thử nhiều loại công việc khác nhau. Nhìn lại, tôi thấy <strong>hài lòng</strong> với quyết định của mình <strong>vì những kiến thức hữu ích mà tôi đã học được.</strong></p><p>&nbsp;</p><p>&nbsp;- Nghĩ rằng họ đã được <strong>lợi từ việc làm không lương&nbsp;</strong></p><p>&nbsp;</p><p><strong>Chirish :</strong>Tôi vào thằng đại học (<strong>I went straight to university )</strong> vì không muốn đổi nghề<strong> (change) </strong>khác và để học việc<strong> (training)</strong></p><p>&nbsp;</p><p>Tôi đã vào thẳng đại học sau khi tốt nghiệp trung học. <strong>Tôi luôn muốn trở thành một giáo viên,</strong> nên không cần phải xem xét các nghề khác. Ba tháng trước, tôi đã tham gia một kỳ thực tập tại một trường học địa phương<strong>. Đó thực sự là một trải nghiệm mở mang tầm mắt</strong>, mặc dù khối lượng công việc nặng hơn tôi nghĩ. Tuy vậy, tôi tin rằng đó là một trải nghiệm rất đáng giá.</p><p>&nbsp;</p><p>&nbsp;- Không muốn <strong>thay đổi </strong>sang nghề nào khác&nbsp;</p><p>- Thích kì <strong>tập huấn&nbsp;</strong></p><p>&nbsp;</p><p><strong>Emma:</strong> Khi còn nhỏ (<strong>As a child) </strong>thích làm việc chân tay<strong> (hand) </strong>và tôi thấy học đại học quá lâu<strong> (long)</strong></p><p>&nbsp;</p><p>Khi còn nhỏ, tôi sống gần một người thợ sửa ống nước và đôi khi làm việc cùng cô ấy. Cô ấy nhờ tôi làm những việc đơn giản <strong>như kiểm tra chỗ rò rỉ của ống hoặc vặn chặt đinh vít.</strong> Vì vậy, sau này tôi cảm thấy rất tự nhiên khi học đại học để trở thành thợ điện. Bây giờ khi thấy có các khóa học điện ngắn hạn trực tuyến, <strong>tôi ước gì mình đã chọn cách đó thay vì học đại học</strong>.</p><p>&nbsp;- Thích làm những việc <strong>bằng tay</strong>&nbsp;</p><p>- Cho rằng <strong>khóa đào tạo</strong> của họ <strong>quá dài.&nbsp;</strong></p><p>&nbsp;</p><p><strong>Grace:</strong> Khi học xong (<strong>After school</strong>) tôi thích môi trường linh hoạt (<strong>flexible</strong>) nhưng khó tìm được việc (<strong>hard</strong>)</p><p>&nbsp;</p><p>Sau khi học xong, tôi muốn có thời gian để xác định rõ mình thật sự muốn gì. Vì vậy, tôi bắt đầu tìm kiếm các công việc tạm thời. <strong>Tuy nhiên, rất khó để tìm được</strong> vì hầu hết các công ty không nhận người chưa có kinh nghiệm. Cuối cùng, một công ty trò chơi đã liên hệ với tôi và tôi đồng ý làm việc với họ.<strong> Công việc theo hình thức kết hợp,</strong> nên đôi khi tôi làm vào buổi tối, nhưng điều đó hoàn toàn ổn với tôi.&nbsp;</p><p>&nbsp;</p><p>- <strong>Thật khó</strong> để có được công việc đầu tiên</p><p>&nbsp;- Thích làm việc trong <strong>môi trường linh hoạt</strong></p>"
-        }
+        },
+        "title": "Choosing a Career"
       }
     ],
     "reading_4": [
@@ -8812,7 +8899,8 @@
             "2"
           ],
           "explanation": "<p>Linh (Life) - Buộc (Benefits) - Phải (finance ) - Có ( Challenges) - Được ( Difficult) - Phúc (People) - &nbsp;Sao ( Solution)</p>"
-        }
+        },
+        "title": "The Arrival of the Four-Day Work Week"
       },
       {
         "id": 58,
@@ -8855,7 +8943,8 @@
             "4"
           ],
           "explanation": "<p>Mountain Summits : Mai (mountains) - Anh ( achievement) - Phải (Publicizing) - Wa ( wrong) - Đó ( disturbing) - Sớm ( sustainability) - Rồi ( Relationship)</p>"
-        }
+        },
+        "title": "Mountain Summits"
       },
       {
         "id": 59,
@@ -8897,7 +8986,8 @@
             "0",
             "5"
           ]
-        }
+        },
+        "title": "Famous Female Mathematician – Emmy Noether"
       }
     ],
     "grammar_1": [
