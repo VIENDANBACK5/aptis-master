@@ -90,12 +90,22 @@ class AptisServerHandler(BaseHTTPRequestHandler):
             return
 
         # 4. Phục vụ file Audio với hỗ trợ HTTP Range Request (Tua nhanh âm thanh)
-        if path.startswith("/audio/") or path.startswith("/data/audio/"):
+        if path.startswith("/audio/") or path.startswith("/data/audio/") or path.startswith("/questions/audio/"):
             if path.startswith("/data/audio/"):
                 filename = urllib.parse.unquote(path.replace("/data/audio/", ""))
             else:
                 filename = urllib.parse.unquote(path.replace("/audio/", ""))
-            filepath = os.path.join(AUDIO_DIR, filename)
+            filepath = os.path.normpath(os.path.join(AUDIO_DIR, filename))
+
+            # Fallback to speakers/ or root audio directory
+            if not os.path.exists(filepath):
+                bname = os.path.basename(filename)
+                alt1 = os.path.join(AUDIO_DIR, "speakers", bname)
+                alt2 = os.path.join(AUDIO_DIR, bname)
+                if os.path.exists(alt1):
+                    filepath = alt1
+                elif os.path.exists(alt2):
+                    filepath = alt2
 
             if not os.path.exists(filepath):
                 self.send_response(404)

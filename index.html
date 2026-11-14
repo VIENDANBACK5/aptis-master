@@ -1935,28 +1935,43 @@
       const wrap = document.createElement('div');
       wrap.className = "space-y-6";
 
-      // 4 Speakers Grid
+      // 4 Speakers Grid with Audio Players
       const audioGrid = document.createElement('div');
       audioGrid.className = "grid grid-cols-1 md:grid-cols-2 gap-4";
 
       items.forEach((spk, sIdx) => {
-        const audioSrc = audioFiles[sIdx];
-        let finalSrc = audioSrc;
-        if (finalSrc && !finalSrc.startsWith('/') && !finalSrc.startsWith('http')) {
-          finalSrc = '/' + finalSrc;
+        let audioSrc = audioFiles[sIdx] || '';
+        if (audioSrc) {
+          if (!audioSrc.startsWith('/') && !audioSrc.startsWith('http')) {
+            audioSrc = '/' + audioSrc;
+          }
+          audioSrc = audioSrc.replace('/questions/audio/speakers/', '/data/audio/speakers/');
+          audioSrc = audioSrc.replace('/questions/audio/', '/data/audio/');
         }
 
         const box = document.createElement('div');
-        box.className = "border border-gray-200 rounded-xl p-4 bg-white shadow-sm space-y-2";
+        box.className = "border border-gray-200 rounded-2xl p-4 bg-white shadow-sm space-y-2 hover:border-blue-200 transition-all";
+        
+        const voiceType = (sIdx % 2 === 0) ? 'Giọng Nam (British Male)' : 'Giọng Nữ (British Female)';
+        const letter = String.fromCharCode(65 + sIdx);
+
         box.innerHTML = `
-          <div class="font-semibold text-gray-800 text-sm">${spk || 'Speaker ' + String.fromCharCode(65 + sIdx)}</div>
-          ${finalSrc ? `<audio src="${finalSrc}" controls class="w-full h-10"></audio>` : '<div class="text-xs text-gray-400">Audio ready</div>'}
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-gray-900 text-sm flex items-center gap-2">
+              <span class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs font-bold shadow-sm">${letter}</span>
+              <span>${spk || 'Speaker ' + letter}</span>
+            </span>
+            <span class="text-[11px] font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">${voiceType}</span>
+          </div>
+          ${audioSrc ? `
+            <audio src="${audioSrc}" preload="metadata" controls controlslist="nodownload" class="w-full h-10 mt-1"></audio>
+          ` : '<div class="text-xs text-gray-400 py-2">Đang nạp file âm thanh...</div>'}
         `;
         audioGrid.appendChild(box);
       });
       wrap.appendChild(audioGrid);
 
-      // Statements Selects
+      // Statements Selection Dropdowns
       const selBox = document.createElement('div');
       selBox.className = "space-y-3 pt-4 border-t border-gray-100";
 
@@ -1966,8 +1981,8 @@
         row.className = "p-4 rounded-xl border border-gray-200 bg-white space-y-2 shadow-sm";
 
         let selHtml = `
-          <select onchange="onSpeakerMatchChange(${idx}, ${sIdx}, this.value)" class="w-full text-sm border rounded-lg py-2 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
-            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn nhận định cho người nói ${sIdx + 1} --</option>
+          <select onchange="onSpeakerMatchChange(${idx}, ${sIdx}, this.value)" class="w-full text-sm border rounded-lg py-2.5 px-3 focus:ring-blue-500 focus:border-blue-500 ${checked ? 'pointer-events-none font-bold' : 'bg-white border-gray-300 hover:border-blue-400 cursor-pointer'}">
+            <option value="" disabled ${cur === undefined ? 'selected' : ''}>-- Chọn nhận định phù hợp cho ${spk || 'người nói ' + (sIdx + 1)} --</option>
             ${choices.map((c, cIdx) => `
               <option value="${cIdx}" ${String(cur) === String(cIdx) ? 'selected' : ''}>${c}</option>
             `).join('')}
@@ -1987,7 +2002,10 @@
         }
 
         row.innerHTML = `
-          <div class="text-sm font-bold text-gray-800">${spk || 'Speaker ' + String.fromCharCode(65 + sIdx)}:</div>
+          <div class="text-sm font-bold text-gray-800 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-slate-200 text-slate-700 text-xs flex items-center justify-center font-bold">${String.fromCharCode(65 + sIdx)}</span>
+            ${spk || 'Speaker ' + String.fromCharCode(65 + sIdx)}:
+          </div>
           ${selHtml}
           ${fb}
         `;
@@ -1997,8 +2015,36 @@
 
       container.appendChild(wrap);
 
-      if (checked && m.explanation) {
-        showFeedbackExplanation(m.explanation, checked.isCorrect);
+      // Feedback explanation with transcripts
+      if (checked) {
+        let explHtml = '';
+        if (m.descriptions && m.descriptions.length) {
+          explHtml = `
+            <div class="space-y-4">
+              <h4 class="font-bold text-gray-900 text-sm flex items-center gap-2 border-b border-gray-200 pb-2">
+                <svg class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                BẢN DỊCH & TOÀN BỘ LỜI THOẠI 4 NGƯỜI NÓI (TRANSCRIPT)
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                ${m.descriptions.map((desc, dIdx) => `
+                  <div class="p-3.5 bg-blue-50/60 rounded-xl border border-blue-100 text-xs sm:text-sm leading-relaxed">
+                    <div class="font-bold text-blue-900 mb-1 flex items-center gap-1.5">
+                      <span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] flex items-center justify-center font-bold">${String.fromCharCode(65 + dIdx)}</span>
+                      Speaker ${String.fromCharCode(65 + dIdx)}
+                    </div>
+                    <div class="text-gray-700 mt-1">${desc}</div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        } else if (m.explanation) {
+          explHtml = m.explanation;
+        }
+
+        if (explHtml) {
+          showFeedbackExplanation(explHtml, checked.isCorrect);
+        }
       }
     }
 

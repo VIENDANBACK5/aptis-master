@@ -5225,7 +5225,7 @@
           "Đáp án bỏ"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5256,10 +5256,10 @@
             "<p><strong>Person D : Only reads children's books.</strong></p><p>&nbsp;</p><p><strong>As I was small</strong>, my parents often bought me picture books and fairy tales. I still enjoy reading, but my interests haven't changed very much. Even though my friends recommend exciting novels and science books, I don't find them interesting. I prefer children's books because they have simple language, lovely pictures and interesting stories.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/mRpI9qo23ujGlylUQujJKJlR1792LSgKwlo2idaz.mp3",
-            "questions/audio/speakers/Wu7CCKRcw5gdz3bY6q3cTDsRmG8YYkR1amLM1NKs.mp3",
-            "questions/audio/speakers/ou7kvUD1I5Ui8hc8pIri4YRC7RLq0VjXeEYLv8na.mp3",
-            "questions/audio/speakers/xExbjav9tiRLuyJZ0dmx9HQyne48YghRVL9LbQki.mp3"
+            "/data/audio/speakers/mRpI9qo23ujGlylUQujJKJlR1792LSgKwlo2idaz.mp3",
+            "/data/audio/speakers/Wu7CCKRcw5gdz3bY6q3cTDsRmG8YYkR1amLM1NKs.mp3",
+            "/data/audio/speakers/ou7kvUD1I5Ui8hc8pIri4YRC7RLq0VjXeEYLv8na.mp3",
+            "/data/audio/speakers/xExbjav9tiRLuyJZ0dmx9HQyne48YghRVL9LbQki.mp3"
           ]
         },
         "title": "Reading"
@@ -5280,7 +5280,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5311,10 +5311,10 @@
             "<p>A few colleagues in my work place…..=&gt;<strong> alone</strong></p><p>&nbsp;</p><p><strong>A few colleagues in my workplace</strong> enjoy painting, and they often invite me to join their art club. However, I prefer spending my free time drawing and painting by myself. I find it easier to concentrate when nobody is around. Sometimes, I listen to music while creating pictures, and I feel very relaxed. For me, art is a personal activity rather than something I need to share with others.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/KRpwF9HcX2OClIUyAgVjMDDYeANHttbzdY2YiaRu.mp3",
-            "questions/audio/speakers/NHC7MvZunYt1gzsO8xIbEGvVBsFIshY8SivBUAn3.mp3",
-            "questions/audio/speakers/3qsRYD9UAVs4dNmKIky1JIsvg53ADd3V8qYNEe3g.mp3",
-            "questions/audio/speakers/iMESxtf8IOAEz8MwGhTVrxqAxtuSnrlFttppBjSV.mp3"
+            "/data/audio/speakers/KRpwF9HcX2OClIUyAgVjMDDYeANHttbzdY2YiaRu.mp3",
+            "/data/audio/speakers/NHC7MvZunYt1gzsO8xIbEGvVBsFIshY8SivBUAn3.mp3",
+            "/data/audio/speakers/3qsRYD9UAVs4dNmKIky1JIsvg53ADd3V8qYNEe3g.mp3",
+            "/data/audio/speakers/iMESxtf8IOAEz8MwGhTVrxqAxtuSnrlFttppBjSV.mp3"
           ]
         },
         "title": "Doing Arts"
@@ -5335,7 +5335,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5366,10 +5366,10 @@
             "<p>My visit to the museum….=&gt; <strong>enjoy the use of technology</strong></p><p>&nbsp;</p><p><strong>My visit to the museum </strong>was a wonderful experience. What impressed me most was the technology they used to present the exhibits. There were interactive screens, virtual reality displays and audio guides that explained the history of each object. I usually prefer looking at real objects rather than reading information boards, but these modern features made the visit much more enjoyable.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/ZtW1tMgrSJxilPe47oL6fStVZEanPLAsQYcR54uk.mp3",
-            "questions/audio/speakers/ExHe8cczavCu2XXMvIuOk8lAu5JFS5ntf4BEBNH5.mp3",
-            "questions/audio/speakers/0TN7L1pW4FlzHwxzOJ1oVFNVubeVdaZz16z76C7F.mp3",
-            "questions/audio/speakers/5HIFuRCwvozYFY9NZBnpbQ555qOo8Co9DsgmG20K.mp3"
+            "/data/audio/speakers/ZtW1tMgrSJxilPe47oL6fStVZEanPLAsQYcR54uk.mp3",
+            "/data/audio/speakers/ExHe8cczavCu2XXMvIuOk8lAu5JFS5ntf4BEBNH5.mp3",
+            "/data/audio/speakers/0TN7L1pW4FlzHwxzOJ1oVFNVubeVdaZz16z76C7F.mp3",
+            "/data/audio/speakers/5HIFuRCwvozYFY9NZBnpbQ555qOo8Co9DsgmG20K.mp3"
           ]
         },
         "title": "A museum in town"
@@ -5390,7 +5390,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5421,10 +5421,10 @@
             "<p>Most of my friends….=&gt; <strong>while studying</strong></p><p>&nbsp;</p><p><strong>Most of my friends </strong>prefer listening to music when they are relaxing or doing exercise. However, I have a different habit. I often play instrumental music while studying, especially when I'm preparing for important exams. I find that songs without lyrics help me concentrate better and avoid distractions. I usually turn the volume down so that I can focus on my lessons.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/0cFRivzUmg0QHo7wmb34OpCXlLc3Lh1eGCDF0IKc.mp3",
-            "questions/audio/speakers/d4hLNetwtVxWRtIRqk9hpeGss9EMmbYUb1O6tMG4.mp3",
-            "questions/audio/speakers/K5aqM3wwcaGxXAMGW5d1YYJDE2171whTQT9kl2EH.mp3",
-            "questions/audio/speakers/3COO7x43E88KaGqfCWmBFx7tmWDHCo7RnotWODsA.mp3"
+            "/data/audio/speakers/0cFRivzUmg0QHo7wmb34OpCXlLc3Lh1eGCDF0IKc.mp3",
+            "/data/audio/speakers/d4hLNetwtVxWRtIRqk9hpeGss9EMmbYUb1O6tMG4.mp3",
+            "/data/audio/speakers/K5aqM3wwcaGxXAMGW5d1YYJDE2171whTQT9kl2EH.mp3",
+            "/data/audio/speakers/3COO7x43E88KaGqfCWmBFx7tmWDHCo7RnotWODsA.mp3"
           ]
         },
         "title": "Listening to music"
@@ -5445,7 +5445,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5476,10 +5476,10 @@
             "<p>I would love to walk or cycle to work….=&gt; <strong>using less water</strong></p><p>&nbsp;</p><p><strong>I would love to walk or cycle to work,</strong> but unfortunately, my office is quite far from my house. Instead, I try to protect the environment in other ways. For example, I never leave the tap running when I brush my teeth, and I always use only the amount of water I need. I also collect rainwater to water my plants. I believe everyone should try to save water in their daily lives.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/GW5tneDYmI4gsaDiyplRPP3mEis6O9LuvXM59RvT.mp3",
-            "questions/audio/speakers/4lxxC3Jl5VmPAiQhcKWIBVLYro8fyOMZivXbF6yF.mp3",
-            "questions/audio/speakers/z8Fr9gzaSPwQbQjNFh901b3vhH64ESbRRaOypr7M.mp3",
-            "questions/audio/speakers/EnwYv77ZtivBBFrXG3xBP9GZjxueQ2k5q8QNIi7L.mp3"
+            "/data/audio/speakers/GW5tneDYmI4gsaDiyplRPP3mEis6O9LuvXM59RvT.mp3",
+            "/data/audio/speakers/4lxxC3Jl5VmPAiQhcKWIBVLYro8fyOMZivXbF6yF.mp3",
+            "/data/audio/speakers/z8Fr9gzaSPwQbQjNFh901b3vhH64ESbRRaOypr7M.mp3",
+            "/data/audio/speakers/EnwYv77ZtivBBFrXG3xBP9GZjxueQ2k5q8QNIi7L.mp3"
           ]
         },
         "title": "Protect the environment (1)"
@@ -5500,7 +5500,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5531,10 +5531,10 @@
             "<p>I believe consumerism…..=&gt; <strong>worries about creating rubbish</strong></p><p>&nbsp;</p><p><strong>I believe consumerism </strong>is one of the biggest causes of environmental problems. People often buy things they do not really need, which creates a huge amount of rubbish. I always think carefully before buying something because I don't want to contribute to this problem. I try to choose products with less packaging whenever possible.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/wKPCajO7bpMWud7Ycjz2WNaybLTfHtNtkMvVfb0T.mp3",
-            "questions/audio/speakers/XrbQpe8MdeWFrpJamZtNKlCcM5NtKZQhbR5uJKpO.mp3",
-            "questions/audio/speakers/BkaOhCg2K76GTeSspbKxiqnu2CuQHJu51BhKYFMC.mp3",
-            "questions/audio/speakers/S2iv0fdeUd8F6NcY3a8BCrnZMu2YU4OtmjXNyqFF.mp3"
+            "/data/audio/speakers/wKPCajO7bpMWud7Ycjz2WNaybLTfHtNtkMvVfb0T.mp3",
+            "/data/audio/speakers/XrbQpe8MdeWFrpJamZtNKlCcM5NtKZQhbR5uJKpO.mp3",
+            "/data/audio/speakers/BkaOhCg2K76GTeSspbKxiqnu2CuQHJu51BhKYFMC.mp3",
+            "/data/audio/speakers/S2iv0fdeUd8F6NcY3a8BCrnZMu2YU4OtmjXNyqFF.mp3"
           ]
         },
         "title": "Protect the environment (2)"
@@ -5555,7 +5555,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5586,10 +5586,10 @@
             "<p>I live by the seaside…..=&gt;<strong> on a running track</strong></p><p>&nbsp;</p><p><strong>I live by the seaside, </strong>so I have many beautiful places to run. However, I don't really enjoy running on the beach because the sand is too soft. Instead, I prefer going to a running track. The surface is smooth, and I can easily measure how far I run. It's also a good place to improve my speed.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/rmki8Z839DigL40uDHfAjh9UwOOjEzMmDlZDU4nQ.mp3",
-            "questions/audio/speakers/p7I34OiaSpjphPqTZ5ylqZ0FXTy6jyWPVl0Qmi8L.mp3",
-            "questions/audio/speakers/x4LNcSt94LpxRt8frZLns0H8xZU13CVb7J6hv13G.mp3",
-            "questions/audio/speakers/5fWdjHhjpDS8e055fbWbl1Bh2OIU98dVodbitzN3.mp3"
+            "/data/audio/speakers/rmki8Z839DigL40uDHfAjh9UwOOjEzMmDlZDU4nQ.mp3",
+            "/data/audio/speakers/p7I34OiaSpjphPqTZ5ylqZ0FXTy6jyWPVl0Qmi8L.mp3",
+            "/data/audio/speakers/x4LNcSt94LpxRt8frZLns0H8xZU13CVb7J6hv13G.mp3",
+            "/data/audio/speakers/5fWdjHhjpDS8e055fbWbl1Bh2OIU98dVodbitzN3.mp3"
           ]
         },
         "title": "Running"
@@ -5610,7 +5610,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5641,10 +5641,10 @@
             "<p>To study effectively, I need a quiet environment….=&gt; <strong>at home&nbsp;</strong></p><p>&nbsp;</p><p><strong>To study effectively, I need a quiet environment. </strong>That's why I prefer studying at home, where I can arrange my books and everything I need. I don't have to worry about people talking or making noise around me. Besides, I can take short breaks whenever I feel tired.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/ijZdMu4W2fIsfdrK3drwtVqNkI7y09MiIPczFm7l.mp3",
-            "questions/audio/speakers/ywJSdMMNSPiFgmt1GxctdS92qw0A5IgPVDQK6DFq.mp3",
-            "questions/audio/speakers/jxFgl7IJuVuT65I8nPvzMZ1lwhecZvpSpZ6WpobM.mp3",
-            "questions/audio/speakers/bJCFL7WHgZDpCiJQhFUdpRkb5fJDkYANRzq7u8kV.mp3"
+            "/data/audio/speakers/ijZdMu4W2fIsfdrK3drwtVqNkI7y09MiIPczFm7l.mp3",
+            "/data/audio/speakers/ywJSdMMNSPiFgmt1GxctdS92qw0A5IgPVDQK6DFq.mp3",
+            "/data/audio/speakers/jxFgl7IJuVuT65I8nPvzMZ1lwhecZvpSpZ6WpobM.mp3",
+            "/data/audio/speakers/bJCFL7WHgZDpCiJQhFUdpRkb5fJDkYANRzq7u8kV.mp3"
           ]
         },
         "title": "Study (1)"
@@ -5665,7 +5665,7 @@
           "Đáp án bỏ"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5696,10 +5696,10 @@
             "<p>I study late in the evening….=&gt; l<strong>ate at night</strong></p><p>&nbsp;</p><p><strong>I study late in the evening </strong>because that's when I feel most productive. During the day, I'm usually busy with school and other activities, so I don't have much time to revise my lessons. At night, everything is quieter, and I can focus better. Sometimes, I continue studying until midnight.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/sUHaziVipXDIQKuOttBDDrovDpyaClhgcFrz5a3Q.mp3",
-            "questions/audio/speakers/5LY1rLstm3sILz4HdyG2Brw9tq6xKRnIlNv2GWyf.mp3",
-            "questions/audio/speakers/it9NRK3tu0VWmrAQyzCnVHxKuWGRYgBaklqHfZ2q.mp3",
-            "questions/audio/speakers/gTpqS2W9zOqicYnYXU7TmEjC6UqvXO359zbjQJCy.mp3"
+            "/data/audio/speakers/sUHaziVipXDIQKuOttBDDrovDpyaClhgcFrz5a3Q.mp3",
+            "/data/audio/speakers/5LY1rLstm3sILz4HdyG2Brw9tq6xKRnIlNv2GWyf.mp3",
+            "/data/audio/speakers/it9NRK3tu0VWmrAQyzCnVHxKuWGRYgBaklqHfZ2q.mp3",
+            "/data/audio/speakers/gTpqS2W9zOqicYnYXU7TmEjC6UqvXO359zbjQJCy.mp3"
           ]
         },
         "title": "study (2)"
@@ -5720,7 +5720,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5751,10 +5751,10 @@
             "<p>The area where I live…..=&gt; <strong>mountain biking</strong></p><p>&nbsp;</p><p><strong>The area where I live</strong> has many forests and hills, which makes it perfect for mountain biking. I often ride my bike along narrow paths and challenging trails with my friends. It's an exciting activity because I can enjoy nature while testing my cycling skills. Of course, I always wear a helmet to stay safe.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/l8y5k6mbP6dtLcWfnVXMXo0lyan6DtvGY2V7okz4.mp3",
-            "questions/audio/speakers/4XRXMADiiG9Cr7QIbo8iyKqOm90SJjJa7pcUuZDD.mp3",
-            "questions/audio/speakers/Mibn867kq4wAPvjPGefMNFniumXVli5CQvzDkHM7.mp3",
-            "questions/audio/speakers/wMAcK5HGMcYc4dqCMg1NaJTIxQTeFJ61ecGCriVU.mp3"
+            "/data/audio/speakers/l8y5k6mbP6dtLcWfnVXMXo0lyan6DtvGY2V7okz4.mp3",
+            "/data/audio/speakers/4XRXMADiiG9Cr7QIbo8iyKqOm90SJjJa7pcUuZDD.mp3",
+            "/data/audio/speakers/Mibn867kq4wAPvjPGefMNFniumXVli5CQvzDkHM7.mp3",
+            "/data/audio/speakers/wMAcK5HGMcYc4dqCMg1NaJTIxQTeFJ61ecGCriVU.mp3"
           ]
         },
         "title": "Outdoor activities"
@@ -5775,7 +5775,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5806,10 +5806,10 @@
             "<p>I'm not a fan of studying online…..=&gt; <strong>to find transport information</strong></p><p>&nbsp;</p><p><strong>I'm not a fan of studying online </strong>because I find it difficult to concentrate in front of a computer for too long. However, I use the Internet quite often when I need to travel somewhere. I can check bus and train timetables, compare ticket prices and find the best routes. This information helps me plan my journeys more easily.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/xXLSqhwLdaEXQ4lfHCqF2Lge2shH53GX5LPsiuKK.mp3",
-            "questions/audio/speakers/Cyq3J2su5JGiX5wcTEYD71bqMCYkoajeodiZhNrt.mp3",
-            "questions/audio/speakers/9Y9VNQZq93CUlHTuKU6dH6Bqioi1ub8l5j9JdTrt.mp3",
-            "questions/audio/speakers/ZsEnWp1phHjxGyw7nr6yr2QF79KklQOPvPM4vH3s.mp3"
+            "/data/audio/speakers/xXLSqhwLdaEXQ4lfHCqF2Lge2shH53GX5LPsiuKK.mp3",
+            "/data/audio/speakers/Cyq3J2su5JGiX5wcTEYD71bqMCYkoajeodiZhNrt.mp3",
+            "/data/audio/speakers/9Y9VNQZq93CUlHTuKU6dH6Bqioi1ub8l5j9JdTrt.mp3",
+            "/data/audio/speakers/ZsEnWp1phHjxGyw7nr6yr2QF79KklQOPvPM4vH3s.mp3"
           ]
         },
         "title": "Use of the Internet"
@@ -5830,7 +5830,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5861,10 +5861,10 @@
             "<p>It's about three kilometers….=&gt; <strong>walks with friends</strong></p><p>&nbsp;</p><p><strong>It's about three kilometers </strong>from my house to the office, so I usually walk there with a couple of my friends who work nearby. We meet outside a local shop every morning and walk together. It's a good opportunity to chat, share stories and get some exercise before starting work.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/armuU7cW922Ti3CjcXl9FEpDPRZy88xjhfhtAi45.mp3",
-            "questions/audio/speakers/TwTYt5mUsZsTPLi7Q4GQEQ8JhYt0NvyqPtg7AZZP.mp3",
-            "questions/audio/speakers/b5c58im3B5L6kDdBwWO3Rwh6fFjiUQ0ImE9Z5omt.mp3",
-            "questions/audio/speakers/a3tuHLFM6by9mtKhM6ZU96Bw4Aim6Gzu7tOpk4mi.mp3"
+            "/data/audio/speakers/armuU7cW922Ti3CjcXl9FEpDPRZy88xjhfhtAi45.mp3",
+            "/data/audio/speakers/TwTYt5mUsZsTPLi7Q4GQEQ8JhYt0NvyqPtg7AZZP.mp3",
+            "/data/audio/speakers/b5c58im3B5L6kDdBwWO3Rwh6fFjiUQ0ImE9Z5omt.mp3",
+            "/data/audio/speakers/a3tuHLFM6by9mtKhM6ZU96Bw4Aim6Gzu7tOpk4mi.mp3"
           ]
         },
         "title": "Journey to work"
@@ -5885,7 +5885,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5916,10 +5916,10 @@
             "<p>Well, you're not getting me exercising at all…. =&gt; <strong>hate exercising</strong></p><p>&nbsp;</p><p><strong>Well, you're not getting me exercising at all! </strong>I absolutely hate doing physical activities, especially running or going to the gym. I prefer relaxing at home, watching television or reading a book. I know people say exercise is good for you, but it's simply not something I enjoy.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/zBo9XkE40b5O6GFyU0wwYVQ7LGPXHgrPVvyD38Q7.mp3",
-            "questions/audio/speakers/txxsWHYpRkghK1ytBsrGnI17tFdyQgsoZ6pdFKGh.mp3",
-            "questions/audio/speakers/NoHb0RCjM3dLjBuNqbr6czUPfRvWtr1Lhm1esWyB.mp3",
-            "questions/audio/speakers/yvFaDrWD43j1fLc2SytKcXYu3V60igNGUjGZgMYJ.mp3"
+            "/data/audio/speakers/zBo9XkE40b5O6GFyU0wwYVQ7LGPXHgrPVvyD38Q7.mp3",
+            "/data/audio/speakers/txxsWHYpRkghK1ytBsrGnI17tFdyQgsoZ6pdFKGh.mp3",
+            "/data/audio/speakers/NoHb0RCjM3dLjBuNqbr6czUPfRvWtr1Lhm1esWyB.mp3",
+            "/data/audio/speakers/yvFaDrWD43j1fLc2SytKcXYu3V60igNGUjGZgMYJ.mp3"
           ]
         },
         "title": "Doing Exercise (1)"
@@ -5940,7 +5940,7 @@
           "Đáp án nhiễu"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -5971,10 +5971,10 @@
             "<p><strong>just exercises in the morning</strong></p><p>I'm quite busy with my studies, so I don't have much time for physical activities. I usually do some simple exercises in the morning before going to school. I sometimes go cycling at weekends, but I find it difficult to maintain a regular schedule. Morning exercise helps me feel more energetic throughout the day.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/H5ReO0YskVHSiDpcR8TBd9M3MZSNFgsWJCwKk7yC.mp3",
-            "questions/audio/speakers/9jQ35YImwnQXJMR4vfYHUOUuX4Md0aGFXwZ0jIpM.mp3",
-            "questions/audio/speakers/5iGIIYi0TNW0zu4VkEZJKToQRfGGOyHEFFhV4JTB.mp3",
-            "questions/audio/speakers/P5BGuunhmUvRUqdbXEzCfKigM08yAW9123MLY9QV.mp3"
+            "/data/audio/speakers/H5ReO0YskVHSiDpcR8TBd9M3MZSNFgsWJCwKk7yC.mp3",
+            "/data/audio/speakers/9jQ35YImwnQXJMR4vfYHUOUuX4Md0aGFXwZ0jIpM.mp3",
+            "/data/audio/speakers/5iGIIYi0TNW0zu4VkEZJKToQRfGGOyHEFFhV4JTB.mp3",
+            "/data/audio/speakers/P5BGuunhmUvRUqdbXEzCfKigM08yAW9123MLY9QV.mp3"
           ]
         },
         "title": "Exercise (2)"
@@ -5995,7 +5995,7 @@
           "Đáp án sai"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -6026,10 +6026,10 @@
             "<p>Shopping is generally struggle for me….=&gt; <strong>shops mainly on the internet</strong></p><p>&nbsp;</p><p><strong>Shopping is generally a struggle for me </strong>because I don't enjoy walking around crowded shopping center. That's why I do most of my shopping on the Internet. I can easily compare products, read customer reviews and order things without leaving home. It's especially useful when I need to buy clothes, books or household items.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/OfgU0BXjhLwny2Ulve3xrJpMGZGipaIQzQrMATTH.mp3",
-            "questions/audio/speakers/MQwIUMxkOe30PEwN4jaPZfGBmP7HEL80la5ilVTO.mp3",
-            "questions/audio/speakers/Sa8vkOjczeSJAR9WccZzfpf9QCyKj4VUTJD4euV0.mp3",
-            "questions/audio/speakers/98XC87iDZdcYJQxu05oQnIZ5D01VE12Aq0AGuflb.mp3"
+            "/data/audio/speakers/OfgU0BXjhLwny2Ulve3xrJpMGZGipaIQzQrMATTH.mp3",
+            "/data/audio/speakers/MQwIUMxkOe30PEwN4jaPZfGBmP7HEL80la5ilVTO.mp3",
+            "/data/audio/speakers/Sa8vkOjczeSJAR9WccZzfpf9QCyKj4VUTJD4euV0.mp3",
+            "/data/audio/speakers/98XC87iDZdcYJQxu05oQnIZ5D01VE12Aq0AGuflb.mp3"
           ]
         },
         "title": "Shopping online"
@@ -6050,7 +6050,7 @@
           "Đáp án bỏ"
         ],
         "correct_answer": null,
-        "has_audio": false,
+        "has_audio": true,
         "audio_file": null,
         "description": "",
         "raw_metadata": {
@@ -6081,10 +6081,10 @@
             "<p><strong>Person D : watched a nice performance</strong></p><p>Last weekend, I went to a restaurant that had live music in the evening. The food was ordinary, and honestly, the drinks were a little expensive. But the singer and the band were fantastic. They played beautifully, and everyone in the restaurant stopped talking just to listen. It felt like a mini concert, and I couldn't find a single mistake in their performance.</p>"
           ],
           "audio_files": [
-            "questions/audio/speakers/UtzbiGi9rlLJoMISgUJ9f8qfYNzleX2wtS6pKNWw.mp3",
-            "questions/audio/speakers/sG9Y6CH4f2ZFSZFqHUvhTcN0fVrBpkO0SbKIfjo9.mp3",
-            "questions/audio/speakers/kujj8bF5YrBueRRTB2hnd8bpQpLfjGYAZsVZfKCY.mp3",
-            "questions/audio/speakers/GH6B3pqrgacHqdYy7WpjYTHeScIFI7gtg6kmBu92.mp3"
+            "/data/audio/speakers/UtzbiGi9rlLJoMISgUJ9f8qfYNzleX2wtS6pKNWw.mp3",
+            "/data/audio/speakers/sG9Y6CH4f2ZFSZFqHUvhTcN0fVrBpkO0SbKIfjo9.mp3",
+            "/data/audio/speakers/kujj8bF5YrBueRRTB2hnd8bpQpLfjGYAZsVZfKCY.mp3",
+            "/data/audio/speakers/GH6B3pqrgacHqdYy7WpjYTHeScIFI7gtg6kmBu92.mp3"
           ]
         },
         "title": "A new restaurant"
