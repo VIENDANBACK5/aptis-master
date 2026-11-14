@@ -1,18 +1,17 @@
 [
   {
     "id": 57,
+    "number": 1,
     "skill": "reading",
     "part": 4,
     "type": "matching_headings",
-    "title": "The Arrival of the Four-Day Work Week",
     "stem": "The Arrival of the Four-Day Work Week : Linh (Life) - Buộc (Benefits) - Phải (finance ) -Có (Challenges) - Được ( Difficult) - Phúc (People) - Sao ( Solution)",
-    "audio_path": null,
-    "audio_url": null,
-    "audio_urls": [],
-    "image_path": null,
-    "point": 1,
-    "order": 0,
-    "metadata": {
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
       "paragraphs": [
         "For many decades, working five or even six days a week was seen as the norm. However, with modern technology, changing values, and a greater focus on work-life balance, that lifestyle is becoming less relevant. Employees and companies alike are beginning to question whether spending most of one’s week at work is still necessary or productive.",
         "Supporters of the four-day work week argue that it offers numerous advantages for workers. With an extra day off, employees have more time to rest, spend with family, or pursue hobbies. Studies show that many people become more focused and productive when working fewer hours, leading to better performance and increased job satisfaction.",
@@ -42,23 +41,22 @@
       ],
       "explanation": "<p>Linh (Life) - Buộc (Benefits) - Phải (finance ) - Có ( Challenges) - Được ( Difficult) - Phúc (People) - &nbsp;Sao ( Solution)</p>"
     },
-    "originalIndex": 0,
-    "_revealed": true
+    "title": "The Arrival of the Four-Day Work Week",
+    "mnemonic_tip": "Linh (Life) - Buộc (Benefits) - Phải (Finance) - Có (Challenges) - Được (Difficult) - Phúc (People) - Sao (Solution)"
   },
   {
     "id": 58,
+    "number": 2,
     "skill": "reading",
     "part": 4,
     "type": "matching_headings",
-    "title": "Mountain Summits",
     "stem": "Mountain Summits : Mai (mountains) - Anh ( achievement) - Phải (Publicizing) - Wa ( wrong) - Đó ( disturbing) - Sớm ( sustainability) - Rồi ( Relationship)",
-    "audio_path": null,
-    "audio_url": null,
-    "audio_urls": [],
-    "image_path": null,
-    "point": 1,
-    "order": 1,
-    "metadata": {
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
       "paragraphs": [
         "Even before the nineteenth century, mountains had always exerted a powerful attraction on travelers. They captivated visitors largely because of their natural beauty and the sense of awe inspired by dramatic landscapes. For early explorers, climbing to the summit was primarily about enjoyment and wonder, rather than proving personal strength. In contrast, today the peak is no longer seen merely as a scenic viewpoint but as a highly symbolic destination. Reaching the top has increasingly come to represent success, endurance, and a once-in-a-lifetime accomplishment that many people aspire to achieve.",
         "For a large number of climbers, conquering a mountain summit embodies profound personal significance. The \"summit\" is often interpreted as a metaphor for success in life, a clear representation of overcoming barriers and pushing human limits. The physical obstacles encountered on the climb mirror psychological struggles, which makes the achievement deeply rewarding. Over time, mountaineering has evolved into a cultural practice where people challenge themselves for adventure, resilience, and self-affirmation. Consequently, the scenery or encounters along the trail have become secondary to the psychological triumph of standing at the very top.",
@@ -88,23 +86,21 @@
       ],
       "explanation": "<p>Mountain Summits : Mai (mountains) - Anh ( achievement) - Phải (Publicizing) - Wa ( wrong) - Đó ( disturbing) - Sớm ( sustainability) - Rồi ( Relationship)</p>"
     },
-    "originalIndex": 1,
-    "_revealed": true
+    "title": "Mountain Summits"
   },
   {
     "id": 59,
+    "number": 3,
     "skill": "reading",
     "part": 4,
     "type": "matching_headings",
-    "title": "Famous Female Mathematician – Emmy Noether",
     "stem": "Famous Female Mathematician – Emmy Noether : Ông ( obscures) - Pio (pioneer) - Muốn (men) - có ( career) - Lon (labels) - Bia (balance) - Uống ( Uniformity)",
-    "audio_path": null,
-    "audio_url": null,
-    "audio_urls": [],
-    "image_path": null,
-    "point": 1,
-    "order": 2,
-    "metadata": {
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
       "paragraphs": [
         "In 2014, Maryam Mirzakhani achieved something unexpected-she won the Fields Medal, becoming the first woman ever to receive it. \r\nIt was a landmark moment in the history of mathematics, yet public reaction was mixed. \r\nMuch of the media attention focused more on her being a woman than on the substance of her mathematical work. \r\nComparisons with male predecessors sometimes implied her success was less significant. \r\nThis raised the question: do science and math still implicitly belong to men?",
         "Even before Maryam, women have made noteworthy contributions to mathematics. \r\nMaria Gaetana Agnesi, an 18th-century Italian scholar, was the first to author a complete calculus text and to receive a university professorship in mathematics. \r\nHer work laid foundations in algebra, calculus, and analytical methods. \r\nAgnesi's institutionally sanctioned success showed that precedent for women's excellence existed far earlier than modern discourse often acknowledges.",
@@ -133,7 +129,6 @@
         "5"
       ]
     },
-    "originalIndex": 2,
-    "_revealed": true
+    "title": "Famous Female Mathematician – Emmy Noether"
   }
 ]

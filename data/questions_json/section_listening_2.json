@@ -1,0 +1,882 @@
+[
+  {
+    "id": 713,
+    "number": 1,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Four people are talking about Reading. Complete the sentences below.",
+    "choices": [
+      "Prefers another activity to reading.",
+      "Only reads children's books.",
+      "Reads while travelling to work.",
+      "Does not have time to read books.",
+      "Đáp án bỏ",
+      "Đáp án bỏ"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "Prefers another activity to reading.",
+        "Only reads children's books.",
+        "Reads while travelling to work.",
+        "Does not have time to read books.",
+        "Đáp án bỏ",
+        "Đáp án bỏ"
+      ],
+      "correct_answers": [
+        "2",
+        "3",
+        "0",
+        "1"
+      ],
+      "descriptions": [
+        "<p><strong>Person A : Reads while travelling to work.</strong></p><p>&nbsp;</p><p><strong>It was probably my favorite activity</strong> when I was younger. I used to spend hours reading novels and storybooks at home. These days, I'm quite busy with work, so I don't have much time to sit down and read. However, I still manage to enjoy a few pages every morning while travelling to work by bus. It's a great way to make use of my journey.</p>",
+        "<p><strong>Person B : Does not have time to read books.</strong></p><p>&nbsp;</p><p><strong>When I was a kid</strong>, I really enjoyed reading adventure stories and comics. I even had a large collection of books in my bedroom. However, my life has become much busier since I started working. I usually spend my free time doing housework or meeting friends, so I hardly ever have enough time to read books nowadays.</p>",
+        "<p><strong>Person C : Prefers another activity to reading.</strong></p><p>&nbsp;</p><p><strong>My house is full of books</strong> because I've been collecting them for many years. I particularly enjoy buying novels and keeping them on my bookshelves. Although I sometimes read a few pages before going to bed, I actually prefer watching films and listening to music. These activities help me relax much more than reading does.</p>",
+        "<p><strong>Person D : Only reads children's books.</strong></p><p>&nbsp;</p><p><strong>As I was small</strong>, my parents often bought me picture books and fairy tales. I still enjoy reading, but my interests haven't changed very much. Even though my friends recommend exciting novels and science books, I don't find them interesting. I prefer children's books because they have simple language, lovely pictures and interesting stories.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/mRpI9qo23ujGlylUQujJKJlR1792LSgKwlo2idaz.mp3",
+        "/data/audio/speakers/Wu7CCKRcw5gdz3bY6q3cTDsRmG8YYkR1amLM1NKs.mp3",
+        "/data/audio/speakers/ou7kvUD1I5Ui8hc8pIri4YRC7RLq0VjXeEYLv8na.mp3",
+        "/data/audio/speakers/xExbjav9tiRLuyJZ0dmx9HQyne48YghRVL9LbQki.mp3"
+      ]
+    },
+    "title": "Reading"
+  },
+  {
+    "id": 801,
+    "number": 2,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Doing Arts",
+    "choices": [
+      "with their children",
+      "alone",
+      "as a social activity",
+      "as part of their job",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "with their children",
+        "alone",
+        "as a social activity",
+        "as part of their job",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "descriptions": [
+        "<p>I used to go…..=&gt; <strong>as a social activity</strong></p><p>&nbsp;</p><p><strong>I used to go to</strong> art galleries with my friends when I was at university. We enjoyed looking at paintings and discussing different artists. Sometimes, we also attended drawing workshops together. Although I can draw quite well on my own, I find visiting exhibitions with other people much more enjoyable. It's a great way to spend time with friends and share our interests.</p>",
+        "<p>At school I….=&gt; <strong>with their children</strong></p><p>&nbsp;</p><p><strong>At school, </strong>I really enjoyed painting and making handmade things. Nowadays, I often do art activities with my children at home. We usually draw pictures, make paper animals and paint colourful decorations together. I sometimes visit art museums with my friends, but I think creating artwork with my children is much more fun. It also gives us a chance to spend quality time together.</p>",
+        "<p>When I was young…..=&gt; <strong>as part of their job</strong></p><p>&nbsp;</p><p><strong>When I was young, </strong>I was very interested in drawing and painting. I never thought I would use these skills in my future career. Now, I work as a graphic designer, so creating artwork is an important part of my daily responsibilities. Although I enjoy visiting galleries in my free time, most of my artistic activities are connected to my job.</p>",
+        "<p>A few colleagues in my work place…..=&gt;<strong> alone</strong></p><p>&nbsp;</p><p><strong>A few colleagues in my workplace</strong> enjoy painting, and they often invite me to join their art club. However, I prefer spending my free time drawing and painting by myself. I find it easier to concentrate when nobody is around. Sometimes, I listen to music while creating pictures, and I feel very relaxed. For me, art is a personal activity rather than something I need to share with others.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/KRpwF9HcX2OClIUyAgVjMDDYeANHttbzdY2YiaRu.mp3",
+        "/data/audio/speakers/NHC7MvZunYt1gzsO8xIbEGvVBsFIshY8SivBUAn3.mp3",
+        "/data/audio/speakers/3qsRYD9UAVs4dNmKIky1JIsvg53ADd3V8qYNEe3g.mp3",
+        "/data/audio/speakers/iMESxtf8IOAEz8MwGhTVrxqAxtuSnrlFttppBjSV.mp3"
+      ]
+    },
+    "title": "Doing Arts"
+  },
+  {
+    "id": 802,
+    "number": 3,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "A museum in town",
+    "choices": [
+      "finish the visit quickly",
+      "wants to visit again",
+      "enjoy the use of technology",
+      "got lost during the visit",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "finish the visit quickly",
+        "wants to visit again",
+        "enjoy the use of technology",
+        "got lost during the visit",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "0",
+        "1",
+        "2"
+      ],
+      "descriptions": [
+        "<p>I was excited to……=&gt; <strong>got lost during the visit</strong></p><p>&nbsp;</p><p><strong>I was excited to </strong>visit the museum because I'd heard so many good things about it. There were several interesting rooms showing paintings, old objects and historical photographs. However, I didn't pay much attention to the signs and accidentally took the wrong direction. I spent quite a long time trying to find my way back to the main exhibition area. Luckily, a member of staff helped me find the exit.</p>",
+        "<p>A history museum….=&gt; <strong>finish the visit quickly</strong></p><p>&nbsp;</p><p><strong>A history museum </strong>has always been something I've wanted to explore. However, when I arrived, I found that some exhibition rooms were closed for repairs. I had planned to spend the whole afternoon there, but there wasn't as much to see as I expected. I decided to look around the main exhibition and leave after about thirty minutes. I was a little disappointed because I had expected more displays.</p>",
+        "<p>I thought it would be a brief visit…..=&gt;<strong>wants to visit again</strong></p><p>&nbsp;</p><p><strong>I thought it would be a brief visit </strong>because I only wanted to see the main exhibition. However, I was surprised by how interesting the museum was. The staff were friendly, and there were many fascinating objects from different periods. I particularly enjoyed the ancient art collection. I didn't have enough time to explore everything, so I'm planning to come back next weekend.</p>",
+        "<p>My visit to the museum….=&gt; <strong>enjoy the use of technology</strong></p><p>&nbsp;</p><p><strong>My visit to the museum </strong>was a wonderful experience. What impressed me most was the technology they used to present the exhibits. There were interactive screens, virtual reality displays and audio guides that explained the history of each object. I usually prefer looking at real objects rather than reading information boards, but these modern features made the visit much more enjoyable.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/ZtW1tMgrSJxilPe47oL6fStVZEanPLAsQYcR54uk.mp3",
+        "/data/audio/speakers/ExHe8cczavCu2XXMvIuOk8lAu5JFS5ntf4BEBNH5.mp3",
+        "/data/audio/speakers/0TN7L1pW4FlzHwxzOJ1oVFNVubeVdaZz16z76C7F.mp3",
+        "/data/audio/speakers/5HIFuRCwvozYFY9NZBnpbQ555qOo8Co9DsgmG20K.mp3"
+      ]
+    },
+    "title": "A museum in town"
+  },
+  {
+    "id": 803,
+    "number": 4,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Listening to music",
+    "choices": [
+      "to relax",
+      "while studying",
+      "after waking up",
+      "while singing",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "to relax",
+        "while studying",
+        "after waking up",
+        "while singing",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "descriptions": [
+        "<p>I love listening to pop music……=&gt; <strong>while singing</strong></p><p>&nbsp;</p><p><strong>I love listening to pop music,</strong> especially songs by my favourite singers. I usually play music when I'm doing housework or travelling by bus. Sometimes, I turn up the volume and sing along to the songs, even though I don't have a very good voice. My friends often laugh when they hear me singing, but I really enjoy doing it. Music makes my daily activities more interesting.</p>",
+        "<p>My brother listens to music to relax…..=&gt;<strong>after waking up</strong></p><p>&nbsp;</p><p><strong>My brother listens to music to relax</strong> after a long day at school, but I have a different habit. I usually turn on my favorite playlist as soon as I wake up in the morning. It helps me feel more energetic and puts me in a good mood before I start my daily activities. I sometimes listen to music while getting dressed or having breakfast.</p>",
+        "<p>What I love to do ….=&gt; <strong>to relax</strong></p><p>&nbsp;</p><p><strong>What I love to do </strong>after a stressful day is listen to soft music in my bedroom. I usually choose slow songs because they help me feel peaceful and forget about my worries. I don't really care about the type of music as long as it has a gentle melody. Although I sometimes listen to music when travelling, my favourite time is when I want to rest and relax.</p><p>&nbsp;</p>",
+        "<p>Most of my friends….=&gt; <strong>while studying</strong></p><p>&nbsp;</p><p><strong>Most of my friends </strong>prefer listening to music when they are relaxing or doing exercise. However, I have a different habit. I often play instrumental music while studying, especially when I'm preparing for important exams. I find that songs without lyrics help me concentrate better and avoid distractions. I usually turn the volume down so that I can focus on my lessons.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/0cFRivzUmg0QHo7wmb34OpCXlLc3Lh1eGCDF0IKc.mp3",
+        "/data/audio/speakers/d4hLNetwtVxWRtIRqk9hpeGss9EMmbYUb1O6tMG4.mp3",
+        "/data/audio/speakers/K5aqM3wwcaGxXAMGW5d1YYJDE2171whTQT9kl2EH.mp3",
+        "/data/audio/speakers/3COO7x43E88KaGqfCWmBFx7tmWDHCo7RnotWODsA.mp3"
+      ]
+    },
+    "title": "Listening to music"
+  },
+  {
+    "id": 804,
+    "number": 5,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Protect the environment (1)",
+    "choices": [
+      "not driving to work",
+      "shopping online",
+      "using less water",
+      "using less electricity",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "not driving to work",
+        "shopping online",
+        "using less water",
+        "using less electricity",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "0",
+        "1",
+        "2"
+      ],
+      "descriptions": [
+        "<p>There are many small things….=&gt; <strong>using less electricity</strong></p><p>&nbsp;</p><p><strong>There are many small things </strong>we can do to protect the environment. For example, I always turn off the lights when I leave a room and unplug electrical devices when I'm not using them. I also try to take shorter showers and avoid wasting water. Although these habits may seem simple, I believe they can make a difference. Saving energy is especially important because it helps reduce pollution.</p>",
+        "<p>Everybody seems to be buying things online…..=&gt; <strong>not driving to work</strong></p><p>&nbsp;</p><p><strong>Everybody seems to be buying things online </strong>these days, but I don't really enjoy shopping on the Internet. I prefer visiting local shops because I can choose products myself. To protect the environment, I usually take the bus instead of driving my car to work. It takes a little longer, but it helps reduce air pollution and the number of cars on the road.</p>",
+        "<p>I have my groceries delivered to my house….=&gt;<strong> shopping online</strong></p><p>&nbsp;</p><p><strong>I have my groceries delivered to my house </strong>because it saves me a lot of time. I used to drive to the supermarket several times a week, but now I can order everything online. I know delivery vehicles also produce pollution, so I try to place one large order instead of several small ones. I think shopping online is a convenient way to buy what I need.</p>",
+        "<p>I would love to walk or cycle to work….=&gt; <strong>using less water</strong></p><p>&nbsp;</p><p><strong>I would love to walk or cycle to work,</strong> but unfortunately, my office is quite far from my house. Instead, I try to protect the environment in other ways. For example, I never leave the tap running when I brush my teeth, and I always use only the amount of water I need. I also collect rainwater to water my plants. I believe everyone should try to save water in their daily lives.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/GW5tneDYmI4gsaDiyplRPP3mEis6O9LuvXM59RvT.mp3",
+        "/data/audio/speakers/4lxxC3Jl5VmPAiQhcKWIBVLYro8fyOMZivXbF6yF.mp3",
+        "/data/audio/speakers/z8Fr9gzaSPwQbQjNFh901b3vhH64ESbRRaOypr7M.mp3",
+        "/data/audio/speakers/EnwYv77ZtivBBFrXG3xBP9GZjxueQ2k5q8QNIi7L.mp3"
+      ]
+    },
+    "title": "Protect the environment (1)"
+  },
+  {
+    "id": 805,
+    "number": 6,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Protect the environment (2)",
+    "choices": [
+      "reusing containers for storing food",
+      "does not use commercial cleaning products",
+      "giving away used items",
+      "worries about creating rubbish",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "reusing containers for storing food",
+        "does not use commercial cleaning products",
+        "giving away used items",
+        "worries about creating rubbish",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "2",
+        "1",
+        "0",
+        "3"
+      ],
+      "descriptions": [
+        "<p>Some people buy things at charity shops….=&gt; <strong>giving away used items</strong></p><p>&nbsp;</p><p><strong>Some people buy things at charity shops, </strong>but I prefer giving away my used items when I no longer need them. I usually donate old clothes, books and toys to local charities. This gives these things a second life and helps people who cannot afford to buy new ones. I think it is a simple way to reduce waste.</p>",
+        "<p>Honestly, I don't think I have….=&gt;<strong>does not use commercial cleaning products</strong></p><p>&nbsp;</p><p><strong>Honestly, I don't think I have </strong>bought commercial cleaning products for years. I prefer using natural ingredients such as vinegar, lemon juice and baking soda to clean my house. They are usually cheaper and create less plastic waste. I also feel more comfortable using them because they contain fewer harsh chemicals.</p>",
+        "<p>I am shocked…..=&gt; <strong>reusing containers for storing food</strong></p><p>&nbsp;</p><p><strong>I am shocked </strong>by how many plastic containers people throw away every day. Instead of putting them in the rubbish bin, I wash and reuse them to store food in my fridge. For example, I use old glass jars for spices and plastic boxes for leftovers. This helps me save money and reduce the amount of waste I produce.</p>",
+        "<p>I believe consumerism…..=&gt; <strong>worries about creating rubbish</strong></p><p>&nbsp;</p><p><strong>I believe consumerism </strong>is one of the biggest causes of environmental problems. People often buy things they do not really need, which creates a huge amount of rubbish. I always think carefully before buying something because I don't want to contribute to this problem. I try to choose products with less packaging whenever possible.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/wKPCajO7bpMWud7Ycjz2WNaybLTfHtNtkMvVfb0T.mp3",
+        "/data/audio/speakers/XrbQpe8MdeWFrpJamZtNKlCcM5NtKZQhbR5uJKpO.mp3",
+        "/data/audio/speakers/BkaOhCg2K76GTeSspbKxiqnu2CuQHJu51BhKYFMC.mp3",
+        "/data/audio/speakers/S2iv0fdeUd8F6NcY3a8BCrnZMu2YU4OtmjXNyqFF.mp3"
+      ]
+    },
+    "title": "Protect the environment (2)"
+  },
+  {
+    "id": 806,
+    "number": 7,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Running",
+    "choices": [
+      "at the seaside",
+      "on the street",
+      "on a running track",
+      "at a fitness center",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "at the seaside",
+        "on the street",
+        "on a running track",
+        "at a fitness center",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "0",
+        "1",
+        "2"
+      ],
+      "descriptions": [
+        "<p>Obviously, running in the park or forest is ideal….=&gt;<strong> at a fitness center</strong></p><p>&nbsp;</p><p><strong>Obviously, running in the park or forest is ideal </strong>because you can enjoy fresh air and beautiful views. However, sometimes the weather is too bad to run outside. In that case, I prefer going to a fitness center. It has treadmills and other useful equipment, so I can exercise comfortably whatever the weather is like.</p>",
+        "<p>I'm not a keen person myself…..=&gt; <strong>at the seaside</strong></p><p>&nbsp;</p><p><strong>I'm not a keen person myself </strong>when it comes to running, but I sometimes go for a run with my friends. We usually choose the seaside because the view is amazing and the fresh sea air makes us feel relaxed. Running along the beach is also a great way to enjoy nature and forget about our daily problems.</p>",
+        "<p>My husband and I…..=&gt; <strong>on the street</strong></p><p>&nbsp;</p><p><strong>My husband and I </strong>often go running together in the evening. We usually run along the streets near our house because it is convenient and we don't need to travel anywhere. However, we have to be careful of traffic, especially during rush hour. We normally choose quieter streets to stay safe.</p>",
+        "<p>I live by the seaside…..=&gt;<strong> on a running track</strong></p><p>&nbsp;</p><p><strong>I live by the seaside, </strong>so I have many beautiful places to run. However, I don't really enjoy running on the beach because the sand is too soft. Instead, I prefer going to a running track. The surface is smooth, and I can easily measure how far I run. It's also a good place to improve my speed.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/rmki8Z839DigL40uDHfAjh9UwOOjEzMmDlZDU4nQ.mp3",
+        "/data/audio/speakers/p7I34OiaSpjphPqTZ5ylqZ0FXTy6jyWPVl0Qmi8L.mp3",
+        "/data/audio/speakers/x4LNcSt94LpxRt8frZLns0H8xZU13CVb7J6hv13G.mp3",
+        "/data/audio/speakers/5fWdjHhjpDS8e055fbWbl1Bh2OIU98dVodbitzN3.mp3"
+      ]
+    },
+    "title": "Running"
+  },
+  {
+    "id": 807,
+    "number": 8,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Study (1)",
+    "choices": [
+      "on public transport",
+      "at home",
+      "in a park",
+      "in a coffee shop",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "on public transport",
+        "at home",
+        "in a park",
+        "in a coffee shop",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "descriptions": [
+        "<p>I don't find it difficult concentrating…..=&gt; <strong>in a coffee shop</strong></p><p>&nbsp;</p><p><strong>I don't find it difficult concentrating </strong>when I'm in a coffee shop. In fact, I quite enjoy studying there because I can have a cup of coffee while reading my books. The background noise doesn't bother me. Sometimes, seeing other people working also motivates me to stay focused and finish my assignments.</p>",
+        "<p>Like most students I don't like…..=&gt;<strong> in a park</strong></p><p>&nbsp;</p><p><strong>Like most students I don't like </strong>studying in a crowded place. However, I really enjoy studying in a park when the weather is nice. I usually find a quiet bench under a tree and read my notes there. The fresh air helps me feel relaxed, and I don't get as stressed as I do indoors.</p>",
+        "<p>Some people find it difficult….=&gt; <strong>on public transport</strong></p><p>&nbsp;</p><p><strong>Some people find it difficult </strong>to study while travelling, but I actually find it quite convenient. I often review my lessons on public transport, especially when I'm taking the bus to university. Although it can be noisy sometimes, I use my headphones to concentrate. It also helps me make good use of my travelling time.</p>",
+        "<p>To study effectively, I need a quiet environment….=&gt; <strong>at home&nbsp;</strong></p><p>&nbsp;</p><p><strong>To study effectively, I need a quiet environment. </strong>That's why I prefer studying at home, where I can arrange my books and everything I need. I don't have to worry about people talking or making noise around me. Besides, I can take short breaks whenever I feel tired.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/ijZdMu4W2fIsfdrK3drwtVqNkI7y09MiIPczFm7l.mp3",
+        "/data/audio/speakers/ywJSdMMNSPiFgmt1GxctdS92qw0A5IgPVDQK6DFq.mp3",
+        "/data/audio/speakers/jxFgl7IJuVuT65I8nPvzMZ1lwhecZvpSpZ6WpobM.mp3",
+        "/data/audio/speakers/bJCFL7WHgZDpCiJQhFUdpRkb5fJDkYANRzq7u8kV.mp3"
+      ]
+    },
+    "title": "Study (1)"
+  },
+  {
+    "id": 808,
+    "number": 9,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "study (2)",
+    "choices": [
+      "at various places",
+      "with music",
+      "in a quiet place",
+      "late at night",
+      "Đáp án bỏ",
+      "Đáp án bỏ"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "at various places",
+        "with music",
+        "in a quiet place",
+        "late at night",
+        "Đáp án bỏ",
+        "Đáp án bỏ"
+      ],
+      "correct_answers": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "descriptions": [
+        "<p>I don't usually revise anything after school….=&gt; <strong>at various places</strong></p><p>&nbsp;</p><p><strong>I don't usually revise anything after school </strong>because I prefer taking a break first. I normally do my homework in different places depending on how I feel. Sometimes I study in my bedroom, sometimes in the library, and occasionally in a coffee shop. Changing my study environment helps me feel more interested and less bored.</p>",
+        "<p>I start doing my homework right away …=&gt; <strong>in a quiet place</strong></p><p>&nbsp;</p><p><strong>I start doing my homework right away </strong>when I get home because I don't want to leave everything until the last minute. I always choose a quiet place, usually my bedroom, where nobody can disturb me. I find it much easier to concentrate and understand difficult lessons when there is no noise around.</p>",
+        "<p>I know many people loose concentration….=&gt; <strong>with music</strong></p><p>&nbsp;</p><p><strong>I know many people lose concentration </strong>when they listen to music while studying, but I find it helpful. I usually play some soft music in the background when I do my homework. It helps me relax and makes studying less boring. However, I avoid songs with strong beats or distracting lyrics.</p>",
+        "<p>I study late in the evening….=&gt; l<strong>ate at night</strong></p><p>&nbsp;</p><p><strong>I study late in the evening </strong>because that's when I feel most productive. During the day, I'm usually busy with school and other activities, so I don't have much time to revise my lessons. At night, everything is quieter, and I can focus better. Sometimes, I continue studying until midnight.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/sUHaziVipXDIQKuOttBDDrovDpyaClhgcFrz5a3Q.mp3",
+        "/data/audio/speakers/5LY1rLstm3sILz4HdyG2Brw9tq6xKRnIlNv2GWyf.mp3",
+        "/data/audio/speakers/it9NRK3tu0VWmrAQyzCnVHxKuWGRYgBaklqHfZ2q.mp3",
+        "/data/audio/speakers/gTpqS2W9zOqicYnYXU7TmEjC6UqvXO359zbjQJCy.mp3"
+      ]
+    },
+    "title": "study (2)"
+  },
+  {
+    "id": 809,
+    "number": 10,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Outdoor activities",
+    "choices": [
+      "horse riding",
+      "hiking",
+      "mountain biking",
+      "going for run",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "horse riding",
+        "hiking",
+        "mountain biking",
+        "going for run",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "0",
+        "1",
+        "2"
+      ],
+      "descriptions": [
+        "<p>We've got a lot of snow in the winter….=&gt; <strong>going for run</strong></p><p>&nbsp;</p><p><strong>We've got a lot of snow in the winter, </strong>so outdoor activities can sometimes be difficult. However, I still enjoy going for a run whenever the weather is suitable. I usually run around my neighbourhood or in the park. It helps me stay fit and gives me more energy. I prefer running in the early morning when the air is fresh.</p>",
+        "<p>There are no hills in our country….=&gt; <strong>horse riding</strong></p><p>&nbsp;</p><p><strong>There are no hills in our country, </strong>so horse riding is one of the most interesting outdoor activities for me. I usually go to a riding centre at weekends and spend a few hours riding horses. I really enjoy spending time with these beautiful animals. It's also a great way to relax and escape from my busy daily life.</p>",
+        "<p>I love the trails in the mountains….=&gt; <strong>hiking</strong></p><p>&nbsp;</p><p><strong>I love the trails in the mountains </strong>because they offer beautiful views and fresh air. Whenever I have free time, I enjoy hiking with my friends. We often spend several hours walking through forests and enjoying nature. Although it can be tiring, reaching the top of a mountain always makes me feel proud and happy.</p>",
+        "<p>The area where I live…..=&gt; <strong>mountain biking</strong></p><p>&nbsp;</p><p><strong>The area where I live</strong> has many forests and hills, which makes it perfect for mountain biking. I often ride my bike along narrow paths and challenging trails with my friends. It's an exciting activity because I can enjoy nature while testing my cycling skills. Of course, I always wear a helmet to stay safe.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/l8y5k6mbP6dtLcWfnVXMXo0lyan6DtvGY2V7okz4.mp3",
+        "/data/audio/speakers/4XRXMADiiG9Cr7QIbo8iyKqOm90SJjJa7pcUuZDD.mp3",
+        "/data/audio/speakers/Mibn867kq4wAPvjPGefMNFniumXVli5CQvzDkHM7.mp3",
+        "/data/audio/speakers/wMAcK5HGMcYc4dqCMg1NaJTIxQTeFJ61ecGCriVU.mp3"
+      ]
+    },
+    "title": "Outdoor activities"
+  },
+  {
+    "id": 810,
+    "number": 11,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Use of the Internet",
+    "choices": [
+      "to complete assignments",
+      "to watch films",
+      "to find transport information",
+      "to communicate with friends",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "to complete assignments",
+        "to watch films",
+        "to find transport information",
+        "to communicate with friends",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "1",
+        "0",
+        "3",
+        "2"
+      ],
+      "descriptions": [
+        "<p>I used to go on the internet….=&gt; <strong>to watch films</strong></p><p>&nbsp;</p><p><strong>I used to go on the internet</strong> mainly to read the news and check my emails, but now I spend most of my free time watching films online. There are many websites and apps where I can find movies of different types. I especially enjoy watching comedies and romantic films. It's a convenient way to relax without going to the cinema.</p>",
+        "<p>At our college, we had to study….=&gt; <strong>to complete assignments</strong></p><p>&nbsp;</p><p><strong>At our college, we had to study </strong>a lot of different subjects, and the Internet was extremely useful. Whenever we received homework or projects, I often searched online for information and materials. It helped me find useful articles, videos and examples. I could also use online dictionaries to understand difficult words and complete my assignments more effectively.</p>",
+        "<p>Quite a few of my friends….=&gt; <strong>to communicate with friends</strong></p><p>&nbsp;</p><p><strong>Quite a few of my friends </strong>live far away from me, so I often use the Internet to keep in touch with them. We usually send messages, share photos and make video calls. It's a great way to stay connected, especially when we don't have time to meet in person. Social media also helps me make new friends.</p>",
+        "<p>I'm not a fan of studying online…..=&gt; <strong>to find transport information</strong></p><p>&nbsp;</p><p><strong>I'm not a fan of studying online </strong>because I find it difficult to concentrate in front of a computer for too long. However, I use the Internet quite often when I need to travel somewhere. I can check bus and train timetables, compare ticket prices and find the best routes. This information helps me plan my journeys more easily.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/xXLSqhwLdaEXQ4lfHCqF2Lge2shH53GX5LPsiuKK.mp3",
+        "/data/audio/speakers/Cyq3J2su5JGiX5wcTEYD71bqMCYkoajeodiZhNrt.mp3",
+        "/data/audio/speakers/9Y9VNQZq93CUlHTuKU6dH6Bqioi1ub8l5j9JdTrt.mp3",
+        "/data/audio/speakers/ZsEnWp1phHjxGyw7nr6yr2QF79KklQOPvPM4vH3s.mp3"
+      ]
+    },
+    "title": "Use of the Internet"
+  },
+  {
+    "id": 811,
+    "number": 12,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Journey to work",
+    "choices": [
+      "travels by car",
+      "walks alone",
+      "travel by bus",
+      "walks with friends",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "travels by car",
+        "walks alone",
+        "travel by bus",
+        "walks with friends",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "2",
+        "0",
+        "1",
+        "3"
+      ],
+      "descriptions": [
+        "<p>Well, I really believe that….=&gt; <strong>travel by bus</strong></p><p>&nbsp;</p><p><strong>Well, I really believe that </strong>travelling by bus is one of the best ways to get to work. It's cheaper than driving a car, and I don't have to worry about finding a parking space. Although buses can sometimes be crowded, I usually use the journey to listen to music or read the news on my phone.</p>",
+        "<p>Well, I live deep in the countryside…..=&gt; <strong>travels by car</strong></p><p>&nbsp;</p><p><strong>Well, I live deep in the countryside, </strong>quite far away from the town where I work. There isn't a convenient bus service in my area, so I have no choice but to travel by car. It takes me about 30 minutes to get to work. I also enjoy driving because I can listen to my favorite songs along the way.</p>",
+        "<p>I'm a doctor….=&gt; <strong>walks alone</strong></p><p>&nbsp;</p><p><strong>I'm a doctor, </strong>and I usually have a busy working schedule. Luckily, the hospital is quite close to my home, so I prefer walking to work alone. I enjoy the peaceful atmosphere in the early morning, and walking gives me some time to think before starting my day. It also helps me stay healthy.</p>",
+        "<p>It's about three kilometers….=&gt; <strong>walks with friends</strong></p><p>&nbsp;</p><p><strong>It's about three kilometers </strong>from my house to the office, so I usually walk there with a couple of my friends who work nearby. We meet outside a local shop every morning and walk together. It's a good opportunity to chat, share stories and get some exercise before starting work.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/armuU7cW922Ti3CjcXl9FEpDPRZy88xjhfhtAi45.mp3",
+        "/data/audio/speakers/TwTYt5mUsZsTPLi7Q4GQEQ8JhYt0NvyqPtg7AZZP.mp3",
+        "/data/audio/speakers/b5c58im3B5L6kDdBwWO3Rwh6fFjiUQ0ImE9Z5omt.mp3",
+        "/data/audio/speakers/a3tuHLFM6by9mtKhM6ZU96Bw4Aim6Gzu7tOpk4mi.mp3"
+      ]
+    },
+    "title": "Journey to work"
+  },
+  {
+    "id": 812,
+    "number": 13,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Doing Exercise (1)",
+    "choices": [
+      "finds it tiring",
+      "hate exercising",
+      "has fun when exercising with others",
+      "exercise to help improve work performance",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "finds it tiring",
+        "hate exercising",
+        "has fun when exercising with others",
+        "exercise to help improve work performance",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "descriptions": [
+        "<p>I'm not keen on exercising….=&gt; <strong>exercise to help improve work performance</strong></p><p>&nbsp;</p><p><strong>I'm not keen on exercising </strong>because I usually feel too tired after a long day at work. However, I know that doing some physical activity can actually improve my work performance. When I exercise regularly, I feel more energetic and can concentrate better. It also helps me deal with stress and stay productive throughout the day.</p>",
+        "<p>I'm a bit strange about exercising ….=&gt; <strong>has fun when exercising with others</strong></p><p>&nbsp;</p><p><strong>I'm a bit strange about exercising </strong>because I don't really enjoy doing it alone. However, when I exercise with other people, I have a great time. I often play badminton or go jogging with my friends at weekends. We encourage each other and have fun together, so exercising doesn't feel like a difficult task.</p>",
+        "<p>I don't feel exercising my things….=&gt; <strong>finds it tiring</strong></p><p>&nbsp;</p><p><strong>I don't feel exercising is my things </strong>because I find it extremely tiring. Even after a short workout, I get out of breath and my muscles start to hurt. I understand that exercise is important for our health, but I always feel exhausted afterwards. I'd rather spend my free time doing something more relaxing.</p>",
+        "<p>Well, you're not getting me exercising at all…. =&gt; <strong>hate exercising</strong></p><p>&nbsp;</p><p><strong>Well, you're not getting me exercising at all! </strong>I absolutely hate doing physical activities, especially running or going to the gym. I prefer relaxing at home, watching television or reading a book. I know people say exercise is good for you, but it's simply not something I enjoy.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/zBo9XkE40b5O6GFyU0wwYVQ7LGPXHgrPVvyD38Q7.mp3",
+        "/data/audio/speakers/txxsWHYpRkghK1ytBsrGnI17tFdyQgsoZ6pdFKGh.mp3",
+        "/data/audio/speakers/NoHb0RCjM3dLjBuNqbr6czUPfRvWtr1Lhm1esWyB.mp3",
+        "/data/audio/speakers/yvFaDrWD43j1fLc2SytKcXYu3V60igNGUjGZgMYJ.mp3"
+      ]
+    },
+    "title": "Doing Exercise (1)"
+  },
+  {
+    "id": 770,
+    "number": 14,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Four people are talking about Exercise. Complete the sentences below - Nghe hiểu",
+    "choices": [
+      "prefer exercising outside",
+      "feels to do sufficient exercise",
+      "just exercises in the morning",
+      "likes exercising alone",
+      "Đáp án nhiễu",
+      "Đáp án nhiễu"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "prefer exercising outside",
+        "feels to do sufficient exercise",
+        "just exercises in the morning",
+        "likes exercising alone",
+        "Đáp án nhiễu",
+        "Đáp án nhiễu"
+      ],
+      "correct_answers": [
+        "1",
+        "3",
+        "0",
+        "2"
+      ],
+      "descriptions": [
+        "<p><strong>feels to do sufficient exercise</strong></p><p>I enjoy playing sports, especially badminton and swimming. I try to stay active whenever I have free time. However, I sometimes feel that I'm not doing enough exercise to maintain good health. I know I should be more active, so I'm planning to spend more time working out every week.</p>",
+        "<p><strong>likes exercising alone</strong></p><p>I used to exercise with my friends, but now I prefer working out alone. I can concentrate better without having to talk to anyone. I normally go swimming or use exercise equipment at the gym. Although my friends often invite me to join them, I find exercising by myself more enjoyable.</p>",
+        "<p><strong>prefer exercising outside</strong></p><p>I usually go jogging in the park because I prefer exercising outside rather than staying indoors. I sometimes work out at home when the weather is bad. I don't really enjoy going to the gym because it feels too crowded. I try to exercise several times a week to stay healthy.</p>",
+        "<p><strong>just exercises in the morning</strong></p><p>I'm quite busy with my studies, so I don't have much time for physical activities. I usually do some simple exercises in the morning before going to school. I sometimes go cycling at weekends, but I find it difficult to maintain a regular schedule. Morning exercise helps me feel more energetic throughout the day.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/H5ReO0YskVHSiDpcR8TBd9M3MZSNFgsWJCwKk7yC.mp3",
+        "/data/audio/speakers/9jQ35YImwnQXJMR4vfYHUOUuX4Md0aGFXwZ0jIpM.mp3",
+        "/data/audio/speakers/5iGIIYi0TNW0zu4VkEZJKToQRfGGOyHEFFhV4JTB.mp3",
+        "/data/audio/speakers/P5BGuunhmUvRUqdbXEzCfKigM08yAW9123MLY9QV.mp3"
+      ]
+    },
+    "title": "Exercise (2)"
+  },
+  {
+    "id": 813,
+    "number": 15,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Shopping online",
+    "choices": [
+      "consider the environment when shopping",
+      "has limited time for shopping",
+      "shops mainly on the internet",
+      "tries to save money",
+      "Đáp án sai",
+      "Đáp án sai"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "consider the environment when shopping",
+        "has limited time for shopping",
+        "shops mainly on the internet",
+        "tries to save money",
+        "Đáp án sai",
+        "Đáp án sai"
+      ],
+      "correct_answers": [
+        "1",
+        "3",
+        "0",
+        "2"
+      ],
+      "descriptions": [
+        "<p>My shopping habits change dramatically ….=&gt;<strong> has limited time for shopping</strong></p><p>&nbsp;</p><p><strong>My shopping habits change dramatically </strong>depending on how busy I am. These days, I have a lot of work to do, so I don't have much time to visit shopping center or local stores. I usually plan my shopping carefully and only buy things when necessary. Online shopping is convenient, but I still enjoy visiting physical shops whenever I have enough free time.</p>",
+        "<p>I love shopping …=&gt; <strong>tries to save money</strong></p><p>&nbsp;</p><p><strong>I love shopping, </strong>especially when there are special offers and discounts. However, I always try to save money because I don't want to spend too much on unnecessary things. Before buying anything, I compare prices on different websites and look for discount codes. I also wait for big sales events to get the best deals.</p>",
+        "<p>I used to be interested in fashion…=&gt; <strong>consider the environment when shopping</strong></p><p>&nbsp;</p><p><strong>I used to be interested in fashion </strong>and bought new clothes quite frequently. However, I've started thinking more about the environment. Nowadays, I prefer buying second-hand clothes or products made from recycled materials. I also try to avoid unnecessary packaging and choose environmentally friendly products whenever possible.</p>",
+        "<p>Shopping is generally struggle for me….=&gt; <strong>shops mainly on the internet</strong></p><p>&nbsp;</p><p><strong>Shopping is generally a struggle for me </strong>because I don't enjoy walking around crowded shopping center. That's why I do most of my shopping on the Internet. I can easily compare products, read customer reviews and order things without leaving home. It's especially useful when I need to buy clothes, books or household items.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/OfgU0BXjhLwny2Ulve3xrJpMGZGipaIQzQrMATTH.mp3",
+        "/data/audio/speakers/MQwIUMxkOe30PEwN4jaPZfGBmP7HEL80la5ilVTO.mp3",
+        "/data/audio/speakers/Sa8vkOjczeSJAR9WccZzfpf9QCyKj4VUTJD4euV0.mp3",
+        "/data/audio/speakers/98XC87iDZdcYJQxu05oQnIZ5D01VE12Aq0AGuflb.mp3"
+      ]
+    },
+    "title": "Shopping online"
+  },
+  {
+    "id": 712,
+    "number": 16,
+    "skill": "listening",
+    "part": 2,
+    "type": "listening_speaker_match",
+    "stem": "Four people are talking about a new restaurant. Complete the sentences below. (luyện nghe hiểu)",
+    "choices": [
+      "ordered the wrong dish",
+      "watched a nice performance",
+      "Were hungry after dinner",
+      "met successful staff",
+      "Đáp án bỏ",
+      "Đáp án bỏ"
+    ],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "items": [
+        "Speaker A",
+        "Speaker B",
+        "Speaker C",
+        "Speaker D"
+      ],
+      "choices": [
+        "ordered the wrong dish",
+        "watched a nice performance",
+        "Were hungry after dinner",
+        "met successful staff",
+        "Đáp án bỏ",
+        "Đáp án bỏ"
+      ],
+      "correct_answers": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "descriptions": [
+        "<p><strong>Person A : Were hungry after dinner</strong></p><p>I went to a new Italian restaurant with my friends last Friday. The place looked lovely, and the waiter recommended the chef's special pasta. It tasted good, but the portion was really small. We also shared a salad and some bread, but when I got home, I still had to make myself a sandwich. So, overall, the food was nice, but it definitely wasn't enough for me.</p>",
+        "<p><strong>Person B : ordered the wrong dish</strong></p><p>I went to this restaurant with a friend last weekend because we had heard that it was popular. There were many different dishes on the menu, but the restaurant was especially famous for its chicken. I wanted to try it, but I was in a hurry and accidentally ordered the wrong dish. Luckily, the food I got was still really tasty, so I enjoyed it anyway. However, I'd like to come back another time and try the famous chicken dish.</p>",
+        "<p><strong>Person C : met successful staff</strong></p><p>I had dinner at a small Japanese restaurant yesterday. At first, I couldn't understand the menu because many dishes had unfamiliar names. Luckily, one of the staff members came over and explained everything patiently. She even suggested a dish without peanuts because I told her I had an allergy. The food was good, but what I appreciated most was how kind and helpful the staff were.</p>",
+        "<p><strong>Person D : watched a nice performance</strong></p><p>Last weekend, I went to a restaurant that had live music in the evening. The food was ordinary, and honestly, the drinks were a little expensive. But the singer and the band were fantastic. They played beautifully, and everyone in the restaurant stopped talking just to listen. It felt like a mini concert, and I couldn't find a single mistake in their performance.</p>"
+      ],
+      "audio_files": [
+        "/data/audio/speakers/UtzbiGi9rlLJoMISgUJ9f8qfYNzleX2wtS6pKNWw.mp3",
+        "/data/audio/speakers/sG9Y6CH4f2ZFSZFqHUvhTcN0fVrBpkO0SbKIfjo9.mp3",
+        "/data/audio/speakers/kujj8bF5YrBueRRTB2hnd8bpQpLfjGYAZsVZfKCY.mp3",
+        "/data/audio/speakers/GH6B3pqrgacHqdYy7WpjYTHeScIFI7gtg6kmBu92.mp3"
+      ]
+    },
+    "title": "A new restaurant"
+  }
+]

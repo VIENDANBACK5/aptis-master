@@ -1,0 +1,1197 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "She ___ to school every day by bus.",
+    "choices": [
+      "go",
+      "goes",
+      "going"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "goes"
+        },
+        {
+          "id": "C",
+          "text": "going"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> B. goes</p><p><strong>Giải thích: </strong>Vì chủ ngữ “She” là ngôi thứ ba số ít, dùng thì hiện tại đơn nên động từ thêm -es.&nbsp;</p><p><strong>Dịch:</strong> Cô ấy đi học bằng xe buýt mỗi ngày.</p>"
+    }
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "They ___ playing football when it started to rain.",
+    "choices": [
+      "was",
+      "were",
+      "are"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "was"
+        },
+        {
+          "id": "B",
+          "text": "were"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án</strong>: B. were</p><p>&nbsp;<strong>Giải thích:&nbsp;</strong>&nbsp;Vì “They” đi với “were”, diễn tả hành động đang xảy ra thì hành động khác xen vào (quá khứ tiếp diễn + quá khứ đơn).</p><p><strong>Dịch: </strong>Họ đang chơi bóng đá khi trời bắt đầu mưa.</p>"
+    }
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "I have never ___ to Japan before.",
+    "choices": [
+      "been",
+      "went",
+      "go"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "been"
+        },
+        {
+          "id": "B",
+          "text": "went"
+        },
+        {
+          "id": "C",
+          "text": "go"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án:&nbsp;A&nbsp;</strong>been&nbsp;</p><p><strong>Giải thích: </strong>Vì cấu trúc hiện tại hoàn thành là “have/has + V3/ed”, động từ “go” có dạng quá khứ phân từ là “been” khi nói về trải nghiệm đã từng đến một nơi. <strong>Dịch: </strong>Tôi chưa từng đến Nhật Bản trước đây.</p>"
+    }
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "He ___ finish his homework before going out.",
+    "choices": [
+      "must",
+      "musts",
+      "is must"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "must"
+        },
+        {
+          "id": "B",
+          "text": "musts"
+        },
+        {
+          "id": "C",
+          "text": "is must"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án:</strong> A. must</p><p><strong>Giải thích:</strong> Vì “must + V nguyên mẫu” diễn tả sự bắt buộc, “finish” giữ nguyên dạng.&nbsp;</p><p><strong>Dịch: </strong>Anh ấy phải hoàn thành bài tập về nhà trước khi ra ngoài.</p>"
+    }
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "The book ___ on the table belongs to my sister.",
+    "choices": [
+      "laying",
+      "lying",
+      "lain"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "laying"
+        },
+        {
+          "id": "B",
+          "text": "lying"
+        },
+        {
+          "id": "C",
+          "text": "lain"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án: B </strong>lying&nbsp;</p><p><strong>Giải thích:</strong> “Lying” là dạng V-ing, rút gọn mệnh đề quan hệ “which is lying”, bổ nghĩa cho “the book”.&nbsp;</p><p><strong>Dịch: </strong>Quyển sách đang nằm trên bàn là của chị/em gái tôi.</p>"
+    }
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "If I ___ more time, I would travel the world.",
+    "choices": [
+      "have",
+      "had",
+      "has"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "had"
+        },
+        {
+          "id": "C",
+          "text": "has"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án: </strong>had&nbsp;</p><p><strong>Giải thích: </strong>Vì đây là câu điều kiện loại 2, dùng cấu trúc “If + S + V2/ed, S + would + V” để diễn tả tình huống giả định ở hiện tại.&nbsp;</p><p><strong>Dịch: </strong>Nếu tôi có nhiều thời gian hơn, tôi sẽ đi du lịch khắp thế giới.</p>"
+    }
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "The report ___ submitted by Friday.",
+    "choices": [
+      "must be",
+      "must",
+      "should"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "must be"
+        },
+        {
+          "id": "B",
+          "text": "must"
+        },
+        {
+          "id": "C",
+          "text": "should"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án: </strong>must be<br><strong>Giải thích: </strong>Vì câu bị động với động từ khuyết thiếu có cấu trúc “must be + V3/ed”, diễn tả sự bắt buộc.&nbsp;</p><p><strong>Dịch: </strong>Báo cáo phải được nộp trước thứ Sáu.</p>"
+    }
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "Neither the students nor the teacher ___ ready.",
+    "choices": [
+      "were",
+      "was",
+      "are"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "were"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án: </strong>was</p><p><strong>Giải thích: </strong>Với cấu trúc “Neither…nor…”, động từ chia theo chủ ngữ gần nhất; “the teacher” là số ít nên dùng “was”.&nbsp;</p><p><strong>Dịch: </strong>Cả học sinh lẫn giáo viên đều chưa sẵn sàng.</p>"
+    }
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "She speaks English ___ than her brother.",
+    "choices": [
+      "more fluent",
+      "more fluently",
+      "fluenter"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "more fluent"
+        },
+        {
+          "id": "B",
+          "text": "more fluently"
+        },
+        {
+          "id": "C",
+          "text": "fluenter"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> more fluently</p><p><strong>Giải thích:</strong> “Fluently” là trạng từ dài, nên dạng so sánh hơn là more + trạng từ. Lưu ý viết đúng chính tả: fluently, không phải flunently.</p><p><strong>Dịch: </strong>Cô ấy nói tiếng Anh trôi chảy hơn anh/em trai mình.</p>"
+    }
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "By the time he arrived, the meeting ___.",
+    "choices": [
+      "ended",
+      "had ended",
+      "has ended"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "ended"
+        },
+        {
+          "id": "B",
+          "text": "had ended"
+        },
+        {
+          "id": "C",
+          "text": "has ended"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> had ended</p><p><strong>Giải thích: </strong>Dùng thì quá khứ hoàn thành (had + V3/ed) để diễn tả hành động cuộc họp đã kết thúc trước khi anh ấy đến.</p><p><strong>Dịch: </strong>Khi anh ấy đến, cuộc họp đã kết thúc rồi.</p>"
+    }
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "I think it is right ___ children to play outside.",
+    "choices": [
+      "of",
+      "to",
+      "for"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "of"
+        },
+        {
+          "id": "B",
+          "text": "to"
+        },
+        {
+          "id": "C",
+          "text": "for"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p><strong>Đáp án</strong>: C. for</p><p><strong>Giải thích: </strong>Dùng cấu trúc It is + adjective + for somebody + to V để nói điều gì đó phù hợp hoặc đúng đắn đối với ai.</p><p><strong>Dịch: </strong>Tôi nghĩ việc trẻ em chơi ngoài trời là đúng đắn.</p>"
+    }
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "The news ___ surprising to everyone.",
+    "choices": [
+      "were",
+      "was",
+      "are"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "were"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> was</p><p><strong>Giải thích: </strong>“News” là danh từ không đếm được, luôn dùng động từ số ít. Câu ở thì quá khứ đơn nên dùng was.</p><p><strong>Dịch: </strong>Tin tức đó khiến mọi người ngạc nhiên.</p>"
+    }
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "We need ___ more information before deciding.",
+    "choices": [
+      "a few",
+      "a little",
+      "few"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "a few"
+        },
+        {
+          "id": "B",
+          "text": "a little"
+        },
+        {
+          "id": "C",
+          "text": "few"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án: </strong>a little</p><p><strong>Giải thích: </strong>Dùng a little + danh từ không đếm được để diễn tả một ít. “Information” là danh từ không đếm được.</p><p><strong>Dịch: </strong>Chúng tôi cần thêm một chút thông tin trước khi đưa ra quyết định.</p>"
+    }
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "He suggested ___ to the museum on Saturday.",
+    "choices": [
+      "go",
+      "to go",
+      "going"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "to go"
+        },
+        {
+          "id": "C",
+          "text": "going"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p><strong>Đáp án: </strong>going</p><p><strong>Giải thích: </strong>Dùng cấu trúc suggest + V-ing để diễn tả việc đề xuất làm gì đó. Không dùng suggest + to V.</p><p><strong>Dịch: </strong>Anh ấy đề xuất đi bảo tàng vào thứ Bảy.</p>"
+    }
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "The children enjoyed ___ the animals at the zoo.",
+    "choices": [
+      "watching",
+      "to watch",
+      "watch"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "watching"
+        },
+        {
+          "id": "B",
+          "text": "to watch"
+        },
+        {
+          "id": "C",
+          "text": "watch"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án: </strong>watching</p><p><strong>Giải thích: </strong>Dùng cấu trúc enjoy + V-ing để diễn tả việc thích làm gì đó.</p><p><strong>Dịch: </strong>Bọn trẻ thích ngắm nhìn các con vật ở sở thú.</p>"
+    }
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "She asked me ___ her with the project.",
+    "choices": [
+      "helping",
+      "to help",
+      "help"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "helping"
+        },
+        {
+          "id": "B",
+          "text": "to help"
+        },
+        {
+          "id": "C",
+          "text": "help"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án: </strong>to help</p><p><strong>Giải thích: </strong>Dùng cấu trúc ask + somebody + to V để diễn tả việc yêu cầu ai làm gì.</p><p><strong>Dịch: </strong>Cô ấy nhờ tôi giúp cô ấy làm dự án.</p>"
+    }
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "I wish I ___ speak French fluently.",
+    "choices": [
+      "can",
+      "could",
+      "will"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "can"
+        },
+        {
+          "id": "B",
+          "text": "could"
+        },
+        {
+          "id": "C",
+          "text": "will"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án: </strong>could</p><p><strong>Giải thích:</strong> Dùng cấu trúc wish + S + could + V nguyên mẫu để diễn tả mong ước có thể làm điều gì đó ở hiện tại nhưng thực tế chưa làm được.</p><p><strong>Dịch:</strong> Tôi ước mình có thể nói tiếng Pháp trôi chảy.</p>"
+    }
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "___ the weather was bad, we still went hiking.",
+    "choices": [
+      "Although",
+      "Despite",
+      "However"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "Although"
+        },
+        {
+          "id": "B",
+          "text": "Despite"
+        },
+        {
+          "id": "C",
+          "text": "However"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án: </strong>Although</p><p><strong>Giải thích: </strong>Dùng Although + mệnh đề để diễn tả sự tương phản, có nghĩa là “mặc dù”.</p><p><strong>Dịch:</strong> Mặc dù thời tiết xấu, chúng tôi vẫn đi leo núi.</p><p>&nbsp;</p>"
+    }
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "He is used to ___ early every morning.",
+    "choices": [
+      "wake",
+      "waking",
+      "woken"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "wake"
+        },
+        {
+          "id": "B",
+          "text": "waking"
+        },
+        {
+          "id": "C",
+          "text": "woken"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> waking</p><p><strong>Giải thích: </strong>Dùng cấu trúc be used to + V-ing để diễn tả việc đã quen với điều gì đó. Ở đây, “to” là giới từ nên động từ theo sau phải thêm -ing.</p><p><strong>Dịch: </strong>Anh ấy đã quen với việc thức dậy sớm mỗi sáng.</p>"
+    }
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "The exam results ___ announced next week.",
+    "choices": [
+      "will be",
+      "will",
+      "are"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "will be"
+        },
+        {
+          "id": "B",
+          "text": "will"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án: </strong>will be</p><p><strong>Giải thích: </strong>Dùng cấu trúc will be + V3/ed để diễn tả hành động bị động sẽ xảy ra trong tương lai. “Announced” là quá khứ phân từ (V3).</p><p><strong>Dịch:</strong> Kết quả thi sẽ được công bố vào tuần tới.</p>"
+    }
+  },
+  {
+    "id": 21,
+    "number": 21,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "She has been working here ___ five years.",
+    "choices": [
+      "since",
+      "for",
+      "during"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "since"
+        },
+        {
+          "id": "B",
+          "text": "for"
+        },
+        {
+          "id": "C",
+          "text": "during"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> for</p><p><strong>Giải thích: </strong>Dùng for + khoảng thời gian để diễn tả một hành động kéo dài bao lâu. “Five years” là khoảng thời gian.</p><p><strong>Dịch: </strong>Cô ấy đã làm việc ở đây được năm năm rồi.</p>"
+    }
+  },
+  {
+    "id": 22,
+    "number": 22,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "The more you practice, ___ you become.",
+    "choices": [
+      "the better",
+      "the best",
+      "better"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "the better"
+        },
+        {
+          "id": "B",
+          "text": "the best"
+        },
+        {
+          "id": "C",
+          "text": "better"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án: </strong>the better</p><p><strong>Giải thích:</strong> Dùng cấu trúc The + comparative, the + comparative để diễn tả hai sự việc thay đổi theo nhau: càng… thì càng…</p><p><strong>Dịch: </strong>Bạn càng luyện tập nhiều thì bạn càng trở nên giỏi hơn.</p>"
+    }
+  },
+  {
+    "id": 23,
+    "number": 23,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "He ___ have left already; his coat is gone.",
+    "choices": [
+      "should",
+      "must",
+      "would"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "should"
+        },
+        {
+          "id": "B",
+          "text": "must"
+        },
+        {
+          "id": "C",
+          "text": "would"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Đáp án:</strong> must</p><p><strong>Giải thích:</strong> Dùng must have + V3/ed để diễn tả sự suy đoán chắc chắn về một sự việc đã xảy ra trong quá khứ. “Must have left” nghĩa là chắc hẳn đã rời đi.</p><p><strong>Dịch: </strong>Anh ấy chắc hẳn đã rời đi rồi; áo khoác của anh ấy không còn ở đó nữa.</p>"
+    }
+  },
+  {
+    "id": 24,
+    "number": 24,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "We were told ___ the instructions carefully.",
+    "choices": [
+      "reading",
+      "read",
+      "to read"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "reading"
+        },
+        {
+          "id": "B",
+          "text": "read"
+        },
+        {
+          "id": "C",
+          "text": "to read"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p><strong>Đáp án: </strong>to read</p><p><strong>Giải thích:</strong> Dùng cấu trúc bị động be told + to V để diễn tả việc ai đó được yêu cầu hoặc dặn làm gì.</p><p><strong>Dịch:</strong> Chúng tôi được dặn phải đọc kỹ hướng dẫn.</p>"
+    }
+  },
+  {
+    "id": 25,
+    "number": 25,
+    "skill": "grammar",
+    "part": 2,
+    "type": "mcq3",
+    "stem": "It was the ___ film I have ever seen.",
+    "choices": [
+      "most boring",
+      "more boring",
+      "boringer"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "most boring"
+        },
+        {
+          "id": "B",
+          "text": "more boring"
+        },
+        {
+          "id": "C",
+          "text": "boringer"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>Đáp án</strong>: most boring</p><p><strong>Giải thích: </strong>Dùng cấu trúc the + most + tính từ dài để tạo dạng so sánh nhất. “Boring” là tính từ dài nên dùng “most boring”.</p><p><strong>Dịch:</strong> Đó là bộ phim nhàm chán nhất mà tôi từng xem.</p>"
+    }
+  },
+  {
+    "id": 26,
+    "number": 26,
+    "skill": "grammar",
+    "part": 2,
+    "type": "synonym_match",
+    "stem": "Select a word from each drop-down list on the right that has the same or a very similar meaning to each word on the left.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "synonym_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "study",
+          "id": "1"
+        },
+        {
+          "prompt": "receive",
+          "id": "2"
+        },
+        {
+          "prompt": "start",
+          "id": "3"
+        },
+        {
+          "prompt": "talk",
+          "id": "4"
+        },
+        {
+          "prompt": "pick",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "begin",
+        "speak",
+        "end",
+        "run",
+        "choose",
+        "learn",
+        "go",
+        "listen",
+        "get",
+        "donate"
+      ],
+      "correct_answers": {
+        "1": "learn",
+        "2": "get",
+        "3": "begin",
+        "4": "speak",
+        "5": "choose"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "=",
+      "explanation": "<p>study = learn — học, học tập</p><p>receive = get — nhận</p><p>start = begin — bắt đầu</p><p>talk = speak — nói, trò chuyện</p><p>pick = choose — chọn, lựa chọn</p>"
+    }
+  },
+  {
+    "id": 27,
+    "number": 27,
+    "skill": "grammar",
+    "part": 2,
+    "type": "definition_match",
+    "stem": "Complete each definition using a word from the drop-down list.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "definition_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "the place where you sleep",
+          "id": "1"
+        },
+        {
+          "prompt": "a person who teaches",
+          "id": "2"
+        },
+        {
+          "prompt": "the opposite of hot",
+          "id": "3"
+        },
+        {
+          "prompt": "to move very quickly on foot",
+          "id": "4"
+        },
+        {
+          "prompt": "a tool used to write",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "pencil",
+        "walk",
+        "cold",
+        "student",
+        "kitchen",
+        "teacher",
+        "pen",
+        "run",
+        "bedroom",
+        "warm"
+      ],
+      "correct_answers": {
+        "1": "bedroom",
+        "2": "teacher",
+        "3": "cold",
+        "4": "run",
+        "5": "pen"
+      },
+      "explanation": "<p>1. The place where you sleep → bedroom&nbsp;</p><p>Nơi bạn ngủ → phòng ngủ</p><p>2. A person who teaches → teacher&nbsp;</p><p>Người dạy học → giáo viên</p><p>3. The opposite of hot → cold&nbsp;</p><p>Trái nghĩa với nóng → lạnh</p><p>4. To move very quickly on foot → run&nbsp;</p><p>Di chuyển rất nhanh bằng chân → chạy</p><p>5. A tool used to write → pen&nbsp;</p><p>Dụng cụ dùng để viết → bút</p>"
+    }
+  },
+  {
+    "id": 28,
+    "number": 28,
+    "skill": "grammar",
+    "part": 2,
+    "type": "sentence_completion",
+    "stem": "Complete each sentence using a word from each drop-down list.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "sentence_completion",
+      "instruction": "",
+      "pairs": [
+        {
+          "prefix": "She always",
+          "suffix": "her best in every exam.",
+          "id": "1",
+          "after": null
+        },
+        {
+          "prefix": "The doctor",
+          "suffix": "his patients to exercise regularly.",
+          "id": "2",
+          "after": null
+        },
+        {
+          "prefix": "We need to",
+          "suffix": "a decision before Friday.",
+          "id": "3",
+          "after": null
+        },
+        {
+          "prefix": "He forgot to",
+          "suffix": "the lights before leaving.",
+          "id": "4",
+          "after": null
+        },
+        {
+          "prefix": "They are planning to",
+          "suffix": "a new project next month.",
+          "id": "5",
+          "after": null
+        }
+      ],
+      "dropdown_pool": [
+        "switch",
+        "take",
+        "advises",
+        "does",
+        "start",
+        "begins",
+        "tells",
+        "launch",
+        "turn off",
+        "make"
+      ],
+      "correct_answers": {
+        "1": "does",
+        "2": "advises",
+        "3": "make",
+        "4": "turn off",
+        "5": "launch"
+      },
+      "explanation": "<p>1. She always <strong>does</strong> her best in every exam.&nbsp;</p><p>Cô ấy luôn cố gắng hết sức trong mỗi kỳ thi.</p><p>2. The doctor <strong>advises </strong>his patients to exercise regularly.&nbsp;</p><p>Bác sĩ khuyên bệnh nhân tập thể dục thường xuyên.</p><p>3. We need to make a <strong>decision </strong>before Friday.&nbsp;</p><p>Chúng tôi cần đưa ra quyết định trước thứ Sáu.</p><p>4. He forgot to <strong>turn off </strong>the lights before leaving.&nbsp;</p><p>Anh ấy quên tắt đèn trước khi rời đi.</p><p>5. They are planning to <strong>launch</strong> a new project next month.&nbsp;</p><p>Họ đang lên kế hoạch triển khai một dự án mới vào tháng tới.</p>"
+    }
+  },
+  {
+    "id": 29,
+    "number": 29,
+    "skill": "grammar",
+    "part": 2,
+    "type": "synonym_match",
+    "stem": "Select a word from each drop-down list on the right that has the same or a very similar meaning to each word on the left.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "synonym_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "fast",
+          "id": "1"
+        },
+        {
+          "prompt": "angry",
+          "id": "2"
+        },
+        {
+          "prompt": "tired",
+          "id": "3"
+        },
+        {
+          "prompt": "clever",
+          "id": "4"
+        },
+        {
+          "prompt": "sad",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "unhappy",
+        "slow",
+        "calm",
+        "furious",
+        "dull",
+        "smart",
+        "exhausted",
+        "joyful",
+        "fresh",
+        "quick"
+      ],
+      "correct_answers": {
+        "1": "quick",
+        "2": "furious",
+        "3": "exhausted",
+        "4": "smart",
+        "5": "unhappy"
+      },
+      "example": {
+        "left": "happy",
+        "right": "glad"
+      },
+      "connector": "=",
+      "explanation": "<p>1. fast = quick&nbsp;</p><p>Nhanh = nhanh chóng</p><p>2. angry = furious&nbsp;</p><p>Tức giận = vô cùng tức giận</p><p>3. tired = exhausted</p><p>&nbsp;Mệt mỏi = kiệt sức</p><p>4. clever = smart&nbsp;</p><p>Thông minh = thông minh, lanh lợi</p><p>5. sad = unhappy</p><p>&nbsp;Buồn = không vui, buồn bã</p>"
+    }
+  },
+  {
+    "id": 30,
+    "number": 30,
+    "skill": "grammar",
+    "part": 2,
+    "type": "collocation_match",
+    "stem": "Select a word from each drop-down list on the right that is most often used with each word on the left.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "collocation_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "do",
+          "id": "1"
+        },
+        {
+          "prompt": "take",
+          "id": "2"
+        },
+        {
+          "prompt": "give",
+          "id": "3"
+        },
+        {
+          "prompt": "break",
+          "id": "4"
+        },
+        {
+          "prompt": "keep",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "a record",
+        "advice",
+        "homework",
+        "the rules",
+        "a note",
+        "the dishes",
+        "a promise",
+        "a nap",
+        "a photo",
+        "a speech"
+      ],
+      "correct_answers": {
+        "1": "homework",
+        "2": "a photo",
+        "3": "a speech",
+        "4": "a record",
+        "5": "a promise"
+      },
+      "example": {
+        "left": "make",
+        "right": "a decision"
+      },
+      "connector": "+",
+      "explanation": "<p>do homework — làm bài tập về nhà</p><p>take a photo — chụp ảnh</p><p>give a speech — phát biểu, diễn thuyết</p><p>break a record — phá kỷ lục</p><p>keep a promise — giữ lời hứa</p>"
+    }
+  }
+]

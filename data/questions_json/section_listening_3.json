@@ -1,0 +1,577 @@
+[
+  {
+    "id": 707,
+    "number": 1,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two people discussing Community Design. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. Who expresses which opinion?",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "tsI7232IRr5sNvQaINrHquAnT8g4Q4fZH6tddIwW.mp3",
+    "description": "<p>Listen to two people discussing <strong>community design</strong>. Read the statements and decide whose opinion matches the best: the man’s, the woman’s or both. Who expresses which opinion?</p><p>&nbsp;</p><p><strong>Man:</strong> You know, I believe building design can shape people’s behaviors and interactions from the start. When spaces are designed well, people feel comfortable and naturally start connecting.<br><br><strong>Woman:</strong> Of course, design matters, but there’s no shortcut to building real community connections. Creating community takes time and consistency, even in spaces that encourage interaction.<br><br><strong>Man:</strong> Really? But I also feel that work communities and social communities aren’t as different as we might think. Both require spaces that help people feel connected and valued, whether it’s at work or in social settings.<br><br><strong>Woman:</strong> I’m not sure I agree with that. Work communities and social communities serve very different purposes. In a social community, people gather out of personal interest and shared hobbies, but in work communities, people connect because of their job roles. That can affect how close they feel and how they interact with one another.<br><br><strong>Man:</strong> I see your point, but even in work communities, people still find ways to connect on a personal level. A good work environment encourages friendships that might go beyond work topics.<br><br><strong>Woman:</strong> That’s a good point. And with technology, people can now connect for both work and social reasons, even if they’re not physically together. But I still think it’s important to build spaces where people can gather in person.<br><br><strong>Man:</strong> Yes, I agree, but I think technology has really changed how communities form. It makes connecting so much easier, and people don’t always need to meet face-to-face to feel a sense of community.<br><br><strong>Woman:</strong> I see that, but I don’t think online connections can fully replace in-person gatherings. There’s a different energy when people come together in real spaces—something technology just can’t replicate.<br><br><strong>Man:</strong> I understand, but I feel that virtual spaces can be just as meaningful. Technology adds a new layer, making it possible for communities to thrive even across distances, and that’s valuable in its own way.</p>",
+    "raw_metadata": {
+      "description": "<p>Listen to two people discussing <strong>community design</strong>. Read the statements and decide whose opinion matches the best: the man’s, the woman’s or both. Who expresses which opinion?</p><p>&nbsp;</p><p><strong>Man:</strong> You know, I believe building design can shape people’s behaviors and interactions from the start. When spaces are designed well, people feel comfortable and naturally start connecting.<br><br><strong>Woman:</strong> Of course, design matters, but there’s no shortcut to building real community connections. Creating community takes time and consistency, even in spaces that encourage interaction.<br><br><strong>Man:</strong> Really? But I also feel that work communities and social communities aren’t as different as we might think. Both require spaces that help people feel connected and valued, whether it’s at work or in social settings.<br><br><strong>Woman:</strong> I’m not sure I agree with that. Work communities and social communities serve very different purposes. In a social community, people gather out of personal interest and shared hobbies, but in work communities, people connect because of their job roles. That can affect how close they feel and how they interact with one another.<br><br><strong>Man:</strong> I see your point, but even in work communities, people still find ways to connect on a personal level. A good work environment encourages friendships that might go beyond work topics.<br><br><strong>Woman:</strong> That’s a good point. And with technology, people can now connect for both work and social reasons, even if they’re not physically together. But I still think it’s important to build spaces where people can gather in person.<br><br><strong>Man:</strong> Yes, I agree, but I think technology has really changed how communities form. It makes connecting so much easier, and people don’t always need to meet face-to-face to feel a sense of community.<br><br><strong>Woman:</strong> I see that, but I don’t think online connections can fully replace in-person gatherings. There’s a different energy when people come together in real spaces—something technology just can’t replicate.<br><br><strong>Man:</strong> I understand, but I feel that virtual spaces can be just as meaningful. Technology adds a new layer, making it possible for communities to thrive even across distances, and that’s valuable in its own way.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Building design can influence people's behavior",
+        "Creating a community can take time.",
+        "Work communities and social communities are the same.",
+        "Technology has changed how community forms."
+      ],
+      "correct_answers": [
+        "2",
+        "1",
+        "0",
+        "2"
+      ],
+      "explanation": "<p>Bàn Wề Mưa Bão - BWMB</p><p><strong>Man:</strong> You know, I believe building design can shape people’s behaviors and interactions from the start. When spaces are designed well, people feel comfortable and naturally start connecting.<br><br><strong>Woman:</strong> Of course, design matters, but there’s no shortcut to building real community connections. Creating community takes time and consistency, even in spaces that encourage interaction.<br><br><strong>Man:</strong> Really? But I also feel that work communities and social communities aren’t as different as we might think. Both require spaces that help people feel connected and valued, whether it’s at work or in social settings.<br><br><strong>Woman:</strong> I’m not sure I agree with that. Work communities and social communities serve very different purposes. In a social community, people gather out of personal interest and shared hobbies, but in work communities, people connect because of their job roles. That can affect how close they feel and how they interact with one another.<br><br><strong>Man:</strong> I see your point, but even in work communities, people still find ways to connect on a personal level. A good work environment encourages friendships that might go beyond work topics.<br><br><strong>Woman:</strong> That’s a good point. And with technology, people can now connect for both work and social reasons, even if they’re not physically together. But I still think it’s important to build spaces where people can gather in person.<br><br><strong>Man:</strong> Yes, I agree, but I think technology has really changed how communities form. It makes connecting so much easier, and people don’t always need to meet face-to-face to feel a sense of community.<br><br><strong>Woman:</strong> I see that, but I don’t think online connections can fully replace in-person gatherings. There’s a different energy when people come together in real spaces—something technology just can’t replicate.<br><br><strong>Man:</strong> I understand, but I feel that virtual spaces can be just as meaningful. Technology adds a new layer, making it possible for communities to thrive even across distances, and that’s valuable in its own way.</p>"
+    },
+    "title": "Community Design (Bàn Wề Mưa Bão (BWMB))",
+    "mnemonic_tip": "Bàn Wề Mưa Bão (BWMB)"
+  },
+  {
+    "id": 766,
+    "number": 2,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two people discussing The subject of beauty. Read the statements and decide whose opinion matches the best: the man’s, the woman’s or both. Who expresses which opinion?",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "4GSP3aFGhe9JaZWUqnvHrHpiX7CK21tYf9Ops6Me.mp3",
+    "description": "<p>Man: Hi David. You look so serious reading while watching that beauty show. What happened?</p><p>&nbsp;</p><p>Woman: You know, I’ve been thinking a lot about beauty lately. It seems like so many people share similar ideas about it, especially with social media showing the same types of looks and trends everywhere. It’s almost like there’s a formula for what’s considered beautiful.</p><p>&nbsp;</p><p>Man: That’s a good point. However, I believe that ideas about beauty change over time. What we find beautiful today might not be the same in a few years. Just look at how fashion and beauty standards have shifted over the decades! Remember how popular certain hairstyles or clothing styles were?</p><p>&nbsp;</p><p>Woman: It’s fascinating to see how those perceptions evolve. And I think beauty can be found in unexpected places too. For instance, when I walk through my neighborhood, I notice beauty not only in nature, like the way the sun sets or flowers bloom, but also in everyday moments—like a street musician playing a beautiful tune or people sharing a laugh.</p><p>&nbsp;</p><p>Man: Those little things can be incredibly beautiful. And I think traditional ideas of beauty are going to change even more. People are starting to value authenticity and unique qualities rather than just sticking to old standards.</p>",
+    "raw_metadata": {
+      "description": "<p>Man: Hi David. You look so serious reading while watching that beauty show. What happened?</p><p>&nbsp;</p><p>Woman: You know, I’ve been thinking a lot about beauty lately. It seems like so many people share similar ideas about it, especially with social media showing the same types of looks and trends everywhere. It’s almost like there’s a formula for what’s considered beautiful.</p><p>&nbsp;</p><p>Man: That’s a good point. However, I believe that ideas about beauty change over time. What we find beautiful today might not be the same in a few years. Just look at how fashion and beauty standards have shifted over the decades! Remember how popular certain hairstyles or clothing styles were?</p><p>&nbsp;</p><p>Woman: It’s fascinating to see how those perceptions evolve. And I think beauty can be found in unexpected places too. For instance, when I walk through my neighborhood, I notice beauty not only in nature, like the way the sun sets or flowers bloom, but also in everyday moments—like a street musician playing a beautiful tune or people sharing a laugh.</p><p>&nbsp;</p><p>Man: Those little things can be incredibly beautiful. And I think traditional ideas of beauty are going to change even more. People are starting to value authenticity and unique qualities rather than just sticking to old standards.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "People share similar ideas about beauty",
+        "Ideas about beauty change over time",
+        "Beauty can be found in unlikely places",
+        "Traditional ideas about beauty are going to change"
+      ],
+      "correct_answers": [
+        "1",
+        "0",
+        "2",
+        "0"
+      ],
+      "explanation": "<p>Wừa Mới Bôi Môi</p>"
+    },
+    "title": "The Subject of Beauty (Wừa Mới Bôi Môi (W-M-B-M))",
+    "mnemonic_tip": "Wừa Mới Bôi Môi (W-M-B-M)"
+  },
+  {
+    "id": 225,
+    "number": 3,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two people discussing the Audition - Actor. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "NDf7eNdtWPSKFMyryF8fp4pkKiMVZELf6IA1Qzso.mp3",
+    "description": "<p><strong>Man: </strong>You know, I’ve always believed that auditions are the most important part of an actor’s career. I mean, that’s where the magic happens. It doesn’t matter how great you are in rehearsals or even in the final performance; if you can’t nail that audition, you’re not getting anywhere.&nbsp;</p><p><strong>Woman:</strong> Yeah, but it’s not just about the audition. I’ve seen actors who can absolutely shine when they’re given the right material to work with. Strong scripts really bring out the best in them. If the writing’s weak, even a talented actor might struggle to connect. I think actors respond best when they feel inspired by what’s on the page.&nbsp;</p><p><strong>Man: </strong>That’s true, but whether it’s a strong script or a weak one, they still have to nail that first audition to even get the chance to perform, right?&nbsp;</p><p><strong>Woman:</strong> Sure, the audition is key, but once they’re in, the script can make or break their performance. It’s kind of a balance between both.&nbsp;</p><p><strong>Man:</strong> I agree with that. But I also think there’s a huge difference between theater acting and screen acting. The two require completely different skill sets. In theater, you’ve got to project and be larger than life, whereas on screen, it’s all about subtlety, keeping everything smaller and more contained. Woman: Absolutely! They’re such different worlds. The way you use your body, your voice, even how you interact with your fellow actors—it’s all completely different depending on whether you’re on stage or in front of a camera.&nbsp;</p><p><strong>Man:</strong> Right, and that’s why actors deserve as much praise as possible. They’re constantly shifting between styles and adapting to new roles. It’s tough! Woman: Couldn’t agree more. I mean, whether it’s theater or film, acting is such an emotional and demanding job. Encouragement and praise go a long way. They need to feel appreciated for all the work they put in.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man: </strong>You know, I’ve always believed that auditions are the most important part of an actor’s career. I mean, that’s where the magic happens. It doesn’t matter how great you are in rehearsals or even in the final performance; if you can’t nail that audition, you’re not getting anywhere.&nbsp;</p><p><strong>Woman:</strong> Yeah, but it’s not just about the audition. I’ve seen actors who can absolutely shine when they’re given the right material to work with. Strong scripts really bring out the best in them. If the writing’s weak, even a talented actor might struggle to connect. I think actors respond best when they feel inspired by what’s on the page.&nbsp;</p><p><strong>Man: </strong>That’s true, but whether it’s a strong script or a weak one, they still have to nail that first audition to even get the chance to perform, right?&nbsp;</p><p><strong>Woman:</strong> Sure, the audition is key, but once they’re in, the script can make or break their performance. It’s kind of a balance between both.&nbsp;</p><p><strong>Man:</strong> I agree with that. But I also think there’s a huge difference between theater acting and screen acting. The two require completely different skill sets. In theater, you’ve got to project and be larger than life, whereas on screen, it’s all about subtlety, keeping everything smaller and more contained. Woman: Absolutely! They’re such different worlds. The way you use your body, your voice, even how you interact with your fellow actors—it’s all completely different depending on whether you’re on stage or in front of a camera.&nbsp;</p><p><strong>Man:</strong> Right, and that’s why actors deserve as much praise as possible. They’re constantly shifting between styles and adapting to new roles. It’s tough! Woman: Couldn’t agree more. I mean, whether it’s theater or film, acting is such an emotional and demanding job. Encouragement and praise go a long way. They need to feel appreciated for all the work they put in.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Auditions are most important for an actor's career",
+        "Actors tend to respond best to strong and engaging scripts",
+        "Theater acting and screen acting are quite different from each other",
+        "Actors should be praised and recognized as much as possible"
+      ],
+      "correct_answers": [
+        "0",
+        "1",
+        "2",
+        "2"
+      ],
+      "explanation": "<p>Mới Vừa Bị Bắt MWBB</p><p>&nbsp;</p><p>Man: You know, I’ve always believed that auditions are the most important part of an actor’s career. I mean, that’s where the magic happens. It doesn’t matter how great you are in rehearsals or even in the final performance; if you can’t nail that audition, you’re not getting anywhere.&nbsp;</p><p>Woman: Yeah, but it’s not just about the audition. I’ve seen actors who can absolutely shine when they’re given the right material to work with. Strong scripts really bring out the best in them. If the writing’s weak, even a talented actor might struggle to connect. I think actors respond best when they feel inspired by what’s on the page.&nbsp;</p><p>Man: That’s true, but whether it’s a strong script or a weak one, they still have to nail that first audition to even get the chance to perform, right?&nbsp;</p><p>Woman: Sure, the audition is key, but once they’re in, the script can make or break their performance. It’s kind of a balance between both.&nbsp;</p><p>Man: I agree with that. But I also think there’s a huge difference between theater acting and screen acting. The two require completely different skill sets. In theater, you’ve got to project and be larger than life, whereas on screen, it’s all about subtlety, keeping everything smaller and more contained. Woman: Absolutely! They’re such different worlds. The way you use your body, your voice, even how you interact with your fellow actors—it’s all completely different depending on whether you’re on stage or in front of a camera.&nbsp;</p><p>Man: Right, and that’s why actors deserve as much praise as possible. They’re constantly shifting between styles and adapting to new roles. It’s tough! Woman: Couldn’t agree more. I mean, whether it’s theater or film, acting is such an emotional and demanding job. Encouragement and praise go a long way. They need to feel appreciated for all the work they put in.</p>"
+    },
+    "title": "Audition - Actor (Diễn viên Mới Vừa Bị Bắt (MWBB))",
+    "mnemonic_tip": "Diễn viên Mới Vừa Bị Bắt (MWBB)"
+  },
+  {
+    "id": 799,
+    "number": 4,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing Cultural Differences at Work. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "r603F1w6wgpR4ribJczrChawrabtjCChXjsduDje.mp3",
+    "description": "<p><strong>Man:</strong> You know, I think cultural differences can sometimes create misunderstandings in the workplace, especially when people come from very different backgrounds. However, I believe most people are quite forgiving when these situations happen. They usually understand that others may have different customs or communication styles, so they don't take every mistake personally.</p><p><strong>Woman: </strong>I agree to some extent, but I think people sometimes exaggerate how different cultures really are. We often focus too much on the differences between countries, even though people actually share many similar values and expectations, particularly in professional environments.</p><p><strong>Man:</strong> That's an interesting point. In fact, I believe there is something we could call an international business culture. Nowadays, companies around the world often follow similar professional standards, such as respecting deadlines, communicating clearly and working towards common goals. These shared practices make international cooperation much easier.</p><p><strong>Woman: </strong>Perhaps, but I still think cultural differences can influence the way people behave at work. For example, some people prefer direct communication, while others consider it more polite to express their opinions indirectly.</p><p><strong>Man: </strong>That's true. Nevertheless, I actually think it's a positive development that different cultures are becoming more alike. As international communication increases, people are learning from one another and adopting similar habits. This can reduce misunderstandings and make working together much easier.</p><p><strong>Woman:</strong> I understand your point, although I don't think we should lose our cultural identities. Different traditions and ways of thinking can bring valuable perspectives to the workplace.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man:</strong> You know, I think cultural differences can sometimes create misunderstandings in the workplace, especially when people come from very different backgrounds. However, I believe most people are quite forgiving when these situations happen. They usually understand that others may have different customs or communication styles, so they don't take every mistake personally.</p><p><strong>Woman: </strong>I agree to some extent, but I think people sometimes exaggerate how different cultures really are. We often focus too much on the differences between countries, even though people actually share many similar values and expectations, particularly in professional environments.</p><p><strong>Man:</strong> That's an interesting point. In fact, I believe there is something we could call an international business culture. Nowadays, companies around the world often follow similar professional standards, such as respecting deadlines, communicating clearly and working towards common goals. These shared practices make international cooperation much easier.</p><p><strong>Woman: </strong>Perhaps, but I still think cultural differences can influence the way people behave at work. For example, some people prefer direct communication, while others consider it more polite to express their opinions indirectly.</p><p><strong>Man: </strong>That's true. Nevertheless, I actually think it's a positive development that different cultures are becoming more alike. As international communication increases, people are learning from one another and adopting similar habits. This can reduce misunderstandings and make working together much easier.</p><p><strong>Woman:</strong> I understand your point, although I don't think we should lose our cultural identities. Different traditions and ways of thinking can bring valuable perspectives to the workplace.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "People are generally forgiving of cultural misunderstandings",
+        "People exaggerated the extent of cultural differences",
+        "There is an international business culture",
+        "It is good that cultures are becoming more alike"
+      ],
+      "correct_answers": [
+        "2",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    "title": "Culture Differences at Work (Làm việc phải \"Bàn Việc Miệt Mài\" (BVMM))",
+    "mnemonic_tip": "Làm việc phải \"Bàn Việc Miệt Mài\" (BVMM)"
+  },
+  {
+    "id": 227,
+    "number": 5,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing the The Internet. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "pcFly1hzsV2o5Si68X2HmTEk9T2O7Zw8oI7k0v3O.mp3",
+    "description": "<p><strong>Man: </strong>Hi, Emma. You know, I've been thinking a lot about how much the internet has improved lately. It's really starting to shape the way our lives develop.&nbsp;</p><p><strong>Woman:</strong> Really? In what way?&nbsp;</p><p><strong>Man:</strong> Well, take a look at this article I found. It talks about how the internet influences everything - from how we learn to how we make decisions.&nbsp;</p><p><strong>Woman: </strong>Ah, so you're saying the internet gives us access to a lot of information? That's true in my opinion.&nbsp;</p><p><strong>Man: </strong>Hmm... not exactly. Not exactly. I think the information is helpful, but you actually need strong searching skills to find what's useful. And the problem is, too many people fall for fake news.&nbsp;</p><p><strong>Woman:</strong> That's a fair point. Just last week, I saw this post about a new product that promises fast weight loss. It had thousands of likes and comments, but when I looked into it, it turned out to be a complete scam.&nbsp;</p><p><strong>Man:</strong> That's a perfect example. I really believe there should be stricter control. Authorities need to take legal action and provide clearer guidelines. The internet has a huge impact on the way people think and behave.&nbsp;</p><p><strong>Woman: </strong>I'm not sure I agree with that part. I think we just need to be more careful when using the internet. People should take responsibility to double-check things before buying or sharing. If we bring in too many laws, we might limit people's freedom to express their opinions.&nbsp;</p><p><strong>Man:</strong> I get your point, but still, we can't ignore the damage some of this content causes. There's so much being created every second - especially short-form content. It's fast and addictive. And honestly, I think it's making young people more impatient.&nbsp;</p><p><strong>Woman:</strong> I completely agree. My younger cousin can't even sit through a one-minute video without skipping ahead. It's like no one wants to wait anymore.&nbsp;</p><p><strong>Man:</strong> Exactly. That's why I think some sort of regulation is necessary - not to control people's voices, but to help improve the quality of what we see online. That might help, as long as we don't go too far with these restrictions.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man: </strong>Hi, Emma. You know, I've been thinking a lot about how much the internet has improved lately. It's really starting to shape the way our lives develop.&nbsp;</p><p><strong>Woman:</strong> Really? In what way?&nbsp;</p><p><strong>Man:</strong> Well, take a look at this article I found. It talks about how the internet influences everything - from how we learn to how we make decisions.&nbsp;</p><p><strong>Woman: </strong>Ah, so you're saying the internet gives us access to a lot of information? That's true in my opinion.&nbsp;</p><p><strong>Man: </strong>Hmm... not exactly. Not exactly. I think the information is helpful, but you actually need strong searching skills to find what's useful. And the problem is, too many people fall for fake news.&nbsp;</p><p><strong>Woman:</strong> That's a fair point. Just last week, I saw this post about a new product that promises fast weight loss. It had thousands of likes and comments, but when I looked into it, it turned out to be a complete scam.&nbsp;</p><p><strong>Man:</strong> That's a perfect example. I really believe there should be stricter control. Authorities need to take legal action and provide clearer guidelines. The internet has a huge impact on the way people think and behave.&nbsp;</p><p><strong>Woman: </strong>I'm not sure I agree with that part. I think we just need to be more careful when using the internet. People should take responsibility to double-check things before buying or sharing. If we bring in too many laws, we might limit people's freedom to express their opinions.&nbsp;</p><p><strong>Man:</strong> I get your point, but still, we can't ignore the damage some of this content causes. There's so much being created every second - especially short-form content. It's fast and addictive. And honestly, I think it's making young people more impatient.&nbsp;</p><p><strong>Woman:</strong> I completely agree. My younger cousin can't even sit through a one-minute video without skipping ahead. It's like no one wants to wait anymore.&nbsp;</p><p><strong>Man:</strong> Exactly. That's why I think some sort of regulation is necessary - not to control people's voices, but to help improve the quality of what we see online. That might help, as long as we don't go too far with these restrictions.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "There is too much information on the internet",
+        "Using the internet requires skills",
+        "The internet is changing the way we think",
+        "Internet has made people less patient"
+      ],
+      "correct_answers": [
+        "1",
+        "2",
+        "0",
+        "2"
+      ],
+      "explanation": "<p>Wen Bạn Miền Bắc WBMB</p><p>&nbsp;</p><p>Man: Hi, Emma. You know, I've been thinking a lot about how much the internet has improved lately. It's really starting to shape the way our lives develop.&nbsp;</p><p>Woman: Really? In what way? Man: Well, take a look at this article I found. It talks about how the internet influences everything - from how we learn to how we make decisions.&nbsp;</p><p>Woman: Ah, so you're saying the internet gives us access to a lot of information? That's true in my opinion.&nbsp;</p><p>Man: Hmm... not exactly. Not exactly. I think the information is helpful, but you actually need strong searching skills to find what's useful. And the problem is, too many people fall for fake news.&nbsp;</p><p>Woman: That's a fair point. Just last week, I saw this post about a new product that promises fast weight loss. It had thousands of likes and comments, but when I looked into it, it turned out to be a complete scam.&nbsp;</p><p>Man: That's a perfect example. I really believe there should be stricter control. Authorities need to take legal action and provide clearer guidelines. The internet has a huge impact on the way people think and behave.&nbsp;</p><p>Woman: I'm not sure I agree with that part. I think we just need to be more careful when using the internet. People should take responsibility to double-check things before buying or sharing. If we bring in too many laws, we might limit people's freedom to express their opinions.&nbsp;</p><p>Man: I get your point, but still, we can't ignore the damage some of this content causes. There's so much being created every second - especially short-form content. It's fast and addictive. And honestly, I think it's making young people more impatient.&nbsp;</p><p>Woman: I completely agree. My younger cousin can't even sit through a one-minute video without skipping ahead. It's like no one wants to wait anymore.&nbsp;</p><p>Man: Exactly. That's why I think some sort of regulation is necessary - not to control people's voices, but to help improve the quality of what we see online. That might help, as long as we don't go too far with these restrictions.</p>"
+    },
+    "title": "The Internet (Lên mạng để Wen Bạn Miền Bắc (WBMB))",
+    "mnemonic_tip": "Lên mạng để Wen Bạn Miền Bắc (WBMB)"
+  },
+  {
+    "id": 767,
+    "number": 6,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two people discussing Art.  Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "FltuEFpcg5TqNPSpTLA8N2v3uCTbXUvMO6EUzuaV.mp3",
+    "description": "<p><strong>Man: </strong>You know, I think art plays an important role in society, but unfortunately, not everyone has equal opportunities to enjoy it. Some people believe that art is mainly for wealthy or well-educated individuals who can afford expensive paintings, exhibitions and theatre performances.</p><p><strong>Woman:</strong> I actually think that's true to some extent. In my opinion, art is only suitable for the privileged few. Many art exhibitions and cultural events are quite expensive, which makes them less accessible to ordinary people. Not everyone has the time or money to appreciate these activities.</p><p><strong>Man:</strong> I understand your point, but I believe the government should do more to change this situation. It should invest more money in the arts, support local artists and provide free or affordable cultural activities for the public.</p><p><strong>Woman: </strong>That's a reasonable suggestion. I also think we should pay more attention to art education, especially for children.</p><p>Man: Absolutely! Children should be exposed to art from an early age. Visiting museums, learning to draw and taking part in creative activities can help them develop their imagination and express their feelings.</p><p><strong>Woman:</strong> I couldn't agree more. Early exposure to art can also help children become more creative and appreciate different forms of culture.</p><p><strong>Man: </strong>And I'm quite optimistic about the future. With the development of technology, online exhibitions and digital platforms, I believe art will become more accessible to everyone. People will be able to explore famous artworks without having to travel or pay expensive entrance fees.</p><p><strong>Woman: </strong>That's possible. Technology certainly creates more opportunities, although I think traditional galleries and museums will still remain important.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man: </strong>You know, I think art plays an important role in society, but unfortunately, not everyone has equal opportunities to enjoy it. Some people believe that art is mainly for wealthy or well-educated individuals who can afford expensive paintings, exhibitions and theatre performances.</p><p><strong>Woman:</strong> I actually think that's true to some extent. In my opinion, art is only suitable for the privileged few. Many art exhibitions and cultural events are quite expensive, which makes them less accessible to ordinary people. Not everyone has the time or money to appreciate these activities.</p><p><strong>Man:</strong> I understand your point, but I believe the government should do more to change this situation. It should invest more money in the arts, support local artists and provide free or affordable cultural activities for the public.</p><p><strong>Woman: </strong>That's a reasonable suggestion. I also think we should pay more attention to art education, especially for children.</p><p>Man: Absolutely! Children should be exposed to art from an early age. Visiting museums, learning to draw and taking part in creative activities can help them develop their imagination and express their feelings.</p><p><strong>Woman:</strong> I couldn't agree more. Early exposure to art can also help children become more creative and appreciate different forms of culture.</p><p><strong>Man: </strong>And I'm quite optimistic about the future. With the development of technology, online exhibitions and digital platforms, I believe art will become more accessible to everyone. People will be able to explore famous artworks without having to travel or pay expensive entrance fees.</p><p><strong>Woman: </strong>That's possible. Technology certainly creates more opportunities, although I think traditional galleries and museums will still remain important.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Art is only suitable for the privileged few",
+        "The government should invest more in arts",
+        "Children should be exposed to art early",
+        "In the future, art will become more accessible"
+      ],
+      "correct_answers": [
+        "1",
+        "0",
+        "2",
+        "0"
+      ],
+      "explanation": "<p>WMBM : Wào Mỗi Bình Minh</p>"
+    },
+    "title": "Art (Sáng tác nghệ thuật: Wào Mỗi Bình Minh (WMBM))",
+    "mnemonic_tip": "Sáng tác nghệ thuật: Wào Mỗi Bình Minh (WMBM)"
+  },
+  {
+    "id": 769,
+    "number": 7,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing Singers and Music. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "My1gU6bI0OaVZAfFPnbBRwuocoUTR1puvf8Rd7uX.mp3",
+    "description": "<p><strong>Man:</strong> &nbsp;You know, I’m not entirely convinced that singers are good role models for young people. While some may have positive messages, others don’t always set the best example. Sometimes their lifestyles can be quite the opposite of what we’d want kids to emulate.</p><p><strong>Woman:</strong> I actually disagree. I believe that singers can play a positive role in young people's lives. Their influence can inspire kids to pursue their dreams and express themselves. Just think about how many young artists start singing because they look up to someone famous.</p><p><strong>Man:</strong> Fair point, but I still think young people should be careful about whom they admire. Not every famous artist deserves to be a role model.</p><p><strong>Woman: </strong>That's true, but many singers, such as Taylor Swift and Ed Sheeran, often promote kindness, hard work and positive values.</p><p><strong>Man :</strong> I get that. But when it comes to taste in music, it’s such a highly personal thing. What resonates with one person might not resonate with another. I mean, I might love rock while my friend prefers classical!</p><p><strong>Woman: </strong>Absolutely! Everyone has their own preferences, and that’s what makes music so interesting. It’s like a reflection of our individual personalities.&nbsp;</p><p><strong>Man : </strong>And speaking of music, I believe it’s a universal language that connects people from different cultures. You can go anywhere in the world and find someone who enjoys music.</p><p><strong>Woman: </strong>I don’t fully agree with that. While music can connect people, its meanings can vary greatly between cultures. A song that makes one group happy might not even be understood by another.</p><p><strong>Man : </strong>True, but one thing we can both agree on is that music can be used to manipulate people’s feelings, whether in advertising or emotional moments in movies.</p><p><strong>Woman : </strong>Definitely! It’s amazing how a song can evoke such strong emotions in us. Just think about those movie soundtracks that give you chills or make you cry. Music has that incredible power.</p><p><strong>Man : </strong>Right? It’s fascinating how a simple melody can tap into our emotions so deeply.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man:</strong> &nbsp;You know, I’m not entirely convinced that singers are good role models for young people. While some may have positive messages, others don’t always set the best example. Sometimes their lifestyles can be quite the opposite of what we’d want kids to emulate.</p><p><strong>Woman:</strong> I actually disagree. I believe that singers can play a positive role in young people's lives. Their influence can inspire kids to pursue their dreams and express themselves. Just think about how many young artists start singing because they look up to someone famous.</p><p><strong>Man:</strong> Fair point, but I still think young people should be careful about whom they admire. Not every famous artist deserves to be a role model.</p><p><strong>Woman: </strong>That's true, but many singers, such as Taylor Swift and Ed Sheeran, often promote kindness, hard work and positive values.</p><p><strong>Man :</strong> I get that. But when it comes to taste in music, it’s such a highly personal thing. What resonates with one person might not resonate with another. I mean, I might love rock while my friend prefers classical!</p><p><strong>Woman: </strong>Absolutely! Everyone has their own preferences, and that’s what makes music so interesting. It’s like a reflection of our individual personalities.&nbsp;</p><p><strong>Man : </strong>And speaking of music, I believe it’s a universal language that connects people from different cultures. You can go anywhere in the world and find someone who enjoys music.</p><p><strong>Woman: </strong>I don’t fully agree with that. While music can connect people, its meanings can vary greatly between cultures. A song that makes one group happy might not even be understood by another.</p><p><strong>Man : </strong>True, but one thing we can both agree on is that music can be used to manipulate people’s feelings, whether in advertising or emotional moments in movies.</p><p><strong>Woman : </strong>Definitely! It’s amazing how a song can evoke such strong emotions in us. Just think about those movie soundtracks that give you chills or make you cry. Music has that incredible power.</p><p><strong>Man : </strong>Right? It’s fascinating how a simple melody can tap into our emotions so deeply.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Singers play a good role for young people",
+        "Taste in music is a highly personal thing",
+        "Music is a universal language",
+        "Music can manipulate people's feelings"
+      ],
+      "correct_answers": [
+        "1",
+        "2",
+        "0",
+        "2"
+      ],
+      "explanation": "<p>Wiết Bài Mưa Bay</p>"
+    },
+    "title": "Singers and Music (Nhạc sĩ Wiết Bài Mưa Bay (WBMB))",
+    "mnemonic_tip": "Nhạc sĩ Wiết Bài Mưa Bay (WBMB)"
+  },
+  {
+    "id": 300,
+    "number": 8,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing University and technology. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "MSK8K0dHqP7ZNcg1Xlf4wrJQgVJQe4mSDHj2wsWf.mp3",
+    "description": "<p><strong>M:</strong> What course are you taking these days?</p><p><strong>W</strong>: I'm currently pursuing an online university degree. It's really suitable and convenient because I can study while working. Technology has truly made education much more accessible.&nbsp;</p><p><strong>M:</strong> That's amazing. I still remember the old days when you had to stand in long lines to borrow a book from the library, which took a lot of time. And by the time it was your turn, the book was often already gone. Now, when we want to read a book, we just type the title online and have it immediately.&nbsp;</p><p><strong>W: </strong>Exactly, study materials were really scarce back then, unlike now.&nbsp;</p><p><strong>M:</strong> That’s why I’m thinking, why not make all school classes online? It would save a lot of costs.&nbsp;</p><p><strong>W:</strong> I think attending school in person is still very necessary because meeting friends and socializing helps us gain more soft skills.&nbsp;</p><p><strong>M:</strong> Don’t forget that young people do have a reputation for being less social. They often prefer talking on social media rather than meeting in person.&nbsp;</p><p><strong>W:</strong> Additionally, I think the variety of courses available nowadays is also a good way to improve education.&nbsp;</p><p><strong>M:</strong> I don't think so. Offering too many diverse courses can make traditional and core subjects seem less important and neglected.&nbsp;</p><p><strong>W:</strong> We should also consider competition among universities. It’s essential for universities to continuously improve their programs and attract more funding, especially with the current trend of universities seeking financial autonomy.&nbsp;</p><p><strong>M:</strong> I don’t think we should turn education into a race like competing businesses. If universities need funding, they can report it to the government and educational organizations.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>M:</strong> What course are you taking these days?</p><p><strong>W</strong>: I'm currently pursuing an online university degree. It's really suitable and convenient because I can study while working. Technology has truly made education much more accessible.&nbsp;</p><p><strong>M:</strong> That's amazing. I still remember the old days when you had to stand in long lines to borrow a book from the library, which took a lot of time. And by the time it was your turn, the book was often already gone. Now, when we want to read a book, we just type the title online and have it immediately.&nbsp;</p><p><strong>W: </strong>Exactly, study materials were really scarce back then, unlike now.&nbsp;</p><p><strong>M:</strong> That’s why I’m thinking, why not make all school classes online? It would save a lot of costs.&nbsp;</p><p><strong>W:</strong> I think attending school in person is still very necessary because meeting friends and socializing helps us gain more soft skills.&nbsp;</p><p><strong>M:</strong> Don’t forget that young people do have a reputation for being less social. They often prefer talking on social media rather than meeting in person.&nbsp;</p><p><strong>W:</strong> Additionally, I think the variety of courses available nowadays is also a good way to improve education.&nbsp;</p><p><strong>M:</strong> I don't think so. Offering too many diverse courses can make traditional and core subjects seem less important and neglected.&nbsp;</p><p><strong>W:</strong> We should also consider competition among universities. It’s essential for universities to continuously improve their programs and attract more funding, especially with the current trend of universities seeking financial autonomy.&nbsp;</p><p><strong>M:</strong> I don’t think we should turn education into a race like competing businesses. If universities need funding, they can report it to the government and educational organizations.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Technology helps make education more accessible",
+        "Social interaction is important",
+        "The diverse curriculum is not an advantage",
+        "University competition should be encouraged"
+      ],
+      "correct_answers": [
+        "2",
+        "1",
+        "0",
+        "1"
+      ],
+      "explanation": "<p>Biết Wề Mọi Wiệc BWMW&nbsp;</p><p>&nbsp;</p><p>M: What course are you taking these days?</p><p>W: I'm currently pursuing an online university degree. It's really suitable and convenient because I can study while working. Technology has truly made education much more accessible.&nbsp;</p><p>M: That's amazing. I still remember the old days when you had to stand in long lines to borrow a book from the library, which took a lot of time. And by the time it was your turn, the book was often already gone. Now, when we want to read a book, we just type the title online and have it immediately.&nbsp;</p><p>W: Exactly, study materials were really scarce back then, unlike now. M: That’s why I’m thinking, why not make all school classes online? It would save a lot of costs.&nbsp;</p><p>W: I think attending school in person is still very necessary because meeting friends and socializing helps us gain more soft skills.&nbsp;</p><p>M: Don’t forget that young people do have a reputation for being less social. They often prefer talking on social media rather than meeting in person.&nbsp;</p><p>W: Additionally, I think the variety of courses available nowadays is also a good way to improve education.&nbsp;</p><p>M: I don't think so. Offering too many diverse courses can make traditional and core subjects seem less important and neglected.&nbsp;</p><p>W: We should also consider competition among universities. It’s essential for universities to continuously improve their programs and attract more funding, especially with the current trend of universities seeking financial autonomy.&nbsp;</p><p>M: I don’t think we should turn education into a race like competing businesses. If universities need funding, they can report it to the government and educational organizations.</p>"
+    },
+    "title": "University and Technology (Học ĐH để Biết Wề Mọi Wiệc (BWMW))",
+    "mnemonic_tip": "Học ĐH để Biết Wề Mọi Wiệc (BWMW)"
+  },
+  {
+    "id": 302,
+    "number": 9,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing Politics. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "hubblcGCgu7x8ceQDae5pNydxv86f4jwgFGlTx2a.mp3",
+    "description": "<p>M: Have you heard about the upcoming presidential election? A lot of young people have already voted, which shows that they're becoming more interested in politics.&nbsp;</p><p>W: Yes, it's very different from our time. When I was 18, I never paid attention to politics.&nbsp;</p><p>M: The technology era now gives us so many ways to engage with politics. Politicians often post their political activities on social media much more than they did in the past.&nbsp;</p><p>W: Actually, politicians still carry out traditional political activities too. They still hand out flyers and participate in volunteer work.&nbsp;</p><p>M: The development of information technology also overwhelms us with information. There’s so much news online that we don't know what to read. This makes keeping up with political news much more challenging than before.&nbsp;</p><p>W: I think that as technology advances, it becomes easier for us to stay updated on the news. Technology allows us to use advanced filters to easily sort out the news we need to know.&nbsp;</p><p>M: There are also more women involved in politics now than before. It seems society has become more open to women.&nbsp;</p><p>W: Exactly. Women have the same education and learning abilities as men. They even lead in many areas of life. In the future, more and more women will be participating in political activities.</p>",
+    "raw_metadata": {
+      "description": "<p>M: Have you heard about the upcoming presidential election? A lot of young people have already voted, which shows that they're becoming more interested in politics.&nbsp;</p><p>W: Yes, it's very different from our time. When I was 18, I never paid attention to politics.&nbsp;</p><p>M: The technology era now gives us so many ways to engage with politics. Politicians often post their political activities on social media much more than they did in the past.&nbsp;</p><p>W: Actually, politicians still carry out traditional political activities too. They still hand out flyers and participate in volunteer work.&nbsp;</p><p>M: The development of information technology also overwhelms us with information. There’s so much news online that we don't know what to read. This makes keeping up with political news much more challenging than before.&nbsp;</p><p>W: I think that as technology advances, it becomes easier for us to stay updated on the news. Technology allows us to use advanced filters to easily sort out the news we need to know.&nbsp;</p><p>M: There are also more women involved in politics now than before. It seems society has become more open to women.&nbsp;</p><p>W: Exactly. Women have the same education and learning abilities as men. They even lead in many areas of life. In the future, more and more women will be participating in political activities.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Young people are becoming more interested in politics",
+        "Social media has changed political activism",
+        "People are better informed about political issues",
+        "More women are likely to participate in politics"
+      ],
+      "correct_answers": [
+        "2",
+        "0",
+        "1",
+        "2"
+      ],
+      "explanation": "<p>Bọn Mình Wừa Bầu (cử)</p><p>&nbsp;</p><p>M: Have you heard about the upcoming presidential election? A lot of young people have already voted, which shows that they're becoming more interested in politics.&nbsp;</p><p>W: Yes, it's very different from our time. When I was 18, I never paid attention to politics.&nbsp;</p><p>M: The technology era now gives us so many ways to engage with politics. Politicians often post their political activities on social media much more than they did in the past.&nbsp;</p><p>W: Actually, politicians still carry out traditional political activities too. They still hand out flyers and participate in volunteer work.&nbsp;</p><p>M: The development of information technology also overwhelms us with information. There’s so much news online that we don't know what to read. This makes keeping up with political news much more challenging than before.&nbsp;</p><p>W: I think that as technology advances, it becomes easier for us to stay updated on the news. Technology allows us to use advanced filters to easily sort out the news we need to know.&nbsp;</p><p>M: There are also more women involved in politics now than before. It seems society has become more open to women.&nbsp;</p><p>W: Exactly. Women have the same education and learning abilities as men. They even lead in many areas of life. In the future, more and more women will be participating in political activities.</p>"
+    },
+    "title": "Politics (Làm chính trị: Bọn Mình Wừa Bầu (BMW B))",
+    "mnemonic_tip": "Làm chính trị: Bọn Mình Wừa Bầu (BMW B)"
+  },
+  {
+    "id": 706,
+    "number": 10,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing Urban Farming. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "VDdjlNFVudPzI4YEY5Q3Iv0oTO11Yri9G4cIODqS.mp3",
+    "description": "<p><strong>Man:</strong> You know, I think urban farming is a great idea, but we need to be realistic about the limited space in cities. Buildings, houses and other facilities should come first. People need somewhere to live, so I don't think farming areas should take up too much valuable space.</p><p><strong>Woman: </strong>I see your point, but I believe living space is definitely more important than farming space. Cities are becoming increasingly crowded, and providing enough housing for residents should be the priority. We shouldn't sacrifice people's homes just to create more farms.</p><p><strong>Man: </strong>That's true. However, urban farms don't have to look unattractive. In fact, I think they can make cities more beautiful. Rooftop gardens, green walls and small community farms can turn empty spaces into attractive green areas.</p><p><strong>Woman:</strong> Absolutely, but I also think urban farming can bring other benefits. It may help people access fresh vegetables more easily.</p><p><strong>Man: </strong>Definitely! Another advantage is that urban farming can support the local economy. It creates job opportunities, encourages small businesses and allows local farmers to sell fresh produce directly to nearby customers.</p><p><strong>Woman: </strong>That's a good point. And considering how quickly urban populations are growing, we really need more food available in cities. Many people depend on food transported from distant places, so producing more locally could be very helpful.</p><p><strong>Man:</strong> I completely agree. The demand for food in urban areas is increasing, and urban farming could help us meet that demand. It would also reduce our dependence on food supplies from other regions.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man:</strong> You know, I think urban farming is a great idea, but we need to be realistic about the limited space in cities. Buildings, houses and other facilities should come first. People need somewhere to live, so I don't think farming areas should take up too much valuable space.</p><p><strong>Woman: </strong>I see your point, but I believe living space is definitely more important than farming space. Cities are becoming increasingly crowded, and providing enough housing for residents should be the priority. We shouldn't sacrifice people's homes just to create more farms.</p><p><strong>Man: </strong>That's true. However, urban farms don't have to look unattractive. In fact, I think they can make cities more beautiful. Rooftop gardens, green walls and small community farms can turn empty spaces into attractive green areas.</p><p><strong>Woman:</strong> Absolutely, but I also think urban farming can bring other benefits. It may help people access fresh vegetables more easily.</p><p><strong>Man: </strong>Definitely! Another advantage is that urban farming can support the local economy. It creates job opportunities, encourages small businesses and allows local farmers to sell fresh produce directly to nearby customers.</p><p><strong>Woman: </strong>That's a good point. And considering how quickly urban populations are growing, we really need more food available in cities. Many people depend on food transported from distant places, so producing more locally could be very helpful.</p><p><strong>Man:</strong> I completely agree. The demand for food in urban areas is increasing, and urban farming could help us meet that demand. It would also reduce our dependence on food supplies from other regions.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Living space is more important than farming space",
+        "Urban farming sites can be visually appealing",
+        "Urban farming can benefit local economics",
+        "We really need more food in urban areas"
+      ],
+      "correct_answers": [
+        "1",
+        "0",
+        "0",
+        "2"
+      ],
+      "explanation": "<p>WMMB : Wừa Mới Mua Bò</p>"
+    },
+    "title": "Urban Farming (Urban farming: Wừa Mới Mua Bò (WMMB))",
+    "mnemonic_tip": "Urban farming: Wừa Mới Mua Bò (WMMB)"
+  },
+  {
+    "id": 223,
+    "number": 11,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing the changes in the workplace. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "xIRE43gkQNWW4p8XtSLqx0qtIoM72JnEHrrnCTYz.mp3",
+    "description": "<p><strong>Man:</strong> It seems like every workplace is going through so many changes lately. But honestly, I think Continuity is still very important. When things remain steady, it gives people a sense of security. If everything changes too fast, it’s hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused.&nbsp;</p><p><strong>Woman: </strong>I get where you're coming from, but I feel like these days, nothing is certain. Job security isn't something we can rely on anymore. There’s always the risk of layoffs, especially with the economy being unpredictable. People are moving from job to job more than ever before, and you can’t always count on staying in one place for long.&nbsp;</p><p><strong>Man: </strong>That’s definitely a concern. But regardless of job security or stability, one thing we both can agree on is that job satisfaction is a huge motivator. When people love what they do, they’re more likely to stay, even when times get tough. It’s the main reason many of us keep pushing through the challenges.&nbsp;</p><p><strong>Woman:</strong> Absolutely! I think when people are satisfied with their work, they’re willing to go the extra mile. It’s not just about the paycheck; it’s about feeling fulfilled. That’s what really makes the difference in the workplace.&nbsp;</p><p><strong>Man: </strong>You’re right. And another thing that’s making a difference is technology. It’s been a game-changer for the economy, making things faster and more efficient. The growth we’ve seen in so many industries is because of how we’ve embraced new technologies. It’s definitely helping businesses thrive.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man:</strong> It seems like every workplace is going through so many changes lately. But honestly, I think Continuity is still very important. When things remain steady, it gives people a sense of security. If everything changes too fast, it’s hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused.&nbsp;</p><p><strong>Woman: </strong>I get where you're coming from, but I feel like these days, nothing is certain. Job security isn't something we can rely on anymore. There’s always the risk of layoffs, especially with the economy being unpredictable. People are moving from job to job more than ever before, and you can’t always count on staying in one place for long.&nbsp;</p><p><strong>Man: </strong>That’s definitely a concern. But regardless of job security or stability, one thing we both can agree on is that job satisfaction is a huge motivator. When people love what they do, they’re more likely to stay, even when times get tough. It’s the main reason many of us keep pushing through the challenges.&nbsp;</p><p><strong>Woman:</strong> Absolutely! I think when people are satisfied with their work, they’re willing to go the extra mile. It’s not just about the paycheck; it’s about feeling fulfilled. That’s what really makes the difference in the workplace.&nbsp;</p><p><strong>Man: </strong>You’re right. And another thing that’s making a difference is technology. It’s been a game-changer for the economy, making things faster and more efficient. The growth we’ve seen in so many industries is because of how we’ve embraced new technologies. It’s definitely helping businesses thrive.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Continuity is important in the workplace",
+        "Job security can’t always be guaranteed",
+        "Job satisfaction is an important motivator",
+        "Technology is good for the economy"
+      ],
+      "correct_answers": [
+        "0",
+        "1",
+        "2",
+        "0"
+      ],
+      "explanation": "<p>Mệt Với Bố Mẹ : MWBM&nbsp;</p><p>&nbsp;</p><p>Man: It seems like every workplace is going through so many changes lately. But honestly, I think Continuity is still very important. When things remain steady, it gives people a sense of security. If everything changes too fast, it’s hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused.&nbsp;</p><p>&nbsp;</p><p>Woman: I get where you're coming from, but I feel like these days, nothing is certain. Job security isn't something we can rely on anymore. There’s always the risk of layoffs, especially with the economy being unpredictable. People are moving from job to job more than ever before, and you can’t always count on staying in one place for long.&nbsp;</p><p>&nbsp;</p><p>Man: That’s definitely a concern. But regardless of job security or stability, one thing we both can agree on is that job satisfaction is a huge motivator. When people love what they do, they’re more likely to stay, even when times get tough. It’s the main reason many of us keep pushing through the challenges.&nbsp;</p><p>&nbsp;</p><p>Woman: Absolutely! I think when people are satisfied with their work, they’re willing to go the extra mile. It’s not just about the paycheck; it’s about feeling fulfilled. That’s what really makes the difference in the workplace.&nbsp;</p><p>&nbsp;</p><p>Man: You’re right. And another thing that’s making a difference is technology. It’s been a game-changer for the economy, making things faster and more efficient. The growth we’ve seen in so many industries is because of how we’ve embraced new technologies. It’s definitely helping businesses thrive.</p>"
+    },
+    "title": "Changes in the Workplace (Thay đổi nơi làm việc: Mệt Với Bố Mẹ (MWBM))",
+    "mnemonic_tip": "Thay đổi nơi làm việc: Mệt Với Bố Mẹ (MWBM)"
+  },
+  {
+    "id": 768,
+    "number": 12,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing the cultural center.  Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "zQvC4MNcb72LpxBOcpovWp46aquhdWhSwJ7kAGaP.mp3",
+    "description": "<p><strong>Man: </strong>You know, I think cultural centers play an important role in preserving local traditions. However, I'm worried that many traditional customs are gradually losing their significance as younger generations become more interested in modern lifestyles.</p><p><strong>Woman: </strong>I completely agree. Nowadays, fewer young people seem interested in traditional activities, and some old customs are no longer practiced as regularly as they used to be. We really need to do something to keep our cultural heritage alive.</p><p><strong>Man:</strong> That's true. I'm also concerned about local festivals. Many of them are attracting fewer visitors every year. If this trend continues, I believe some local festivals will disappear completely in the near future.</p><p><strong>Woman: </strong>That's a real possibility. Perhaps cultural centers could organize more interesting exhibitions to encourage people to learn about their heritage.</p><p><strong>Man: </strong>Good idea! But I think these exhibitions should focus mainly on traditional objects and historical events.</p><p><strong>Woman:</strong> I don't quite agree. I believe exhibitions should be different and diverse. They should include traditional art, modern culture, local food and even interactive activities. This would attract people of different ages and interests.</p><p><strong>Man:</strong> That's an interesting suggestion. Another thing we shouldn't overlook is education. Schools are particularly important in shaping future generations because children need to understand their cultural roots from an early age. Teachers should introduce more lessons about local history and traditions.</p><p><strong>Woman:</strong> Absolutely. Schools can certainly help children appreciate their cultural identity, although families and communities also have an important role to play.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man: </strong>You know, I think cultural centers play an important role in preserving local traditions. However, I'm worried that many traditional customs are gradually losing their significance as younger generations become more interested in modern lifestyles.</p><p><strong>Woman: </strong>I completely agree. Nowadays, fewer young people seem interested in traditional activities, and some old customs are no longer practiced as regularly as they used to be. We really need to do something to keep our cultural heritage alive.</p><p><strong>Man:</strong> That's true. I'm also concerned about local festivals. Many of them are attracting fewer visitors every year. If this trend continues, I believe some local festivals will disappear completely in the near future.</p><p><strong>Woman: </strong>That's a real possibility. Perhaps cultural centers could organize more interesting exhibitions to encourage people to learn about their heritage.</p><p><strong>Man: </strong>Good idea! But I think these exhibitions should focus mainly on traditional objects and historical events.</p><p><strong>Woman:</strong> I don't quite agree. I believe exhibitions should be different and diverse. They should include traditional art, modern culture, local food and even interactive activities. This would attract people of different ages and interests.</p><p><strong>Man:</strong> That's an interesting suggestion. Another thing we shouldn't overlook is education. Schools are particularly important in shaping future generations because children need to understand their cultural roots from an early age. Teachers should introduce more lessons about local history and traditions.</p><p><strong>Woman:</strong> Absolutely. Schools can certainly help children appreciate their cultural identity, although families and communities also have an important role to play.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Exhibitions should be different and diverse.",
+        "Traditional customs are gradually losing their significance.",
+        "Local festivals will disappear soon in the near future.",
+        "Schools are important to shaping future generations."
+      ],
+      "correct_answers": [
+        "1",
+        "2",
+        "0",
+        "0"
+      ],
+      "explanation": "<p>Văn hóa - <strong>Wiệt Bắc Muôn Màu</strong></p>"
+    },
+    "title": "Local Cultural Center (Văn hóa: Wiệt Bắc Muôn Màu (WBMM))",
+    "mnemonic_tip": "Văn hóa: Wiệt Bắc Muôn Màu (WBMM)"
+  },
+  {
+    "id": 709,
+    "number": 13,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing Homeschooling. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "R3YxZWLkdkgntiyH3joiY5q1PvtDgl3WbAd24TGW.mp3",
+    "description": "<p><strong>Man:</strong> You know, I think homeschooling can be a good alternative to traditional education, but parents need to be well-prepared. In my opinion, they should create their own curriculum based on their children's abilities, interests and learning needs rather than simply following standard textbooks.</p><p><strong>Woman: </strong>That's an interesting point. However, I sometimes wonder whether homeschooling is suitable for families with several children. Teaching them all at home could be quite challenging, especially when they are at different educational levels.</p><p><strong>Man:</strong> I understand your concern, but I actually think homeschooling multiple children at the same time can be a good idea. They can study together, share learning experiences and even help one another with difficult subjects.</p><p><strong>Woman:</strong> I agree to some extent. In fact, siblings can benefit from learning together. But my biggest concern is that homeschooling may deprive children of important social interaction. At school, they have opportunities to make friends, work in groups and develop communication skills. These experiences are not always easy to provide at home.</p><p><strong>Man:</strong> That's a fair point. Nevertheless, parents can arrange outdoor activities and social events to help their children interact with others. However, I believe homeschooling may become less popular in the future because more families are recognizing the advantages of traditional schools and modern educational facilities.</p><p><strong>Woman:</strong> Perhaps you're right. Schools also offer professional teachers, organized activities and opportunities for children to build friendships. I think these advantages are difficult for homeschooling to replace completely.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man:</strong> You know, I think homeschooling can be a good alternative to traditional education, but parents need to be well-prepared. In my opinion, they should create their own curriculum based on their children's abilities, interests and learning needs rather than simply following standard textbooks.</p><p><strong>Woman: </strong>That's an interesting point. However, I sometimes wonder whether homeschooling is suitable for families with several children. Teaching them all at home could be quite challenging, especially when they are at different educational levels.</p><p><strong>Man:</strong> I understand your concern, but I actually think homeschooling multiple children at the same time can be a good idea. They can study together, share learning experiences and even help one another with difficult subjects.</p><p><strong>Woman:</strong> I agree to some extent. In fact, siblings can benefit from learning together. But my biggest concern is that homeschooling may deprive children of important social interaction. At school, they have opportunities to make friends, work in groups and develop communication skills. These experiences are not always easy to provide at home.</p><p><strong>Man:</strong> That's a fair point. Nevertheless, parents can arrange outdoor activities and social events to help their children interact with others. However, I believe homeschooling may become less popular in the future because more families are recognizing the advantages of traditional schools and modern educational facilities.</p><p><strong>Woman:</strong> Perhaps you're right. Schools also offer professional teachers, organized activities and opportunities for children to build friendships. I think these advantages are difficult for homeschooling to replace completely.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Home schooling parents should create their own curriculum.",
+        "Home schooling multiple children at the same time is a good idea.",
+        "Home schooling deprives children from the important social interaction.",
+        "Homeschooling will become less popular in the future."
+      ],
+      "correct_answers": [
+        "0",
+        "2",
+        "1",
+        "0"
+      ],
+      "explanation": "<p>MBWM : ở trường học <strong>Mạnh Buộc Wua Môn</strong></p>"
+    },
+    "title": "Homeschooling (Homeschooling: Ở trường học Mạnh Buộc Wua Môn (MBWM))",
+    "mnemonic_tip": "Homeschooling: Ở trường học Mạnh Buộc Wua Môn (MBWM)"
+  },
+  {
+    "id": 710,
+    "number": 14,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing children and young People with Technology. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "xXHFyT3gSUe2z6ig8Styn4r0CuPYKfgIniJG6ylg.mp3",
+    "description": "<p>Listen to two people discussing children and teenagers' use of technology. Read the statements and decide whose opinion matches the best: the man's, the woman's or both. Who expresses which opinion?</p><p>&nbsp;</p><p><strong>Man:</strong> I've been thinking about how children and young people use technology nowadays. They seem very interested in learning through computers, tablets, and educational apps.<br><br><strong>Woman:</strong> I agree. Technology-based lessons can make learning more enjoyable, and many children are excited to use digital tools in class.<br><br><strong>Man:</strong> However, I think technology can also affect their communication skills. Some children spend so much time online that they find it difficult to communicate with people face to face.<br><br><strong>Woman:</strong> Yes, I've noticed that too. They may feel confident when sending messages, but they sometimes struggle to have conversations without using a device.<br><br><strong>Man:</strong> Another problem is that many families don't know how to manage their children's use of technology. I think parents need more support and guidance to set appropriate rules at home.<br><br><strong>Woman:</strong> That may be true, but I also believe children can learn to control their own online behaviour. With proper education, they can understand when to stop using technology and how to interact responsibly online.</p><p>&nbsp;</p>",
+    "raw_metadata": {
+      "description": "<p>Listen to two people discussing children and teenagers' use of technology. Read the statements and decide whose opinion matches the best: the man's, the woman's or both. Who expresses which opinion?</p><p>&nbsp;</p><p><strong>Man:</strong> I've been thinking about how children and young people use technology nowadays. They seem very interested in learning through computers, tablets, and educational apps.<br><br><strong>Woman:</strong> I agree. Technology-based lessons can make learning more enjoyable, and many children are excited to use digital tools in class.<br><br><strong>Man:</strong> However, I think technology can also affect their communication skills. Some children spend so much time online that they find it difficult to communicate with people face to face.<br><br><strong>Woman:</strong> Yes, I've noticed that too. They may feel confident when sending messages, but they sometimes struggle to have conversations without using a device.<br><br><strong>Man:</strong> Another problem is that many families don't know how to manage their children's use of technology. I think parents need more support and guidance to set appropriate rules at home.<br><br><strong>Woman:</strong> That may be true, but I also believe children can learn to control their own online behaviour. With proper education, they can understand when to stop using technology and how to interact responsibly online.</p><p>&nbsp;</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Children are interested in tech - based learning",
+        "Children find it difficult to communicate offline",
+        "Families require help with management of technology.",
+        "Children can learn to regulate their online interactions"
+      ],
+      "correct_answers": [
+        "2",
+        "2",
+        "0",
+        "1"
+      ],
+      "explanation": "<p>BBMW : Bé Bin Muốn Wuà (về công nghệ)</p><p><strong>Man:</strong> I've been thinking about how children and young people use technology nowadays. They seem very interested in learning through computers, tablets, and educational apps.<br><br><strong>Woman:</strong> I agree. Technology-based lessons can make learning more enjoyable, and many children are excited to use digital tools in class.<br><br><strong>Man:</strong> However, I think technology can also affect their communication skills. Some children spend so much time online that they find it difficult to communicate with people face to face.<br><br><strong>Woman:</strong> Yes, I've noticed that too. They may feel confident when sending messages, but they sometimes struggle to have conversations without using a device.<br><br><strong>Man:</strong> Another problem is that many families don't know how to manage their children's use of technology. I think parents need more support and guidance to set appropriate rules at home.<br><br><strong>Woman:</strong> That may be true, but I also believe children can learn to control their own online behaviour. With proper education, they can understand when to stop using technology and how to interact responsibly online.</p>"
+    },
+    "title": "Children, Young People and Technology (Công nghệ: Bé Bin Muốn Wuà (BBMW))",
+    "mnemonic_tip": "Công nghệ: Bé Bin Muốn Wuà (BBMW)"
+  },
+  {
+    "id": 711,
+    "number": 15,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing the New Environment Volunteer Programs. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "wMUDH5tP4eqFVyy5nA1CBWEqgx4xC5k7f09Nk9vO.mp3",
+    "description": "<p><strong>BMWM&nbsp;</strong></p><p>Đi làm tình nguyện bằng xe <strong>BMW Mới&nbsp;</strong></p><p>&nbsp;</p><p>Listen to two volunteers discussing an environmental volunteer programme. Read the statements and decide whose opinion matches the best: the man's, the woman's or both. Who expresses which opinion?</p><p>&nbsp;</p><p><strong>Man:</strong> I watched a news report about the clean-up program yesterday. To be honest, I think the media made it sound much more successful than it really was.<br><br><strong>Woman:</strong> I agree. They only showed the best parts and ignored many problems. The benefits of the program were clearly exaggerated.<br><br><strong>Man:</strong> Exactly. And even with programs like this, I still think littering will always be a problem. Some people just do not care enough about public places.<br><br><strong>Woman:</strong> Maybe, but I don't think we should give up. Volunteers can still make a difference.<br><br><strong>Man:</strong> That's true, but the problem will never completely disappear.<br><br><strong>Woman:</strong> For me, the reason why volunteers join is not very important. Whether they do it because they care about the environment or because they want experience, the result can still be the same if they work hard.<br><br><strong>Man:</strong> I see your point. But I think we need stricter rules too. In my opinion, punishment is the most effective way to stop people from littering.<br><br><strong>Woman:</strong> I'm not sure it is the best way. Education is also important.<br><br><strong>Man:</strong> Education helps, but without fines or punishment, many people will not change their behavior.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>BMWM&nbsp;</strong></p><p>Đi làm tình nguyện bằng xe <strong>BMW Mới&nbsp;</strong></p><p>&nbsp;</p><p>Listen to two volunteers discussing an environmental volunteer programme. Read the statements and decide whose opinion matches the best: the man's, the woman's or both. Who expresses which opinion?</p><p>&nbsp;</p><p><strong>Man:</strong> I watched a news report about the clean-up program yesterday. To be honest, I think the media made it sound much more successful than it really was.<br><br><strong>Woman:</strong> I agree. They only showed the best parts and ignored many problems. The benefits of the program were clearly exaggerated.<br><br><strong>Man:</strong> Exactly. And even with programs like this, I still think littering will always be a problem. Some people just do not care enough about public places.<br><br><strong>Woman:</strong> Maybe, but I don't think we should give up. Volunteers can still make a difference.<br><br><strong>Man:</strong> That's true, but the problem will never completely disappear.<br><br><strong>Woman:</strong> For me, the reason why volunteers join is not very important. Whether they do it because they care about the environment or because they want experience, the result can still be the same if they work hard.<br><br><strong>Man:</strong> I see your point. But I think we need stricter rules too. In my opinion, punishment is the most effective way to stop people from littering.<br><br><strong>Woman:</strong> I'm not sure it is the best way. Education is also important.<br><br><strong>Man:</strong> Education helps, but without fines or punishment, many people will not change their behavior.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Media exaggerates the benefits of the programme",
+        "Littering will always be a problem",
+        "The volunteers' motivation do not affect the programme outcome",
+        "Punishment is the most effective way to prevent littering"
+      ],
+      "correct_answers": [
+        "2",
+        "0",
+        "1",
+        "0"
+      ],
+      "explanation": "<p><strong>BMWM&nbsp;</strong></p><p>Đi làm tình nguyện bằng xe <strong>BMW Mới&nbsp;</strong></p><p><strong>Man:</strong> I watched a news report about the clean-up program yesterday. To be honest, I think the media made it sound much more successful than it really was.<br><br><strong>Woman:</strong> I agree. They only showed the best parts and ignored many problems. The benefits of the program were clearly exaggerated.<br><br><strong>Man:</strong> Exactly. And even with programs like this, I still think littering will always be a problem. Some people just do not care enough about public places.<br><br><strong>Woman:</strong> Maybe, but I don't think we should give up. Volunteers can still make a difference.<br><br><strong>Man:</strong> That's true, but the problem will never completely disappear.<br><br><strong>Woman:</strong> For me, the reason why volunteers join is not very important. Whether they do it because they care about the environment or because they want experience, the result can still be the same if they work hard.<br><br><strong>Man:</strong> I see your point. But I think we need stricter rules too. In my opinion, punishment is the most effective way to stop people from littering.<br><br><strong>Woman:</strong> I'm not sure it is the best way. Education is also important.<br><br><strong>Man:</strong> Education helps, but without fines or punishment, many people will not change their behavior.</p>"
+    },
+    "title": "New Environment Volunteer Programme (Đi làm tình nguyện bằng xe BMW Mới (BMWM))",
+    "mnemonic_tip": "Đi làm tình nguyện bằng xe BMW Mới (BMWM)"
+  },
+  {
+    "id": 226,
+    "number": 16,
+    "skill": "listening",
+    "part": 3,
+    "type": "listening_conversation",
+    "stem": "Listen to two parents discussing the Information and technology. Read the opinions below and decide whose opinion matches the statements: the man, the woman, or both the man and the woman. You can listen to the discussion twice.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": true,
+    "audio_file": "2VYdjLNWOEjbcSsbVrQGDNITrczT2OXENokNYgTx.mp3",
+    "description": "<p><strong>Man: </strong>I’ve been thinking about how future generations might really struggle with all the information technology throws at them. With the sheer volume of data available, it’s easy to see how they could feel overwhelmed and unsure of what to trust.&nbsp;</p><p><strong>Woman:</strong> I get that, but I actually think this technological revolution is beneficial for our economy. It’s opened up new job opportunities and streamlined many industries, driving growth in ways we haven’t seen before.&nbsp;</p><p><strong>Man: </strong>I understand your point, but we also need to consider the potential downsides. As automation increases, many traditional jobs could disappear, and not everyone will be able to transition to new roles. We have to ensure that the workforce is prepared for these changes.&nbsp;</p><p><strong>Woman: </strong>Still, we should recognize that no matter how advanced they get, computers can’t replicate the complexity of the human brain. Our ability to think critically and empathize is irreplaceable, and we need to nurture those qualities even as we embrace new technologies.&nbsp;</p><p><strong>Man: </strong>I see. However, while we’re advancing, I believe we both see the need for stronger protections around individual privacy. As we rely more on the internet, safeguarding personal information becomes increasingly important.&nbsp;</p><p><strong>Woman: </strong>Exactly! Protecting privacy is essential in this digital age. We have to ensure that people maintain control over their data, balancing innovation with the right to privacy.</p>",
+    "raw_metadata": {
+      "description": "<p><strong>Man: </strong>I’ve been thinking about how future generations might really struggle with all the information technology throws at them. With the sheer volume of data available, it’s easy to see how they could feel overwhelmed and unsure of what to trust.&nbsp;</p><p><strong>Woman:</strong> I get that, but I actually think this technological revolution is beneficial for our economy. It’s opened up new job opportunities and streamlined many industries, driving growth in ways we haven’t seen before.&nbsp;</p><p><strong>Man: </strong>I understand your point, but we also need to consider the potential downsides. As automation increases, many traditional jobs could disappear, and not everyone will be able to transition to new roles. We have to ensure that the workforce is prepared for these changes.&nbsp;</p><p><strong>Woman: </strong>Still, we should recognize that no matter how advanced they get, computers can’t replicate the complexity of the human brain. Our ability to think critically and empathize is irreplaceable, and we need to nurture those qualities even as we embrace new technologies.&nbsp;</p><p><strong>Man: </strong>I see. However, while we’re advancing, I believe we both see the need for stronger protections around individual privacy. As we rely more on the internet, safeguarding personal information becomes increasingly important.&nbsp;</p><p><strong>Woman: </strong>Exactly! Protecting privacy is essential in this digital age. We have to ensure that people maintain control over their data, balancing innovation with the right to privacy.</p>",
+      "shared_choices": [
+        "Man",
+        "Woman",
+        "Both"
+      ],
+      "statements": [
+        "Future generations fail to cope with technology information",
+        "Technology revolution is good for the economy",
+        "No computer is superior to the human brain",
+        "More should be done to protect individual privacy"
+      ],
+      "correct_answers": [
+        "0",
+        "1",
+        "1",
+        "2"
+      ],
+      "explanation": "<p>Mà Vẫn Vô Bổ MWWB</p><p>&nbsp;</p><p>Man: I’ve been thinking about how future generations might really struggle with all the information technology throws at them. With the sheer volume of data available, it’s easy to see how they could feel overwhelmed and unsure of what to trust.&nbsp;</p><p>Woman: I get that, but I actually think this technological revolution is beneficial for our economy. It’s opened up new job opportunities and streamlined many industries, driving growth in ways we haven’t seen before.&nbsp;</p><p>Man: I understand your point, but we also need to consider the potential downsides. As automation increases, many traditional jobs could disappear, and not everyone will be able to transition to new roles. We have to ensure that the workforce is prepared for these changes.&nbsp;</p><p>Woman: Still, we should recognize that no matter how advanced they get, computers can’t replicate the complexity of the human brain. Our ability to think critically and empathize is irreplaceable, and we need to nurture those qualities even as we embrace new technologies.&nbsp;</p><p>Man: I see. However, while we’re advancing, I believe we both see the need for stronger protections around individual privacy. As we rely more on the internet, safeguarding personal information becomes increasingly important.&nbsp;</p><p>Woman: Exactly! Protecting privacy is essential in this digital age. We have to ensure that people maintain control over their data, balancing innovation with the right to privacy.</p>"
+    },
+    "title": "Information and Technology (Học ngành CNTT: Mà Vẫn Vô Bổ (MWWB))",
+    "mnemonic_tip": "Học ngành CNTT: Mà Vẫn Vô Bổ (MWWB)"
+  }
+]

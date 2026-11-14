@@ -1,0 +1,1201 @@
+[
+  {
+    "id": 638,
+    "number": 1,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "Jake’s car is in the garage. He _______ be home.",
+    "choices": [
+      "could",
+      "can",
+      "must"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "could"
+        },
+        {
+          "id": "B",
+          "text": "can"
+        },
+        {
+          "id": "C",
+          "text": "must"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>“Jake’s car is in the garage” = có bằng chứng rõ ràng → suy luận chắc chắn → dùng <strong>must</strong></p><p>&nbsp;</p><p><strong>Jake’s car is in the garage. He must be home.</strong></p><p><i>Xe của Jake ở trong gara. Anh ấy chắc chắn đang ở nhà.</i></p>"
+    }
+  },
+  {
+    "id": 639,
+    "number": 2,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "If I _______ taller, I would be better at basketball.",
+    "choices": [
+      "am",
+      "could",
+      "were"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "am"
+        },
+        {
+          "id": "B",
+          "text": "could"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Câu <strong>điều kiện loại 2</strong> (không có thật ở hiện tại) → luôn dùng <strong>were</strong> cho mọi chủ ngữ.</p><p>&nbsp;</p><p><strong>If I were taller, I would be better at basketball.</strong></p><p><i>Nếu tôi cao hơn, tôi sẽ chơi bóng rổ giỏi hơn.</i></p>"
+    }
+  },
+  {
+    "id": 640,
+    "number": 3,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "She _______ that she would be late.",
+    "choices": [
+      "said",
+      "told",
+      "asked"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "said"
+        },
+        {
+          "id": "B",
+          "text": "told"
+        },
+        {
+          "id": "C",
+          "text": "asked"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<ul><li><strong>said + (that) + mệnh đề</strong> ✔️</li><li><strong>told + người + mệnh đề</strong> (thiếu tân ngữ → sai)</li><li><strong>asked</strong> dùng để hỏi → không phù hợp</li><li>&nbsp;</li></ul><p><strong>She said that she would be late.</strong></p><ul><li>Cô ấy nói rằng cô ấy sẽ đến muộn.*</li></ul>"
+    }
+  },
+  {
+    "id": 641,
+    "number": 4,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I have a boat _______ is blue.",
+    "choices": [
+      "who",
+      "which",
+      "whose"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "who"
+        },
+        {
+          "id": "B",
+          "text": "which"
+        },
+        {
+          "id": "C",
+          "text": "whose"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>“boat” là <strong>vật</strong> → dùng <strong>which</strong> trong mệnh đề quan hệ.</p><p>&nbsp;</p><p><strong>I have a boat which is blue.</strong></p><ul><li>Tôi có một chiếc thuyền màu xanh.*</li></ul>"
+    }
+  },
+  {
+    "id": 642,
+    "number": 5,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "My city is _______ than New York.",
+    "choices": [
+      "smaller",
+      "smallest",
+      "small"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "smaller"
+        },
+        {
+          "id": "B",
+          "text": "smallest"
+        },
+        {
+          "id": "C",
+          "text": "small"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Có “<strong>than</strong>” → dùng <strong>so sánh hơn</strong> → tính từ thêm <strong>-er</strong>.</p><p>&nbsp;</p><p><strong>My city is smaller than New York.</strong></p><ul><li>Thành phố của tôi nhỏ hơn New York.</li></ul>"
+    }
+  },
+  {
+    "id": 643,
+    "number": 6,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I would love _______ dinner with you.",
+    "choices": [
+      "having",
+      "to have",
+      "have"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "having"
+        },
+        {
+          "id": "B",
+          "text": "to have"
+        },
+        {
+          "id": "C",
+          "text": "have"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>Sau <strong>would love</strong> → dùng <strong>to + V</strong>.</p><p>&nbsp;</p><p>I would love <strong>to have</strong> dinner with you.</p><ul><li>Tôi rất muốn ăn tối cùng bạn.</li></ul>"
+    }
+  },
+  {
+    "id": 644,
+    "number": 7,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "My parents always _______ me vacuum the house.  tell",
+    "choices": [
+      "tell",
+      "let",
+      "make"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "tell"
+        },
+        {
+          "id": "B",
+          "text": "let"
+        },
+        {
+          "id": "C",
+          "text": "make"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<ul><li><strong>make + O + V (nguyên mẫu)</strong> = bắt ai làm gì&nbsp;</li><li><strong>let + O + V</strong> = cho phép (không phù hợp nghĩa)&nbsp;</li><li><strong>tell + O + to V</strong> (thiếu “to”)</li></ul><p>&nbsp;</p><p><strong>My parents always make me vacuum the house.</strong></p><ul><li>Bố mẹ tôi luôn bắt tôi hút bụi nhà</li></ul>"
+    }
+  },
+  {
+    "id": 645,
+    "number": 8,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I _______ the magazine by the time a new one arrived in the mail.",
+    "choices": [
+      "had finished",
+      "finished",
+      "was finishing"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "had finished"
+        },
+        {
+          "id": "B",
+          "text": "finished"
+        },
+        {
+          "id": "C",
+          "text": "was finishing"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Có “<strong>by the time + quá khứ</strong>” → hành động xảy ra <strong>trước một mốc trong quá</strong></p><p>&nbsp;</p><p><strong>I had finished the magazine by the time a new one arrived in the mail.</strong></p><ul><li>Tôi đã đọc xong tạp chí trước khi một cuốn mới được gửi đến.</li></ul>"
+    }
+  },
+  {
+    "id": 646,
+    "number": 9,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I was out of town! I _______ have committed the crime!",
+    "choices": [
+      "couldn’t",
+      "wouldn’t",
+      "shouldn’t"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "couldn’t"
+        },
+        {
+          "id": "B",
+          "text": "wouldn’t"
+        },
+        {
+          "id": "C",
+          "text": "shouldn’t"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>“I was out of town” = có bằng chứng → <strong>không thể nào đã làm</strong> → dùng <strong>couldn’t have + V</strong></p><p>&nbsp;</p><p><strong>I was out of town! I couldn’t have committed the crime!</strong></p><ul><li>Tôi đã đi xa! Tôi không thể nào đã gây ra vụ án đó được!*</li></ul>"
+    }
+  },
+  {
+    "id": 647,
+    "number": 10,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "Would you like _______ cereal for breakfast?",
+    "choices": [
+      "a",
+      "the",
+      "-"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "a"
+        },
+        {
+          "id": "B",
+          "text": "the"
+        },
+        {
+          "id": "C",
+          "text": "-"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p><strong>cereal</strong> là <strong>danh từ không đếm được</strong> → không dùng <strong>a/an</strong>.<br>Ở đây nói chung chung → không cần <strong>the</strong>.</p><p>&nbsp;</p><p><strong>Would you like cereal for breakfast?</strong></p><ul><li>Bạn có muốn ăn ngũ cốc cho bữa sáng không?*</li></ul>"
+    }
+  },
+  {
+    "id": 648,
+    "number": 11,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "Colt _______ to the store yesterday.",
+    "choices": [
+      "go",
+      "went",
+      "gone"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "went"
+        },
+        {
+          "id": "C",
+          "text": "gone"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>Có “<strong>yesterday</strong>” → dùng <strong>quá khứ đơn</strong> → động từ “go” → <strong>went</strong></p><p>&nbsp;</p><p><strong>Colt went to the store yesterday.</strong></p><ul><li>Hôm qua Colt đã đi đến cửa hàng</li></ul>"
+    }
+  },
+  {
+    "id": 649,
+    "number": 12,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I live _______ Canada.",
+    "choices": [
+      "in",
+      "on",
+      "at"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Dùng <strong>in</strong> với <strong>quốc gia / thành phố / khu vực lớn</strong></p><p>&nbsp;</p><p><strong>I live in Canada.</strong></p><ul><li>Tôi sống ở Canada.*</li></ul><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>"
+    }
+  },
+  {
+    "id": 650,
+    "number": 13,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "When I lived in Colombia, I _______ drive to work.",
+    "choices": [
+      "was",
+      "was used to",
+      "used to"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "was"
+        },
+        {
+          "id": "B",
+          "text": "was used to"
+        },
+        {
+          "id": "C",
+          "text": "used to"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Diễn tả <strong>thói quen trong quá khứ</strong> → dùng <strong>used to + V</strong>.</p><p>&nbsp;</p><p><strong>When I lived in Colombia, I used to drive to work.</strong></p><ul><li>Khi tôi sống ở Colombia, tôi thường lái xe đi làm.</li></ul>"
+    }
+  },
+  {
+    "id": 651,
+    "number": 14,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "She’s your cousin, _______ she?",
+    "choices": [
+      "isn’t",
+      "doesn’t",
+      "wasn’t"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "isn’t"
+        },
+        {
+          "id": "B",
+          "text": "doesn’t"
+        },
+        {
+          "id": "C",
+          "text": "wasn’t"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Câu hỏi đuôi:</p><ul><li>Mệnh đề chính dùng <strong>“She’s” = She is</strong> → thì hiện tại → dùng <strong>isn’t she?</strong></li><li>&nbsp;</li></ul><p><strong>She’s your cousin, isn’t she?</strong></p><ul><li>Cô ấy là em họ của bạn, phải không?</li></ul>"
+    }
+  },
+  {
+    "id": 652,
+    "number": 15,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I’m lost. _______ you help me, please?",
+    "choices": [
+      "Should",
+      "could",
+      "shall"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "Should"
+        },
+        {
+          "id": "B",
+          "text": "could"
+        },
+        {
+          "id": "C",
+          "text": "shall"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>Could you…?</strong> = cách <strong>lịch sự</strong> để nhờ giúp đỡ.</p><p>&nbsp;</p><p><strong>I’m lost. Could you help me, please?</strong></p><ul><li>Tôi bị lạc. Bạn có thể giúp tôi không?</li></ul>"
+    }
+  },
+  {
+    "id": 653,
+    "number": 16,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I was hungry, _______ I ate a sandwich.",
+    "choices": [
+      "so",
+      "and",
+      "but"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "so"
+        },
+        {
+          "id": "B",
+          "text": "and"
+        },
+        {
+          "id": "C",
+          "text": "but"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>“I was hungry” → <strong>nguyên nhân</strong> → “I ate a sandwich” → <strong>kết quả</strong> → dùng <strong>so</strong>.</p><p>&nbsp;</p><p><strong>I was hungry, so I ate a sandwich.</strong></p><ul><li>Tôi đói, vì vậy tôi đã ăn một cái bánh sandwich.</li></ul>"
+    }
+  },
+  {
+    "id": 654,
+    "number": 17,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I have lived in Toronto _______ 3 months.",
+    "choices": [
+      "since",
+      "for",
+      "from"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "since"
+        },
+        {
+          "id": "B",
+          "text": "for"
+        },
+        {
+          "id": "C",
+          "text": "from"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p><strong>for + khoảng thời gian</strong> (3 months)</p><p>&nbsp;</p><p><strong>I have lived in Toronto for 3 months.</strong></p><ul><li>Tôi đã sống ở Toronto được 3 tháng.</li></ul>"
+    }
+  },
+  {
+    "id": 655,
+    "number": 18,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "He got injured while they _______ soccer.",
+    "choices": [
+      "was playing",
+      "were playing",
+      "had played"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "was playing"
+        },
+        {
+          "id": "B",
+          "text": "were playing"
+        },
+        {
+          "id": "C",
+          "text": "had played"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>Một hành động đang xảy ra thì hành động khác xen vào&nbsp;</p><p><strong>Thì quá khứ tiếp diễn.</strong></p><p><strong>He got injured while they were playing soccer.</strong></p><p>Anh ấy đã bị thương khi đang chơi bóng đá</p>"
+    }
+  },
+  {
+    "id": 656,
+    "number": 19,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "If you _______ a decision, I will support you.",
+    "choices": [
+      "make",
+      "made",
+      "could make"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "make"
+        },
+        {
+          "id": "B",
+          "text": "made"
+        },
+        {
+          "id": "C",
+          "text": "could make"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Đây là <strong>câu điều kiện loại 1</strong> (có thể xảy ra ở hiện tại/tương lai):</p><ul><li>If + hiện tại đơn → <strong>make</strong>&nbsp;</li><li>&nbsp;</li></ul><p><strong>If you make a decision, I will support you.</strong></p><ul><li>Nếu bạn đưa ra quyết định, tôi sẽ ủng hộ bạn.*</li></ul>"
+    }
+  },
+  {
+    "id": 657,
+    "number": 20,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I _______ from Moscow, but now I live in New York.",
+    "choices": [
+      "am coming",
+      "come",
+      "was"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "am coming"
+        },
+        {
+          "id": "B",
+          "text": "come"
+        },
+        {
+          "id": "C",
+          "text": "was"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>Diễn tả <strong>nguồn gốc/quê quán</strong> → dùng <strong>hiện tại đơn: come from</strong>.</p><p>&nbsp;</p><p><strong>I come from Moscow, but now I live in New York.</strong></p><ul><li>Tôi đến từ Moscow, nhưng bây giờ tôi sống ở New York.</li></ul>"
+    }
+  },
+  {
+    "id": 658,
+    "number": 21,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "I don’t really get _______ with my older sister. We always fight.",
+    "choices": [
+      "around",
+      "in",
+      "along"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "around"
+        },
+        {
+          "id": "B",
+          "text": "in"
+        },
+        {
+          "id": "C",
+          "text": "along"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p>Cụm cố định: <strong>get along with someone</strong> = hòa hợp với ai.</p><p>&nbsp;</p><p><strong>I don’t really get along with my older sister. We always fight.</strong></p><ul><li>Tôi không thực sự hòa hợp với chị gái của mình. Chúng tôi luôn cãi nhau.</li></ul>"
+    }
+  },
+  {
+    "id": 659,
+    "number": 22,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "The concert was called _______ because the singer was sick.",
+    "choices": [
+      "off",
+      "on",
+      "in"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "off"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p>Cụm <strong>call off</strong> = hủy bỏ (sự kiện).</p><p>&nbsp;</p><p><strong>The concert was called off because the singer was sick.</strong></p><ul><li>Buổi hòa nhạc đã bị hủy vì ca sĩ bị ốm.</li></ul>"
+    }
+  },
+  {
+    "id": 660,
+    "number": 23,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "If I _______ schools, we wouldn’t have met.",
+    "choices": [
+      "wasn’t changed",
+      "didn’t change",
+      "hadn’t changed"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "wasn’t changed"
+        },
+        {
+          "id": "B",
+          "text": "didn’t change"
+        },
+        {
+          "id": "C",
+          "text": "hadn’t changed"
+        }
+      ],
+      "correct_option": "C",
+      "explanation": "<p><strong>Câu điều kiện loại 3</strong> (không có thật trong quá khứ):</p><ul><li>If + <strong>had + V3</strong> → <strong>hadn’t changed</strong></li><li>&nbsp;</li></ul><p><strong>If I hadn’t changed schools, we wouldn’t have met.</strong></p><ul><li>Nếu tôi không chuyển trường, chúng ta đã không gặp nhau.</li></ul>"
+    }
+  },
+  {
+    "id": 661,
+    "number": 24,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "You work _______ hard! Take a break or you’ll burn out.",
+    "choices": [
+      "too",
+      "so",
+      "very"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "too"
+        },
+        {
+          "id": "B",
+          "text": "so"
+        },
+        {
+          "id": "C",
+          "text": "very"
+        }
+      ],
+      "correct_option": "A",
+      "explanation": "<p><strong>too + adj/adv</strong> = quá… (mang nghĩa tiêu cực) → phù hợp với “burn out”.</p><p>&nbsp;</p><p><strong>You work too hard! Take a break or you’ll burn out.</strong></p><ul><li>Bạn làm việc quá chăm chỉ! Nghỉ ngơi đi không bạn sẽ kiệt sức.</li></ul>"
+    }
+  },
+  {
+    "id": 662,
+    "number": 25,
+    "skill": "grammar",
+    "part": 3,
+    "type": "mcq3",
+    "stem": "By the end of next week, I _______ my course.",
+    "choices": [
+      "will finish",
+      "will have finished",
+      "will be finished"
+    ],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "options": [
+        {
+          "id": "A",
+          "text": "will finish"
+        },
+        {
+          "id": "B",
+          "text": "will have finished"
+        },
+        {
+          "id": "C",
+          "text": "will be finished"
+        }
+      ],
+      "correct_option": "B",
+      "explanation": "<p>“<strong>By the end of next week</strong>” → hành động hoàn thành trước mốc thời gian trong tương lai → dùng <strong>tương lai hoàn thành </strong>(will have + V3).</p><p>&nbsp;</p><p><strong>By the end of next week, I will have finished my course.</strong></p><ul><li>Đến cuối tuần sau, tôi sẽ hoàn thành khóa học.</li></ul>"
+    }
+  },
+  {
+    "id": 663,
+    "number": 26,
+    "skill": "grammar",
+    "part": 3,
+    "type": "synonym_match",
+    "stem": "Select a word from each drop-down list on the right that has the same or a very similar meaning to each word on the left.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "synonym_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "annoy",
+          "id": "1"
+        },
+        {
+          "prompt": "choose",
+          "id": "2"
+        },
+        {
+          "prompt": "train",
+          "id": "3"
+        },
+        {
+          "prompt": "think",
+          "id": "4"
+        },
+        {
+          "prompt": "send",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "deliver",
+        "teach",
+        "pick",
+        "believe",
+        "try",
+        "push",
+        "argue",
+        "jump",
+        "struggle",
+        "bother",
+        "challenge"
+      ],
+      "correct_answers": {
+        "1": "bother",
+        "2": "pick",
+        "3": "teach",
+        "4": "believe",
+        "5": "deliver"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "=",
+      "explanation": "<ul><li>annoy → bother<br>&nbsp;<i>làm phiền / làm khó chịu → làm phiền</i></li><li>choose → pick<br><i>chọn → chọn</i></li><li>train → teach<br><i>huấn luyện / đào tạo → dạy</i></li><li>think → believe<br><i>nghĩ → tin</i></li><li>send → deliver<br><i>gửi → giao / chuyển phát</i></li></ul>"
+    }
+  },
+  {
+    "id": 664,
+    "number": 27,
+    "skill": "grammar",
+    "part": 3,
+    "type": "definition_match",
+    "stem": "Complete each definition using a word from the drop-down list.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "definition_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "To interact with other people is to",
+          "id": "1"
+        },
+        {
+          "prompt": "To perform in a play is to",
+          "id": "2"
+        },
+        {
+          "prompt": "To stop because you are nervous is to",
+          "id": "3"
+        },
+        {
+          "prompt": "To let someone go from a job is to",
+          "id": "4"
+        },
+        {
+          "prompt": "To find the size of something is to",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "watch",
+        "sleep",
+        "act",
+        "cover",
+        "socialize",
+        "hesitate",
+        "stretch",
+        "fire",
+        "stop",
+        "rush",
+        "measure"
+      ],
+      "correct_answers": {
+        "1": "socialize",
+        "2": "act",
+        "3": "hesitate",
+        "4": "fire",
+        "5": "measure"
+      },
+      "explanation": "<ul><li>To interact with other people is to → <strong>socialize</strong><br><i>giao tiếp / tương tác với người khác</i></li><li>To perform in a play is to → <strong>act</strong><br><i>diễn kịch</i></li><li>To stop because you are nervous is to → <strong>hesitate</strong><br><i>ngập ngừng vì lo lắng</i></li><li>To let someone go from a job is to → <strong>fire</strong><br><i>sa thải</i></li><li>To find the size of something is to → <strong>measure</strong><br><i>đo kích thước</i></li></ul>"
+    }
+  },
+  {
+    "id": 665,
+    "number": 28,
+    "skill": "grammar",
+    "part": 3,
+    "type": "sentence_completion",
+    "stem": "Complete each sentence using a word from each drop-down list.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "sentence_completion",
+      "instruction": "",
+      "pairs": [
+        {
+          "prefix": "The president is going to give a",
+          "suffix": null,
+          "id": "1",
+          "after": "today about his new healthcare policies."
+        },
+        {
+          "prefix": "My friend’s band is playing a",
+          "suffix": null,
+          "id": "2",
+          "after": "at our local pub next Friday night."
+        },
+        {
+          "prefix": "This T-shirt I bought is such",
+          "suffix": null,
+          "id": "3",
+          "after": "quality. It ripped as soon as I washed it."
+        },
+        {
+          "prefix": "Grace lost a lot of weight! She has a very active and healthy",
+          "suffix": null,
+          "id": "4",
+          "after": "."
+        },
+        {
+          "prefix": "On my way home from work today, a police officer gave me a",
+          "suffix": null,
+          "id": "5",
+          "after": "for speeding."
+        }
+      ],
+      "dropdown_pool": [
+        "wage",
+        "tricky",
+        "lifestyle",
+        "cheap",
+        "plan",
+        "good",
+        "fine",
+        "statement",
+        "music",
+        "discussion",
+        "gig"
+      ],
+      "correct_answers": {
+        "1": "statement",
+        "2": "gig",
+        "3": "cheap",
+        "4": "lifestyle",
+        "5": "fine"
+      },
+      "explanation": "<ol><li>The president is going to give a → <strong>statement</strong><br>&nbsp;<i>bài phát biểu / tuyên bố</i></li><li>My friend’s band is playing a → <strong>gig</strong><br><i>buổi biểu diễn</i></li><li>This T-shirt I bought is such → <strong>cheap</strong> quality<br><i>chất lượng rẻ tiền</i></li><li>Grace lost a lot of weight! She has a very active and healthy → <strong>lifestyle</strong><br>l<i>ối sống</i></li><li>On my way home from work today, a police officer gave me a → <strong>fine</strong><br><i>tiền phạt</i></li></ol>"
+    }
+  },
+  {
+    "id": 666,
+    "number": 29,
+    "skill": "grammar",
+    "part": 3,
+    "type": "synonym_match",
+    "stem": "Select a word from each drop-down list on the right that has the same or a very similar meaning to each word on the left.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "synonym_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "Trip",
+          "id": "1"
+        },
+        {
+          "prompt": "Cemetery",
+          "id": "2"
+        },
+        {
+          "prompt": "boat",
+          "id": "3"
+        },
+        {
+          "prompt": "town",
+          "id": "4"
+        },
+        {
+          "prompt": "custom",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "graveyard",
+        "park",
+        "fight",
+        "outfit",
+        "car",
+        "journey",
+        "clothes",
+        "village",
+        "tradition",
+        "ship"
+      ],
+      "correct_answers": {
+        "1": "journey",
+        "2": "graveyard",
+        "3": "ship",
+        "4": "village",
+        "5": "tradition"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "=",
+      "explanation": "<p>Trip → <strong>journey</strong><br><i>chuyến đi</i></p><p>Cemetery → <strong>graveyard</strong><br><i>nghĩa trang</i></p><p>boat → <strong>ship</strong><br><i>thuyền → tàu</i></p><p>town → <strong>village</strong><br><i>thị trấn → làng</i></p><p>custom → <strong>tradition</strong><br><i>phong tục</i></p>"
+    }
+  },
+  {
+    "id": 667,
+    "number": 30,
+    "skill": "grammar",
+    "part": 3,
+    "type": "collocation_match",
+    "stem": "Select a word from each drop-down list on the right that is most often used with each word on the left.",
+    "choices": [],
+    "correct_answer": null,
+    "has_audio": false,
+    "audio_file": null,
+    "description": "",
+    "raw_metadata": {
+      "vocab_type": "collocation_match",
+      "instruction": "",
+      "pairs": [
+        {
+          "prompt": "express",
+          "id": "1"
+        },
+        {
+          "prompt": "heavy",
+          "id": "2"
+        },
+        {
+          "prompt": "rich",
+          "id": "3"
+        },
+        {
+          "prompt": "high",
+          "id": "4"
+        },
+        {
+          "prompt": "spitting",
+          "id": "5"
+        }
+      ],
+      "dropdown_pool": [
+        "information",
+        "traffic",
+        "expectations",
+        "insects",
+        "pounds",
+        "boots",
+        "image",
+        "face",
+        "potatoes",
+        "bus",
+        "history"
+      ],
+      "correct_answers": {
+        "1": "bus",
+        "2": "traffic",
+        "3": "history",
+        "4": "expectations",
+        "5": "image"
+      },
+      "example": {
+        "left": "big",
+        "right": "large"
+      },
+      "connector": "+",
+      "explanation": "<p>express → <strong>bus</strong><br>xe buýt nhanh</p><p>heavy → <strong>traffic</strong><br>giao thông đông</p><p>rich → <strong>history</strong><br>lịch sử phong phú</p><p>high → <strong>expectations</strong></p><p>&nbsp;kỳ vọng cao</p><p>spitting →<strong>image</strong></p><p>giống hệt nhau</p>"
+    }
+  }
+]

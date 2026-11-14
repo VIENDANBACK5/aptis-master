@@ -430,7 +430,7 @@
               <button type="button" onclick="setAudioSpeed(1.2)" id="speed-btn-12" class="px-2.5 py-1 text-xs rounded-lg border border-gray-200 hover:bg-gray-200 font-medium">1.2x</button>
             </div>
           </div>
-          <audio id="main-audio-element" class="hidden" ontimeupdate="onAudioTimeUpdate()" onended="onAudioEnded()"></audio>
+          <audio id="main-audio-element" preload="auto" class="hidden" ontimeupdate="onAudioTimeUpdate()" onended="onAudioEnded()"></audio>
         </div>
 
         <!-- Question Interactive Area -->
@@ -969,14 +969,16 @@
       lucide.createIcons();
     }
 
+    const APP_VERSION = Date.now();
+
     async function fetchSections() {
       try {
-        const res = await fetch('/data/all_questions_processed.json');
+        const res = await fetch('/data/all_questions_processed.json?v=' + APP_VERSION);
         appDatabase = await res.json();
         sections = appDatabase.sections;
       } catch (err) {
         try {
-          const res = await fetch('/api/sections');
+          const res = await fetch('/api/sections?v=' + APP_VERSION);
           sections = await res.json();
         } catch (e) {
           console.error('Lỗi nạp sections:', e);
@@ -986,7 +988,7 @@
 
     async function fetchSpeakingSets() {
       try {
-        const res = await fetch('/data/all_speaking_sets.json');
+        const res = await fetch('/data/all_speaking_sets.json?v=' + APP_VERSION);
         speakingSets = await res.json();
       } catch (e) {
         console.warn('Lỗi nạp speaking sets:', e);
@@ -995,7 +997,7 @@
 
     async function fetchWritingSets() {
       try {
-        const res = await fetch('/data/all_writing_sets.json');
+        const res = await fetch('/data/all_writing_sets.json?v=' + APP_VERSION);
         writingSets = await res.json();
       } catch (e) {
         console.warn('Lỗi nạp writing sets:', e);
@@ -1004,7 +1006,7 @@
 
     async function fetchInstructions() {
       try {
-        const res = await fetch('/data/all_instructions.json');
+        const res = await fetch('/data/all_instructions.json?v=' + APP_VERSION);
         instructionsDatabase = await res.json();
       } catch (e) {
         console.warn('Lỗi nạp instructions:', e);
@@ -1239,7 +1241,7 @@
         if (appDatabase && appDatabase.questions_by_section && appDatabase.questions_by_section[sectionId]) {
           questions = appDatabase.questions_by_section[sectionId];
         } else {
-          const res = await fetch(`/data/questions_json/section_${sectionId}.json`);
+          const res = await fetch(`/data/questions_json/section_${sectionId}.json?v=${APP_VERSION}`);
           questions = await res.json();
         }
       } catch (e) {
@@ -1474,20 +1476,31 @@
 
       if (audioSrc && currentSection.skill === 'listening' && q.type !== 'listening_speaker_match') {
         audioBox.classList.remove('hidden');
+        audioEl.preload = 'auto';
         audioEl.src = audioSrc;
-        audioEl.load();
 
-        audioEl.onloadedmetadata = () => {
-          const durM = String(Math.floor(audioEl.duration / 60)).padStart(2, '0');
-          const durS = String(Math.floor(audioEl.duration % 60)).padStart(2, '0');
-          document.getElementById('audio-time-display').innerText = `00:00 / ${durM}:${durS}`;
+        const updateDurationUI = () => {
+          if (audioEl.duration && !isNaN(audioEl.duration) && isFinite(audioEl.duration)) {
+            const durM = String(Math.floor(audioEl.duration / 60)).padStart(2, '0');
+            const durS = String(Math.floor(audioEl.duration % 60)).padStart(2, '0');
+            const curM = String(Math.floor((audioEl.currentTime || 0) / 60)).padStart(2, '0');
+            const curS = String(Math.floor((audioEl.currentTime || 0) % 60)).padStart(2, '0');
+            document.getElementById('audio-time-display').innerText = `${curM}:${curS} / ${durM}:${durS}`;
+          } else {
+            document.getElementById('audio-time-display').innerText = '00:00 / Sẵn sàng phát';
+          }
         };
+
+        audioEl.onloadedmetadata = updateDurationUI;
+        audioEl.ondurationchange = updateDurationUI;
+        audioEl.oncanplay = updateDurationUI;
+        audioEl.load();
 
         const srcKey = q.audio_file || (currentSection ? currentSection.id + '_' + idx : 'q');
         const count = audioListenCounts[srcKey] || 0;
         document.getElementById('listen-count-badge').innerText = `Đã nghe: ${count} lần`;
         document.getElementById('audio-seekbar').value = 0;
-        document.getElementById('audio-time-display').innerText = '00:00 / 00:00';
+        updateDurationUI();
       } else {
         audioBox.classList.add('hidden');
         if (audioEl) audioEl.pause();
